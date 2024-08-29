@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backup/README.md"
+                "file": "Utilities/Campaign One Home.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backup/README.md",
+                "file": "Utilities/Campaign One Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backup/README.md",
+                "file": "Utilities/Campaign One Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,16 +275,17 @@
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": true,
       "graph:Open graph view": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "file-share:Toggle connection": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "file-share:Toggle connection": false
     }
   },
-  "active": "5fc932d00c895cad",
+  "active": "732406249876171d",
   "lastOpenFiles": [
-    "Backup/Campaign One Home 1.md",
+    "Kyonin - World/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Backup/README.md",
+    "Backup/Campaign One Home 1.md",
     "Utilities/Bestiary/Theoan Ironpelt.md",
     "Utilities/Campaign One Home.md",
     "Kyonin - World/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
@@ -295,7 +296,6 @@
     "Kyonin - World/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin - World/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
     "Utilities/Charts and Tables/Size Chart.md",
-    "Kyonin - World/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin - World/Golarion/Cities/Varisia/Varisia.md",
     "Utilities/Templates/Bar_Template.md",
