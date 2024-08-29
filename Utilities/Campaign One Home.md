@@ -18,7 +18,7 @@
 # Assortment of Random facts
 ---
 ### To Add
-- `https://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@github.com/RickyFoots/Kyonin.git`
+- 
 
 ---
 >[!multi-column]
