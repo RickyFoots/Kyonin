@@ -1,0 +1,2 @@
+- The elemental plane directly linked to the element of Wind and the true of home of [[Orkaan - Wind and Storms]], one of the [[The Elemental Anchors]].
+- [[Map of the Planes]]

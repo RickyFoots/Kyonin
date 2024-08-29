@@ -1,0 +1,1 @@
+- The most numerous of the *demonic races* and the *rulers* of the [[Abyss]] in the modern age. The tanar'ri were born spontaneously of the **Abyss**, although some bore signs of being altered by sibriexes or other creatures. Tanar'ri occurred when evil mortal souls enter the Abyss; the first tanar'ri was [[Demogorgon]].

@@ -1,0 +1,2 @@
+- The elemental plane directly linked to the element of Stone and the true of home of [[Lurrikara - Rock and Stone]], one of the [[The Elemental Anchors]].
+- [[Map of the Planes]]

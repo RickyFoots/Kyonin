@@ -1,0 +1,23 @@
+# Intellij
+*.iml
+.idea
+
+# npm
+node_modules
+
+# build
+main.js
+styles.css
+*.js.map
+.DS_Store
+*build.js
+*dev.js
+src/converted-bestiary.json
+src/convert-spells.js
+src/convert.js
+src/importers/*.xml
+src/importers/*.json
+*.dev.*
+
+.env
+data.json

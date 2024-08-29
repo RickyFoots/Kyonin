@@ -1,0 +1,123 @@
+// Variables
+@use '../../pf2e-variables' as var;
+
+$h1-size: clamp(1.125rem, 1.5em, 1.375rem);
+$h2-size: clamp(1rem, 1.3125em, 1.25rem);
+$h3-size: clamp(0.875rem, 1.125em, 1rem);
+$h4-size: clamp(0.75rem, 1em, 0.875rem);
+$h5-size: clamp(0.625rem, 0.9375em, 0.75rem);
+$h6-size: clamp(0.8125em, 0.5rem, 0.625rem);
+
+// Common Mixins for Functions
+@mixin content-headings($level) {
+  $sizes: (
+          1: $h1-size,
+          2: $h2-size,
+          3: $h3-size,
+          4: $h4-size,
+          5: $h5-size,
+          6: $h6-size,
+  );
+
+  $padding-bottoms: (0.125em, 0.25em, 0.125em, 0.5em, 0.25em, 0.75em);
+
+  // Functions
+  @for $i from 1 through 6 {
+    & h#{$i} {
+      font-size: map-get($sizes, $i);
+      padding-bottom: nth($padding-bottoms, $i);
+      text-align: center;
+      // Add custom styles for h3 here
+      @if $i == 3 {
+        &::before {
+          display: none;
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+// Common Mixins for Callout and Admonitions
+@mixin content-blockquotes {
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.625rem;
+  border-right: 0.1875rem solid;
+  border-left: 0.1875rem solid;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+// & code {
+@mixin content-code {
+  & code {
+    background-color: var.$very-light-grey;
+    color: var.$dark-moderate-blue;
+    font-family: var(--pf2e-font-monospace);
+  }
+}
+
+// Admonition Only
+@mixin admonition-copy {
+  .admonition-content-copy {
+    opacity: 0;
+    margin: 0.3125rem;
+    right: 0;
+    top: 0;
+    transition: 1s opacity ease-in-out;
+
+    &:hover {
+      color: mix(var.$very-light-grey, transparent, 30%);
+    }
+  }
+}
+
+// Link Fixes
+@mixin content-links {
+
+  a.internal-link {
+    font-weight: 600;
+    text-decoration: none;
+
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.is-unresolved {
+      font-style: italic;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  a.external-link {
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@mixin content-strong {
+
+  strong {
+    padding-inline: 0.25rem;
+  }
+}
+
+@mixin admonition-callout-kids {
+   > .callout {
+     mix-blend-mode: normal;
+     margin-bottom: 1rem;
+
+   }
+}

@@ -1,0 +1,26 @@
+{
+  "backgroundTheme": "custom",
+  "customBackground": "https://cdn.discordapp.com/attachments/448331152357326850/1207041522957156352/adam-mathieu-Fl0GNjfFdXg-unsplash.jpg?ex=65e76e84&is=65d4f984&hm=caac7d0e67a2ccda02d514b8773ba756ee0866c044fd23d0e125543c9e14f70b&",
+  "localBackgrounds": [],
+  "showTopLeftSearchButton": true,
+  "topLeftSearchProvider": {
+    "command": "switcher:open",
+    "display": "Obsidian Core Quick Switcher"
+  },
+  "showTime": true,
+  "timeFormat": "12-hour",
+  "showGreeting": true,
+  "greetingText": "{{greeting}}, Ricky",
+  "showInlineSearch": true,
+  "inlineSearchProvider": {
+    "command": "switcher:open",
+    "display": "Obsidian Core Quick Switcher"
+  },
+  "showRecentFiles": true,
+  "showBookmarks": false,
+  "bookmarkSource": "all",
+  "bookmarkGroup": "",
+  "showQuote": false,
+  "quoteSource": "Quoteable",
+  "customQuotes": []
+}

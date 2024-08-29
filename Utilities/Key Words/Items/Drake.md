@@ -1,0 +1,1 @@
+- The smallest hunting [[Sky Ship]] designed to be light and fast. Usually deployed for escort missions and young dragon hunts.

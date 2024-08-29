@@ -1,0 +1,32 @@
+// Variables
+@use '../pf2e-variables' as var;
+@use 'shake-ins/admon-content-styling' as content-styles;
+
+$margins: auto;
+
+.callout[data-callout='success-degree'] {
+  --callout-icon: lucide-scale;
+
+  & .callout-title {
+    display: inherit;
+
+    & .callout-icon .svg-icon {
+      display: block;
+      margin-bottom: $margins;
+      margin-left: $margins;
+      margin-right: $margins;
+    }
+
+    & .callout-title-inner {
+      display: none;
+    }
+  }
+
+  & .callout-content {
+    @include content-styles.common-admonition-typography;
+    strong {
+      font-weight: 800;
+    }
+
+  }
+}

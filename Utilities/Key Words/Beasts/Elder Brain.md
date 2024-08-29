@@ -1,0 +1,1 @@
+Race of beings that live in a symbiotic like state with Mind Flayers. They live in a brine-filled pool in the center of a mind flayer city, where it guided its community by filling them with dark dreams of illithid domination.

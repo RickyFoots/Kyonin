@@ -1,0 +1,1 @@
+The medium class of huntung [[Sky Ship]] often used to hunt adult dragons and on occasion escort nobles.

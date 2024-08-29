@@ -1,0 +1,11 @@
+name: Json 5e convert CLI
+release:
+  current-version: 2.2.15
+  next-version: 2.2.15
+  snapshot-version: 299-SNAPSHOT
+build:
+  artifact: ttrpg-convert-cli
+jitpack:
+  group: com.github.ebullient
+  artifact: ttrpg-convert-cli
+toggle: false

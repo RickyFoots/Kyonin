@@ -1,0 +1,2 @@
+- The magically augmented rails used to build the [[Void Railway]] that will be linking different [[Void Portal]]s together. 
+- Magically augmented to hover in place and when linked together, the [[Immoveable Rods]] inside each side of the rails will activate.

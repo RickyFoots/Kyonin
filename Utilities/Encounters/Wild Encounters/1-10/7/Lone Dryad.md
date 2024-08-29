@@ -1,0 +1,4 @@
+- Dryad found by the party as part of the [[-Late Night Dip and Deal-]] encounter.
+- Her name is Typha, she is 6'8" with olive brown skin, golden eyes, and long lowing hair.
+- She can change her genitals for whatever the "Occasion" like all dryads.
+---

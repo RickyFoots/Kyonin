@@ -1,0 +1,1 @@
+- A vault located in [[The Crown of the Rough]] that houses all of [[The Sultan]]'s most important treasures and artifacts within the mouth of a chained and bound **Astral Dreadnought**.

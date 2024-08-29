@@ -1,0 +1,45 @@
+{
+  "from": [
+    "Ar3",
+    "B:P",
+    "BH2022",
+    "BookofLairs",
+    "CallfromtheDeep",
+    "CCodex",
+    "DM14",
+    "DM:BFS",
+    "DMG", 
+    "ExploringEberron",
+    "ermis-bg",
+    "FleeMortals",
+    "GH",
+    "GHMG",
+    "MM",
+    "NerzugalsExtendedBestiary",
+    "PHB", 
+    "Psion",
+    "SC",
+    "SCoC",
+    "TalentPsionicsOpenPlaytestRound2",
+    "TBHA",
+    "TDCSR",
+    "ToB3",
+    "TheLostLands",
+    "arkadia",
+    "dndwiki_bestbackgrounds"
+  ],
+  "include": [
+    "race|changeling|mpmm"
+  ],
+  "exclude": [
+    "monster|expert|dc",
+    "monster|expert|sdw",
+    "monster|expert|slw"
+  ],
+  "excludePattern": [
+    "race|.*|dmg"
+  ],
+  "template": {
+    "monster": "src/test/resources/other/monster-all.txt"
+  }
+}

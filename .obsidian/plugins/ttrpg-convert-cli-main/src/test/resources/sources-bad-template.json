@@ -1,0 +1,9 @@
+{
+  "from": [
+    "ALL"
+  ],
+  "template": {
+    "background": "garbage",
+    "glory": "examples/templates/tools5e/images-background2md.txt" 
+  }
+}

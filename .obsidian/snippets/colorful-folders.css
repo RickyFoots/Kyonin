@@ -1,0 +1,43 @@
+.nav-folder-children > .nav-folder {
+  background-color: var(--folder-color);
+  --nav-item-color: rgb(255, 255, 255);
+  --nav-item-color-hover: rgb(255, 255, 255);
+  --nav-collapse-icon-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.nav-folder-children > .nav-folder:hover {
+  filter: brightness(0.9);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 2) {
+  --folder-color: rgb(0, 99, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 3) {
+  --folder-color: rgb(9, 75, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 4) {
+  --folder-color: rgb(0, 54, 5);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 5) {
+  --folder-color: rgb(0, 39, 3);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 6) {
+  --folder-color: rgb(65, 31, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 7) {
+  --folder-color: rgb(119, 58, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 8) {
+  --folder-color: rgb(158, 76, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 9) {
+  --folder-color: rgb(153, 23, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 10) {
+  --folder-color: rgb(112, 22, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 11) {
+  --folder-color: rgb(66, 13, 0);
+}
+.nav-folder-children > .nav-folder:nth-child(11n + 12) {
+  --folder-color: rgb(35, 46, 36);
+}

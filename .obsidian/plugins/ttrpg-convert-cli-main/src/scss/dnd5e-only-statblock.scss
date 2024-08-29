@@ -1,0 +1,13 @@
+/*! Source: https://github.com/ebullient/ttrpg-convert-cli/blob/main/src/scss/dnd5e-only-statblock.scss */
+@use 'dnd5e/statblock';
+
+.callout[data-callout="statblock"] {
+  div,
+  img {
+    &[src$="#token"] {
+      float: right;
+      padding-left: 5px;
+      width: 150px;
+    }
+  }
+}

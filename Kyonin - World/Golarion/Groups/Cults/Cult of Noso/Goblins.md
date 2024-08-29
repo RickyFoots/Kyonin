@@ -1,0 +1,4 @@
+
+```statblock
+creature: Goblin
+```

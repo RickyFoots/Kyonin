@@ -1,0 +1,23 @@
+// Scrollbars for Callouts
+:is(.pf2e) {
+  &:is(.callout, .admonition) {
+    &:hover {
+      scrollbar-color: var(--scrollbar-active-thumb-bg) transparent;
+    }
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--scrollbar-hover);
+      border: 0.25rem solid transparent;
+      background-clip: content-box;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-active-thumb-bg);
+      border: 0.0625rem solid var(--scrollbar-thumb-bg);
+    }
+  }
+}

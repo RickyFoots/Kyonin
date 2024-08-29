@@ -1,0 +1,27 @@
+// Variables
+@use '../pf2e-variables' as var;
+@use 'shake-ins/admon-content-styling' as content-styles;
+
+.callout[data-callout=pf2-note] {
+  clear: both;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  & .callout-title {
+
+    & .callout-title-inner {
+      flex: unset;
+      display: none;
+
+      .admonition-parent & {
+        display: inline;
+      }
+    }
+  }
+
+  & .callout-content {
+    @include content-styles.common-admonition-typography;
+    margin-bottom: -0.5rem;
+  }
+}

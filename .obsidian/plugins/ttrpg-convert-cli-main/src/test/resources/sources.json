@@ -1,0 +1,20 @@
+{
+  "from": [
+    "PHB", 
+    "DMG", 
+    "XGE", 
+    "TCE",
+    "WbtW"
+  ],
+  "include": [
+    "race|changeling|mpmm"
+  ],
+  "exclude": [
+    "monster|expert|dc",
+    "monster|expert|sdw",
+    "monster|expert|slw"
+  ],
+  "excludePattern": [
+    "race|.*|dmg"
+  ]
+}

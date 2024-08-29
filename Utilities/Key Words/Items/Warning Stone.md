@@ -1,0 +1,1 @@
+Magically altered stones made to warn the wielder of a given creature that they designate.

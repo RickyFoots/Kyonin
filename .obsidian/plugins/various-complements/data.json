@@ -1,0 +1,355 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": true,
+  "showComplementAutomatically": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "Olovandrin": {
+      "Olovandrin": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693174305413
+        }
+      }
+    },
+    "Kyonin": {
+      "Kyonin": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693174336748
+        }
+      }
+    },
+    "Residents": {
+      "Residents": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693177171867
+        }
+      }
+    },
+    "Currently": {
+      "Currently": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693177398883
+        }
+      }
+    },
+    "Great-Shears": {
+      "Great-Shears": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693179496374
+        }
+      }
+    },
+    "direction": {
+      "direction": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693179739913
+        }
+      }
+    },
+    "Domesticated": {
+      "Domesticated": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693183074912
+        }
+      }
+    },
+    "Groups": {
+      "Groups": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1693183574918
+        }
+      }
+    },
+    "Travelers": {
+      "Travelers": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1693183578073
+        }
+      }
+    },
+    "5-10_": {
+      "5-10_": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1693183812585
+        }
+      }
+    },
+    "clearing": {
+      "clearing": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694035151897
+        }
+      }
+    },
+    "Actions": {
+      "Actions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694198161628
+        }
+      }
+    },
+    "collect": {
+      "collect": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694204536033
+        }
+      }
+    },
+    "magic": {
+      "magic": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694204769839
+        }
+      }
+    },
+    "absorb": {
+      "absorb": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694205065101
+        }
+      }
+    },
+    "members": {
+      "members": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694205255170
+        }
+      }
+    },
+    "symbol": {
+      "symbol": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694205581464
+        }
+      }
+    },
+    "different": {
+      "different": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694205688496
+        }
+      }
+    },
+    "artifact": {
+      "artifact": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694206412041
+        }
+      }
+    },
+    "wielder": {
+      "wielder": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1694208335610
+        }
+      }
+    },
+    "spells": {
+      "spells": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694207740594
+        }
+      }
+    },
+    "nature": {
+      "nature": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694208917802
+        }
+      }
+    },
+    "definitely": {
+      "definitely": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694269202652
+        }
+      }
+    },
+    "shelter": {
+      "shelter": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1694269205540
+        }
+      }
+    },
+    "Goblin Smiths": {
+      "Goblin Smiths": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1695135020019
+        }
+      }
+    },
+    "Subrace": {
+      "Subrace": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695136206146
+        }
+      }
+    },
+    "Ancestry": {
+      "Ancestry": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695136299365
+        }
+      }
+    },
+    "Reactions": {
+      "Reactions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695140450514
+        }
+      }
+    },
+    "spellcasting": {
+      "spellcasting": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695160450004
+        }
+      }
+    },
+    "sneaking": {
+      "sneaking": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695142092529
+        }
+      }
+    },
+    "party": {
+      "party": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695142025452
+        }
+      }
+    },
+    "Guron": {
+      "Guron": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695144690553
+        }
+      }
+    },
+    "weapons": {
+      "weapons": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695144644413
+        }
+      }
+    },
+    "Scrap": {
+      "Scrap": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695144935319
+        }
+      }
+    },
+    "damage": {
+      "damage": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695160414623
+        }
+      }
+    },
+    "Beary Afraid": {
+      "Beary Afraid": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1695151291768
+        }
+      }
+    },
+    "elemental": {
+      "elemental": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1695152782040
+        }
+      }
+    },
+    "infected": {
+      "infected": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1695160622275
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "workspaces": {
+    "Standard": {
+      "main": {
+        "id": "229ecf34b6506c40",
+        "type": "split",
+        "children": [
+          {
+            "id": "f9f888e4334f4546",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b14c3b68289b7c38",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "-Plans and Ideas-/Story Beats and Ideas.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5e400ef621c7da31",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Utilities/What is cannon.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "aeae1056f3ac0aef",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Golarion/Cities/Varisia/1. Varisia.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a8d22d7b364a0037",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Golarion/Cities/Varisia/Locations/Bars and Taverns/The Worthless Stone.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "21d27c20c325babb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "df24544515d7e124",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Utilities/Encounters/Wild Encounters/-Wild Encounters-.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "660961cc1996e869",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Utilities/Encounters/Wild Encounters/11-20/20/-A Dream Dreamt Together-.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "4f0f6da6e92bb0cb",
+        "type": "split",
+        "children": [
+          {
+            "id": "d560761a9e5dc2d3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c83b9058312bcfae",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "60fb81c2ad3669c4",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "e25d4de6007fe71e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 255.5104169845581
+      },
+      "right": {
+        "id": "739f10f0f8cc4c7f",
+        "type": "split",
+        "children": [
+          {
+            "id": "79df8434f054fccb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b7cea860654849c6",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Utilities/Encounters/Wild Encounters/11-20/20/-A Dream Dreamt Together-.md"
+                  }
+                }
+              },
+              {
+                "id": "56874543ddd4b961",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "b46c7bd58b2be979",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Utilities/Charts and Tables/Player Randomizer.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "3113c384ec8cbb55",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "205a36facdfabbc6",
+                "type": "leaf",
+                "state": {
+                  "type": "initiative-tracker-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a93b8235de00b01e",
+                "type": "leaf",
+                "state": {
+                  "type": "DICE_ROLLER_VIEW",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8359efbe386302e8",
+                "type": "leaf",
+                "state": {
+                  "type": "fantasy-statblocks-creature-pane",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 385.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "3d-graph-new:Global 3D Graph": false,
+          "notion-like-tables:Create loom": false,
+          "initiative-tracker:Initiative Tracker Encounter Builder": false,
+          "obsidian-5e-statblocks:Open Creature Pane": false,
+          "obsidian-leaflet-plugin:Open Leaflet Map": false
+        }
+      },
+      "active": "660961cc1996e869"
+    }
+  },
+  "active": "Standard"
+}

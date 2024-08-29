@@ -1,0 +1,1 @@
+Father to [[Rylanor]] and one of the co-creator's of the modern day firearm.

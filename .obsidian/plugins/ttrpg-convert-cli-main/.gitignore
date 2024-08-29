@@ -1,0 +1,63 @@
+5etools-mirror-1.github.io
+Pf2eTools
+sources
+excludes.json
+publish
+compendium
+artifacts
+default
+
+#Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+.idea
+*.ipr
+*.iml
+*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+.vscode
+.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+tmp*
+
+.flattened*
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+*.log
+
+JRELEASER_VERSION
+jreleaser-cli.jar
+native-image-Linux-logs
+native-image-Windows-logs
+native-image-macOS-logs
+.quarkus/cli/plugins/quarkus-cli-catalog.json

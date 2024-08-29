@@ -1,0 +1,74 @@
+// ------------------------------------------------------
+// Naked embeds.. This code should look familiar ;)
+// Credits to Ebullient for most of this One
+// ------------------------------------------------------
+// Variables
+@use '../pf2e-variables' as var;
+$svg-area: 18px;
+
+// Mixin for common styles
+@mixin embed-common-styles() {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+:is(.pf2e) {
+   .markdown-embed {
+    // Common styles
+    @include embed-common-styles();
+
+    // Hide embedded header and create uniform padding
+    & .embed-title,
+    .mod-header {
+      display: none;
+      gap: 0;
+      padding: 0;
+    }
+
+    // Style link and file embeds
+    &-link svg,
+    .file-embed-link {
+      height: $svg-area;
+      width: $svg-area;
+      right: 0;
+      top: 0;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    // Style source and rendered views
+    &-source-view.invisible-embed,
+    &-rendered.invisible-embed {
+      --embed-border-left: 0;
+      --embed-border-right: 0;
+      --embed-padding: 0;
+    }
+
+    .markdown-embed-content {
+      // Remove max height and overflow
+      max-height: unset;
+      overflow: unset;
+
+      > .markdown-preview-view {
+        // Remove vertical scroll
+        overflow-y: unset;
+      }
+    }
+  }
+
+  .markdown-source-view {
+    &.internal-embed.markdown-embed {
+      &-title {
+        // Common styles
+        @include embed-common-styles();
+
+        display: none;
+        gap: 0;
+        font-size: 0;
+      }
+    }
+  }
+}

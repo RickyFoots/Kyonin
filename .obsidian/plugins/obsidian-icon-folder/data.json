@@ -1,0 +1,316 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 20,
+    "emojiStyle": "twemoji",
+    "iconColor": "#ffffff",
+    "recentlyUsedIcons": [
+      "FiGithub",
+      "TiMailDown",
+      "RiCommunityFill",
+      "BoBxsCity",
+      "RiFilePaper2Fill",
+      "LiTent",
+      "CoBuilding04",
+      "TiBow",
+      "RaSkullTrophy",
+      "RaFrostfire",
+      "RiGroupFill",
+      "BoBxsCog",
+      "TiHistory",
+      "RiGlobeFill",
+      "RiFileAddFill",
+      "TiTemplate",
+      "RiVoiceRecognitionFill",
+      "FasMap",
+      "RiFileWordFill",
+      "FasImages"
+    ],
+    "recentlyUsedIconsSize": 20,
+    "rules": [
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/Thuringers\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/The Turrim Infnitum\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/The Adventurers Guild\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/Servants of the Weave\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/Scrap Scrap Tribe\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/Pillars of Peace\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups/Paragon of Flesh\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 6,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Varisia\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 7,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/The Republic of Solaris\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 8,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Talavon\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 9,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Kodor\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 10,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Iron Wood Acres\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 11,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Branmor\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 12,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities/Avalant-Aquos\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 13,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasPerson",
+        "rule": "Kyonin - World/Golarion/People\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 14,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiFilePaper2Fill",
+        "rule": "Kyonin - World/Golarion/History\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 15,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGroupFill",
+        "rule": "Kyonin - World/Golarion/Groups\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 16,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasCity",
+        "rule": "Kyonin - World/Golarion/Cities\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 17,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasDiceD20",
+        "rule": "Utilities/Encounters/Wild Encounters\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 18,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiVoiceRecognitionFill",
+        "rule": "Utilities/Race Generator\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 19,
+        "useFilePath": true
+      },
+      {
+        "icon": "FasDiceD20",
+        "rule": "Utilities/Encounters\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 20,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiShipWheel",
+        "rule": "Planes\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 21,
+        "useFilePath": true
+      },
+      {
+        "icon": "RaAnkh",
+        "rule": "Gods of Kyonin/List of the Gods\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 22,
+        "useFilePath": true
+      },
+      {
+        "icon": "RaAnkh",
+        "rule": "Gods of Kyonin\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 23,
+        "useFilePath": true
+      },
+      {
+        "icon": "BoBxsCog",
+        "rule": "-Plans and Ideas-\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 24,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 8,
+      "bottom": 0,
+      "left": 4
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": false,
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "debugMode": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native"
+  },
+  "Items": {
+    "iconName": "BoBxsShoppingBags",
+    "iconColor": "#944f00"
+  },
+  "Items/Armor": "RaHelmet",
+  "Items/Artifacts": "RaAura",
+  "Items/Weapons": "RaAxe",
+  "Items/Wondrous Items": "FasRing",
+  "Parties and Players": {
+    "iconName": "FasPeopleGroup",
+    "iconColor": "#e65bc8"
+  },
+  "Parties and Players/Pinkertons": "RiCriminalFill",
+  "Parties and Players/Players": "RaPlayer",
+  "Planes/Feywild": "FasTree",
+  "Planes/Nine Hells": "RaFire",
+  "Utilities": {
+    "iconName": "FasScrewdriverWrench",
+    "iconColor": "#9e9e9e"
+  },
+  "Utilities/Bestiary": "FasBookOpen",
+  "Utilities/Charts and Tables": "FasChartColumn",
+  "Utilities/Images": "FasImages",
+  "Utilities/Key Words": "RiFileWordFill",
+  "Utilities/Maps": "FasMap",
+  "Utilities/Templates": "TiTemplate",
+  "Utilities/Added Rules": "RiFileAddFill",
+  "Kyonin - World/Golarion": "RiMapPinFill",
+  "Kyonin - World/Golarion/Small Towns": "FasHouse",
+  "Kyonin - World": {
+    "iconName": "RiGlobeFill",
+    "iconColor": "#1e8538"
+  },
+  "Kyonin - World/World History": "TiHistory",
+  "Gods of Kyonin": {
+    "iconName": "RaAnkh",
+    "iconColor": "#e1bf14"
+  },
+  "Gods of Kyonin/List of the Gods": "FasList",
+  "Planes": {
+    "iconName": "LiShipWheel",
+    "iconColor": "#099f9d"
+  },
+  "Utilities/Encounters": "FasDiceD20",
+  "Utilities/Race Generator": "RiVoiceRecognitionFill",
+  "Utilities/Encounters/Wild Encounters": "FasDiceD20",
+  "Kyonin - World/Golarion/Cities": "BoBxsCity",
+  "Kyonin - World/Golarion/Groups": "RiGroupFill",
+  "Kyonin - World/Golarion/History": "RiFilePaper2Fill",
+  "Kyonin - World/Golarion/People": "FasPerson",
+  "Kyonin - World/Golarion/Cities/Avalant-Aquos": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Branmor": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Iron Wood Acres": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Kodor": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Talavon": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/The Republic of Solaris": "BoBxsCity",
+  "Gods of Kyonin/List of the Old Gods": "FasList",
+  "Planes/Mechanus": "BoBxsCog",
+  "Kyonin - World/Golarion/Groups/Cults/Paragon of Flesh": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Cults/Servants of the Weave": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Tribes/Scrap Scrap Tribe": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Cults/Pillars of Peace": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Hunters and Adventurers/Thuringers": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Organizations/The Turrim Infnitum": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Cults": "RaSkullTrophy",
+  "Kyonin - World/Golarion/Groups/Hunters and Adventurers": "TiBow",
+  "Kyonin - World/Golarion/Groups/Organizations": "CoBuilding04",
+  "Kyonin - World/Golarion/Groups/Tribes": "LiTent",
+  "Kyonin - World/Golarion/Groups/Tribes/False Serpent Tribe": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Cults/The Hands of Bhaal": "RiGroupFill",
+  "Kyonin - World/Golarion/Groups/Cults/Cult of Noso": "RiGroupFill",
+  "Planes/The Abyss": "RaFrostfire",
+  "Kyonin - World/Golarion/History/Branmor - Wielder of the first Hammer.md": "RiFilePaper2Fill",
+  "Kyonin - World/Golarion/Cities/Varisia": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Avalant-Aquos/Aquos.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Avalant-Aquos/Avalant.md": "BoBxsCity",
+  "Plans and Ideas": {
+    "iconName": "BoBxsCog",
+    "iconColor": "#a289c8"
+  },
+  "Kyonin - World/Golarion/Cities/Varisia/Varisia.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Branmor/Branmor.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Kodor/Kodor.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/Talavon/Talavon.md": "BoBxsCity",
+  "Kyonin - World/Golarion/Cities/The Republic of Solaris/The Republic of Solaris.md": "BoBxsCity",
+  "Utilities/Received Files": "TiMailDown",
+  "Backup": "FiGithub"
+}

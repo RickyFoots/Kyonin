@@ -1,0 +1,36 @@
+name: PR Maven Build
+
+on:
+  pull_request:
+    paths:
+      - "**.xml"
+      - "*.yml"
+      - "src/**"
+      - "ide-config"
+
+permissions: read-all
+
+env:
+  JAVA_VERSION: 17
+  GRAALVM_DIST: graalvm-community
+  JAVA_DISTRO: temurin
+  GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+  GH_BOT_NAME: "GitHub Action"
+
+jobs:
+
+  metadata:
+    uses: ebullient/workflows/.github/workflows/java-snap-metadata.yml@main
+
+  build:
+    uses: ebullient/workflows/.github/workflows/java-snap-build.yml@main
+    needs: [metadata]
+    with:
+      artifact: ${{ needs.metadata.outputs.artifact }}
+      snapshot: ${{ needs.metadata.outputs.snapshot }}
+    secrets: inherit
+
+  native-build:
+    needs: [build]
+    uses: ebullient/workflows/.github/workflows/java-snap-native.yml@main
+    secrets: inherit

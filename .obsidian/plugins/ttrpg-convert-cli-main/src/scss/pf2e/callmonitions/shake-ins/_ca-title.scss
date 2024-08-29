@@ -1,0 +1,25 @@
+// Variables
+@use '../../pf2e-variables' as var;
+
+@mixin title {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  border: none;
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+
+@mixin inner-top {
+  font-size: clamp(1rem, 1.3125em, 1.25rem);
+
+  em {
+    font-weight: 500;
+  }
+}

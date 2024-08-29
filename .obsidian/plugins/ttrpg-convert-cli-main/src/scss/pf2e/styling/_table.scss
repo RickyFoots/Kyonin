@@ -1,0 +1,49 @@
+// Variables
+@use '../pf2e-variables' as var;
+
+:is(.pf2e) {
+  .markdown-rendered {
+    table {
+      border: 0.1875rem solid var(--pf2e-red-headers);
+
+      a {
+        font-weight: 500;
+        color: var(--pf2e-purple-link);
+      }
+    }
+
+    thead {
+      background-color: var(--pf2e-red-headers);
+      border-bottom: 0.1875rem solid rgba(var(--pf2e-brown-table-borders-rgb), 0.5);
+      color: var.$very-light-grey;
+    }
+
+    tbody {
+      background-color: rgb(var(--pf2e-tan-table-odd-rows-rgb));
+      color: var.$almost-black;
+
+      tr:nth-child(even) {
+        background-color: rgb(var(--pf2e-beige-table-even-rows-rgb));
+      }
+
+      tr:hover {
+        background-color: rgba(var(--pf2e-table-hover-color), 0.8);
+      }
+
+    }
+
+    th {
+      background-color: var(--pf2e-red-headers);
+      color: var.$very-light-grey;
+
+      &:hover {
+        background-color: rgba(var(--pf2e-table-hover-color), 0.8);
+      }
+    }
+
+    tr td:not(:last-child),
+    tr th:not(:last-child) {
+      border-right: 0.0625rem solid var.$light-grayish-yellow;
+    }
+  }
+}

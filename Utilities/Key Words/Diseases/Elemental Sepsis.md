@@ -1,0 +1,6 @@
+- A group of diseases brought on by being cut by some form of *elemental*, which will become infected but lay dormant in the body until the corresponding *elemental plane* and the [[The Feywilds]] eclipse the [[Materiel Plane]].
+	- **Variants** include:
+		- [[Bloodfire]] - Fire
+		- [[Sailor's Plague]] - Water
+		- [[Silvanus Revenge]] - Stone
+		- [[Sails Dream]] - Wind

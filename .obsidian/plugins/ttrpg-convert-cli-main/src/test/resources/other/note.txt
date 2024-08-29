@@ -1,0 +1,11 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-note
+aliases: ["{resource.name}"]
+tags: 
+- test
+---
+# [{resource.name}]({resource.vaultPath})
+{#if resource.source }*Source: {resource.source}* {/if}
+
+{resource.text}

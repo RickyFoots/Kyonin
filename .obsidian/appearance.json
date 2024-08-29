@@ -1,0 +1,10 @@
+{
+  "accentColor": "#087d1b",
+  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "enabledCssSnippets": [
+    "MCL_Wide_Views"
+  ],
+  "baseFontSize": 18,
+  "nativeMenus": true
+}

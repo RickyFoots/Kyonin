@@ -1,0 +1,2 @@
+- The elemental plane directly linked to the element of Fire and the true of home of [[Hraun - Fire and Magma]], one of the [[The Elemental Anchors]].
+- [[Map of the Planes]]

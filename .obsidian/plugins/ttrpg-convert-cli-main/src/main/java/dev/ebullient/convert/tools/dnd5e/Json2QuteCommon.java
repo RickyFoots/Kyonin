@@ -1,0 +1,957 @@
+package dev.ebullient.convert.tools.dnd5e;
+
+import java.nio.file.Path;
+import java.text.Normalizer;
+import java.text.Normalizer.Form;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Optional;
+import java.util.regex.Pattern;
+import java.util.stream.StreamSupport;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+
+import dev.ebullient.convert.io.Tui;
+import dev.ebullient.convert.qute.ImageRef;
+import dev.ebullient.convert.qute.NamedText;
+import dev.ebullient.convert.tools.JsonNodeReader;
+import dev.ebullient.convert.tools.dnd5e.Json2QuteMonster.MonsterFields;
+import dev.ebullient.convert.tools.dnd5e.qute.AbilityScores;
+import dev.ebullient.convert.tools.dnd5e.qute.AcHp;
+import dev.ebullient.convert.tools.dnd5e.qute.ImmuneResist;
+import dev.ebullient.convert.tools.dnd5e.qute.Tools5eQuteBase;
+import dev.ebullient.convert.tools.dnd5e.qute.Tools5eQuteNote;
+
+public class Json2QuteCommon implements JsonSource {
+    static final Pattern featPattern = Pattern.compile("([^|]+)\\|?.*");
+    static final List<String> SPEED_MODE = List.of("walk", "burrow", "climb", "fly", "swim");
+    static final List<String> specialTraits = List.of("special equipment", "shapechanger");
+    static final Comparator<Entry<String, List<String>>> compareNumberStrings = Comparator
+            .comparingInt(e -> Integer.parseInt(e.getKey()));
+
+    protected final Tools5eIndex index;
+    protected final Tools5eSources sources;
+    protected final Tools5eIndexType type;
+    protected final JsonNode rootNode;
+    protected String imagePath = null;
+
+    Json2QuteCommon(Tools5eIndex index, Tools5eIndexType type, JsonNode jsonNode) {
+        this.index = index;
+        this.rootNode = jsonNode;
+        this.type = type;
+        this.sources = type.multiNode() ? null : Tools5eSources.findOrTemporary(jsonNode);
+    }
+
+    public Json2QuteCommon withImagePath(String imagePath) {
+        this.imagePath = imagePath;
+        return this;
+    }
+
+    String getName() {
+        return this.sources.getName();
+    }
+
+    @Override
+    public Tools5eSources getSources() {
+        return sources;
+    }
+
+    @Override
+    public Tools5eIndex index() {
+        return index;
+    }
+
+    @Override
+    public String getImagePath() {
+        if (imagePath != null) {
+            return imagePath;
+        }
+        return JsonSource.super.getImagePath();
+    }
+
+    Path getTokenSourcePath(String filename) {
+        return Path.of("img",
+                getSources().mapPrimarySource(),
+                filename + ".png");
+    }
+
+    public String getText(String heading) {
+        List<String> text = new ArrayList<>();
+        appendToText(text, SourceField.entries.getFrom(rootNode), heading);
+        return text.isEmpty() ? null : String.join("\n", text);
+    }
+
+    public String getFluffDescription(Tools5eIndexType fluffType, String heading, List<ImageRef> images) {
+        List<String> text = getFluff(fluffType, heading, images);
+        return text.isEmpty() ? null : String.join("\n", text);
+    }
+
+    public List<String> getFluff(Tools5eIndexType fluffType, String heading, List<ImageRef> images) {
+        List<String> text = new ArrayList<>();
+        JsonNode fluffNode = null;
+        if (Tools5eFields.fluff.existsIn(rootNode)) {
+            fluffNode = rootNode.get("fluff");
+            JsonNode monsterFluff = Tools5eFields._monsterFluff.getFrom(fluffNode);
+            if (monsterFluff != null) {
+                String fluffKey = fluffType.createKey(monsterFluff);
+                fluffNode = index.getNode(fluffKey);
+            }
+        } else if (Tools5eFields.hasFluff.booleanOrDefault(rootNode, false)
+                || Tools5eFields.hasFluffImages.booleanOrDefault(rootNode, false)) {
+            String fluffKey = fluffType.createKey(rootNode);
+            fluffNode = index.getNode(fluffKey);
+        }
+
+        if (fluffNode != null) {
+            unpackFluffNode(fluffType, fluffNode, text, heading, images);
+        }
+        return text;
+    }
+
+    public void unpackFluffNode(Tools5eIndexType fluffType, JsonNode fluffNode, List<String> text, String heading,
+            List<ImageRef> images) {
+
+        boolean pushed = parseState().push(getSources(), fluffNode);
+        try {
+            if (fluffNode.isArray()) {
+                appendToText(text, fluffNode, heading);
+            } else {
+                appendToText(text, SourceField.entries.getFrom(fluffNode), heading);
+            }
+        } finally {
+            parseState().pop(pushed);
+        }
+
+        getImages(fluffNode.get("images"), images);
+    }
+
+    public List<ImageRef> getFluffImages(Tools5eIndexType fluffType) {
+        List<ImageRef> images = new ArrayList<>();
+        if (booleanOrDefault(rootNode, "hasFluffImages", false)) {
+            String fluffKey = fluffType.createKey(rootNode);
+            JsonNode fluffNode = index.getNode(fluffKey);
+            if (fluffNode != null) {
+                getImages(fluffNode.get("images"), images);
+            }
+        }
+        return images;
+    }
+
+    public void getImages(JsonNode imageNode, List<ImageRef> images) {
+        if (imageNode != null && imageNode.isArray()) {
+            for (Iterator<JsonNode> i = imageNode.elements(); i.hasNext();) {
+                ImageRef ir = readImageRef(i.next());
+                if (ir != null) {
+                    images.add(ir);
+                }
+            }
+        }
+    }
+
+    // {"ability":[{"dex":13}]}
+    private String abilityPrereq(JsonNode abilityPrereq) {
+        ArrayNode elements = ensureArray(abilityPrereq);
+
+        boolean multipleInner = false;
+        boolean multiMultipleInner = false;
+        JsonNode allValuesEqual = null;
+
+        // See if all of the abilities have the same value
+        outer: for (JsonNode abMetaNode : elements) {
+            ObjectNode objectNode = (ObjectNode) abMetaNode;
+
+            for (JsonNode valueNode : objectNode) {
+                if (allValuesEqual == null) {
+                    allValuesEqual = valueNode;
+                } else {
+                    var ave = allValuesEqual;
+                    boolean allMatch = StreamSupport.stream(objectNode.spliterator(), false)
+                            .allMatch(node -> node.equals(ave));
+                    if (!allMatch) {
+                        allValuesEqual = null;
+                        break outer;
+                    }
+                }
+            }
+        }
+
+        List<String> abilityOptions = new ArrayList<>();
+        for (JsonNode abMetaNode : elements) {
+            if (allValuesEqual != null) {
+                List<String> options = new ArrayList<>();
+                multipleInner |= abMetaNode.size() > 1;
+                abMetaNode.fieldNames().forEachRemaining(x -> {
+                    options.add(SkillOrAbility.format(x, index(), getSources()));
+                });
+                abilityOptions.add(joinConjunct(" and ", options));
+            } else {
+                Map<String, List<String>> groups = new HashMap<>();
+                for (Entry<String, JsonNode> score : iterableFields(abMetaNode)) {
+                    groups.computeIfAbsent(score.getValue().asText(), k -> new ArrayList<>())
+                            .add(SkillOrAbility.format(score.getKey(), index(), sources));
+                }
+
+                boolean isMulti = groups.values().stream().anyMatch(x -> x.size() > 1);
+                ;
+                multiMultipleInner |= isMulti;
+                multipleInner |= isMulti;
+
+                List<String> byScore = groups.entrySet().stream()
+                        .sorted((a, b) -> compareNumberStrings.compare(b, a))
+                        .map(e -> {
+                            List<String> abs = e.getValue().stream()
+                                    .map(x -> index().findSkillOrAbility(x, sources))
+                                    .sorted(SkillOrAbility.comparator)
+                                    .map(x -> x.value())
+                                    .toList();
+                            return String.format("%s %s or higher",
+                                    joinConjunct(" and ", abs),
+                                    e.getKey());
+                        })
+                        .toList();
+
+                abilityOptions.add(isMulti
+                        ? joinConjunct("; ", " and ", byScore)
+                        : joinConjunct(" and ", byScore));
+            }
+        }
+
+        var isComplex = multipleInner || multiMultipleInner || allValuesEqual == null;
+        String joined = joinConjunct(
+                multiMultipleInner ? " - " : multipleInner ? "; " : ", ",
+                isComplex ? " OR " : " or ",
+                abilityOptions);
+
+        return joined + (allValuesEqual != null
+                ? " " + allValuesEqual.asText() + " or higher"
+                : "");
+    }
+
+    // {"name":"Rune Carver","displayEntry":"{@background Rune Carver|BGG}"}]
+    private String backgroundPrereq(JsonNode backgroundPrereq) {
+        List<String> backgrounds = new ArrayList<>();
+        for (JsonNode p : iterableElements(backgroundPrereq)) {
+            JsonNode displayEntry = PrereqFields.displayEntry.getFrom(p);
+            if (displayEntry != null) {
+                backgrounds.add(replaceText(displayEntry.asText()));
+            } else {
+                String name = SourceField.name.getTextOrEmpty(p);
+                backgrounds.add(index.linkifyByName(Tools5eIndexType.background, name));
+            }
+        }
+        return joinConjunct(" or ", backgrounds);
+    }
+
+    private String campaignPrereq(JsonNode campaignPrereq) {
+        List<String> cmpn = new ArrayList<>();
+        for (JsonNode p : iterableElements(campaignPrereq)) {
+            replaceText(p.asText());
+        }
+        return joinConjunct(" or ", cmpn);
+    }
+
+    // "scion of the outer planes|ua2022wondersofthemultiverse|scion of the outer planes (good outer plane)"
+    // "scion of the outer planes|sato|scion of the outer planes (good outer plane)"
+    private String featPrereq(JsonNode featPrereq) {
+        List<String> feats = new ArrayList<>();
+        for (JsonNode p : iterableElements(featPrereq)) {
+            replaceText(String.format("{@feat %s} feat", p.asText()));
+        }
+        return joinConjunct(" or ", feats);
+    }
+
+    private String featurePrereq(JsonNode featurePrereq) {
+        List<String> features = new ArrayList<>();
+        for (JsonNode p : iterableElements(featurePrereq)) {
+            replaceText(p.asText());
+        }
+        return joinConjunct(" or ", features);
+    }
+
+    private String groupPrereq(JsonNode groupPrereq) {
+        List<String> grp = new ArrayList<>();
+        for (JsonNode p : iterableElements(groupPrereq)) {
+            replaceText(toTitleCase(p.asText()));
+        }
+        return joinConjunct(" or ", grp);
+    }
+
+    private String itemPrereq(JsonNode itemPrereq) {
+        List<String> items = new ArrayList<>();
+        for (JsonNode p : iterableElements(itemPrereq)) {
+            replaceText(p.asText());
+        }
+        return joinConjunct(" or ", items);
+    }
+
+    private String itemTypePrereq(JsonNode itemTypePrereq) {
+        List<String> types = new ArrayList<>();
+        for (JsonNode p : iterableElements(itemTypePrereq)) {
+            ItemType type = index.findItemType(p.asText(), getSources());
+            if (type != null) {
+                types.add(type.getSpecializedType());
+            } else {
+                tui().errorf("Unknown item type %s", p);
+            }
+        }
+        return joinConjunct(" and ", types);
+    }
+
+    private String itemPropertyPrereq(JsonNode itemPropertyPrereq) {
+        List<String> props = new ArrayList<>();
+        for (JsonNode p : iterableElements(itemPropertyPrereq)) {
+            ItemProperty prop = index.findItemProperty(p.asText(), getSources());
+            if (prop != null) {
+                props.add(prop.getMarkdownLink(index));
+            } else {
+                tui().errorf("Unknown item property %s", p);
+            }
+        }
+        return joinConjunct(" and ", props);
+    }
+
+    // "level":4
+    // "level":{"level":1,"class":{"name":"Fighter","visible":true}}}
+    private String levelPrereq(JsonNode levelPrereq) {
+        if (levelPrereq.isArray())
+            tui().error("levelPrereq: Array parameter");
+
+        if (levelPrereq.isNumber()) {
+            return levelToText(levelPrereq.asText());
+        }
+
+        String level = Tools5eFields.level.getTextOrThrow(levelPrereq);
+        JsonNode classNode = SourceField._class_.getFrom(levelPrereq);
+        JsonNode subclassNode = Tools5eFields.subclass.getFrom(levelPrereq);
+
+        // neither class nor subclass is defined
+        if (classNode == null && subclassNode == null) {
+            return levelToText(level);
+        }
+
+        boolean isLevelVisible = !"1".equals(level); // hide implied first level
+        boolean isSubclassVisible = Tools5eFields.visible.booleanOrDefault(subclassNode, false);
+        boolean isClassVisible = classNode != null
+                && (isSubclassVisible || Tools5eFields.visible.booleanOrDefault(classNode, false));
+
+        String classPart = "";
+        if (isClassVisible && isSubclassVisible) {
+            classPart = String.format("%s (%s)",
+                    SourceField.name.getTextOrEmpty(classNode),
+                    SourceField.name.getTextOrEmpty(subclassNode));
+        } else if (isClassVisible) {
+            classPart = SourceField.name.getTextOrEmpty(classNode);
+        } else if (isSubclassVisible) {
+            tui().warnf("Subclass %s without class in %s", subclassNode, levelPrereq);
+        }
+
+        return String.format("%s%s",
+                isLevelVisible ? levelToText(level) : "",
+                isClassVisible ? " " + classPart : "");
+    }
+
+    // {"proficiency":[{"armor":"medium"}]}
+    // {"proficiency":[{"weaponGroup":"martial"}]}
+    private String proficiencyPrereq(JsonNode profPrereq) {
+        List<String> profs = new ArrayList<>();
+        for (JsonNode p : iterableElements(profPrereq)) {
+            for (Entry<String, JsonNode> prof : iterableFields(p)) {
+                switch (prof.getKey()) {
+                    case "armor" -> profs.add(String.format("%s armor",
+                            replaceText(prof.getValue().asText())));
+                    case "weapon" -> profs.add(String.format("a %s weapon",
+                            replaceText(prof.getValue().asText())));
+                    case "weaponGroup" -> profs.add(String.format("%s weapons",
+                            replaceText(prof.getValue().asText())));
+                    default -> {
+                        tui().errorf("Unknown proficiency prereq", p);
+                    }
+                }
+            }
+        }
+        return String.format("Proficiency with %s", joinConjunct(" or ", profs));
+    }
+
+    // [{"name":"elf"}]
+    // [{"name":"half-elf"}]
+    // [{"name":"small race","displayEntry":"a Small race"}]
+    private String racePrereq(JsonNode racePrereq) {
+        List<String> races = new ArrayList<>();
+        for (JsonNode p : iterableElements(racePrereq)) {
+            JsonNode displayEntry = PrereqFields.displayEntry.getFrom(p);
+            if (displayEntry != null) {
+                races.add(replaceText(displayEntry.asText()));
+            } else {
+                String name = SourceField.name.getTextOrEmpty(p);
+                String subraceName = Tools5eFields.subrace.getTextOrNull(p);
+                races.add(index.linkifyByName(Tools5eIndexType.race, Json2QuteRace.getSubraceName(name, subraceName)));
+            }
+        }
+        return joinConjunct(" or ", races);
+    }
+
+    private List<String> testBoolean(JsonNode node, String valueIfTrue) {
+        return node.booleanValue()
+                ? List.of(valueIfTrue)
+                : List.of();
+    }
+
+    private String spellPrereq(JsonNode spellPrereq) {
+        List<String> spells = new ArrayList<>();
+        for (JsonNode p : iterableElements(spellPrereq)) {
+            if (p.isTextual()) {
+                String[] split = p.asText().split("#");
+                if (split.length == 1) {
+                    spells.add(replaceText(String.format("{@spell %s}", split[0])));
+                } else if ("c".equals(split[1])) {
+                    spells.add(replaceText(String.format("{@spell %s} cantrip", split[0])));
+                } else if ("x".equals(split[1])) {
+                    spells.add(replaceText(String.format("{@spell hex} spell or a warlock feature that curses", split[0])));
+                } else {
+                    tui().errorf("Unknown spell prereq %s", p);
+                }
+            } else {
+                spells.add(replaceText(String.format("{@filter %s|spells|%s}",
+                        SourceField.entry.getTextOrEmpty(p),
+                        PrereqFields.choose.getTextOrEmpty(p))));
+            }
+        }
+        return joinConjunct(" or ", spells);
+    }
+
+    private ObjectNode sharedPrerequisites(ArrayNode prerequisites) {
+        ObjectNode shared = prerequisites.objectNode();
+
+        if (prerequisites.size() > 1) {
+            List<JsonNode> others = streamOf(prerequisites).collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
+            // slice(1)
+            JsonNode first = others.get(0);
+            others.remove(0);
+
+            others.stream()
+                    .reduce(first,
+                            (a, b) -> objectIntersect(a, b),
+                            (a, b) -> ((ObjectNode) a).setAll((ObjectNode) b));
+        }
+        return shared;
+    }
+
+    String listPrerequisites(JsonNode variantNode) {
+        List<String> allValues = new ArrayList<>();
+        boolean hasNote = false;
+
+        ArrayNode prerequisites = PrereqFields.prerequisite.readArrayFrom(variantNode);
+
+        // find shared/common prereqs
+        ObjectNode prereqsShared = sharedPrerequisites(prerequisites);
+        String sharedText = prereqsShared.size() > 0
+                ? listPrerequisites(prereqsShared)
+                : null;
+
+        for (JsonNode prerequisite : prerequisites) {
+            List<String> values = new ArrayList<>();
+            String note = null;
+
+            List<PrereqFields> fields = streamOfFieldNames(prerequisite)
+                    .map(x -> {
+                        PrereqFields field = fromString(x);
+                        if (field == PrereqFields.unknown) {
+                            tui().errorf("Unknown prerequisite %s from %s", x, prerequisite);
+                        }
+                        return field;
+                    })
+                    .sorted()
+                    .toList();
+
+            for (PrereqFields field : fields) {
+                if (prereqsShared.has(field.nodeName())) {
+                    continue;
+                }
+                JsonNode value = field.getFrom(prerequisite);
+
+                // TODO: blocklist?
+                switch (field) {
+                    case ability -> values.add(abilityPrereq(value));
+                    case alignment -> values.add(alignmentListToFull(value));
+                    case background -> values.add(backgroundPrereq(value));
+                    case campaign -> values.add(campaignPrereq(value));
+                    case feat -> values.add(featPrereq(value));
+                    case feature -> values.add(featurePrereq(value));
+                    case group -> values.add(groupPrereq(value));
+                    case item -> values.add(itemPrereq(value));
+                    case itemProperty -> values.add(itemPropertyPrereq(value));
+                    case itemType -> values.add(itemTypePrereq(value));
+                    case level -> values.add(levelPrereq(value));
+                    case other -> values.add(replaceText(value));
+                    case otherSummary -> values.add(SourceField.entry.replaceTextFrom(value, this));
+                    case pact -> values.add("Pact of the " + replaceText(value));
+                    case patron -> values.add(replaceText(value + " Patron"));
+                    case proficiency -> values.add(proficiencyPrereq(value));
+                    case race -> values.add(racePrereq(value));
+                    case spell -> values.add(spellPrereq(value));
+                    // --- Boolean values ----
+                    case psionics -> values.addAll(testBoolean(value,
+                            replaceText("Psionic Talent feature or {@feat Wild Talent|UA2020PsionicOptionsRevisited} feat")));
+                    case spellcasting -> values.addAll(testBoolean(value,
+                            "The ability to cast at least one spell"));
+                    case spellcasting2020 -> values.addAll(testBoolean(value,
+                            "Spellcasting or Pact Magic feature"));
+                    case spellcastingFeature -> values.addAll(testBoolean(value,
+                            "Spellcasting feature"));
+                    case spellcastingPrepared -> values.addAll(testBoolean(value,
+                            "Spellcasting feature from a class that prepares spells"));
+                    // --- Other: Note ----
+                    case note -> note = replaceText(value);
+                    default -> {
+                        tui().errorf("Unknown prerequisite %s from %s", field.nodeName(), prerequisite);
+                    }
+                }
+            }
+
+            // remove empty values
+            values = values.stream().filter(x -> isPresent(x)).toList();
+
+            hasNote |= isPresent(note);
+            String prereqs = String.join(
+                    values.stream().anyMatch(x -> x.contains(" or ")) ? "; " : ", ",
+                    values);
+            allValues.add(prereqs + (isPresent(note) ? ". " + note : ""));
+        }
+
+        String joinedText = hasNote
+                ? String.join(" Or, ", allValues)
+                : joinConjunct(allValues.stream().anyMatch(x -> x.contains(" or ")) ? "; " : ", ",
+                        " or ", allValues);
+
+        return sharedText == null
+                ? joinedText
+                : sharedText + ", plus " + joinedText;
+
+    }
+
+    ImmuneResist immuneResist() {
+        return new ImmuneResist(
+                collectImmunities(rootNode, VulnerabilityFields.vulnerable),
+                collectImmunities(rootNode, VulnerabilityFields.resist),
+                collectImmunities(rootNode, VulnerabilityFields.immune),
+                collectImmunities(rootNode, VulnerabilityFields.conditionImmune));
+    }
+
+    AbilityScores abilityScores() {
+        if (!rootNode.has("str")
+                && !rootNode.has("dex")
+                && !rootNode.has("con")
+                && !rootNode.has("int")
+                && !rootNode.has("wis")
+                && !rootNode.has("cha")) {
+            return null;
+        }
+        return new AbilityScores(
+                intOrDefault(rootNode, "str", 10),
+                intOrDefault(rootNode, "dex", 10),
+                intOrDefault(rootNode, "con", 10),
+                intOrDefault(rootNode, "int", 10),
+                intOrDefault(rootNode, "wis", 10),
+                intOrDefault(rootNode, "cha", 10));
+    }
+
+    String speed(JsonNode speedNode) {
+        return speed(speedNode, true);
+    }
+
+    String speed(JsonNode speedNode, boolean includeZeroWalk) {
+        if (speedNode == null) {
+            return null;
+        } else if (speedNode.isNumber()) {
+            return String.format("%s ft.", speedNode.asText());
+        }
+        JsonNode alternate = Tools5eFields.alternate.getFrom(speedNode);
+        String note = SourceField.note.replaceTextFrom(speedNode, this);
+
+        List<String> speed = new ArrayList<>();
+        for (String k : SPEED_MODE) {
+            JsonNode v = speedNode.get(k);
+            JsonNode altV = alternate == null ? null : alternate.get(k);
+            if (v != null) {
+                String prefix = "walk".equals(k) ? "" : k + " ";
+                speed.add(prefix + speedValue(k, v, includeZeroWalk));
+                if (altV != null && altV.isArray()) {
+                    altV.forEach(x -> speed.add(prefix + speedValue(k, x, includeZeroWalk)));
+                }
+            }
+        }
+        return replaceText(String.join(", ", speed)
+                + (note.isBlank() ? "" : " " + note));
+    }
+
+    String speedValue(String key, JsonNode speedValue, boolean includeZeroWalk) {
+        if (speedValue == null || speedValue.isNull()) {
+            if (includeZeroWalk && "walk".equals(key)) {
+                return "0 ft.";
+            }
+            return "";
+        } else if (speedValue.isBoolean() && !"walk".equals(key)) {
+            return "equal to walking speed";
+        } else if (speedValue.isNumber()) {
+            return String.format("%s ft.", speedValue.asText());
+        } else if (speedValue.isTextual()) { // Varies
+            return speedValue.asText();
+        }
+
+        int number = Tools5eFields.number.intOrDefault(speedValue, 0);
+        if (!includeZeroWalk && number == 0 && "walk".equals(key)) {
+            return "";
+        }
+        String condition = Tools5eFields.condition.replaceTextFrom(speedValue, this);
+        return String.format("%s ft.%s", number,
+                condition.isEmpty() ? "" : " " + condition);
+    }
+
+    void findAc(AcHp acHp) {
+        JsonNode acNode = MonsterFields.ac.getFrom(rootNode);
+        if (acNode == null) {
+            return;
+        }
+        if (acNode.isIntegralNumber()) {
+            acHp.ac = acNode.asInt();
+        } else if (acNode.isArray()) {
+            List<String> details = new ArrayList<>();
+            for (JsonNode acValue : iterableElements(acNode)) {
+                if (acHp.ac == null && details.isEmpty()) { // first time
+                    if (acValue.isIntegralNumber()) {
+                        acHp.ac = acValue.asInt();
+                    } else if (acValue.isObject()) {
+                        if (MonsterFields.ac.existsIn(acValue)) {
+                            acHp.ac = MonsterFields.ac.getFrom(acValue).asInt();
+                        }
+                        if (MonsterFields.special.existsIn(acValue)) {
+                            details.add(MonsterFields.special.replaceTextFrom(acValue, this));
+                        } else if (MonsterFields.from.existsIn(acValue)) {
+                            details.add(joinAndReplace(MonsterFields.from.readArrayFrom(acValue)));
+                        }
+                    }
+                } else { // nth time: conditional AC. Append to acText
+                    StringBuilder value = new StringBuilder();
+                    value.append(MonsterFields.ac.replaceTextFrom(acValue, this));
+                    if (MonsterFields.from.existsIn(acValue)) {
+                        value.append(" from ").append(joinAndReplace(MonsterFields.from.readArrayFrom(acValue)));
+                    }
+                    if (Tools5eFields.condition.existsIn(acValue)) {
+                        value.append(" ").append(Tools5eFields.condition.replaceTextFrom(acValue, this));
+                    }
+                    details.add(value.toString());
+                }
+            }
+            if (!details.isEmpty()) {
+                acHp.acText = replaceText(String.join("; ", details));
+            }
+        } else if (MonsterFields.special.existsIn(acNode)) {
+            acHp.acText = MonsterFields.special.replaceTextFrom(acNode, this);
+        } else {
+            tui().errorf("Unknown armor class in monster %s: %s", sources.getKey(), acNode.toPrettyString());
+        }
+    }
+
+    void findHp(AcHp acHp) {
+        JsonNode health = MonsterFields.hp.getFrom(rootNode);
+        if (health.isNumber()) {
+            acHp.hp = health.asInt();
+        } else if (MonsterFields.special.existsIn(health)) {
+            String special = MonsterFields.special.replaceTextFrom(health, this);
+            if (special.matches("^[\\d\"]+$")) {
+                acHp.hp = Integer.parseInt(special.replace("\"", ""));
+                if (MonsterFields.original.existsIn(health)) {
+                    acHp.hpText = MonsterFields.original.replaceTextFrom(health, this);
+                }
+            } else {
+                acHp.hpText = replaceText(special);
+            }
+        } else {
+            if (MonsterFields.average.existsIn(health)) {
+                acHp.hp = MonsterFields.average.getFrom(health).asInt();
+            }
+            if (MonsterFields.formula.existsIn(health)) {
+                acHp.hitDice = MonsterFields.formula.getFrom(health).asText();
+            }
+        }
+
+        if (acHp.hpText == null && acHp.hitDice == null && acHp.hp == null) {
+            tui().errorf("Unknown hp from %s: %s", getSources(), health.toPrettyString());
+            throw new IllegalArgumentException("Unknown hp from " + getSources());
+        }
+    }
+
+    ImageRef getToken() {
+        String tokenString = Tools5eFields.tokenUrl.getTextOrNull(rootNode);
+        if (Tools5eFields.hasToken.booleanOrDefault(rootNode, false)) {
+            // const imgLink = Renderer.monster.getTokenUrl(mon);
+            // return mon.tokenUrl || UrlUtil.link(`${Renderer.get().baseMediaUrls["img"] || Renderer.get().baseUrl}img/${Parser.sourceJsonToAbv(mon.source)}/${Parser.nameToTokenName(mon.name)}.png`);
+            // nameToTokenName = function (name) { return name.toAscii().replace(/"/g, ""); }
+
+            // origin is set by conjured monster variant (below)
+            String name = getTextOrDefault(rootNode, "original", getName());
+            String filename = Normalizer.normalize(name, Form.NFD)
+                    .replaceAll("\\p{M}", "")
+                    .replace("Æ", "AE")
+                    .replace("æ", "ae")
+                    .replace("\"", "");
+
+            Path sourcePath = getTokenSourcePath(filename);
+
+            Path target = Path.of(getImagePath(),
+                    "token",
+                    slugify(filename) + ".png");
+
+            return buildImageRef(sourcePath, target);
+        } else if (tokenString != null) {
+            return getSources().buildImageRef(null, tokenString);
+        }
+        return null;
+    }
+
+    String collectImmunities(JsonNode fromNode, VulnerabilityFields field) {
+        if (field.existsIn(fromNode)) { // filter out null elements
+            List<String> immunities = new ArrayList<>();
+            StringBuilder separator = new StringBuilder();
+
+            for (JsonNode value : field.iterateArrayFrom(fromNode)) {
+                if (value.isTextual()) { // damage or condition type
+                    immunities.add(textValue(field, value.asText()));
+                } else if (VulnerabilityFields.special.existsIn(value)) { // "special"
+                    immunities.add(VulnerabilityFields.special.replaceTextFrom(value, this)
+                            .replace("see (below|above)", "see details"));
+                } else { // conditional
+                    List<String> allText = new ArrayList<>();
+                    if (VulnerabilityFields.preNote.existsIn(value)) {
+                        allText.add(VulnerabilityFields.preNote.replaceTextFrom(value, this));
+                    }
+                    allText.add(collectImmunities(value, field));
+                    if (VulnerabilityFields.note.existsIn(value)) {
+                        allText.add(VulnerabilityFields.note.replaceTextFrom(value, this));
+                    }
+                    if (separator.length() == 0 && !allText.isEmpty()) {
+                        separator.append("; ");
+                        immunities.add(String.join(" ", allText));
+                    }
+                }
+            }
+
+            if (separator.length() == 0) {
+                separator.append(", ");
+            }
+            return String.join(separator.toString(), immunities);
+        }
+        return null;
+    }
+
+    private String textValue(VulnerabilityFields field, String text) {
+        if (field == VulnerabilityFields.conditionImmune) {
+            return linkify(Tools5eIndexType.condition, text);
+        }
+        return text;
+    }
+
+    Collection<NamedText> collectSortedTraits(JsonNode array) {
+        // gather traits into a sorted array
+        ArrayNode sorted = Tui.MAPPER.createArrayNode();
+        sorted.addAll(sortedTraits(array));
+
+        List<NamedText> namedText = new ArrayList<>();
+        collectTraits(namedText, sorted);
+        return namedText;
+    }
+
+    Collection<NamedText> collectTraits(String field) {
+        List<NamedText> traits = new ArrayList<>();
+
+        JsonNode header = rootNode.get(field + "Header");
+        if (header != null) {
+            addNamedTrait(traits, "", header);
+        }
+
+        collectTraits(traits, rootNode.get(field));
+        return traits;
+    }
+
+    void collectTraits(List<NamedText> traits, JsonNode array) {
+        if (array == null || array.isNull()) {
+            return;
+        } else if (array.isObject()) {
+            tui().errorf("Unknown %s for %s: %s", array, sources.getKey(), array.toPrettyString());
+            throw new IllegalArgumentException("Unknown field: " + getSources());
+        }
+
+        for (JsonNode e : iterableElements(array)) {
+            String name = SourceField.name.replaceTextFrom(e, this)
+                    .replaceAll(":$", "");
+            addNamedTrait(traits, name, e);
+        }
+    }
+
+    void addNamedTrait(Collection<NamedText> traits, String name, JsonNode node) {
+        List<String> text = new ArrayList<>();
+        if (node.isObject()) {
+            if (!SourceField.name.existsIn(node)) {
+                appendToText(text, node, null);
+            } else {
+                appendToText(text, SourceField.entry.getFrom(node), null);
+                appendToText(text, SourceField.entries.getFrom(node), null);
+            }
+        } else {
+            appendToText(text, node, null);
+        }
+        NamedText nt = new NamedText(name, text);
+        if (nt.hasContent()) {
+            traits.add(nt);
+        }
+    }
+
+    List<String> collectEntries(JsonNode node) {
+        List<String> text = new ArrayList<>();
+        appendToText(text, SourceField.entry.getFrom(node), null);
+        appendToText(text, SourceField.entries.getFrom(node), null);
+        return text;
+    }
+
+    Collection<JsonNode> sortedTraits(JsonNode arrayNode) {
+        if (arrayNode == null || arrayNode.isNull()) {
+            return List.of();
+        } else if (arrayNode.isObject()) {
+            tui().errorf("Can't sort an object: %s", arrayNode);
+            throw new IllegalArgumentException("Object passed to sortedTraits: " + getSources());
+        }
+
+        return streamOf(arrayNode).sorted((a, b) -> {
+            Optional<Integer> aSort = Tools5eFields.sort.getIntFrom(a);
+            Optional<Integer> bSort = Tools5eFields.sort.getIntFrom(b);
+
+            if (aSort.isPresent() && bSort.isPresent()) {
+                return aSort.get().compareTo(bSort.get());
+            } else if (aSort.isPresent() && bSort.isEmpty()) {
+                return -1;
+            } else if (aSort.isEmpty() && bSort.isPresent()) {
+                return 1;
+            }
+
+            String aName = SourceField.name.replaceTextFrom(a, this).toLowerCase();
+            String bName = SourceField.name.replaceTextFrom(b, this).toLowerCase();
+            if (aName.isEmpty() && bName.isEmpty()) {
+                return 0;
+            }
+
+            boolean isOnlyA = aName.endsWith(" only)");
+            boolean isOnlyB = bName.endsWith(" only)");
+            if (!isOnlyA && isOnlyB) {
+                return -1;
+            } else if (isOnlyA && !isOnlyB) {
+                return 1;
+            }
+
+            int specialA = specialTraits.indexOf(aName);
+            int specialB = specialTraits.indexOf(bName);
+            if (specialA > -1 && specialB > -1) {
+                return specialA - specialB;
+            } else if (specialA > -1 && specialB == -1) {
+                return -1;
+            } else if (specialA == -1 && specialB > -1) {
+                return 1;
+            }
+
+            return aName.compareTo(bName);
+        }).toList();
+    }
+
+    public final Tools5eQuteBase build() {
+        boolean pushed = parseState().push(getSources(), rootNode);
+        try {
+            return buildQuteResource();
+        } catch (Exception e) {
+            tui().errorf(e, "build(): Error processing '%s': %s", getName(), e.toString());
+            throw e;
+        } finally {
+            parseState().pop(pushed);
+        }
+    }
+
+    public final Tools5eQuteNote buildNote() {
+        boolean pushed = parseState().push(getSources(), rootNode);
+        try {
+            return buildQuteNote();
+        } catch (Exception e) {
+            tui().errorf(e, "buildNote(): Error processing '%s': %s", getName(), e.toString());
+            throw e;
+        } finally {
+            parseState().pop(pushed);
+        }
+    }
+
+    protected Tools5eQuteBase buildQuteResource() {
+        tui().warnf("The default buildQuteResource method was called for %s. Was this intended?", sources.toString());
+        return null;
+    }
+
+    protected Tools5eQuteNote buildQuteNote() {
+        tui().warnf("The default buildQuteNote method was called for %s. Was this intended?", sources.toString());
+        return null;
+    }
+
+    enum VulnerabilityFields implements JsonNodeReader {
+        cond,
+        conditionImmune,
+        immune,
+        note,
+        preNote,
+        resist,
+        special,
+        vulnerable,
+    }
+
+    // weighted (order matters)
+    enum PrereqFields implements JsonNodeReader {
+        /* 1 */ level,
+        /* 2 */ pact,
+        /* 3 */ patron,
+        /* 4 */ spell,
+        /* 5 */ race,
+        /* 6 */ alignment,
+        /* 7 */ ability,
+        /* 8 */ proficiency,
+        /* 9 */ spellcasting,
+        /* 10 */ spellcasting2020,
+        /* 11 */ spellcastingFeature,
+        /* 12 */ spellcastingPrepared,
+        /* 13 */ psionics,
+        /* 14 */ feature,
+        /* 15 */ feat,
+        /* 16 */ background,
+        /* 17 */ item,
+        /* 18 */ itemType,
+        /* 19 */ itemProperty,
+        /* 20 */ campaign,
+        /* 21 */ group,
+        /* 22 */ other,
+        /* 23 */ otherSummary,
+        choose, // inner field for spells
+        displayEntry, // inner field for display
+        note, // field alongside other fields
+        prerequisite, // prereq field itself
+        unknown // catcher for unknown attributes (see #fromString())
+    }
+
+    static PrereqFields fromString(String name) {
+        for (PrereqFields f : PrereqFields.values()) {
+            if (f.name().equals(name)) {
+                return f;
+            }
+        }
+        return PrereqFields.unknown;
+    }
+}

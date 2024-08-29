@@ -1,0 +1,2 @@
+- The poison of a *Basilisk*
+- Depending on the concentration of crushed *Basilisk Eyes* the **Constitution saving throw DC** will go up or down.

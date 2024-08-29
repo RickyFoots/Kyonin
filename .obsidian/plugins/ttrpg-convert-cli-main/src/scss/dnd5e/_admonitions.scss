@@ -1,0 +1,104 @@
+body {
+  --admonition-charm: 211,141,159;
+  --admonition-charm-text: var(--admonition-charm);
+  --admonition-letter: 98, 159, 197;
+  --admonition-npc: 102, 121, 137;
+  --admonition-scene: 139, 167, 145;
+  --admonition-skill: 236,201,134;
+  --admonition-skill-text: var(--admonition-skill);
+  --admonition-weather: 53,119,174;
+  --admonition-flowchart: 72,72,72;
+}
+.theme-light {
+  --admonition-charm: 222,170,184;
+  --admonition-charm-text: 167,92,112;
+  --admonition-npc: 58, 125, 127;
+  --admonition-scene: 92, 122, 99;
+  --admonition-skill: 221,178,84;
+  --admonition-skill-text: 157,101,83;
+}
+.callout[data-callout="charm"] {
+  --callout-color: var(--admonition-charm);
+  --callout-title-color: rgb(var(--admonition-charm-text));
+  .callout-title {
+    color: var(--callout-title-color);
+  }
+}
+.callout[data-callout="letter"] {
+  --callout-color: var(--admonition-letter);
+}
+.callout[data-callout="npc"] {
+  --callout-color: var(--admonition-npc);
+}
+.callout[data-callout="readaloud"],
+.callout[data-callout="scene"] {
+  --callout-color: var(--admonition-scene);
+}
+.callout[data-callout="skill"] {
+  --callout-color: var(--admonition-skill);
+  --callout-title-color: rgb(var(--admonition-skill-text));
+}
+.callout[data-callout="weather"] {
+  --callout-color: var(--admonition-weather);
+}
+.callout[data-callout="flowchart"] {
+  --callout-color: var(--admonition-flowchart);
+  --callout-border-width: 0.10rem;
+}
+.json5e-background,
+.json5e-class,
+.json5e-deck,
+.json5e-deity,
+.json5e-feat,
+.json5e-hazard,
+.json5e-item,
+.json5e-monster,
+.json5e-note,
+.json5e-object,
+.json5e-psionic,
+.json5e-race,
+.json5e-reward,
+.json5e-spell,
+.json5e-vehicle  {
+  div:has(> .callout[data-callout="flowchart"]):has(+ div > .callout[data-callout="flowchart"]) {
+    position: relative;
+  
+    &:after {
+      content: '\2193';
+      color: var(--admonition-flowchart);
+      display: block;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      margin-left: 7px;
+      width: 14px;
+      height: 14px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .callout[data-callout="gallery"] {
+    --callout-color: transparent;
+    --callout-border-width: 0;
+    .callout-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+  
+      p {
+        display: none;
+      }
+  
+      div[src$="#gallery"] {
+        max-width: 49%;
+        img {
+          max-height: 60vh;
+        }
+      }
+    }
+    .callout-title {
+      display: none;
+    }
+  }
+}
