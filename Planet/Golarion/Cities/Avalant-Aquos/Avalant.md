@@ -10,34 +10,31 @@
 >## {City Name} Map
 >![{City Name.jpg}]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. [[The Curch Of Shar]]
 2. [[The Pier]]
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
 | Name                                     | Bar | Tavern |
 | ---------------------------------------- | :-: | :----: |
 | [[Frankie's Seafood and Hammock Rental]] |  O  |   ?    |
 
---- column-break ---
+```
+```col-md
 # Stores
 
 |  Store Type   |               Store               |
 | :-----------: | :-------------------------------: |
 | General Store | [[Tim and Son's Bait and Tackle]] |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!abstract]- General Store 
@@ -46,3 +43,4 @@ Alignment: Center
 
 ##### Tags 
 - #City/Avalant
+

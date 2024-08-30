@@ -31,21 +31,16 @@
 >## {City Name} Map
 >![{City Name.jpg}]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. [[Church Of Pelor]]
 2. [[Grand Mine Exit - Solaris]]
 3. [[Presvaris Spiritsong's College of the Magical Arts]]
 4. [[The Adventurers Guild - Solaris]] 
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
 | Name                              | Bar | Tavern |
@@ -53,15 +48,17 @@ Alignment: Center
 | [[Fields of Gold Inn and Tavern]] |  O  |   O    |
 | [[Golden Slumber Inn]]            |  X  |   O    |
 
---- column-break ---
+```
+```col-md
 # Stores
 
 | Store Type |             Store             |
 | :--------: | :---------------------------: |
 | Magic Shop | [[SolarQuill Magic Emporium]] |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!abstract]- Magic Shop 
@@ -71,3 +68,4 @@ Alignment: Center
 ##### Tags 
 - #City/TheRepublicofSolaris
 - #Pinkertons/Elsbeth 
+

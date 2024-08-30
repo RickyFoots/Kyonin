@@ -12,25 +12,21 @@
 >## {City Name} Map
 >![{City Name.jpg}]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. 
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
-| Name              | Bar | Tavern |
-| ----------------- | :-: | :----: |
-| [{Location Name}] |  O  |   X    |
+| Name                              | Bar | Tavern |
+| --------------------------------- | :-: | :----: |
+| [{Location}] |  O  |   X    |
 
---- column-break ---
+```
+```col-md
 # Stores - {Name if Any}
 
 |  Store Type   |      Store      |
@@ -46,8 +42,9 @@ Alignment: Center
 |  Silversmith  |                 |
 | General Store |                 |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!multi-column]
@@ -88,3 +85,4 @@ Alignment: Center
 ##### Tags 
 - #City/Talavon
 - #Pinkertons/Jolene 
+

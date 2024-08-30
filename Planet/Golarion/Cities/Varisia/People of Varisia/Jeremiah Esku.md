@@ -11,25 +11,23 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Rofir]] -  Closest friend
 - [[Ashtiajar Therfaeth]] - Dragonborne bodyguard
 - [[Clay Fisher]] - Viashino security guard and [[Wraith]]
-- [[Theoan Ironpelt]] - Leonin Fighter, currently the champion of *The Pit*
+- [[Theoan Ironpelt]] - Leonin Fighter, currently the champion of *The Pit* 
 
---- column-break ---
+```
+
+```col-md
+
 #### Enemies
-- [[Netch the Drowned]] - Boss 
+- [[Netch the Drowned]] - Boss  
 
---- end-multi-column
+```
+````
 
 ### Motivations - Secrets
 ---

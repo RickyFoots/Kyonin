@@ -7,22 +7,20 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Netch the Drowned]] - Boss
 
---- column-break ---
+```
+```col-md
+
 #### Enemies
 - 
 
---- end-multi-column
+```
+````
+
 ### Motivations - Secrets
 ---
 1. Greedy and vindictive, his only real allegiance is to the highest bidder, and even then *Yuzad* may just betray them to see what happens.
@@ -36,3 +34,4 @@ Alignment: Center
 ##### Tags
 - #NPC/Varisia
 - #Races/Tortles
+

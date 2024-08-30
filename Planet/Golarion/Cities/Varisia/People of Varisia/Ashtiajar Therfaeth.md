@@ -9,24 +9,22 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Jeremiah Esku]] - Boss
 - [[Rofir]] - "Doctor"
 - [[Clay Fisher]] - Coworker and confidant
 
---- column-break ---
+```
+
+```col-md
+
 #### Enemies
 - Whomever *Jeremiah* deems is an enemy.
 
---- end-multi-column
+```
+````
 
 ### Motivations - Secrets
 ---
@@ -39,3 +37,4 @@ Alignment: Center
 ##### Tags
 - #NPC/Varisia
 - #Races/Dragonborn 
+

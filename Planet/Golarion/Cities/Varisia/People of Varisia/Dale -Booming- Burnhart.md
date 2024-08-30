@@ -8,22 +8,20 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
+````col
+```col-md
+#### Allies
+- [[Clay Fisher]] - Employee/*Boyfriend*
+
 ```
 
-#### Allies
-- [[Clay Fisher]] - Employee
+```col-md
 
---- column-break ---
 #### Enemies
 - Varisian Guard
 
---- end-multi-column
+```
+````
 
 ### Motivations - Secrets
 ---
@@ -36,3 +34,4 @@ Alignment: Center
 ##### Tags
 - #NPC/Varisia
 - #Races/Kobolds 
+

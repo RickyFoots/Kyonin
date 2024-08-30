@@ -12,23 +12,21 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Jeremiah Esku]] - Employee
 - [[The Sultan]] - Employee
 
---- column-break ---
+```
+```col-md
+
 #### Enemies
 - 
 
---- end-multi-column
+```
+````
+
 ### Motivations - Secrets
 ---
 1. <u>Rumors</u>: 
@@ -49,3 +47,4 @@ Alignment: Center
 ##### Tags
 - #NPC/Varisia 
 - #Races/Ratfolk 
+

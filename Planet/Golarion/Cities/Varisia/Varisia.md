@@ -9,14 +9,8 @@
 >## Varisia Map
 >![[Veresia Labeled.jpg]]
 
---- start-multi-column: ID_c345
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. The base of operations for [[The Rat Queens Court]]
 3. [[The Snake Pit]] - Fighting Pit
@@ -25,19 +19,20 @@ Alignment: Center
 6. [[The Crown of the Rough]] - The bank of banks for all of Golarion
 7. [[Sky Port]] and branch of [[The Salamander's End]]
 
---- column-break ---
-
+```
+```col-md
 # Bars and Taverns
 
 | Name                                                  | Bar | Tavern |
 | ----------------------------------------------------- | :-: | :----: |
-| [[A Gorgon's Thirst]]                |  O  |   X    |
-| [[The Elusive Rose]]                 |  O  |   O    |
+| [[A Gorgon's Thirst]]|  O  |   X    |
+| [[The Elusive Rose]]|  O  |   O    |
 | [[The Slippery Gull Bar and Tavern]] |  O  |   O    |
-| [[The Worthless Stone]]                               |  O  |   O    |
+| [[The Worthless Stone]]|  O  |   O    |
 
---- column-break ---
 
+```
+```col-md
 # Stores - The Grand Bazaar
 
 |      Store Type      |            Store            |
@@ -51,8 +46,8 @@ Alignment: Center
 |        Tailor        |  [[- Once Upon a Seam -]]   |
 |      Herbalist       |   [[- The Rabbit Hole -]]   |
 
-
---- end-multi-column
+```
+````
 
 ### Store Lists 
 ---
@@ -93,3 +88,4 @@ Alignment: Center
 
 ##### Tags 
 - #City/Varisia
+

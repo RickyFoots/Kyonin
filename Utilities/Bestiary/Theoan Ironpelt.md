@@ -3,6 +3,25 @@
 	- Well over 7ft tall
 - Also runs [[- Gifts from Gods -]]
 
+### Enemies and Allies
+---
+````col
+```col-md
+#### Allies
+- [[Jeremiah Esku]]
+
+```
+
+```col-md
+
+#### Enemies
+- 
+
+```
+````
+
+# Stat Block
+---
 ```statblock
 forceColumns: true
 image: [[Wikilink To Image]]

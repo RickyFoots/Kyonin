@@ -6,22 +6,20 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - 
 
---- column-break ---
+```
+
+```col-md
+
 #### Enemies
 - 
 
---- end-multi-column
+```
+````
 
 ### Motivations - Secrets
 ---
@@ -33,3 +31,5 @@ Alignment: Center
 
 ##### Tags
 - #NPC/
+
+

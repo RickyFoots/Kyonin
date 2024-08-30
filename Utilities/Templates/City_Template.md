@@ -8,42 +8,30 @@
 >## {City Name} Map
 >![{City Name.jpg}]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. 
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
-| Name              | Bar | Tavern |
-| ----------------- | :-: | :----: |
-| [{Location Name}] |  O  |   X    |
+| Name                                     | Bar | Tavern |
+| ---------------------------------------- | :-: | :----: |
+| [{Location}] |  O  |   X    |
 
---- column-break ---
-# Stores - {Name if Any}
+```
+```col-md
+# Stores
 
-|  Store Type   |      Store      |
-| :-----------: | :-------------: |
-|   Jewelers    | {Location Name} |
-|   Gunsmiths   |                 |
-|  Magic Shop   |                 |
-|     Armor     |                 |
-|    Weapons    |                 |
-|  Holy Items   |                 |
-|    Tailor     |                 |
-|   Herbalist   |                 |
-|  Silversmith  |                 |
-| General Store |                 |
+|  Store Type   |               Store               |
+| :-----------: | :-------------------------------: |
+| General Store | [{Store Name}] |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!multi-column]
@@ -83,3 +71,4 @@ Alignment: Center
 
 ##### Tags
 - #City/
+

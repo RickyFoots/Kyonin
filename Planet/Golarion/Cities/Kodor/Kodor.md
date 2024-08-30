@@ -9,14 +9,8 @@
 >## Kodor Map
 >![[Kodor.jpg]]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: 1
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. [[Aran Rhikal's College of Artificing]] 
 	- Houses the [[Deep slate library]] 
@@ -31,22 +25,25 @@ Alignment: Center
 10. [[C.C.E.]] 
 11. [[Kodor Central Prison]]
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
 | Name                   | Bar | Tavern |
 | ---------------------- | :-: | :----: |
 | [[Balding Rodent Inn]] |  O  |   O    |
 
---- column-break ---
+```
+```col-md
 # Stores
 
 | Store Type |       Store        |
 | :--------: | :----------------: |
 | Gunsmiths  | [[Mah's Firearms]] |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!abstract]- Gunsmiths
@@ -57,3 +54,4 @@ Alignment: Center
 - #City/Kodor
 - #Pinkertons/Rylanor 
 - #Pinkertons/Hawthorne 
+

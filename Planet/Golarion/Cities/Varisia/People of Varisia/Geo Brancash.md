@@ -9,23 +9,22 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Jerrick Mugg]] - Not quite anything
 - [[The Sultan]]
 
---- column-break ---
+```
+
+```col-md
+
 #### Enemies
 - 
 
---- end-multi-column
+```
+````
+
 ### Motivations - Secrets
 ---
 1. She cheat in her game against *The Sultan*.
@@ -38,3 +37,4 @@ Alignment: Center
 ##### Tags
 - #NPC/Varisia
 - #Races/Genasis
+

@@ -9,22 +9,20 @@
 
 ### Enemies and Allies
 ---
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 #### Allies
 - [[Netch the Drowned]] - Boss
 
---- column-break ---
+```
+```col-md
+
 #### Enemies
 - 
 
---- end-multi-column
+```
+````
+
 ### Motivations - Secrets
 ---
 1. 

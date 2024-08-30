@@ -11,14 +11,8 @@
 2. Is an ex-marine 
 
 ## Menu
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 ### Drinks
 ---
 
@@ -30,7 +24,10 @@ Alignment: Center
 | *Very Strong Drinks*                  | `dice:d4+6`g     |                 |
 | *Dangerously Strong/Signature Drinks* | `dice:d100+10`g  |                 |
 
---- column-break ---
+```
+
+```col-md
+
 ### Meals
 ---
 
@@ -41,18 +38,14 @@ Alignment: Center
 | Dwarven Stew         | 8 g      | A thick stew filled with root vegetables and iron-rich meat.    |
 | Griffin Egg Omelette | 12 g     | A fluffy omelette made from the rare eggs of a griffin.         |
 
---- end-multi-column
+```
+````
+
 >[!warning]- Intoxication Table
 >![[Intoxication Table]]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 ### Patrons
 ---
 - {Name}: {Location & Description}
@@ -61,7 +54,10 @@ Alignment: Center
 - {Name}: {Location & Description}
 - {Name}: {Location & Description}
 
---- column-break ---
+```
+
+```col-md
+
 ### Rumors
 ---
 
@@ -72,5 +68,6 @@ Alignment: Center
 | {Check}{DC} | {Reward}  |
 | {Check}{DC} | {Reward}  |
 
---- end-multi-column
+```
+````
 

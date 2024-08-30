@@ -10,28 +10,24 @@
 >## {City Name} Map
 >![{City Name.jpg}]
 
---- start-multi-column: ID_crjd
-```column-settings
-Number of Columns: 3
-Largest Column: standard
-Overflow: Hidden
-Alignment: Center
-```
-
+````col
+```col-md
 # Notable Locations
 1. [[Keepers of the Spark]] - Royal Forge
 2. [[Grand Mine Exit - Branmor]]
 3. [[The Adventurers Guild - Branmor]]
 4. [[The Fothganehr Mine]]
 
---- column-break ---
+```
+```col-md
 # Bars and Taverns
 
 | Name                        | Bar | Tavern |
 | --------------------------- | :-: | :----: |
 | [[The Brass Guinea Tavern]] |  O  |   O    |
 
---- column-break ---
+```
+```col-md
 # Stores
 
 |  Store Type   |          Store          |
@@ -40,8 +36,9 @@ Alignment: Center
 |    Weapons    |   [[Fancy A Hammer]]    |
 | General Store |   [[Heatwaker Forge]]   |
 
+```
+````
 
---- end-multi-column
 ### Store Lists 
 ---
 >[!multi-column]
@@ -60,3 +57,4 @@ Alignment: Center
 ##### Tags 
 - #City/Branmor
 - #Races/Dwarves 
+
