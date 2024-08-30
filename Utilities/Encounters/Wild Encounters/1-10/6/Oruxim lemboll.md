@@ -1,4 +1,4 @@
-- A stout Gnomish man how made deals with [[Planet/Golarion/Groups/Organizations/The Rat Queens Court]] and [[Planet/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-]] to sell his invention.
+- A stout Gnomish man how made deals with [[The Rat Queens Court]] and [[-The Pillars of Peace-]] to sell his invention.
 	- He made a boat load of money this way but unfortunately had to betray one of the two groups which he decided *The Rat Queens Court* would be more lenient. 
 
 ---

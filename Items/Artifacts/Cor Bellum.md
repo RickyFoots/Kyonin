@@ -1,10 +1,10 @@
 Appears to be an symmetrical amalgam of engine parts and pistons that expand and contract slowly when held by a mortal.
 
-- Hoarded by the leader of the [[Planet/Golarion/Groups/Cults/Cult of Noso/Cult of Noso]], [[Planet/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh]], in a forgotten ruin outside of [[Planet/Golarion/Cities/Varisia/Varisia]].
+- Hoarded by the leader of the [[Cult of Noso]], [[Rugu, Ascended From Flesh]], in a forgotten ruin outside of [[Varisia]].
 - Created by [[Zariel, Lord of the First]] and [[Primus]], in an attempt to create the "*Perfect soldier*".
  
 ---
-- **Location**: Forgotten ruin outside of [[Planet/Golarion/Cities/Varisia/Varisia]].
+- **Location**: Forgotten ruin outside of [[Varisia]].
 - **Item Type**: Artifact
 	- **Weapon Type**: 
 	- **Armor Type**: 

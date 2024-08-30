@@ -1,7 +1,7 @@
 ![[Pasted image 20231015162402.png]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Black and Tanned/- Black and Tanned -]]
+- **Location**: [[- Black and Tanned -]]
 - **Item Type**: Armor
 	- **Weapon Type**:
 - **Rarity**: Rare

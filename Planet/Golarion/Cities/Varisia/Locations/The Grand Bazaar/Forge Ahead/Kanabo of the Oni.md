@@ -1,7 +1,7 @@
 ![[Pasted image 20231015165811.png]]
  
 ---
-- **Location**:  [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -]]
+- **Location**:  [[- Forge Ahead -]]
 - **Item Type**: Weapon
 	- **Weapon Type**: Greatclub (*1d8* **bludgeoning damage**)
 	- **Armor Type**: 
@@ -10,8 +10,8 @@
 
 # Abilities
 ---
-1. **Rise of the Oni**: While the kanabb is on your person, you can use your *action* to change into an oni-like form. 
-	- When you transform into this shape, you gain the ollowing characteristics for *1 minute*:
+1. **Rise of the Oni**: While the kanabo is on your person, you can use your *action* to change into an oni-like form. 
+	- When you transform into this shape, you gain the following characteristics for *1 minute*:
 		- Your height is 10 feet and you weigh *700 pounds*. 
 		- Your size is *Large* and your creature type is *Giant*. 
 			- You can choose to appear more oni-like by growing short ivory horns, jet black fangs or claws, and blue, green, or red skin.

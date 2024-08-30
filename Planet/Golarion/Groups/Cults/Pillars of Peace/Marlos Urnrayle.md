@@ -1,4 +1,4 @@
-Earth general under [[Kyonin/Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand]]
+Earth general under [[The Shattered Hand]]
 Location they can be found
 
 ## Stats

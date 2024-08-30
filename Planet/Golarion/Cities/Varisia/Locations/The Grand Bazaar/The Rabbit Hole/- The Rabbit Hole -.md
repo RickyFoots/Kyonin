@@ -2,7 +2,7 @@
 - Run by an elderly *Harengon* woman named [[Elia Oakfoot]]
 
 ---
-1. A good portion of the [[Planet/Golarion/Cities/Varisia/Varisia]]'s water is diverted here, and the only reason that is allowed is because *Elia* cured [[Planet/Golarion/Cities/Varisia/People of Varisia/The Sultan]] of a very "Dangerous Disease", he had the flu.
+1. A good portion of the [[Varisia]]'s water is diverted here, and the only reason that is allowed is because *Elia* cured [[The Sultan]] of a very "Dangerous Disease", he had the flu.
 
 # In Stock
 ---

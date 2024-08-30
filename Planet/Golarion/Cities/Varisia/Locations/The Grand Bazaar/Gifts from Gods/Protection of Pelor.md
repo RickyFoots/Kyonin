@@ -2,7 +2,7 @@
 - Once attuned the chains will wrap themselves around the non-dominant forearm of the attuned.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
+- **Location**: [[- Gifts from Gods -]]
 - **Item Type**: Shield
 - **Rarity**: Rare
 - **Requires Attunement**: Yes

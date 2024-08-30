@@ -1,8 +1,8 @@
-# [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth]] - Glass
+# [[Ashtiajar Therfaeth]] - Glass
 ---
 ## Description - Facts
 ---
-- Massive 8ft 6in *Black Dragonborn* woman with a modified metal right arm, which was made by [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Rofir]].
+- Massive 8ft 6in *Black Dragonborn* woman with a modified metal right arm, which was made by [[Rofir]].
 	- The arm hides the blade of an *Executioners Sword* that she can extend at will.
 - Has scar tissue all over her body.
 - Doesn't speak common very well but is fluent in *Draconic*, *Goblin*, and *Undercommon*
@@ -18,9 +18,9 @@ Alignment: Center
 ```
 
 #### Allies
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku]] - Boss
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Rofir]] - "Doctor"
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher]] - Coworker and confidant
+- [[Jeremiah Esku]] - Boss
+- [[Rofir]] - "Doctor"
+- [[Clay Fisher]] - Coworker and confidant
 
 --- column-break ---
 #### Enemies

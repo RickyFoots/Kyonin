@@ -1,7 +1,7 @@
 - A worn and rusted silver chain with a medallion hanging from it depicting one *muscled arm hanging onto another* forming a circle.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
+- **Location**: [[- Gifts from Gods -]]
 - **Item Type**: Wondrous Item
 - **Rarity**: Artifact
 - **Requires Attunement**: No

@@ -1,3 +1,3 @@
 - "Hammer of creation". 
 - Legendary first hammer of the dwarves. 
-- Once wielded by [[Planet/Golarion/History/Branmor - Wielder of the first Hammer]]
+- Once wielded by [[Branmor - Wielder of the first Hammer]]

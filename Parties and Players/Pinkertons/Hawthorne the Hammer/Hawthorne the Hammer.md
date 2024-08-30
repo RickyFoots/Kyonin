@@ -6,18 +6,18 @@ Class = Bard
 
 # POI
 ---
-- Dad - [[Planet/Golarion/Cities/Kodor/People of Kodor/Dennis Bittlesby]] (Human)
-- Mom - [[Planet/Golarion/Cities/Kodor/People of Kodor/Sawdust]]... just Sawdust (Half-Orc)
-- Wrestling Mentor - [[Planet/Golarion/Cities/Kodor/People of Kodor/Kayden Fabrianno]]
+- Dad - [[Dennis Bittlesby]] (Human)
+- Mom - [[Sawdust]]... just Sawdust (Half-Orc)
+- Wrestling Mentor - [[Kayden Fabrianno]]
 
 # History 
 ---
-- [[Planet/Golarion/Cities/Kodor/People of Kodor/Dennis Bittlesby]], and [[Planet/Golarion/Cities/Kodor/People of Kodor/Sawdust]] run a **small lumber mill** together a few miles outside [[Kyonin/Planet/Golarion/Cities/Kodor/Kodor]]. 
+- [[Dennis Bittlesby]], and [[Sawdust]] run a **small lumber mill** together a few miles outside [[Kodor]]. 
 	- They were very loving and supportive of *Hawthorne* and used money they were saving to *upgrade/renovate* the mill to put Hawthorne through **Bard College**. 
 
-- Member of [[Planet/Golarion/Cities/Kodor/Locations/C.C.E.]] as the "*The Face*" and was trained directly by the headliner [[Planet/Golarion/Cities/Kodor/People of Kodor/Kayden Fabrianno]] to be his replacement once he retired. 
+- Member of [[C.C.E.]] as the "*The Face*" and was trained directly by the headliner [[Kayden Fabrianno]] to be his replacement once he retired. 
 	- One day a heckler in the stands made him question himself and his abilities, so he ran away and has deemed himself an adventurer and set off for adventure. 
-	- Unfortunately for him, he didn't get far and began to drink himself into feeling better, in doing so, successfully failed to save a lady, [[Jolene-Pix]], from being hit on, and somehow found himself in [[Planet/Golarion/Cities/Kodor/Locations/Kodor Central Prison]] with, [[Jolene-Pix]], and [[Claire Clover]].
+	- Unfortunately for him, he didn't get far and began to drink himself into feeling better, in doing so, successfully failed to save a lady, [[Jolene-Pix]], from being hit on, and somehow found himself in [[Kodor Central Prison]] with, [[Jolene-Pix]], and [[Claire Clover]].
 
 # Fun Facts
 ---

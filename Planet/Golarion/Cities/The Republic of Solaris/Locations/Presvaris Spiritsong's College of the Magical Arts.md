@@ -1,4 +1,4 @@
-The premier magic college of [[Golarion]]. Often referred to as the gem of [[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]]. A group of ancient but well maintained cobblestone buildings in the city center, much like the [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Church Of Pelor]], found only a few blocks away, the college buildings are adorned with stained-glass. The stained-glass that decorates the college depict [[Planet/Golarion/History/Presvaris Spiritsong]], a few nobles that donated to the school, and prefessors that made an impact.
+The premier magic college of [[Golarion]]. Often referred to as the gem of [[The Republic of Solaris]]. A group of ancient but well maintained cobblestone buildings in the city center, much like the [[Church Of Pelor]], found only a few blocks away, the college buildings are adorned with stained-glass. The stained-glass that decorates the college depict [[Presvaris Spiritsong]], a few nobles that donated to the school, and professors that made an impact.
 
 ---
 1. The robe colors of the college are Navy blue as the main color and Golden yellow as the accent color.

@@ -1,7 +1,7 @@
 ![[Pasted image 20231015165756.png]]
  
 ---
-- **Location**:  [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -]]
+- **Location**: [[- Forge Ahead -]]
 - **Item Type**: Weapon
 	- **Weapon Type**: Dagger (*1d4* **slashing damage**)
 	- **Armor Type**: 

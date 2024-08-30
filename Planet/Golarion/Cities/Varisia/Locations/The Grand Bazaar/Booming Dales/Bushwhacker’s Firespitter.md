@@ -1,7 +1,7 @@
 ![[Pasted image 20231015180355.png]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -]]
+- **Location**: [[- Booming Dales -]]
 - **Item Type**: Weapon 
 	- **Weapon Type**: Firearm
 	- **Armor Type**: 

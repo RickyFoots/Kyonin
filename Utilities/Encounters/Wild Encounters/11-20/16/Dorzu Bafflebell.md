@@ -1,4 +1,4 @@
-Handsome and cunning, Gnomish Leader of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]].
+Handsome and cunning, Gnomish Leader of [[The Thuringers]].
 Hunting [[Ricochet Whitetail]].
 
 ## Stats

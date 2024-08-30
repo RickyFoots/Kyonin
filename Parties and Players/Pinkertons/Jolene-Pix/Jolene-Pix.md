@@ -7,8 +7,8 @@ Age = 28-29
 
 # POI
 ---
-- [[Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan]] - Ex "Lover"
-- [[Planet/Golarion/Cities/Talavon/People of Talavon/Dolly Buchannan]] - Ex "Lover's" wife
+- [[Travis Buchannan]] - Ex "Lover"
+- [[Dolly Buchannan]] - Ex "Lover's" wife
 - [[Vrokan]]
 
 # Alias
@@ -43,13 +43,13 @@ Age = 28-29
 	- She took on <u>Jolene’s identity</u> and lived for her.
 
 - A few more years passed as “*Jolene*” traveled from town to town trying to find a place she knew her late friend would love. 
-	- That's when she stumbled her way into [[Planet/Golarion/Cities/Talavon/Talavon]], a beautiful little town surrounded by fields and fields of *Larkspur*, *Foxgloves*, *Poppies*, *Hydrangeas* and *Lily of the Valleys*. 
-	- She got a job as a barmaid at the local bar, [[Planet/Golarion/Cities/Talavon/Locations/Bars and Taverns/The Peaceful Root]], and became very popular with the patrons, including local bureaucrat, [[Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan]]. 
+	- That's when she stumbled her way into [[Talavon]], a beautiful little town surrounded by fields and fields of *Larkspur*, *Foxgloves*, *Poppies*, *Hydrangeas* and *Lily of the Valleys*. 
+	- She got a job as a barmaid at the local bar, [[The Peaceful Root]], and became very popular with the patrons, including local bureaucrat, [[Travis Buchannan]]. 
 
 - Mr. *Buchannan* was by far the richest man in the region, owning almost all of the flower plantations that Talavon was known for. 
 	- He was also <u>one of</u> the *most handsome men in town*. 
 	- He was not, however, an eligible bachelor in any way. 
-	- He was, and still is, married to the woman whose Father owned the rest of the plantations in town, [[Planet/Golarion/Cities/Talavon/People of Talavon/Dolly Buchannan]]. 
+	- He was, and still is, married to the woman whose Father owned the rest of the plantations in town, [[Dolly Buchannan]]. 
 	- Unfortunately for “*Jolene*” that didn’t stop Mr. *Buchannan* from taking a personal interest in her arrival.
 
 - Their affair was long, hot, steamy, and anything but discreet. 
@@ -58,7 +58,7 @@ Age = 28-29
 	- He enlisted her help with his shady dealings with [[Vrokan]], disguising herself and pickpocketing when needed. 
 	- She **reluctantly** helped with every request, but when he <u>drugged</u> her and took *several vials* of her blood one night without consent or conversation, when she awoke she left without a single word. 
 
-- Heartbroken and betrayed, “Jolene” picked up her pieces and traveled around a bit, eventually making it to [[Kyonin/Planet/Golarion/Cities/Kodor/Kodor]] where she has been working at the [[Planet/Golarion/Cities/Kodor/Locations/Bars and Taverns/Balding Rodent Inn]] as a bartender.
+- Heartbroken and betrayed, “Jolene” picked up her pieces and traveled around a bit, eventually making it to [[Kodor]] where she has been working at the [[Balding Rodent Inn]] as a bartender.
 
 - Last night, she was hit on by a very persistent "rich boy". 
 	- When she said no a few too many times for his liking, he got rough with her. 

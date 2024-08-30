@@ -1,1 +1,1 @@
-- The spies/ observers of [[Planet/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum]] that go out and either slightly alter the path of history or record it.
+- The spies/ observers of [[Turrim Infnitum]] that go out and either slightly alter the path of history or record it.

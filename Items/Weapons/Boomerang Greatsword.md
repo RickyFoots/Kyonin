@@ -1,7 +1,7 @@
 The bastardization of a gnomish weapon and an orc's need to throw huge weapons, this massive boomerang was created in the style of a greatsword. With a large, enclosed, handle on one end, no cross guard, and it's ability to sever heads at a range of 30ft it's easily the most abnormal weapon combination seen so far.
  
 ---
-- **Location**: [[Planet/Golarion/Cities/Branmor/Locations/The Fothganehr Mine]]
+- **Location**: [[The Fothganehr Mine]]
 - **Item Type**: Weapon (Boomerang/Greatsword)
 - **Rarity**: Uncommon
 - **Requires Attunement**: No

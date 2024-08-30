@@ -1,5 +1,5 @@
-- A 28 looking *Astral Elf* named *Verich Ironbrand* who's tragic past has lead him to [[Planet/Golarion/Cities/Varisia/Varisia]] in an effort to kill as many "Thoughtless Cowards" as mortally possible.
-- Steals femurs from every one of his kills, which he then carves into hollow chimes.
+- A 28 looking *Astral Elf* named *Verich Ironbrand* who's tragic past has lead him to [[Varisia]] in an effort to kill as many "Thoughtless Cowards" as mortally possible.
+- Steals femurs from everyone of his kills, which he then carves into hollow chimes.
 	- He then takes the bone chimes and mixes them with random wood and bamboo chimes to sells them as a way to spread evidence.
 # Statblock 
 ---

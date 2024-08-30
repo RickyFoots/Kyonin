@@ -1,2 +1,2 @@
-The wealthy part of [[Planet/Golarion/Cities/Varisia/Varisia]].
-Currently the [[Bone Thief]] is wreaking havoc across this area, pick up the bounty in [[Planet/Golarion/Cities/Varisia/Locations/The Adventurers Guild - Varisia]]
+The wealthy part of [[Varisia]].
+Currently the [[Bone Thief]] is wreaking havoc across this area, pick up the bounty in [[The Adventurers Guild - Varisia]]

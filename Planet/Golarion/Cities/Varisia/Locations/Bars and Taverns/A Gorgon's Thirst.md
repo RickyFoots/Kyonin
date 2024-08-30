@@ -1,8 +1,8 @@
 ## Inn Keeper Name: [[Jeremiah Esku]]
 ---
-- The largest and well known bar of [[Planet/Golarion/Cities/Varisia/Varisia]] 
-- Run by, one of the many "feelers" [[Planet/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned]] keeps in her back pocket to spy on newcomers to [[Planet/Golarion/Cities/Varisia/Varisia]].
-- Has an underground fighting ring under it called [[Planet/Golarion/Cities/Varisia/Locations/The Snake Pit]]. 
+- The largest and well known bar of [[Varisia]] 
+- Run by, one of the many "feelers" [[Netch the Drowned]] keeps in her back pocket to spy on newcomers to [[Varisia]].
+- Has an underground fighting ring under it called [[The Snake Pit]]. 
 - 
 
 ### Facts

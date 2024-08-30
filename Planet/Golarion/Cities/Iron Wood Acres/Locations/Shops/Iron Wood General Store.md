@@ -1,4 +1,4 @@
-Run by [[Planet/Golarion/Cities/Iron Wood Acres/People of Acres/Thod Obben]]. 
+Run by [[Thod Obben]]. 
 
 ---
 1. Facts

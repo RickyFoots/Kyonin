@@ -9,5 +9,5 @@
 - 
 # Final Area 
 ---
-- [[Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh]]
-- 1 [[Goblin]], 3 [[Planet/Golarion/Groups/Cults/Paragon of Flesh/Cultist]]
+- [[Rugu, Ascended From Flesh]]
+- 1 [[Goblin]], 3 [[Paragon of Flesh/Cultist]]

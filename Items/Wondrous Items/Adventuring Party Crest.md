@@ -1,4 +1,4 @@
-A simple, thin block of magical metal in the shape of a rectangle, that changes what it's made of depending on the rank of the Adventuring Party. Given out by [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]].
+A simple, thin block of magical metal in the shape of a rectangle, that changes what it's made of depending on the rank of the Adventuring Party. Given out by [[The Adventurers Guild]].
  
 ---
 - **Item Type**: Wondrous item

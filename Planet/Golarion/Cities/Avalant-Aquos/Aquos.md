@@ -1,4 +1,4 @@
-# [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos]] - "*City of Second Chances*"
+# [[Avalant-Aquos/Aquos]] - "*City of Second Chances*"
 ---
 - The city buried deep within the sea. 
 - A large sunken city found miles below the sea, protected by an alchemists dream, [[Depth Glass]]. 
@@ -21,21 +21,21 @@ Alignment: Center
 ```
 
 # Notable Locations
-1. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/The Fields]] are just that, a large number of fields that grow a variety of plants to feed the people of Aquos. Taking up the entire <mark style="background: #FFB8EBA6;">1st floor</mark>.
-2. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/The Reefs]], the neighborhoods that take up the totality of the <mark style="background: #FFB8EBA6;">2nd and 3rd floors</mark>.
-3. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/The Square]] or the central meeting place that all other parts of the <mark style="background: #FFB8EBA6;">4th floor</mark> are connected.
-	- [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/Umberlee's Bounty]], a large eating/ meeting area on the eastern wall of the Square, with several shops in the wall selling food.
+1. [[The Fields]] are just that, a large number of fields that grow a variety of plants to feed the people of Aquos. Taking up the entire <mark style="background: #FFB8EBA6;">1st floor</mark>.
+2. [[The Reefs]], the neighborhoods that take up the totality of the <mark style="background: #FFB8EBA6;">2nd and 3rd floors</mark>.
+3. [[The Square]] or the central meeting place that all other parts of the <mark style="background: #FFB8EBA6;">4th floor</mark> are connected.
+	- [[Umberlee's Bounty]], a large eating/ meeting area on the eastern wall of the Square, with several shops in the wall selling food.
 	- [[Makers Current]], the grouping of shops that run along the western wall on the Square.
-4. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/Shar's Blessing]], the two part school and church that takes up the whole of the <mark style="background: #FFB8EBA6;">5th floor.</mark>
-5. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/Guest quarters]], a network of individual rooms, shared bathing areas, and a large mess hall just outside the main elevator. Taking up the entire <mark style="background: #FFB8EBA6;">8th floor</mark>. 
-6. [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/Algae Farm]], the massive algae farm that converts seawater and the light from the [[Mages sun]], that can be found at the bottom of each floor. Sitting at the very bottom of Aquos, on <mark style="background: #FFB8EBA6;">floor 10</mark>.
+4. [[Shar's Blessing]], the two part school and church that takes up the whole of the <mark style="background: #FFB8EBA6;">5th floor.</mark>
+5. [[Guest quarters]], a network of individual rooms, shared bathing areas, and a large mess hall just outside the main elevator. Taking up the entire <mark style="background: #FFB8EBA6;">8th floor</mark>. 
+6. [[Algae Farm]], the massive algae farm that converts seawater and the light from the [[Mages sun]], that can be found at the bottom of each floor. Sitting at the very bottom of Aquos, on <mark style="background: #FFB8EBA6;">floor 10</mark>.
 
 --- column-break ---
 # Bars and Taverns
 
 | Name                  | Bar | Tavern |
 | --------------------- | :-: | :----: |
-| [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Aquos Locations/Umberlee's Bounty]] |  O  |   X    |
+| [[Umberlee's Bounty]] |  O  |   X    |
 
 --- column-break ---
 # Stores - [[Makers Current]]

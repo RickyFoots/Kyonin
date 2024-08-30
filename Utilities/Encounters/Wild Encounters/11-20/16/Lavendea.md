@@ -1,4 +1,4 @@
-Light purple dryad of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]].
+Light purple dryad of [[The Thuringers]].
 Middlest of the three dryad triplets hunting [[Ricochet Whitetail]].
 
 ## Stats

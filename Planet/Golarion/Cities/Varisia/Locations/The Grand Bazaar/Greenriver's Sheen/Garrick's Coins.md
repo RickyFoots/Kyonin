@@ -2,7 +2,7 @@
 - Made by a mad ranger with a gambling addiction who swore he could bounce any arrow off a coin and hit a target behind a wall.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -]]
+- **Location**: [[- Greenriver's Sheen -]]
 - **Item Type**: Wondrous Item 
 - **Rarity**: Rare
 - **Requires Attunement**: No

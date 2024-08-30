@@ -1,5 +1,5 @@
 Divinely powered prison guards/ town guards
-[[Planet/Golarion/Cities/Kodor/Locations/Kodor Central Prison]].
+[[Kodor Central Prison]].
 
 ## Stats
 ---

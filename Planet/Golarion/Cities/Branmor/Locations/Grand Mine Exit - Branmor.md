@@ -1,5 +1,5 @@
-- One of the many exit to the [[Kyonin/Planet/Golarion/Cities/Branmor/Locations/The Grand Mine]].
-- This one is found in [[Planet/Golarion/Cities/Branmor/Branmor]]
+- One of the many exit to the [[The Grand Mine]].
+- This one is found in [[Branmor]]
 
 ##### Tags
 - #GrandMine

@@ -1,10 +1,10 @@
-# [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Geo Brancash]] 
+# [[Geo Brancash]] 
 ---
 ## Description - Facts
 ---
 - Beautiful and well figured *Earth Genasi* woman with smooth granite skin and a large onyx afro that just barely covers her eyes.
-- Was hand picked to run [[Planet/Golarion/Cities/Varisia/Locations/The Tricky Sphinx Casino]] by [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/The Sultan]], because she had beaten him in a game of *Lucky Mistress* the first time he visited the countries in the south.
-- Had a long "On again, off again" relationship with [[Planet/Golarion/Cities/Branmor/People of Branmor/Jerrick Mugg]] to the point where *Jerrick* was going to propose before he was run out of town.
+- Was hand picked to run [[The Tricky Sphinx Casino]] by [[The Sultan]], because she had beaten him in a game of *Lucky Mistress* the first time he visited the countries in the south.
+- Had a long "On again, off again" relationship with [[Jerrick Mugg]] to the point where *Jerrick* was going to propose before he was run out of town.
 - Is actually pansexual. 
 
 ### Enemies and Allies
@@ -18,8 +18,8 @@ Alignment: Center
 ```
 
 #### Allies
-- [[Planet/Golarion/Cities/Branmor/People of Branmor/Jerrick Mugg]] - Not quite anything
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/The Sultan]]
+- [[Jerrick Mugg]] - Not quite anything
+- [[The Sultan]]
 
 --- column-break ---
 #### Enemies

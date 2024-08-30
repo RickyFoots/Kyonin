@@ -1,4 +1,4 @@
-- Also spelled **mithril** and known as **truemetal** among the dwarves, it is a precious metal produced from ore found in the mountains of [[Planet/Golarion/Cities/Branmor/Branmor]].  
+- Also spelled **mithril** and known as **truemetal** among the dwarves, it is a precious metal produced from ore found in the mountains of [[Branmor]].  
 - Appearing as a silver-and-black mineral in its natural form, and became a shining silvery-blue when it was forged.
 - Mithral is produced through a process similar to that of steel-smelting.
 - Hunted and sought after by Worms of all kinds

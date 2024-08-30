@@ -1,7 +1,7 @@
 ![[Pasted image 20231015170543.png]]
  
 ---
-- **Location**:  [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -]]
+- **Location**:  [[- Forge Ahead -]]
 - **Item Type**: Weapon
 	- **Weapon Type**: Scimitar (*1d6* **slashing damage**)
 	- **Armor Type**: 

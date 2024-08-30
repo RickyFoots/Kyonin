@@ -1,1 +1,1 @@
-Darker skinned matriarch of the [[Kyonin/Planet/Golarion/Cities/Branmor/People of Branmor/Brawneyes Family]] as well as their face of [[Planet/Golarion/Cities/Branmor/Locations/Bars and Taverns/The Brass Guinea Tavern]]. 
+Darker skinned matriarch of the [[Brawneyes Family]] as well as their face of [[The Brass Guinea Tavern]]. 

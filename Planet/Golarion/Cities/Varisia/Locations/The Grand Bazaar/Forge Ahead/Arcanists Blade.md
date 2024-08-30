@@ -1,7 +1,7 @@
 ![[Pasted image 20231015172216.png]]
  
 ---
-- **Location**:  [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -]]
+- **Location**:  [[- Forge Ahead -]]
 - **Item Type**: Weapon
 	- **Weapon Type**: Longsword (*1d8* **Slashing Damage**)
 	- **Armor Type**: 

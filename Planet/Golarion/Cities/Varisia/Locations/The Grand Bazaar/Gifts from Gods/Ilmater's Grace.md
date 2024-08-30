@@ -2,7 +2,7 @@
 - The Rosary is worn on the arm of the attuned and if it's removed then the creature wearing it is no longer attuned.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
+- **Location**: [[- Gifts from Gods -]]
 - **Item Type**: Wondrous Item 
 - **Rarity**: Rare
 - **Requires Attunement**: Yes

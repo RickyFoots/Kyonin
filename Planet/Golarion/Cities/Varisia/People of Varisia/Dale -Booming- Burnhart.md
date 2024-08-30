@@ -3,7 +3,7 @@
 ## Description - Facts
 ---
 - Wild and **extremely loud** coral pink *Kobold* woman.
-- Owner and operator of [[Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -]]
+- Owner and operator of [[- Booming Dales -]]
 - Proud believer in every creatures right to have and own weapons!
 
 ### Enemies and Allies
@@ -17,7 +17,7 @@ Alignment: Center
 ```
 
 #### Allies
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher]] - Employee
+- [[Clay Fisher]] - Employee
 
 --- column-break ---
 #### Enemies

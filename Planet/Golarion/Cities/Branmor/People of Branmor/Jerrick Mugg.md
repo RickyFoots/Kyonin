@@ -1,10 +1,10 @@
-Scraggly and very greedy Goblin man working under [[Kyonin/Planet/Golarion/Cities/Branmor/People of Branmor/Grez Mongrel]].
+Scraggly and very greedy Goblin man working under [[Grez Mongrel]].
  
 ---
-1. Gave the party their rope and walked them down [[Planet/Golarion/Cities/Branmor/Locations/The Fothganehr Mine]] to "the boot", where he was promptly snatched up by the party and bribed to be quiet.
-2. Does **NOT** in fact have kids, even though he uses that excuse often, he does, however, have a warrant out for his arrest in [[Planet/Golarion/Cities/Varisia/Varisia]].
+1. Gave the party their rope and walked them down [[The Fothganehr Mine]] to "the boot", where he was promptly snatched up by the party and bribed to be quiet.
+2. Does **NOT** in fact have kids, even though he uses that excuse often, he does, however, have a warrant out for his arrest in [[Varisia]].
 	1. He claims he was framed for stealling a ring from one of the most renowned silver smiths in [[Golarion]], which he was, but no one believes him.
-	2. The silver smith is [[Planet/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver]], the incident above occurred when *Ulasatra* promised a <u>magical ring</u> to one of the leaders of a smaller gang in *Varisia* and couldn't deliver. 
+	2. The silver smith is [[Ulasatra Greenriver]], the incident above occurred when *Ulasatra* promised a <u>magical ring</u> to one of the leaders of a smaller gang in *Varisia* and couldn't deliver. 
 	3. Instead of asking for more time she instead decided to frame "poor" *Jerrick* for stealing it.
 
 ## Stats

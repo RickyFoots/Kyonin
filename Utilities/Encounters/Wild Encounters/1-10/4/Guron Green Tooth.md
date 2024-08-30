@@ -45,5 +45,5 @@ Location they can be found
 - **Redirect Attack**: When a creature the goblin can see targets it with an attack, the goblin chooses another goblin *within 5 feet of it*. 
 	- The two goblins *swap places*, and the chosen goblin becomes the target instead.
 # Loot
-1. #loot/investigation *Sending Stone* connected to the matriarch of the [[Planet/Golarion/Groups/Tribes/Scrap Scrap Tribe/Scrap Scrap Tribe]].
+1. #loot/investigation *Sending Stone* connected to the matriarch of the [[Scrap Scrap Tribe]].
 	

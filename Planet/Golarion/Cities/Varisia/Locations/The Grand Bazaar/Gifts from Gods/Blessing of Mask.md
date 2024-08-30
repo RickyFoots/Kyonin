@@ -1,7 +1,7 @@
 - An unsettling pure white featureless mask with the phrase **I am Legion, I am Nothing** in *Elven* scrawled inside the mask.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
+- **Location**: [[- Gifts from Gods -]]
 - **Item Type**: Wondrous Item
 - **Rarity**: Very Rare
 - **Requires Attunement**: No 

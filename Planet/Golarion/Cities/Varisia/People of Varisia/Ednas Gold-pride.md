@@ -1,9 +1,9 @@
-# [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Ednas Gold-pride]] 
+# [[Ednas Gold-pride]] 
 ---
 ## Description - Facts
 ---
 - Short stack figured *Goblin* woman with long curled black hair that she lets hang naturally dark purple eyes.
-- Owner of [[Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/The Worthless Stone]] bar on the east side of [[Planet/Golarion/Cities/Varisia/Varisia]].
+- Owner of [[The Worthless Stone]] bar on the east side of [[Varisia]].
 
 ### Enemies and Allies
 ---

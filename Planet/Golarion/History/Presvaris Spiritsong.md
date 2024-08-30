@@ -1,1 +1,1 @@
-The elven mage that started the college of [[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]] by the same name, [[Planet/Golarion/Cities/The Republic of Solaris/Locations/Presvaris Spiritsong's College of the Magical Arts]], and pioneered the alchemical arts used to bring life to the barren city.
+The elven mage that started the college of [[The Republic of Solaris]] by the same name, [[Presvaris Spiritsong's College of the Magical Arts]], and pioneered the alchemical arts used to bring life to the barren city.

@@ -2,7 +2,7 @@
 - The handle has the phrase *Draw me not without reason; Sheath me not without justice* in **celestial** along the length.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
+- **Location**: [[- Gifts from Gods -]]
 - **Item Type**: Weapon 
 	- **Weapon Type**: +1 Whip - *Proficiency* + *Strength or Dexterity* + *1* to hit (*2d4* + *Strength or Dexterity* + *1*  **Piercing damage**) *10ft* range.
 - **Rarity**: Very Rare

@@ -1,7 +1,7 @@
-[[Planet/Golarion/Cities/Avalant-Aquos/People of Avalant/Frankie Caldas]]' shop is open concept, with a cook top/ bar in the middle. It's covered by dried palm leaves and held up by what appears to be four different ship mast's. 
+[[Frankie Caldas]]' shop is open concept, with a cook top/ bar in the middle. It's covered by dried palm leaves and held up by what appears to be four different ship mast's. 
 
 ---
-1. One of the few restaurants found on [[Planet/Golarion/Cities/Avalant-Aquos/Avalant]].
+1. One of the few restaurants found on [[Avalant-Aquos/Avalant]].
 2. Most of the people that live on Avalant prefer to go fishing or farm their food from cobbled together crop plots.
 
 # In Stock

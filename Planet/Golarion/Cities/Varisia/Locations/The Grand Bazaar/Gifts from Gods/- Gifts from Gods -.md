@@ -7,8 +7,8 @@
 
 # In Stock
 ---
-- [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/Ilmater's Grace]] - 40G
-- [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/Protection of Pelor]] - 100G
-- [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/Blessing of Mask]] - 150G
-- [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/Punishment of the Unjust]] - 80G
-- [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/Hope of the Forgotten]] - 10G
+- [[Ilmater's Grace]] - 40G
+- [[Protection of Pelor]] - 100G
+- [[Blessing of Mask]] - 150G
+- [[Punishment of the Unjust]] - 80G
+- [[Hope of the Forgotten]] - 10G

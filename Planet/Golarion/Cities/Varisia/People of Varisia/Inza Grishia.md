@@ -1,12 +1,12 @@
-# [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Inza Grishia]] 
+# [[Inza Grishia]] 
 ---
 ## Description - Facts
 ---
 - Beautiful blue and white *Levistus tiefling* woman, she has long black and blue hair that reaches to her mid back 
 	- She has many different scars and burns across her body from her parents that didn't want her.
 - Was born a telepath.
-- Lives with and is in love with [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Rofir]], they've really helped be one anothers shoulder to lean on.
-- Has a small market stall just outside *The Grand Bazaar* called [[Planet/Golarion/Cities/Varisia/Locations/Moments in Time]], where she makes enchanted stones that project someones memories using minor illusion.
+- Lives with and is in love with [[Rofir]], they've really helped be one anothers shoulder to lean on.
+- Has a small market stall just outside *The Grand Bazaar* called [[Moments in Time]], where she makes enchanted stones that project someones memories using minor illusion.
 
 ### Enemies and Allies
 ---
@@ -19,7 +19,7 @@ Alignment: Center
 ```
 
 #### Allies
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Rofir]] - Lover
+- [[Rofir]] - Lover
 
 --- column-break ---
 #### Enemies

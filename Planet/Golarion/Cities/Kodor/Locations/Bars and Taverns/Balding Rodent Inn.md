@@ -1,4 +1,4 @@
-Found just a few blocks inside [[Kyonin/Planet/Golarion/Cities/Kodor/Kodor]]. Operates as your standard D&D tavern.
+Found just a few blocks inside [[Kodor]]. Operates as your standard D&D tavern.
 
 ---
-1. [[Planet/Golarion/Cities/Kodor/People of Kodor/Duvo Dreampiercer]] owns and operates the inn alongside her wife [[Planet/Golarion/Cities/Kodor/People of Kodor/Brizin]].
+1. [[Duvo Dreampiercer]] owns and operates the inn alongside her wife [[Brizin]].

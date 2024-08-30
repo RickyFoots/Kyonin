@@ -69,7 +69,7 @@
 >>- Yards are equal to Teaspoons
 >>- 4 *Silver* for porn/smut
 >>- **City Facts**
->>	- [[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]]
+>>	- [[The Republic of Solaris]]
 >>		- Has specialty healing potions flavors:
 >>			- Cookies and cream
 ---

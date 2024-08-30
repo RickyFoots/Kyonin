@@ -1,7 +1,7 @@
 ![[Pasted image 20231015160436.png]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Black and Tanned/- Black and Tanned -]]
+- **Location**: [[- Black and Tanned -]]
 - **Item Type**: Armor
 	- **Weapon Type**:
 	- **Armor Type**: Halfplate *15 + Dexterity modifier* (max 2)

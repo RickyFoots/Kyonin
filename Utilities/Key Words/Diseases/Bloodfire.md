@@ -6,6 +6,6 @@
 - Symptoms include: Confusion, altered mental status, slurred speech, loss of consciousness, hot and dry skin, steam erupting from the body, seizures, boiling blood, complete body dehydration, and spontaneous combustion.
 	- This is one variant of [[Elemental Sepsis]].
 
-- There are no known cures to "Bloodfire", but [[Planet/Golarion/Cities/The Republic of Solaris/People of Solaris/Princess Ilfselhmina]] was infected on the same day as her father, **King Ilfselhmina**, but didn't suffer any negative effects, aside from strong fever.
+- There are no known cures to "Bloodfire", but [[Princess Ilfselhmina]] was infected on the same day as her father, **King Ilfselhmina**, but didn't suffer any negative effects, aside from strong fever.
 
-- [[Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand]] believes that the Princess needs to be captured and studied to further his experiments with controlling [[The Elemental Anchors]].
+- [[The Shattered Hand]] believes that the Princess needs to be captured and studied to further his experiments with controlling [[The Elemental Anchors]].

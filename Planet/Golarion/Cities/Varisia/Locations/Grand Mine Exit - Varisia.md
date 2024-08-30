@@ -1,5 +1,5 @@
-- One of the many exit to the [[Planet/Golarion/Cities/Branmor/Locations/The Grand Mine]].
-- This one is found in [[Planet/Golarion/Cities/Varisia/Varisia]]
+- One of the many exit to the [[The Grand Mine]].
+- This one is found in [[Varisia]]
 
 ##### Tags
 - #GrandMine

@@ -1,4 +1,4 @@
-Gray Harengon and member of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]]
+Gray Harengon and member of [[The Thuringers]]
 One of twin trappers out hunting [[Ricochet Whitetail]] and [[Claire Clover]]
 
 ## Stats

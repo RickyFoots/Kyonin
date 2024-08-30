@@ -1,1 +1,1 @@
-The quiet, and slightly judgemental, cook of [[Planet/Golarion/Cities/Branmor/Locations/Bars and Taverns/The Brass Guinea Tavern]], as well as [[Kyonin/Planet/Golarion/Cities/Branmor/People of Branmor/Muirnum Brawneyes]] husband. The most observant of [[Kyonin/Planet/Golarion/Cities/Branmor/People of Branmor/Brawneyes Family]].
+The quiet, and slightly judgmental, cook of [[The Brass Guinea Tavern]], as well as [[Muirnum Brawneyes]] husband. The most observant of [[Brawneyes Family]].

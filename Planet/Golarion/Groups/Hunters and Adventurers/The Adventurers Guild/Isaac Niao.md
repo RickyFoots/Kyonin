@@ -1,5 +1,5 @@
-- Somehow, he is the customer service admin of every branch of [[Kyonin/Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]]. 
-- Secretly a member of [[Planet/Golarion/Groups/Cults/Servants of the Weave/Servants of the Weave]], that has been tasked with gathering information on all known adventurers, their loot, and the knowledge they gain while out on their adventures.
+- Somehow, he is the customer service admin of every branch of [[The Adventurers Guild]]. 
+- Secretly a member of [[Servants of the Weave]], that has been tasked with gathering information on all known adventurers, their loot, and the knowledge they gain while out on their adventures.
 
 # Stats
 ---
