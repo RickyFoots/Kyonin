@@ -3,7 +3,7 @@
 > ![[-Wild Encounters-]]
 - The party hears the great stomping of hooves and massive feet heading in their direction.
 
-- The party meets a contingent of the [[Children of the Tome]] who are actively hunting a [[Frost Giant]]
+- The party meets a contingent of the [[Planet/Golarion/Groups/Hunters and Adventurers/Children of the Tome]] who are actively hunting a [[Frost Giant]]
 - The hunters are able to wound the monster and begin to surround it
 - The hunters ask the party for help and offer to make them a weapon if they successfully kill the monster
 

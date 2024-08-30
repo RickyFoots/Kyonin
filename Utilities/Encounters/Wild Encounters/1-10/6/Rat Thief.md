@@ -1,4 +1,4 @@
-Servant of [[The Rat Queens Court]]
+Servant of [[Planet/Golarion/Groups/Organizations/The Rat Queens Court]]
 
 ## Stats
 ---

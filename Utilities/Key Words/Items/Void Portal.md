@@ -1,1 +1,1 @@
-Portal in [[Kyonin - World/Golarion/Cities/Kodor/Kodor]] that links directly to [[The Void]] that the [[Void-Train]] uses to travel/ explore within. 
+Portal in [[Kyonin/Planet/Golarion/Cities/Kodor/Kodor]] that links directly to [[The Void]] that the [[Void-Train]] uses to travel/ explore within. 

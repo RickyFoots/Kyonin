@@ -1,6 +1,6 @@
 - A glowing and pulsating 20 sided polyhedron.
 
-- The "*Heart of the Weave*" is a blasphemous artifact created by [[Servants of the Weave]] that absorbs magic and either seals it away or amplifies the magic cast by a wielder.  
+- The "*Heart of the Weave*" is a blasphemous artifact created by [[Planet/Golarion/Groups/Cults/Servants of the Weave/Servants of the Weave]] that absorbs magic and either seals it away or amplifies the magic cast by a wielder.  
 ---
 - **Location**: On a [[-Shaman's Corpse-]]
 - **Item Type**: Wondrous Item 

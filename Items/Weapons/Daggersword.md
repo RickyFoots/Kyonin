@@ -1,7 +1,7 @@
 The culmination of human ingenuity and their proclivity to be liars and cheats. The weapon itself looks like any other longsword, which it's designed to do, but with a simple twist and pull the top blade slides right off revealing a dangerous looking dagger.
  
 ---
-- **Location**: [[The Fothganehr Mine]]
+- **Location**: [[Planet/Golarion/Cities/Branmor/Locations/The Fothganehr Mine]]
 - **Item Type**: Weapon (dagger/longsword)
 - **Rarity**: Rare
 - **Requires Attunement**: No

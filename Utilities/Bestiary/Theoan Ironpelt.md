@@ -1,7 +1,7 @@
-- Grizzled old veteran Leonin who is the current grand champion at [[The Snake Pit]]
-	- Often visit [[A Gorgon's Thirst]] to blow off steam and have a few bears.
+- Grizzled old veteran Leonin who is the current grand champion at [[Planet/Golarion/Cities/Varisia/Locations/The Snake Pit]]
+	- Often visit [[Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst]] to blow off steam and have a few bears.
 	- Well over 7ft tall
-- Also runs [[- Gifts from Gods -]]
+- Also runs [[Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Gifts from Gods/- Gifts from Gods -]]
 
 ```statblock
 forceColumns: true

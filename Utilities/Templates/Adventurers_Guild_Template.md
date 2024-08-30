@@ -1,5 +1,5 @@
-The CityName]] location of the [[The Adventurers Guild]].
-	1. Run by a Kalashtar named [[Isaac Niao]] 
+The CityName]] location of the [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]].
+	1. Run by a Kalashtar named [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao]] 
 
 ---
 # City Bounties and Quests

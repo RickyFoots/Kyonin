@@ -1,5 +1,5 @@
 Assortment of prison guards/ town guards
-[[Kodor Central Prison]]
+[[Planet/Golarion/Cities/Kodor/Locations/Kodor Central Prison]]
 
 ## Stats
 ---

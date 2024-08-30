@@ -1,4 +1,4 @@
-Deep crimson dryad of [[The Thuringers]].
+Deep crimson dryad of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]].
 Eldest of the three dryad triplets hunting [[Ricochet Whitetail]]
 
 ## Stats

@@ -1,7 +1,7 @@
 
 > [!Example]- Wild Encounters
 > ![[-Wild Encounters-]]
-- [[The Thuringers]] ambush the party in an attempt to capture [[Ricochet Whitetail]] and [[Claire Clover]].
+- [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]] ambush the party in an attempt to capture [[Ricochet Whitetail]] and [[Claire Clover]].
 
 - On a failure to see the traps 4 members of the party are randomly caught in bear traps, taking *6(2d4) piercing damage*, and will have to use an action to make a **dexterity or strength check** of **DC 15**, to escape it.
 	- [[Player Randomizer]]

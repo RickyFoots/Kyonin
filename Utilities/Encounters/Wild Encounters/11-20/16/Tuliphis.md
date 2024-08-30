@@ -1,4 +1,4 @@
-Golden dryad of [[The Thuringers]].
+Golden dryad of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]].
 Youngest of the three dryad triplets hunting [[Ricochet Whitetail]].
 
 ## Stats

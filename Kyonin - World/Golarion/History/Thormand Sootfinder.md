@@ -1,1 +1,0 @@
-Second king of the dwarves. The king that created the [[Keepers of the Spark]] as away of bolstering the might of their empire. 

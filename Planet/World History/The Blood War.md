@@ -1,0 +1,1 @@
+The great war between The [[Nine Hells]] and The [[Abyss]], which began a few millennia after [[Kyonin/Planet/World History/The War of Creation]], and continues to rage in the current age.

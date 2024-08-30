@@ -43,5 +43,5 @@
 
 ## History
 ---
-1. [[The War of Creation]]
-2. [[Sealing of the Heavens]]
+1. [[Planet/World History/The War of Creation]]
+2. [[Planet/World History/Sealing of the Heavens]]

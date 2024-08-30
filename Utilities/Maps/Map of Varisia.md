@@ -1,2 +1,2 @@
 ![[Veresia Labeled.jpg]]
-[[Varisia|Varisia]]
+[[Planet/Golarion/Cities/Varisia/Varisia|Varisia]]

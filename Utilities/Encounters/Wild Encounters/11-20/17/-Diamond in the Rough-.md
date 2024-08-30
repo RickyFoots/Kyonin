@@ -5,7 +5,7 @@
 
 # History/Intelligence Adv for [[Elsbeth Vordr]] 
 ---
-- **DC 14** - On a success they'll discover that these robes are from a wizard attending [[Presvaris Spiritsong's College of the Magical Arts]], in [[The Republic of Solaris]]. 
+- **DC 14** - On a success they'll discover that these robes are from a wizard attending [[Planet/Golarion/Cities/The Republic of Solaris/Locations/Presvaris Spiritsong's College of the Magical Arts]], in [[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]]. 
 
 - **DC 18 and above** - The party will learn that the robes belong to a teacher there named [[Balsra Jhalane]]
 

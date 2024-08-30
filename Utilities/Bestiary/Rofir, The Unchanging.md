@@ -1,4 +1,4 @@
-- This is the *stat block* of [[Rofir]], after he has been transformed.
+- This is the *stat block* of [[Planet/Golarion/Cities/Varisia/People of Varisia/Rofir]], after he has been transformed.
 
 ## Stats
 ---

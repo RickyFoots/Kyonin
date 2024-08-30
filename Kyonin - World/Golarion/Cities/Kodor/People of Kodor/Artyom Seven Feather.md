@@ -1,5 +1,0 @@
-Leader of [[The Salamander's End]] and pilot of [[Tiamat's Demise]].
-	1. Massive 7"1' androgynous tabaxi with look of Tabby cat.
-	2. They wear compression wrappings around their chest with an old, massive, deep purple captains coat over it, as well tight fitted cotton pants. Both of their arms are completely tatted in sleeves, with every dragon kill they have ever been apart of. Their tail is nothing more tan a stump. Their one good eye is golden orange while their bad eye has been completely removed and has been replaced with a [[Warning Stone]] and covered by a crushed velvet eyepatch.
-	3. Strong and confident, they have captained the succesful hunt of atleast 43 different dragons, who's ages range from young to ancient.
-	4. They often weild a massive executioners axe and twin boarding axes.

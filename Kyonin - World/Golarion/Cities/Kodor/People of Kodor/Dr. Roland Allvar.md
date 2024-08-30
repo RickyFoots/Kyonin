@@ -1,3 +1,0 @@
-Pioneer, researcher, and discoverer of the energy/ location known as [[The Void]]. Head researcher and director for the [[The Void-Train workyard]] as well as the professor of [[Arcane Sigils]] and their application. 
-	1. Rotund Gnome man that is balding but trying to hold onto what hair he has left by growing out a ludicrous mustache. Icy white hair pours from is nose and ears, his glasses are composed of several ever changing lenses, his own design of course.
-	2. Works at both the [[The Void-Train workyard]] and [[Aran Rhikal's College of Artificing]].

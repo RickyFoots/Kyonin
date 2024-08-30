@@ -1,1 +1,0 @@
-Darker skinned matriarch of the [[Brawneyes Family]] as well as their face of [[The Brass Guinea Tavern]]. 

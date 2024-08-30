@@ -4,7 +4,7 @@
 #Gods #Races/Goblinoids
 ## Created
 ---
-- [[Goblins]] 
+- [[Planet/Golarion/Groups/Cults/Cult of Noso/Goblins]] 
 - Hobgoblins
 - Bugbears
 - The [[Abyss]]

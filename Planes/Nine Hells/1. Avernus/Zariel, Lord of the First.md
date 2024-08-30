@@ -1,6 +1,6 @@
 **The Archduchess of Avernus** and the **Lord of the First**
 
-- Was the [[Archdevil]] ruler of [[-Avernus]] who was dedicated to winning the unending [[The Blood War]] between devils and demons. 
+- Was the [[Archdevil]] ruler of [[-Avernus]] who was dedicated to winning the unending [[Planet/World History/The Blood War]] between devils and demons. 
 - She was originally an angel of the Heavens before transforming into an Archdevil and falling to the [[Nine Hells]].
 
 #### Description
@@ -12,7 +12,7 @@
 
 #### History
 ---
-1. Worked with [[Primus]] to create the "*Perfect Soldier*" in the early days of [[The Blood War]]. This lead to the creation of the **Modrons**, which *Zariel* saw as worthless, as well as <u>100</u> [[Cor Bellum]], which were made to be their final work. Unfortunately they were never completed. One of the [[Tanar'ri]] generals learned of their plans and lead an invasion into [[Mechanus]] to thwart them.
+1. Worked with [[Primus]] to create the "*Perfect Soldier*" in the early days of [[Planet/World History/The Blood War]]. This lead to the creation of the **Modrons**, which *Zariel* saw as worthless, as well as <u>100</u> [[Cor Bellum]], which were made to be their final work. Unfortunately they were never completed. One of the [[Tanar'ri]] generals learned of their plans and lead an invasion into [[Mechanus]] to thwart them.
 
 ## Stats
 ---

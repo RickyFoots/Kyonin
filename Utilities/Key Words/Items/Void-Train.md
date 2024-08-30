@@ -1,2 +1,2 @@
-A locomotive designed for traversing specialized tracks through the void. The only current Train is located in [[Kyonin - World/Golarion/Cities/Kodor/Kodor]] at [[The Void-Train workyard]]. 
+A locomotive designed for traversing specialized tracks through the void. The only current Train is located in [[Kyonin/Planet/Golarion/Cities/Kodor/Kodor]] at [[Planet/Golarion/Cities/Kodor/Locations/The Void-Train workyard]]. 
 	1. Travel via trains never caught on due to the prevalent use of [[Sky Ship]]s that could travel more freely and openly.

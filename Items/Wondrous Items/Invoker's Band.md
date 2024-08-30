@@ -1,7 +1,7 @@
 The detailing on this ring slowly rearranges itself into myriad patterns.
 
 ---
-- **Location**: [[The Fothganehr Mine]]
+- **Location**: [[Planet/Golarion/Cities/Branmor/Locations/The Fothganehr Mine]]
 - **Item Type**: Ring/ Wondrous Item
 - **Rarity**: Uncommon
 - **Requires Attunement**: Yes

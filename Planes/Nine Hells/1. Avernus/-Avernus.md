@@ -1,5 +1,5 @@
 - The first layer of the [[Nine Hells]] of Baator. 
-- The most likely beachhead for any attack by demon-kind, it was the primary battleground of the [[The Blood War]]: legions of devils marched across its plains in continual readiness to repel the hordes of demon invaders.
+- The most likely beachhead for any attack by demon-kind, it was the primary battleground of the [[Planet/World History/The Blood War]]: legions of devils marched across its plains in continual readiness to repel the hordes of demon invaders.
 - Ruled over by [[Zariel, Lord of the First]]
 
 ---

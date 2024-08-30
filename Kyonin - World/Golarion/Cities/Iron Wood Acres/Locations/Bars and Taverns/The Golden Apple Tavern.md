@@ -1,1 +1,0 @@
-A smaller tavern run by [[Wran Sandoral]].

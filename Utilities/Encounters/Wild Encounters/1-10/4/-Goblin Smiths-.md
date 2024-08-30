@@ -23,4 +23,4 @@
 ---
 - **1-5** = The Goblins/Guron laugh at the party and attack, but they will get advantage on their first attacks on the party.
 - **6-14** = The Goblins/Guron shiver and are unnerved by the party, and they will get disadvantage on their first attacks on the party.
-- **15-above** = The Goblins/Guron are terrified of the party and will retreat back to their tribe, [[Scrap Scrap Tribe]], never to hunt this path.
+- **15-above** = The Goblins/Guron are terrified of the party and will retreat back to their tribe, [[Planet/Golarion/Groups/Tribes/Scrap Scrap Tribe/Scrap Scrap Tribe]], never to hunt this path.

@@ -1,4 +1,4 @@
-- This is the *stat block* of [[Netch the Drowned]]
+- This is the *stat block* of [[Planet/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned]]
 
 ## Stats
 ---

@@ -1,0 +1,1 @@
+Energetic Gnome man that runs the [[Planet/Golarion/Cities/The Republic of Solaris/Locations/Shops/SolarQuill Magic Emporium]]

@@ -1,6 +1,6 @@
 - The rank of knight just below General.
 - Adorned in Regal gold and chrome armor full plate armor with the navy blue and gold tabard of *Solaris*, used to signify where the knight is from.
-[[The Republic of Solaris]]
+[[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]]
 
 ## Stats
 ---

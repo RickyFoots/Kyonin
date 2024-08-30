@@ -1,4 +1,4 @@
-Black Harengon and member of [[The Thuringers]].
+Black Harengon and member of [[Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]].
 One of twin trappers out hunting [[Ricochet Whitetail]] and [[Claire Clover]]
 
 ## Stats
