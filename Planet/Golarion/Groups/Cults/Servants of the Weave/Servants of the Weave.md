@@ -1,4 +1,4 @@
-- A cult claiming to worship [[Mystra - Magic]] that works within [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]] to "collect" and contain magic items from the members. 
+- A cult claiming to worship [[Mystra - Magic]] that works within [[The Adventurers Guild]] to "collect" and contain magic items from the members. 
 	- They break down the magic items they collect and absorb the remnants of magic into themselves in an effort to form a connection with *Mystra* and [[The Weave]].
 
 ### Goal
@@ -7,4 +7,4 @@
 
 # Notable Members
 ---
-1. [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao]]
+1. [[Isaac Niao]]

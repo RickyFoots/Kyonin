@@ -1,6 +1,6 @@
-- The first Casino to be created in [[Map of Golarian]], owned by [[Planet/Golarion/Cities/Varisia/People of Varisia/The Sultan]] and his family, but is operated by [[Planet/Golarion/Cities/Varisia/People of Varisia/Geo Brancash]].
-- Was brought over to [[Planet/Golarion/Cities/Varisia/Varisia]] after one of *The Sultan*s many voyages outside of *Golarion*.
-	- *The Sultan* loved the building so much he enlisted the help of [[Planet/Golarion/Groups/Hunters and Adventurers/The Salamander's End]] to transport the entire building to *Varisia* in a single go.
+- The first Casino to be created in [[Map of Golarian]], owned by [[The Sultan]] and his family, but is operated by [[Geo Brancash]].
+- Was brought over to [[Varisia]] after one of *The Sultan*s many voyages outside of *Golarion*.
+	- *The Sultan* loved the building so much he enlisted the help of [[The Salamander's End]] to transport the entire building to *Varisia* in a single go.
 
 # Games
 ---

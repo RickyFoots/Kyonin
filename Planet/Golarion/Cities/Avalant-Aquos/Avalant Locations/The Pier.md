@@ -1,4 +1,4 @@
-- The Pier is just the end of the dock that most folks in [[Planet/Golarion/Cities/Avalant-Aquos/Avalant]] will fish off of, which coincidentally, is the only thing most people who live in Avalant do.
+- The Pier is just the end of the dock that most folks in [[Avalant]] will fish off of, which coincidentally, is the only thing most people who live in Avalant do.
 - *"Y'all wanna go to the pier, for a bit??"
 
 ---

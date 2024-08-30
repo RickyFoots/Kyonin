@@ -1,20 +1,20 @@
-# [[Kyonin/Planet/Golarion/Groups/Organizations/The Turrim Infnitum/The Librarian]] 
+# [[The Librarian]] 
 ---
 ## Description - Facts
 ---
-- The Githyanki man that is in a vegetated state suspended in a reinforced glass tube somewhere in [[Kyonin/Planet/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum]]. 
+- The Githyanki man that is in a vegetated state suspended in a reinforced glass tube somewhere in [[Turrim Infnitum]]. 
 
 ### Enemies and Allies
 ---
 #### Allies
-- [[Planet/Golarion/Groups/Cults/Pillars of Peace/Ezranum]]
+- [[Ezranum]]
 #### Enemies
-- [[Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand]]
+- [[The Shattered Hand]]
 
 ### Motivations - Secrets
 ---
 1. Unbeknownst to everyone, except those of the highest level of The *Turrim Infnitum*, is actually infected by an Illithid tadpole - adolescent Illithid/[[Elder Brain]].
-	- This is what boosts their psychic abilities to connect to all of the *Letters*. 
+	- This is what boosts their psychic abilities to connect to all the *Letters*. 
 
 ## History
 ---

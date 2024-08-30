@@ -2,4 +2,4 @@ A group of nomadic goblins that are obsessed with making weapons and armor out o
 
 ---
 1. The scouting and raiding parties head is [[Guron Green Tooth]].
-2. The Matriarch of the tribe is [[Kyonin/Planet/Golarion/Groups/Tribes/Scrap Scrap Tribe/Thetak Male Breaker]].
+2. The Matriarch of the tribe is [[Thetak Mail Breaker]].

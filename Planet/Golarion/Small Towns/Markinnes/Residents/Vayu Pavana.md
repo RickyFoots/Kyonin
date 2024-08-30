@@ -5,7 +5,7 @@
 - A thin Elven man with extra long ears and long, wild, unkempt hair that reaches down to his lower back. 
 	- The Sclera of his eyes are a deep black but both his pupils and hair change and move with whatever mood he is in.
 	- His skin is an opalescent white with the "colors of the leaves" highlighting the light and dark parts of his skin. 
-- Currently hunting [[Ricochet Whitetail]] in the small town of [[Planet/Golarion/Small Towns/Markinnes/Markinnes]].
+- Currently hunting [[Ricochet Whitetail]] in the small town of [[Markinnes]].
 
 ## Stats
 ---

@@ -22,4 +22,4 @@
 ---
 - 3200 Gold 
 - A home in [[Port-side]]
-- A handcrafted ship made by [[Planet/Golarion/Cities/Varisia/People of Varisia/The Sultan]]'s best craters.
+- A handcrafted ship made by [[The Sultan]]'s best craters.

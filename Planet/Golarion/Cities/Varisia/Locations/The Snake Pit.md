@@ -1,9 +1,9 @@
 ---
 
 ---
-# Owner/Operator: [[Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku]]
+# Owner/Operator: [[Jeremiah Esku]]
 ---
-- Directly below [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst]] as a way for *Jeremiah* to earn a few extra coins and to get rid of troublesome patrons and anyone poking there nose too deep into their business.
+- Directly below [[A Gorgon's Thirst]] as a way for *Jeremiah* to earn a few extra coins and to get rid of troublesome patrons and anyone poking there nose too deep into their business.
 
 ## Facts
 ---
@@ -17,8 +17,8 @@
 
 # Story Beats 
 ---
-- [[Claire Clover]] is going to be fighting **Theoan Ironpelt** to pay back [[Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku]]. #Pinkertons/Claire 
-- Have [[Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan]] sit behind [[Jolene-Pix]] and [[Rylanor]] up in the "*VIP Section*" and depending on some <u>rolls/realizations</u> may interact with them. #Pinkertons/Jolene #Pinkertons/Rylanor 
+- [[Claire Clover]] is going to be fighting **Theoan Ironpelt** to pay back [[Jeremiah Esku]]. #Pinkertons/Claire 
+- Have [[Travis Buchannan]] sit behind [[Jolene-Pix]] and [[Rylanor]] up in the "*VIP Section*" and depending on some <u>rolls/realizations</u> may interact with them. #Pinkertons/Jolene #Pinkertons/Rylanor 
 - Create a meeting between [[Dorzu Bafflebell]] and [[Ricochet Whitetail]] where **Dorzu** <u>hints/explains</u> that they're after **Ricochet**. 
 	- Start by giving him a folded up copy of his and **Claire's** *wanted posters* #Pinkertons/Ricochet 
 - **Jeremiah Esku** is going to hand [[Elsbeth Vordr]] a note which reads: 

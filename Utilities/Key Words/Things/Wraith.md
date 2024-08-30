@@ -1,5 +1,5 @@
-- Term used to describe spies in [[Planet/Golarion/Cities/Varisia/Varisia]]
+- Term used to describe spies in [[Varisia]]
 
 ## Examples
 ---
-1. [[Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher]] - Spies for: [[Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku]] 
+1. [[Clay Fisher]] - Spies for: [[Jeremiah Esku]] 

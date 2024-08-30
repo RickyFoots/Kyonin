@@ -1,6 +1,6 @@
 ## References
 ---
-[[Kyonin/Planet/World History/The War of Creation]]
+[[The War of Creation]]
 
 # Reparations
 ---

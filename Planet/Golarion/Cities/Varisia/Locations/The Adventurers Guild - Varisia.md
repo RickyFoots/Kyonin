@@ -1,5 +1,5 @@
-- The [[Planet/Golarion/Cities/Varisia/Varisia]] locations of the [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]].
-	1. All run by a Kalashtar named [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao]] 
+- The [[Varisia]] locations of the [[The Adventurers Guild]].
+	1. All run by a Kalashtar named [[Isaac Niao]] 
 
 - Due to the cities size there are guilds next to each of the entrances into *Varisia*, including:
 	1. The Adventurers Guild - North
@@ -11,4 +11,4 @@
 
 ---
 # City Bounties and Quests
-1. Find and catch the [[Bone Thief]], a serial killer who has been wreaking havoc in [[Port-side]] - [[Planet/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties/Varisia/To Catch a Predator]] - 2,000G
+1. Find and catch the [[Bone Thief]], a serial killer who has been wreaking havoc in [[Port-side]] - [[To Catch a Predator]] - 2,000G

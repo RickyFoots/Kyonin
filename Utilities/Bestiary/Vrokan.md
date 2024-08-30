@@ -1,4 +1,4 @@
-More commonly, **Bhaal's right hand**. Slender and pale Githyanki man with a heavily scarred features from years of doing the dark work of [[Bhaal - Murder]]. Found in the city of [[Planet/Golarion/Cities/Varisia/Varisia]] where he leads [[Planet/Golarion/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal]].
+More commonly, **Bhaal's right hand**. Slender and pale Githyanki man with a heavily scarred features from years of doing the dark work of [[Bhaal - Murder]]. Found in the city of [[Varisia]] where he leads [[The Hands of Bhaal]].
 
 ## Stats
 ---

@@ -1,4 +1,4 @@
-Among the best put together buildings in all of [[Planet/Golarion/Cities/Avalant-Aquos/Avalant]], being that it's one of the few buildings that sits upright and has a working door, not to mention its baby blue paint job. 
+Among the best put together buildings in all of [[Avalant]], being that it's one of the few buildings that sits upright and has a working door, not to mention its baby blue paint job. 
 Run by [[Tim Openfauna]] and his son [[Flint Openfauna]]
 
 ---

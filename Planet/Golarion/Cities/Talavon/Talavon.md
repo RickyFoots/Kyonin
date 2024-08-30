@@ -1,9 +1,9 @@
-# [[Kyonin/Planet/Golarion/Cities/Talavon/Talavon]] - "*The city of Flowers*"
+# [[Talavon]] - "*The city of Flowers*"
 ---
 - Smaller, plantation town/ farmer town. 
 - Cobbled main road with run down buildings and shops. 
-- Outside the main town are several plantations owned by [[Kyonin/Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan]] and his wife [[Kyonin/Planet/Golarion/Cities/Talavon/People of Talavon/Dolly Buchannan]]. 
-- The main import and export of [[Kyonin/Planet/Golarion/Cities/Talavon/Talavon]] is flowers, hemlock, lily of the valley, and other beautiful poisonous flowers are grown here, mainly going to flower stores across [[Golarion]] but they're biggest buyer is [[Planet/Golarion/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal]]. 
+- Outside the main town are several plantations owned by [[Travis Buchannan]] and his wife [[Dolly Buchannan]]. 
+- The main import and export of [[Talavon]] is flowers, hemlock, lily of the valley, and other beautiful poisonous flowers are grown here, mainly going to flower stores across [[Golarion]] but they're biggest buyer is [[The Hands of Bhaal]]. 
 - Also the town [[Jolene-Pix]] was run out of.
 
 ## Map 

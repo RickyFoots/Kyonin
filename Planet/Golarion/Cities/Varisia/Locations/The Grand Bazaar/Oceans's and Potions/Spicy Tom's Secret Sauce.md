@@ -1,7 +1,7 @@
-- A bottle with a "gobofied" devil on the front.
+- A bottle with a goblin devil on the front.
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -]]
+- **Location**: [[- Ocean's and Potions -]]
 - **Item Type**: Wondrous Item 
 	- **Weapon Type**: 
 	- **Armor Type**: 

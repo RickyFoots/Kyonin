@@ -1,7 +1,7 @@
 ![[Pasted image 20231015164758.png]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -]]
+- **Location**: [[- Forge Ahead -]]
 - **Item Type**: Weapon 
 	- **Weapon Type**: Battleaxe (*1d8* **slashing damage**)
 	- **Armor Type**: 
@@ -14,7 +14,7 @@
 	- It has *3 charges*. 
 	- While holding the battleaxe, you can use *an action* and expend 1 charge to cast *gust of wind* (*save DC 13*) from it. 
 	- The Squall Caller regains all expended charges after a long rest.  
-1.  **Hearts Call**: If the [[Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/Squall Collar]] is within *60 feet* of this battleaxe, it gains the following properties:  
+1.  **Hearts Call**: If the [[Squall Collar]] is within *60 feet* of this battleaxe, it gains the following properties:  
 	- You gain a *+1 bonus to attack and damage* rolls made with this magic weapon.  
 	- *Immediately* after being *thrown*, the battleaxe flies back to your hand.  
 	- The saving throw *DC for spells cast from the battleaxe increases to 15*.  

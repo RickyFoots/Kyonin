@@ -1,11 +1,11 @@
-# [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver]] 
+# [[Ulasatra Greenriver]] 
 ---
 ## Description - Facts
 ---
 - Very thin *Firbolg* woman 
 - Famously for being the <u>best</u> *silver smith* in all of [[Golarion]]. 
-- Found in the city of [[Planet/Golarion/Cities/Varisia/Varisia]]
-- Runs [[Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -]]
+- Found in the city of [[Varisia]]
+- Runs [[- Greenriver's Sheen -]]
 
 ### Enemies and Allies
 ---
@@ -18,7 +18,7 @@ Alignment: Center
 ```
 
 #### Allies
-- [[Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned]] - Boss
+- [[Netch the Drowned]] - Boss
 
 --- column-break ---
 #### Enemies

@@ -1,4 +1,4 @@
-# [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]] - "*The cobbled city of the Sun*"
+# [[The Republic of Solaris]] - "*The cobbled city of the Sun*"
 ---
 - Solaris originally started as religious settlement, that quickly grew into the magic capital of [[Golarion]]. 
 - The Kingdom sits atop a large hill overlooking gorgeous sandy beach and navy blue ocean.
@@ -22,7 +22,7 @@
 		4. *Public relations* and *Diplomacy*
 		5. *Food* and *Agriculture*
 		6. *Health* and *Religion*
-3. The [[Counsel Members]] are made up of nobles that went through and passed both their respective "Sector School" and [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Presvaris Spiritsong's College of the Magical Arts]].
+3. The [[Counsel Members]] are made up of nobles that went through and passed both their respective "Sector School" and [[Presvaris Spiritsong's College of the Magical Arts]].
 4. *Counsel Members* are the top of the *Noble Class* which is made up what is essentially the "chosen" of the royal family.
 
 ## Map 
@@ -40,25 +40,25 @@ Alignment: Center
 ```
 
 # Notable Locations
-1. [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Church Of Pelor]]
-2. [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Grand Mine Exit - Solaris]]
-3. [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Presvaris Spiritsong's College of the Magical Arts]]
-4. [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/The Adventurers Guild - Solaris]] 
+1. [[Church Of Pelor]]
+2. [[Grand Mine Exit - Solaris]]
+3. [[Presvaris Spiritsong's College of the Magical Arts]]
+4. [[The Adventurers Guild - Solaris]] 
 
 --- column-break ---
 # Bars and Taverns
 
 | Name                              | Bar | Tavern |
 | --------------------------------- | :-: | :----: |
-| [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Fields of Gold Inn and Tavern]] |  O  |   O    |
-| [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Golden Slumber Inn]]            |  X  |   O    |
+| [[Fields of Gold Inn and Tavern]] |  O  |   O    |
+| [[Golden Slumber Inn]]            |  X  |   O    |
 
 --- column-break ---
 # Stores
 
-|  Store Type   |             Store             |
-| :-----------: | :---------------------------: |
-|  Magic Shop   | [[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Shops/SolarQuill Magic Emporium]] |
+| Store Type |             Store             |
+| :--------: | :---------------------------: |
+| Magic Shop | [[SolarQuill Magic Emporium]] |
 
 
 --- end-multi-column
@@ -66,7 +66,7 @@ Alignment: Center
 ---
 >[!abstract]- Magic Shop 
 >## SolarQuill Magic Emporium
->![[Kyonin/Planet/Golarion/Cities/The Republic of Solaris/Locations/Shops/SolarQuill Magic Emporium]]
+>![[Shops/SolarQuill Magic Emporium]]
 
 ##### Tags 
 - #City/TheRepublicofSolaris

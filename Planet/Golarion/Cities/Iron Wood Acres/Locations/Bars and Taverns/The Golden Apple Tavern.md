@@ -1,1 +1,1 @@
-A smaller tavern run by [[Planet/Golarion/Cities/Iron Wood Acres/People of Acres/Wran Sandoral]].
+A smaller tavern run by [[Wran Sandoral]].

@@ -9,7 +9,7 @@
 - Responsible for giving <u>spellcasters</u> information when they cast the spell **Identify**.
 
 > [!attention]+ List of Members
-> 1. ![[Planet/Golarion/Groups/Cults/Pillars of Peace/Ezranum]] 
+> 1. [[Ezranum]] 
 > ---
->2. ![[Kyonin/Planet/Golarion/Groups/Organizations/The Turrim Infnitum/The Librarian]]
+>2. [[The Librarian]]
 

@@ -1,7 +1,7 @@
 ![[dungeon-strugglers-tsuba-of-the-lotus-plug.jpg]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -]]
+- **Location**: [[- Greenriver's Sheen -]]
 - **Item Type**: Wondrous Item
 - **Rarity**: Legendary
 - **Requires Attunement**: Yes

@@ -1,4 +1,4 @@
-# [[Kyonin/Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers]] 
+# [[The Thuringers]] 
 ---
 ## Description - Facts
 ---
@@ -16,8 +16,8 @@
 
 ### Motivations - Secrets
 ---
-1. Hired by the [[Planet/Golarion/Cities/Iron Wood Acres/People of Acres/Clover Family]] to hunt down [[Ricochet Whitetail]] and bring him back, by force if necessary. 
-2. Catch and use [[Claire Clover]] to lure **Ricochet** back to [[Planet/Golarion/Cities/Iron Wood Acres/Locations/Iron Wood Acres - Nursery|Iron Wood Acres - Nursery]].
+1. Hired by the [[Clover Family]] to hunt down [[Ricochet Whitetail]] and bring him back, by force if necessary. 
+2. Catch and use [[Claire Clover]] to lure **Ricochet** back to [[Iron Wood Acres - Nursery]].
 
 ## History
 ---

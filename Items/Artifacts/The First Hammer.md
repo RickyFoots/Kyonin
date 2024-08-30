@@ -1,11 +1,11 @@
 - Also known as [[Luovasara]]
-- The hammer made by the god [[Moradin - Crafting]] for his first creation [[Planet/Golarion/History/Branmor - Wielder of the first Hammer]]. 
+- The hammer made by the god [[Moradin - Crafting]] for his first creation [[Branmor - Wielder of the first Hammer]]. 
 - Unfortunately, the hammer has been lost to time, only shards have been found so far...  
 
 ---
 # <u>Sleeping Form</u>
 
-In it's sleeping form, the hammer looks much different than what it was depicted as in old murals and paintings, which may be the reason it took so long for the hammer to be found. Currently, in the hands of the Orc chief [[Planet/Golarion/Groups/Tribes/False Serpent Tribe/Rhedgo The Crag Killer]] who wields it without remorse. 
+In it's sleeping form, the hammer looks much different than what it was depicted as in old murals and paintings, which may be the reason it took so long for the hammer to be found. Currently, in the hands of the Orc chief [[Rhedgo The Crag Killer]] who wields it without remorse. 
 
 ## Basic Info
 ---

@@ -1,4 +1,4 @@
-Constructed of a large upturned ship bow, the church sits on the edge of the [[Arcane Elevator]]s "walking platform" facing [[Kyonin/Planet/Golarion/Cities/Avalant-Aquos/Avalant Locations/The Pier]], often times it's the first thing people see of the city. Coincidentally, it's also the first place new members are allowed to go, so that they can meet [[Planet/Golarion/Cities/Avalant-Aquos/People of Avalant/Deacon Trissatra Elmmight]] and get assigned a duty or area of the city to take care of.
+Constructed of a large upturned ship bow, the church sits on the edge of the [[Arcane Elevator]]s "*walking platform*" facing [[The Pier]], often times it's the first thing people see of the city. Coincidentally, it's also the first place new members are allowed to go, so that they can meet [[Deacon Trissatra Elmmight]] and get assigned a duty or area of the city to take care of.
 
 ---
 1. One of the few churches to [[Shar - Loss]] to exist across [[Kyonin]], since her domain isn't necessarily an actionable one, but most people will pray to Shar at least once in their lifetime.

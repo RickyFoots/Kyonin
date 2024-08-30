@@ -1,6 +1,6 @@
 - The rank of knight just below *Commander*.
 - Adorned in Regal gold and chrome armor full plate armor with the navy blue and gold ta-bard of *Solaris*, used to signify where the knight is from.
-[[Planet/Golarion/Cities/The Republic of Solaris/The Republic of Solaris]]
+[[The Republic of Solaris]]
 
 ## Stats
 ---
@@ -14,7 +14,7 @@
 	**WIS** = 11 (+0)
 	**CHA** = 15 (+2)
 -   **Armor Class**: 20 (Plate + Shield)
--   **Hit Points**: 52 (8d8 + 16)
+-   **Hit Points**: 52 8d8+16
 -   **Speed**: 30 ft.
 -   **Saving Throws**: *Con* +4, *Wis* +2
 -   **Skills**:

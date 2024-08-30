@@ -1,7 +1,7 @@
 Gray and brown poncho decorated with arcane symbols and words in an unknown language that appears to be smudged or 'unclear'.
  
 ---
-- **Location**: [[Planet/Golarion/Cities/Branmor/Locations/The Fothganehr Mine]]
+- **Location**: [[The Fothganehr Mine]]
 - **Item Type**: Wondrous item
 - **Rarity**: Uncommon
 - **Requires Attunement**: Yes by a monk

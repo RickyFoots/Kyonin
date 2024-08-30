@@ -1,7 +1,7 @@
 ![[Pasted image 20231015174308.png]]
  
 ---
-- **Location**: [[Kyonin/Planet/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -]]
+- **Location**: [[- Ocean's and Potions -]]
 - **Item Type**: Wondrous Item
 	- **Weapon Type**: 
 	- **Armor Type**: 

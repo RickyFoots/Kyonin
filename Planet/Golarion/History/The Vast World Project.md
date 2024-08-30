@@ -1,4 +1,4 @@
-A project proposed by the Elven nation of #TBD, after the first of the [[The Elemental Anchors]], [[Zaplavit - Water and Ice]], was discovered off its coast. The idea behind the project was fairly simple, to shift the DNA of prisoners and undesirables that were "Just taking up space and wasting the resources of the elven people." After several years of fruitless testing, and the accidental creation of the [[Planet/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn]], the kingdom disavowed the project. 
+A project proposed by the Elven nation of #TBD, after the first of the [[The Elemental Anchors]], [[Zaplavit - Water and Ice]], was discovered off its coast. The idea behind the project was fairly simple, to shift the DNA of prisoners and undesirables that were "Just taking up space and wasting the resources of the elven people." After several years of fruitless testing, and the accidental creation of the [[Failed Spawn]], the kingdom disavowed the project. 
 
 - The project was originally headed up by #TBD who later quit after: "The stress of playing at god" became too much for him to handle. 
 
@@ -6,6 +6,6 @@ A project proposed by the Elven nation of #TBD, after the first of the [[The Ele
 
 - Fearing no stop to this plague, a gathering of world leaders came together to form a plan to combat this extinction event. Unfortunately, the best plan they could come up with was to gather the Simic Hybrids up and burn them alive. Trying to kill the virus and the host in one fell swoop. Using both magic and iron, the infected were gathered up and immolated, 1,000's were killed and what few remained retreated to the sea. 
 
-- Even in the modern day, most Simic Hybrids are feared and shunned by society, but [[Planet/Golarion/Cities/Avalant-Aquos/People of Aquos/Priest Olovandrin]], of [[Planet/Golarion/Cities/Avalant-Aquos/Aquos]] is doing his best to gather what remains of the Simic people to start their life a new alongside the Triton people from the [[Elemental plane of Water]].
+- Even in the modern day, most Simic Hybrids are feared and shunned by society, but [[Priest Olovandrin]], of [[Aquos]] is doing his best to gather what remains of the Simic people to start their life a new alongside the Triton people from the [[Elemental plane of Water]].
 
 ---

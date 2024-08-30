@@ -1,4 +1,4 @@
-- This is the *stat block* of [[Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand]]
+- This is the *stat block* of [[The Shattered Hand]]
 
 ## Stats
 ---

@@ -5,7 +5,7 @@
 >![[Gods of Kyonin]] 
 ---
 >[!summary]- Related Stories 
->1. [[Kyonin/Planet/World History/Sealing of the Heavens]]
+>1. [[Sealing of the Heavens]]
 # The Story of Creation
 ---
 >[!warning]- Before Continuing
