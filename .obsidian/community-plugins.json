@@ -6,7 +6,6 @@
   "various-complements",
   "progress-clocks",
   "obsidian-meta-bind-plugin",
-  "multi-column-markdown",
   "obsidian-dice-roller",
   "harper",
   "editing-toolbar",
@@ -15,5 +14,6 @@
   "calendarium",
   "obsidian-5e-statblocks",
   "file-share",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-columns"
 ]

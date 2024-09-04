@@ -33,18 +33,6 @@
             }
           },
           {
-            "id": "156f4a0a158ba5d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Utilities/Campaign One Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c2a5a219ffb8e040",
             "type": "leaf",
             "state": {
@@ -80,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Utilities/Campaign One Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Utilities/Campaign One Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Utilities/Campaign One Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -264,13 +247,17 @@
       "command-palette:Open command palette": true,
       "graph:Open graph view": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "calendarium:Open Calendarium": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "file-share:Toggle connection": false
+      "file-share:Toggle connection": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "c83b9058312bcfae",
+  "active": "660a6bd5a5cc6772",
   "lastOpenFiles": [
+    "Utilities/Bestiary/Theoan Ironpelt.md",
+    "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Planet/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Utilities/Campaign One Home.md",
     "Kyonin/Parties and Players/Players/Austin",
     "Kyonin/Parties and Players/Players/Patty",
     "Kyonin/Parties and Players/Players/Kels",
@@ -301,12 +288,8 @@
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Dorzu Bafflebell.md",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Adina.md",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/-Hunting for Dinner-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/15/Vampire Spawn.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/15/-Are you Afraid of the Dark-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/14/Wounded Bronze Dragon, The Admired.md",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/19",
     "Kyonin/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
