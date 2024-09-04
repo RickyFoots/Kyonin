@@ -51,7 +51,7 @@
 
 ### Store Lists 
 ---
->[!multi-column]
+>[!multi-column]+ Specialty Wares
 >>[!abstract]- Jewelers/Silversmith 
 >>## [[Greenriver's Sheen/- Greenriver's Sheen -]]
 >>![[Greenriver's Sheen/- Greenriver's Sheen -]]
@@ -63,8 +63,12 @@
 >>[!abstract]- Magic Shop 
 >>## [[Oceans's and Potions/- Ocean's and Potions -]]
 >>![[Oceans's and Potions/- Ocean's and Potions -]]
+>
+>>[!abstract]- Holy Items 
+>>## [[Gifts from Gods/- Gifts from Gods -]]
+>>![[Gifts from Gods/- Gifts from Gods -]]
 
->[!multi-column]
+>[!multi-column]+ Standard Wares
 >>[!abstract]- Armor 
 >>## [[Black and Tanned/- Black and Tanned -]]
 >>![[Black and Tanned/- Black and Tanned -]]
@@ -73,18 +77,15 @@
 >>## [[Forge Ahead/- Forge Ahead -]]
 >>![[Forge Ahead/- Forge Ahead -]]
 >
->>[!abstract]- Holy Items 
->>## [[Gifts from Gods/- Gifts from Gods -]]
->>![[Gifts from Gods/- Gifts from Gods -]]
-
->[!multi-column]
->>[!abstract]- Tailor
->>## [[Once Upon a Seam/- Once Upon a Seam -]]
->>![[Once Upon a Seam/- Once Upon a Seam -]]
 >
 >>[!abstract]- Herbalist 
 >>## [[The Rabbit Hole/- The Rabbit Hole -]]
 >>![[The Rabbit Hole/- The Rabbit Hole -]]
+>
+>>[!abstract]- Tailor
+>>## [[Once Upon a Seam/- Once Upon a Seam -]]
+>>![[Once Upon a Seam/- Once Upon a Seam -]]
+
 
 ##### Tags 
 - #City/Varisia

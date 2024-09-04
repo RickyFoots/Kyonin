@@ -34,7 +34,7 @@
 
 ### Store Lists 
 ---
->[!multi-column]
+>[!multi-column]+ Specialty Wares 
 >>[!abstract]- Jewelers/Silversmith 
 >>## {Location Name}
 >>!{Location Name}
@@ -46,8 +46,12 @@
 >>[!abstract]- Magic Shop 
 >>## {Location Name}
 >>!{Location Name}
+>
+>>[!abstract]- Holy Items 
+>>## {Location Name}
+>>!{Location Name}
 
->[!multi-column]
+>[!multi-column]+ Standard Wares
 >>[!abstract]- Armor 
 >>## {Location Name}
 >>!{Location Name}
@@ -56,11 +60,6 @@
 >>## {Location Name}
 >>!{Location Name}
 >
->>[!abstract]- Holy Items 
->>## {Location Name}
->>!{Location Name}
-
->[!multi-column]
 >>[!abstract]- Tailor
 >>## {Location Name}
 >>!{Location Name}
