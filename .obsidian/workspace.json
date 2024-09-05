@@ -68,7 +68,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -133,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md"
+              }
             }
           },
           {
@@ -161,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,6 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,7 +257,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "660a6bd5a5cc6772",
+  "active": "a4c28f93f4e7c23b",
   "lastOpenFiles": [
     "Utilities/Bestiary/Theoan Ironpelt.md",
     "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
