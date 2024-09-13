@@ -3,6 +3,26 @@
 	- Has an extreme fear of Necrosis and Disease.
 		- Is terrified of [[Talona - Disease]] and the rumors of her "*Freedom*".
 
+### Enemies and Allies
+---
+````col
+```col-md
+#### Allies
+- [[Goblins of Noso]]
+
+```
+
+```col-md
+
+#### Enemies
+- [[Rofir]] - Taker of Machines
+- [[Jeremiah Esku]] - Ally to *Rofir*
+
+```
+````
+>[!Example]- Size Chart
+> ![[Size Chart]]
+
 
 ```statblock
 forceColumns: true
@@ -14,7 +34,7 @@ type: Goblin
 subtype: Cyborg
 alignment: Lawful Evil
 ac: 19
-hp: 9d12 + 60
+hit_dice: 9d12 + 60
 speed: 40
 stats: [23, 8, 22, 14, 12, 1]
 damage_vulnerabilities: Necrotic
@@ -40,4 +60,13 @@ actions:
 
 # More Combatants
 ---
-- 1 [[Goblins]] and 3 [[Cultist]]
+- 1 [[Goblins of Noso]] and 3 [[Cultist]]
+
+# History
+---
+- A curse was put on him and his family that made them exceptionally susceptible to disease by a *Hag* that followed [[Talona - Disease]].
+	- Their solution? Remove the infected body parts... and <u>replace them with machines</u>.
+
+##### Tags
+- #FightableNPC/Kodor 
+- #Races/Goblinoids 

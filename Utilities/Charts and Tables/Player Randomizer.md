@@ -1,3 +1,6 @@
+# [[Player Randomizer]]
+---
+`dice:d8`
 
  **Number on a D8** | **Player** 
 :--: | :--: 

@@ -19,6 +19,8 @@
 
 ```
 ````
+>[!Example]- Size Chart
+> ![[Size Chart]]
 
 # Stat Block
 ---
@@ -26,7 +28,7 @@
 forceColumns: true
 image: [[Wikilink To Image]]
 name: Theoan Ironpelt
-size: Large, [[Size Chart]]
+size: Large
 type: Mortal
 subtype: Leonin
 alignment: Lawful Good

@@ -1,4 +1,4 @@
-Appears to be an symmetrical amalgam of engine parts and pistons that expand and contract slowly when held by a mortal.
+Appears to be a symmetrical amalgam of engine parts and pistons that expand and contract slowly when held by a mortal.
 
 - Hoarded by the leader of the [[Cult of Noso]], [[Rugu, Ascended From Flesh]], in a forgotten ruin outside of [[Varisia]].
 - Created by [[Zariel, Lord of the First]] and [[Primus]], in an attempt to create the "*Perfect soldier*".

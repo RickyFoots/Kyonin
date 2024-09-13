@@ -9,7 +9,7 @@
 
 - **DC 18 and above** - The party will learn that the robes belong to a teacher there named [[Balsra Jhalane]]
 
-# History - 2 Adv for [[Rylanor]]
+# History - 2 Adv for [[Rylanor Torlek]]
 ---
 - **DC 12** - *Balsra Jhalane* is one of the few mages/scholars in [[Map of Golarian]] researching travel into [[The Void]]
 

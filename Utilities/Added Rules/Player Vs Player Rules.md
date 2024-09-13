@@ -14,4 +14,3 @@
 ---
 1.  All equipment will be used in "*wild PVP*" (*PVP that happens naturally in the world*), **except for potions**.
 	- However in any kind of **Tournament or Underground fights** any <u>wish granting</u> or "<u>instant killing</u>" abilities or spells will be considered "**Illegal**" and could result in *a fine, imprisonment, banishment, or even __death__*.
-2. 

@@ -1,7 +1,7 @@
-- Left or Right gauntlet on [[Rylanor]]'s [[R.I.G.]] 
+- Left or Right gauntlet on [[Rylanor Torlek]]'s [[R.I.G.]] 
  
 ---
-- **Location**: Built into [[Rylanor]]'s [[R.I.G.]] 
+- **Location**: Built into [[Rylanor Torlek]]'s [[R.I.G.]] 
 - **Item Type**: Weapon
 	- **Weapon Type**: Gauntlet 
 	- **Armor Type**: 

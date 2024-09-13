@@ -1,1 +1,1 @@
-Mother of [[Rylanor]]
+Mother of [[Rylanor Torlek]]

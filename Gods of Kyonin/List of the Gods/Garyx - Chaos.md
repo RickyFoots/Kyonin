@@ -4,7 +4,7 @@
 #Gods #Races/Goblinoids
 ## Created
 ---
-- [[Goblins]] 
+- [[Goblins of Noso]] 
 - Hobgoblins
 - Bugbears
 - The [[Abyss]]

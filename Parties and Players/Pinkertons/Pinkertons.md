@@ -7,7 +7,7 @@
 - [[Jolene-Pix]]
 - [[Monk Kee]]
 - [[Ricochet Whitetail]]
-- [[Rylanor]]
+- [[Rylanor Torlek]]
 
 # Finances
 ---

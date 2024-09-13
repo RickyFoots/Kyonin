@@ -1,4 +1,4 @@
-The first of its kind. A combination train yard and research facility created by the head of void research [[Dr. Roland Allvar]] at [[Aran Rhikal's College of Artificing]], who is the boss of [[Professor Laurel Kone]], director of R.I.G. maintenance and construction, [[Rylanor]]'s boss.
+The first of its kind. A combination train yard and research facility created by the head of void research [[Dr. Roland Allvar]] at [[Aran Rhikal's College of Artificing]], who is the boss of [[Professor Laurel Kone]], director of R.I.G. maintenance and construction, [[Rylanor Torlek]]'s boss.
 
 ---
 1. The work yard consists of two connected parts, an indoor section where the rip in [[The Void]] is housed and contained, and an outdoor workshop for everyone working on anything [[Void-Train]] related.

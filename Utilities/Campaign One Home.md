@@ -156,7 +156,7 @@
 >![[Monk Kee]]
 1. Former general in the army. #Pinkertons/Ki
 2. Favorite color is yellow. 
-3. Was in space for 2 years before meeting [[Rylanor]].
+3. Was in space for 2 years before meeting [[Rylanor Torlek]].
 4. Doesn't get the hype around Choast
 5. Has anger issues
 6. Suffers from tremendous guilt, see [[-High on Life-]]
@@ -181,7 +181,7 @@
 ### Rylanor
 ---
 >[!important]- Character Notes
->![[Rylanor]]
+>![[Rylanor Torlek]]
 1. Smokes "Fantasy Weed" #Pinkertons/Rylanor
 2. Blew up his dads lab trying to make gunpowder.
 3. Learned how to distill petroleum. He figured this out "accidentally"
