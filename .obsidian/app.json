@@ -3,5 +3,16 @@
   "propertiesInDocument": "hidden",
   "showLineNumber": false,
   "showIndentGuide": false,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "smartIndentList": true,
+  "autoPairMarkdown": true,
+  "autoPairBrackets": true,
+  "useTab": true,
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false
 }

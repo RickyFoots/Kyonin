@@ -1,10 +1,8 @@
 [
-  "obsidian-hover-editor",
   "obsidian-icon-folder",
   "initiative-tracker",
   "obsidian-style-settings",
   "various-complements",
-  "progress-clocks",
   "obsidian-meta-bind-plugin",
   "obsidian-dice-roller",
   "harper",
@@ -13,7 +11,8 @@
   "beautitab",
   "calendarium",
   "obsidian-5e-statblocks",
-  "file-share",
-  "obsidian-git",
-  "obsidian-columns"
+  "obsidian-regex-replace",
+  "obsidian-hover-editor",
+  "obsidian-columns",
+  "solo-rpg-toolkit"
 ]

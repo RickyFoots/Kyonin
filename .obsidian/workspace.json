@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "660a6bd5a5cc6772",
+            "id": "7df9c7dcd2e5346d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,13 +18,13 @@
             }
           },
           {
-            "id": "732406249876171d",
+            "id": "f546629bcaf5cfd2",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utilities/Campaign One Home.md",
+                "file": "Kyonin/Utilities/Campaign One Home.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -33,43 +33,71 @@
             }
           },
           {
-            "id": "c2a5a219ffb8e040",
+            "id": "4409e602489a94c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planet/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+                "file": "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "a4c28f93f4e7c23b",
+            "id": "72466473fe77a5be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+                "file": "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "3b1a7027a6425a74",
+            "id": "5c177c552d2024a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utilities/Bestiary/Theoan Ironpelt.md",
+                "file": "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2be84843254b3a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98011d6f843d6475",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
+                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#NPC/Varisia",
+                "query": "tag:#Save",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Utilities/Campaign One Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,35 +183,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "8d8d0d28ec98ee4f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Utilities/Campaign One Home.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "2a825adabd1d4fd3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Utilities/Campaign One Home.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -203,7 +200,7 @@
             }
           },
           {
-            "id": "f4822d567a71b696",
+            "id": "76bb0ddc3f0a4b9b",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -211,20 +208,20 @@
             }
           },
           {
-            "id": "ca5d6937430ce8f3",
+            "id": "1c144983a23e2309",
             "type": "leaf",
             "state": {
-              "type": "PROGRESS_CLOCKS_VIEW",
+              "type": "MAIN_VIEW",
               "state": {}
             }
           },
           {
-            "id": "b46c7bd58b2be979",
+            "id": "dc3ca8678995ea15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Utilities/Charts and Tables/Player Randomizer.md",
+                "file": "Kyonin/Utilities/Charts and Tables/Player Randomizer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -253,18 +250,38 @@
       "graph:Open graph view": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "file-share:Toggle connection": false,
-      "calendarium:Open Calendarium": false
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "732406249876171d",
+  "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
-    "Utilities/Encounters/Wild Encounters/1-10/6/-Wrong Place Right Time-.md",
-    "Utilities/Campaign One Home.md",
-    "Utilities/Encounters/Wild Encounters/1-10/7/-Late Night Dip and Deal-.md",
-    "Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Utilities/Bestiary/Theoan Ironpelt.md",
-    "Planet/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/Utilities/Charts and Tables/Size Chart.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/Utilities/Maps/Map of Varisia.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
+    "Kyonin/Utilities/Campaign One Home.md",
+    "Kyonin/Utilities/Images/Veresia Labeled.jpg",
+    "Kyonin/Parties and Players/Pinkertons/Rylanor/Rylanor Torlek.md",
+    "Kyonin/Parties and Players/Pinkertons/Ricochet/Ricochet Whitetail.md",
+    "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
+    "Kyonin/Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
+    "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene Belle.md",
+    "Kyonin/Utilities/Bestiary/Vrokan.md",
+    "Kyonin/Planet/Golarion/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal.md",
+    "Kyonin/Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
+    "Kyonin/Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
+    "Kyonin/Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
+    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Dorzu Bafflebell.md",
+    "Kyonin/Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand.md",
+    "Kyonin/Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan.md",
+    "Kyonin/Utilities/Charts and Tables/Player Randomizer.md",
+    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Cult of Noso.md",
+    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Goblins of Noso.md",
+    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh.md",
+    "Kyonin/Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers.md",
     "Kyonin/Parties and Players/Players/Austin",
     "Kyonin/Parties and Players/Players/Patty",
     "Kyonin/Parties and Players/Players/Kels",
@@ -273,26 +290,6 @@
     "Kyonin/Parties and Players/Players/Jordan",
     "Kyonin/Parties and Players/Players/Alex",
     "Kyonin/Parties and Players/Players",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale/Staff of Shifting Sands.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale/Sending Stones.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale/Clay Arm.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale/Animate Earth.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/19/Monster Hunters.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/19/Frost Giant.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/19/-A Gift from Beasts-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20/Spawned from Nightmares.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20/People Caught in the Dream.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20/A token of a test passed.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20/-A Dream Dreamt Together-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/18/-Light on Their Feet-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/17/Notes on the Void.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/17/Balsra's Spellbook.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/17/-Diamond in the Rough-.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Vadolmil.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Tuliphis.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Lavendea.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Drazzol.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Dorzu Bafflebell.md",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale",
     "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20",
     "Kyonin/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
@@ -300,7 +297,6 @@
     "Kyonin/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-coldhand-plug.jpg",
     "Kyonin/Utilities/Images/adam-mathieu-skull.jpg",
-    "Kyonin/Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/Utilities/Images/Talona_symbol.jpg",
     "Kyonin/Utilities/Images/Rac_LOGO_Border.png",
     "Kyonin/Utilities/Images/Rac_LOGO_Border 1.png",
