@@ -28,7 +28,7 @@
 forceColumns: true
 image: [[Wikilink To Image]]
 name: Theoan Ironpelt
-size: Large
+size: Large, [[Size Chart]]
 type: Mortal
 subtype: Leonin
 alignment: Lawful Good
