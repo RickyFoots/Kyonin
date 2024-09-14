@@ -318,7 +318,6 @@
     "iconColor": "#c4b340"
   },
   "Kyonin/Gods of Kyonin/List of the Gods": "LiList",
-  "Kyonin/Gods of Kyonin/List of the Old Gods": "LiList",
   "Kyonin/Gods of Kyonin/Gods of Kyonin.md": "RaAnkh",
   "Kyonin/Items": {
     "iconName": "RiShoppingBag3Fill",
@@ -387,5 +386,6 @@
   "Kyonin/Planet/Katapesh/Groups/Cults": "RaSkull",
   "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers": "TiBow",
   "Kyonin/Planet/Katapesh/Groups/Organizations": "BoBxsCastle",
-  "Kyonin/Planet/Katapesh/Groups/Tribes": "RiTentFill"
+  "Kyonin/Planet/Katapesh/Groups/Tribes": "RiTentFill",
+  "Kyonin/Gods of Kyonin/List of the Formless Gods": "LiList"
 }

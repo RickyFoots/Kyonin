@@ -32,7 +32,7 @@
 
 ## History
 ---
-1. Was apart of the mission into #TBD  with *Jeremiah* where so many *Scaledfolk* were lost, but she blames herself for loosing the kids.
+1. Was apart of the mission into [[Katapesh]] with *Jeremiah* where so many *Scaledfolk* were lost, but she blames herself for loosing the kids.
 
 ##### Tags
 - #NPC/Varisia

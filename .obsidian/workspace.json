@@ -84,8 +84,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Save",
+                "query": "tag:#City",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kyonin/Utilities/Campaign One Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -244,13 +241,26 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "f546629bcaf5cfd2",
+  "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
-    "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
+    "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/Utilities/Key Words/Badalium.md",
+    "Kyonin/Planet/Katapesh/Katapesh.md",
+    "Kyonin/Planet/Katapesh/Notable Locations/The Mountain of Glass.md",
+    "Kyonin/Gods of Kyonin/List of the Gods/Selûne - Moon and Dreams.md",
+    "Kyonin/Planet/World History/The War of Creation.md",
+    "Kyonin/Utilities/Key Words/Beasts/Hraun - Fire and Magma.md",
+    "Kyonin/Utilities/Key Words/Beasts/The Elemental Anchors.md",
+    "Kyonin/Planet/Golarion/Golarion.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/Planet/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn.md",
+    "Kyonin/Planet/Golarion/Cities/Kodor/People of Kodor/Dennis Bittlesby.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth.md",
     "Kyonin/Utilities/Campaign One Home.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/Planet/Katapesh/Katapesh.md",
-    "Kyonin/Planet/Golarion/Golarion.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Utilities/Templates/Country_Template.md",
     "Kyonin/Planet/Katapesh/Notable Locations/Burning Road.md",
     "Kyonin/Utilities/Key Words/People/Holy Order.md",
@@ -261,27 +271,14 @@
     "Kyonin/Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/Rhedgo The Crag Killer.md",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/False Serpent Tribe.md",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe/Scrap Scrap Tribe.md",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe/Thetak Mail Breaker.md",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes",
-    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
-    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum/The Librarian.md",
     "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum",
-    "Kyonin/Planet/Katapesh/Groups/Organizations/The Heart of Shar.md",
-    "Kyonin/Planet/Katapesh/Groups/Organizations/The Rat Queens Court.md",
     "Kyonin/Planet/Katapesh/Groups/Organizations",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties/Varisia/To Catch a Predator.md",
     "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties/Varisia",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Thuringers/The Thuringers.md",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao.md",
     "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild.md",
     "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Thuringers",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Salamander's End.md",
-    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Children of the Tome.md",
-    "Kyonin/Planet/Katapesh/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal.md",
     "Kyonin/Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",

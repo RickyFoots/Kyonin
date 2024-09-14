@@ -41,7 +41,7 @@
 
 ## History
 ---
-1. Was a mercenary "sniper", using a longbow, in many of the wars in #TBD but swapped to handguns when he made it to [[Varisia]]
+1. Was a mercenary "sniper", using a longbow, in many of the wars in [[Katapesh]] but swapped to handguns when he made it to [[Varisia]]
 
 ##### Tags
 - #NPC/Varisia

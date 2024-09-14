@@ -7,7 +7,7 @@
 - Runs [[A Gorgon's Thirst]] with people refugee's and runaway slaves, like dragonborne, lizard folk, and other yuan ti, that have made their way into [[Varisia]].
 	- Also runs [[The Snake Pit]] underneath *The Thirst* as an underground "fight club".
 - Works for [[Netch the Drowned]] as away to stay on her good side and continue to operate his "side business".
-- Consistently journeys across the [[Burning Road]] into #TBD to rescue as many "*Scaledfolk*" as he can from their war torn country.
+- Consistently journeys across the [[Burning Road]] into [[Katapesh]] to rescue as many "*Scaledfolk*" as he can from their war torn country.
 
 ### Enemies and Allies
 ---
