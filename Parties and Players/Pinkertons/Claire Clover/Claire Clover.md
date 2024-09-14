@@ -1,8 +1,8 @@
 
 # Stats
 ---
-Race = Harengon
-Class = Barbarian
+- *Race* = #Races/Harengon 
+- *Class* = #Classes/Barbarian 
 
 # POI
 ---
@@ -13,7 +13,7 @@ Class = Barbarian
 ---
 - Claire Clover was the problem child for the clover family, that problem being she was the only child. Claire never really fit in with high society, she was constantly getting into fights, interrupting meetings and getting into places she didn't belong. All that being said, the Clovers had too much riding on the success of their only daughter, as there was no one else to inherit the family business when they passed.
 
-- When Claire was young she had gotten into a large fight with her parents, once again she was refusing to attend her social classes, so her and her father got into a yelling match before she ran out of the multistory mansion and towards the forests that rested on the estate. When she crossed the tree line, the first thing that she saw was a broken arrow. She stopped to investigate, however the yells of her father's voice calling for her sent her back into anger and forced her to keep going. That was when the fateful meeting happened, Claire had just forced her way through a bush into a large clearing when an arrow whizzed past her legs, nearly missing the small rodent that she clearly startled. It was less than a second that another Haregon, with gray fur and a white nose, came running up to her. He was wearing some baggy pants and a matching vest, both looked like something he probably found in an alley, and he was holding a bow with a quiver of arrows attached to his hip.
+- When Claire was young she had gotten into a large fight with her parents, once again she was refusing to attend her social classes, so her and her father got into a yelling match before she ran out of the multistory mansion and towards the forests that rested on the estate. When she crossed the tree line, the first thing that she saw was a broken arrow. She stopped to investigate, however the yells of her father's voice calling for her sent her back into anger and forced her to keep going. That was when the fateful meeting happened, Claire had just forced her way through a bush into a large clearing when an arrow whizzed past her legs, nearly missing the small rodent that she clearly startled. It was less than a second that another Harengon, with gray fur and a white nose, came running up to her. He was wearing some baggy pants and a matching vest, both looked like something he probably found in an alley, and he was holding a bow with a quiver of arrows attached to his hip.
 
 - All Claire remembered was him yelling in her face, causing her to become so angry she just saw red and threw a swing. Her fist connected with this harengon’s face and laid him flat against the ground. That was the moment she looked down and realized this rabbit was just as young as she was and brought her back to her senses.
 

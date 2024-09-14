@@ -2,8 +2,8 @@
 Fan of [[Hawthorne the Hammer]] 
 # Stats
 ---
-Race = Aasimar
-Class = Paladin (Oath Of Vengeance)
+- *Race* = #Races/Aasimar
+- *Class* = #Classes/Paladin (Oath Of Vengeance)
 
 # POI
 ---

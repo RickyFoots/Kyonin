@@ -2,8 +2,8 @@
 
 # Stats
 ---
-Race = Harengon
-Class = Ranger
+- *Race* = #Races/Harengon
+- *Class* = #Classes/Ranger
 
 # POI
 ---

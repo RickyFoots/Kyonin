@@ -6,8 +6,7 @@
 ## Map 
 ---
 >[!example]- Map 
->## Varisia Map
->![[Veresia Labeled.jpg]]
+>![[Map of Varisia]]
 
 ````col
 ```col-md

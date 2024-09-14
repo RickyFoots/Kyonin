@@ -1,27 +1,33 @@
 
+```meta-bind-button
+style: destructive
+label: Reload Current Vault
+actions:
+  - type: command
+    command: app:reload
+```
+
 >[!faq]- Map 
 >![[Map of Golarian]]
----
+
 > [!Example]- Wild Encounters
 > ![[-Wild Encounters-]]
----
+
 > [!Tip]- Story Beats and Ideas 
 > ![[Story Beats and Ideas]]
 
 - **No more Jeffery**
 
 # [[Ideas to Flesh Out]]
----
 > [!tldr]- Boneless Ideas 
 > ![[Ideas to Flesh Out]]
 
 # Assortment of Random facts
----
+
 ### To Add
 - 
 
----
->[!multi-column]
+>[!multi-column] World Facts
 >>[!example]- Exists In World
 >>#### Exists In World
 >>- **Animals**
@@ -72,7 +78,7 @@
 >>	- [[The Republic of Solaris]]
 >>		- Has specialty healing potions flavors:
 >>			- Cookies and cream
----
+
 >[!fail]- Does not exists
 >#### Does not exists
 >- 
@@ -81,7 +87,6 @@
 # Adventures in [[Golarion]]
 ---
 ## Episode count
----
 1. ("**Date Unknown**")
 2. ("**Date Unknown**")
 3. ("**Date Unknown**")
@@ -93,11 +98,14 @@
 9. 
 
 ## Pinkertons, DA Fun Facts 
----
+
 ### Claire Clover
----
->[!important]- Character History
->![[Claire Clover]]
+> [!col]
+>>[!important]- Character History
+>>![[Claire Clover]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Claire Clover]]
 1. Favorite color is pink. #Pinkertons/Claire
 2. Favorite food is a specific carrot stew that *only* her **maid** knew how to make. 
 3. Has a life goal to fight an [[Owlbear]].
@@ -109,9 +117,12 @@
 9. 
 
 ### Elsbeth Vordr
----
->[!important]- Character History
->![[Elsbeth Vordr]]
+> [!col]
+>>[!important]- Character History
+>>![[Elsbeth Vordr]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Elsbeth Vordr]]
 1. Mom died in childbirth. #Pinkertons/Elsbeth
 2. Can't keep a plant alive. 
 3. Was a champion chariot racer in the junior division.
@@ -122,10 +133,13 @@
 8. <span style="background:#ff4d4f">Has never had sex</span>
 9. 
 
-### Hawthorne the Hammer
----
->[!important]- Character History
->![[Hawthorne the Hammer]]
+### Hawthorne "The Hammer" Bittlesby
+> [!col]
+>>[!important]- Character History
+>>![[Hawthorne the Hammer]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Hawthorne the Hammer]]
 1. Doesn't know how to ride a horse. #Pinkertons/Hawthorne
 2. Has never won a hand of poker because of his luck. 
 3. Likes romance novels, fluffy and cute, <u>not smut</u>
@@ -136,10 +150,13 @@
 8. Original stage name was <u>Hawthorne the Halberd</u>
 9. 
 
-### Jolene-Pix- Roxanne
----
->[!important]- Character History
->![[Jolene-Pix]]
+### Jolene -Pix- Roxanne
+> [!col]
+>>[!important]- Character History
+>>![[Jolene-Pix]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Jolene-Pix]]
 1. Has a half sleeve tattoo of flowers on her left arm. #Pinkertons/Jolene
 2. Is scared of <u>horses</u>. 
 3. Was a ballerina, trained from 10-18yrs, this is how she ended up [[Talavon]].
@@ -151,9 +168,12 @@
 9. 
 
 ### Monk Kee
----
->[!important]- Character History
->![[Monk Kee]]
+> [!col]
+>>[!important]- Character History
+>>![[Monk Kee]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Monk Kee]]
 1. Former general in the army. #Pinkertons/Ki
 2. Favorite color is yellow. 
 3. Was in space for 2 years before meeting [[Rylanor Torlek]].
@@ -165,9 +185,12 @@
 9. 
 
 ### Ricochet Whitetail
----
->[!important]- Character Notes
->![[Ricochet Whitetail]]
+> [!col]
+>>[!important]- Character History
+>>![[Ricochet Whitetail]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Ricochet Whitetail]]
 1. ==Loves== cheese #Pinkertons/Ricochet
 2. Shot himself in the foot the first time he held a bow.
 3. Is a cat person.
@@ -178,10 +201,13 @@
 8. Does not care for carrots
 9. 
 
-### Rylanor
----
->[!important]- Character Notes
->![[Rylanor Torlek]]
+### Rylanor Torlek 
+> [!col]
+>>[!important]- Character History
+>>![[Rylanor Torlek]]
+>
+>>[!question]- Story Beat Ideas
+>> ![[Story Beats and Ideas#Rylanor Torlek]]
 1. Smokes "Fantasy Weed" #Pinkertons/Rylanor
 2. Blew up his dads lab trying to make gunpowder.
 3. Learned how to distill petroleum. He figured this out "accidentally"

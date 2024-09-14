@@ -1,15 +1,16 @@
 
 # Stats
 ---
-Race = Changeling
-Class = Bard
-Age = 28-29
+- *Race* = #Races/Changeling
+- *Class* = #Classes/Bard 
+- *Age* = 28-29
 
 # POI
 ---
 - [[Travis Buchannan]] - Ex "Lover"
 - [[Dolly Buchannan]] - Ex "Lover's" wife
-- [[Vrokan]]
+- [[Vrokan]] - **Bhaal's right hand**
+- [[Jolene Belle]] - Ex Girlfriend
 
 # Alias
 ---
@@ -31,13 +32,13 @@ Age = 28-29
 
 # History
 ---
-- Pix grew up as many changelings do whose parents weren’t ready for the consequences of adhering to an [[Archfey]], in an orphanage. 
+- Pix grew up as many changelings do whose parents weren’t ready for the consequences of adhering to a **Fey**, in an orphanage. 
 	- Her time there was unremarkable, however, as she ran away at 15 and traveled from place to place, disguising herself as various people, until she settled in the town of **Treeacre**. 
 	- There she met *Delic* and *Eden Belle*, as well as their 16-year-old daughter, **Jolene**. 
 
 - Jolene and Pix became fast friends as Pix got a job working at the *general store* the **Belle’s owned**. 
 	- Fast friends, grew to best friends, and eventually <u>first loves</u>. 
-	- Their happiness was cut short however when Jolene fell to an **illness**, forcing her to be confined to a bed for the last year of her life. 
+	- Their happiness was cut short however when *Jolene* fell to an **illness**, forcing her to be confined to a bed for the last year of her life. 
 	- During one of their final conversations, Jolene tells Pix, “**I want you to go out there and live for me, okay? Go travel the world, and fall in love…and be happy**.” 
 	- After she was laid to rest, Pix did just that. 
 	- She took on <u>Jolene’s identity</u> and lived for her.
@@ -46,7 +47,7 @@ Age = 28-29
 	- That's when she stumbled her way into [[Talavon]], a beautiful little town surrounded by fields and fields of *Larkspur*, *Foxgloves*, *Poppies*, *Hydrangeas* and *Lily of the Valleys*. 
 	- She got a job as a barmaid at the local bar, [[The Peaceful Root]], and became very popular with the patrons, including local bureaucrat, [[Travis Buchannan]]. 
 
-- Mr. *Buchannan* was by far the richest man in the region, owning almost all of the flower plantations that Talavon was known for. 
+- Mr. *Buchannan* was by far the richest man in the region, owning almost all the flower plantations that Talavon was known for. 
 	- He was also <u>one of</u> the *most handsome men in town*. 
 	- He was not, however, an eligible bachelor in any way. 
 	- He was, and still is, married to the woman whose Father owned the rest of the plantations in town, [[Dolly Buchannan]]. 

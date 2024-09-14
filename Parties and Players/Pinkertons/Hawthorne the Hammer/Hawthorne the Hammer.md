@@ -1,8 +1,8 @@
 
 # Stats
 ---
-Race = Half-Orc
-Class = Bard
+- *Race* = #Races/Half-Orc
+- *Class* = #Classes/Bard
 
 # POI
 ---

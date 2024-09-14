@@ -1,8 +1,8 @@
 
 # Stats
 ---
-Race = Dwarf
-Class = Artificer
+- *Race* = #Races/Dwarf
+- *Class* = #Classes/Artificer
 
 # POI
 ---
