@@ -1,0 +1,1 @@
+A catastrophe that occured on the continent of Golarion where an arch mage, and his cult, took control of one of the elemental anchors in a desperate grab for power. 

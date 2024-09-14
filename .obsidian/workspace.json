@@ -72,19 +72,6 @@
             }
           },
           {
-            "id": "f2be84843254b3a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "98011d6f843d6475",
             "type": "leaf",
             "state": {
@@ -97,7 +84,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kyonin/Utilities/Campaign One Home.md"
+              }
             }
           },
           {
@@ -254,45 +244,45 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7df9c7dcd2e5346d",
+  "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
-    "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/Utilities/Charts and Tables/Size Chart.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Utilities/Campaign One Home.md",
-    "Kyonin/Utilities/Maps/Map of Varisia.md",
-    "Kyonin/Utilities/Images/Veresia Labeled.jpg",
-    "Kyonin/Parties and Players/Pinkertons/Rylanor/Rylanor Torlek.md",
-    "Kyonin/Parties and Players/Pinkertons/Ricochet/Ricochet Whitetail.md",
-    "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/Planet/Katapesh/Katapesh.md",
+    "Kyonin/Planet/Golarion/Golarion.md",
+    "Kyonin/Utilities/Templates/Country_Template.md",
+    "Kyonin/Planet/Katapesh/Notable Locations/Burning Road.md",
+    "Kyonin/Utilities/Key Words/People/Holy Order.md",
+    "Kyonin/Planet/Katapesh/Notable Locations",
+    "Kyonin/Planet/Golarion/Notable Locations",
+    "Kyonin/Utilities/Key Words/People/Chief Advisor.md",
+    "Kyonin/Utilities/Key Words/Locations/The Planet of Apes - Hadozee.md",
     "Kyonin/Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
-    "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene Belle.md",
-    "Kyonin/Utilities/Bestiary/Vrokan.md",
-    "Kyonin/Planet/Golarion/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal.md",
-    "Kyonin/Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
-    "Kyonin/Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
-    "Kyonin/Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/16/Dorzu Bafflebell.md",
-    "Kyonin/Planet/Golarion/Groups/Cults/Pillars of Peace/The Shattered Hand.md",
-    "Kyonin/Planet/Golarion/Cities/Talavon/People of Talavon/Travis Buchannan.md",
-    "Kyonin/Utilities/Charts and Tables/Player Randomizer.md",
-    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Cult of Noso.md",
-    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Goblins of Noso.md",
-    "Kyonin/Planet/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh.md",
-    "Kyonin/Planet/Golarion/Groups/Hunters and Adventurers/Thuringers/The Thuringers.md",
-    "Kyonin/Parties and Players/Players/Austin",
-    "Kyonin/Parties and Players/Players/Patty",
-    "Kyonin/Parties and Players/Players/Kels",
-    "Kyonin/Parties and Players/Players/Matty",
-    "Kyonin/Parties and Players/Players/Makayla",
-    "Kyonin/Parties and Players/Players/Jordan",
-    "Kyonin/Parties and Players/Players/Alex",
-    "Kyonin/Parties and Players/Players",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/12/Items for Sale",
-    "Kyonin/Utilities/Encounters/Wild Encounters/11-20/20",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/Rhedgo The Crag Killer.md",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/False Serpent Tribe.md",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe/Scrap Scrap Tribe.md",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe/Thetak Mail Breaker.md",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
+    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
+    "Kyonin/Planet/Katapesh/Groups/Tribes",
+    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
+    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum/The Librarian.md",
+    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum",
+    "Kyonin/Planet/Katapesh/Groups/Organizations/The Heart of Shar.md",
+    "Kyonin/Planet/Katapesh/Groups/Organizations/The Rat Queens Court.md",
+    "Kyonin/Planet/Katapesh/Groups/Organizations",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties/Varisia/To Catch a Predator.md",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties/Varisia",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Thuringers/The Thuringers.md",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao.md",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/Quests and Bounties",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild.md",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Thuringers",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/The Salamander's End.md",
+    "Kyonin/Planet/Katapesh/Groups/Hunters and Adventurers/Children of the Tome.md",
+    "Kyonin/Planet/Katapesh/Groups/Cults/The Hands of Bhaal/The Hands of Bhaal.md",
+    "Kyonin/Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
     "Kyonin/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",

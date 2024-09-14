@@ -13,15 +13,18 @@
 	- The [[Turrim Infnitum]], located in the *heart* of Golarian, is **Kyonin's** largest repository of knowledge. 
 		- Responsible for giving <u>spellcasters</u> information when they cast the spell **Identify**
 
+>[!faq]- Map 
+>![[Map of Golarian]]
+
 # History
 ---
-- **Branmor**![[Branmor - Wielder of the first Hammer]] 
-- [[The Grand Mine]] - *Needs Work* - ![[The Grand Mine]]
+## [[Branmor - Wielder of the first Hammer]]
+![[Branmor - Wielder of the first Hammer]] 
+## [[The Grand Mine]] - *Needs Work* - 
+![[The Grand Mine]]
 
-## Parties Living within
----
-- [[Pinkertons]]  ![[Pinkertons]]
 
-### Map
+# Parties Living within
 ---
-![[Map of Golarian]]
+## [[Pinkertons]]  
+![[Pinkertons]]

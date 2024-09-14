@@ -1,0 +1,1 @@
+The elven mage that started the college of [[The Republic of Solaris]] by the same name, [[Presvaris Spiritsong's College of the Magical Arts]], and pioneered the alchemical arts used to bring life to the barren city.

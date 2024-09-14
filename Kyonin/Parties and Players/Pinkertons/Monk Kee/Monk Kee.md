@@ -11,7 +11,7 @@
 # History 
 ---
 - Can't swim. 
-- Is from Hadozee 
+- Is from [[The Planet of Apes - Hadozee]] 
 - Has a store of wavy banana's
 
 # Fun Facts
