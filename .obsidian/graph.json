@@ -5,13 +5,62 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "#Gods",
       "color": {
         "a": 1,
-        "rgb": 65378
+        "rgb": 16774912
+      }
+    },
+    {
+      "query": "#Pinkertons/Claire",
+      "color": {
+        "a": 1,
+        "rgb": 13668496
+      }
+    },
+    {
+      "query": "#Pinkertons/Elsbeth",
+      "color": {
+        "a": 1,
+        "rgb": 11571944
+      }
+    },
+    {
+      "query": "#Pinkertons/Hawthorne",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "#Pinkertons/Jolene",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "#Pinkertons/Ki",
+      "color": {
+        "a": 1,
+        "rgb": 14715730
+      }
+    },
+    {
+      "query": "#Pinkertons/Ricochet",
+      "color": {
+        "a": 1,
+        "rgb": 1089094
+      }
+    },
+    {
+      "query": "#Pinkertons/Rylanor",
+      "color": {
+        "a": 1,
+        "rgb": 6902496
       }
     }
   ],
@@ -21,10 +70,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 1,
+  "centerStrength": 0.853260869565217,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.09729657323157394,
+  "linkDistance": 61,
+  "scale": 0.06486438215438262,
   "close": true
 }

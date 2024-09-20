@@ -72,6 +72,19 @@
             }
           },
           {
+            "id": "303fccd7715f5842",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "98011d6f843d6475",
             "type": "leaf",
             "state": {
@@ -153,7 +166,7 @@
             }
           },
           {
-            "id": "38dcfaa0f5d2212e",
+            "id": "0ab52fbe99cda890",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -226,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 379.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,11 +256,12 @@
   },
   "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
-    "Kyonin/Utilities/Campaign One Home.md",
-    "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
+    "Kyonin/Utilities/Campaign One Home.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/Utilities/Key Words/Badalium.md",
     "Kyonin/Planet/Katapesh/Katapesh.md",
     "Kyonin/Planet/Katapesh/Notable Locations/The Mountain of Glass.md",
@@ -256,7 +270,6 @@
     "Kyonin/Utilities/Key Words/Beasts/Hraun - Fire and Magma.md",
     "Kyonin/Utilities/Key Words/Beasts/The Elemental Anchors.md",
     "Kyonin/Planet/Golarion/Golarion.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/Planet/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn.md",
     "Kyonin/Planet/Golarion/Cities/Kodor/People of Kodor/Dennis Bittlesby.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher.md",
