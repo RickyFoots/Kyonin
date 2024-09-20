@@ -97,7 +97,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kyonin/Utilities/Campaign One Home.md"
+              }
             }
           },
           {
@@ -254,7 +257,7 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7df9c7dcd2e5346d",
+  "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
     "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Utilities/Campaign One Home.md",
