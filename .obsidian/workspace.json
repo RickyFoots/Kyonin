@@ -96,8 +96,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "70f176f8bec66f16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kyonin/Utilities/Campaign One Home.md"
+              }
             }
           },
           {
@@ -250,13 +266,19 @@
       "graph:Open graph view": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false,
-      "calendarium:Open Calendarium": false
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "7df9c7dcd2e5346d",
+  "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
+    "Kyonin/Parties and Players/Pinkertons/Rylanor/Rylanor Torlek.md",
     "Kyonin/Utilities/Campaign One Home.md",
+    "Kyonin/Parties and Players/Pinkertons/Ricochet/Ricochet Whitetail.md",
+    "Kyonin/Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
+    "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
+    "Kyonin/Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
+    "Kyonin/Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
+    "Kyonin/Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
     "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
@@ -275,15 +297,8 @@
     "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Clay Fisher.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth.md",
     "Kyonin/Utilities/Templates/Country_Template.md",
-    "Kyonin/Planet/Katapesh/Notable Locations/Burning Road.md",
-    "Kyonin/Utilities/Key Words/People/Holy Order.md",
     "Kyonin/Planet/Katapesh/Notable Locations",
     "Kyonin/Planet/Golarion/Notable Locations",
-    "Kyonin/Utilities/Key Words/People/Chief Advisor.md",
-    "Kyonin/Utilities/Key Words/Locations/The Planet of Apes - Hadozee.md",
-    "Kyonin/Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/Rhedgo The Crag Killer.md",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe/False Serpent Tribe.md",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes",

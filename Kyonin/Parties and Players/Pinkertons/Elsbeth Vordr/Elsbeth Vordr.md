@@ -1,3 +1,17 @@
+# [[Elsbeth Vordr]]
+## Alignment
+```alignmenttracker
+L: 0
+C: 0
+G: 0
+E: 0
+```
+
+- **L**: 0
+- **C**: 0
+- **G**: 0
+- **E**: 0
+
 6ft. Tall, Golden Skin.
 Fan of [[Hawthorne the Hammer]] 
 # Stats

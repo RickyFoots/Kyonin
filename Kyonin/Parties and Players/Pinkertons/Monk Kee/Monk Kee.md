@@ -1,3 +1,17 @@
+# [[Monk Kee]]
+## Alignment
+```alignmenttracker
+L: 0
+C: 0
+G: 0
+E: 0
+```
+
+- **L**: 0
+- **C**: 0
+- **G**: 0
+- **E**: 0
+
 # Stats
 ---
 - *Race* = #Races/Hadozee
