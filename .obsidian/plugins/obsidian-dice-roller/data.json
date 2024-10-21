@@ -1,4 +1,5 @@
 {
+  "position": "RIGHT",
   "showFudgeIcon": false,
   "rollLinksForTags": false,
   "copyContentButton": true,
@@ -22,7 +23,6 @@
   "textColor": "#ffffff",
   "textFont": "Arial",
   "showLeafOnStartup": true,
-  "showDice": true,
   "displayAsEmbed": false,
   "round": "None",
   "initialDisplay": "None",
@@ -73,7 +73,7 @@
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
-  "version": "11.0.5",
+  "version": "11.3.2",
   "viewResults": [
     {
       "result": 19,
@@ -82,5 +82,6 @@
       "timestamp": 1719604768118,
       "id": "yeJUU5geCzvx"
     }
-  ]
+  ],
+  "showDice": true
 }
