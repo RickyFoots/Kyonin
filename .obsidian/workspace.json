@@ -195,7 +195,7 @@
             }
           },
           {
-            "id": "81f1a12b9470b24f",
+            "id": "4f7f15e53c0e6842",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
@@ -270,16 +270,17 @@
       "graph:Open graph view": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false,
-      "calendarium:Open Calendarium": false
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
   "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
+    "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Utilities/Campaign One Home.md",
     "Kyonin/Planet/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/Plans and Ideas/Story Beats and Ideas.md",
     "Kyonin/Utilities/Charts and Tables/Size Chart.md",
     "Kyonin/Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
     "Kyonin/Planet/Golarion/Golarion.md",
@@ -289,8 +290,6 @@
     "Kyonin/Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
     "Kyonin/Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
     "Kyonin/Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/Planet/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/Utilities/Key Words/Badalium.md",
     "Kyonin/Planet/Katapesh/Katapesh.md",
     "Kyonin/Planet/Katapesh/Notable Locations/The Mountain of Glass.md",
