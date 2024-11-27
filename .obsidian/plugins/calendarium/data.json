@@ -15,8 +15,8 @@
   "parseDates": false,
   "version": {
     "major": 1,
-    "minor": 0,
-    "patch": 10,
+    "minor": 5,
+    "patch": 0,
     "beta": null
   },
   "debug": false,
@@ -24,5 +24,6 @@
   "askedAboutSync": false,
   "syncBehavior": "Ask",
   "inlineEventsTag": null,
-  "paths": []
+  "paths": [],
+  "autoParse": true
 }

@@ -1,4 +1,5 @@
 
+[[Ideas to Flesh Out]]
 >[!question]+ Ideas 
 > #### Ideas 
 > 1. "**The Necropolis**".
@@ -14,9 +15,10 @@
 > 		- Do I have too many Cults??
 > 2. [[The Demon Seed]]
 > 	- The "Gene Seed", created by [[Garyx - Chaos]], that holds the genetic code for all **Demons** 
-> 3. {To Fill Out}
-> 	- `Notes`:
-> 4. {To Fill Out}
+> 3. Great houses of [[The Republic of Solaris]]
+> 	- **Traitors to the Houses**: *Discovered* traitors of the great houses are quietly killed and then have their spirits bound to a **talisman** held by either the head of the house or someone they deem worth to control the dead.
+> 		- [[They Who Walked Away]] retain their abilities but completely controlled by whoever holds their **talisman**.
+> 1. {To Fill Out}
 > 	- `Notes`:
 ---
 > [!multi-column]
