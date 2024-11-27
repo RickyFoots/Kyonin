@@ -1,7 +1,7 @@
 # God of the Underdog, the Fallen, and the Disfavored
 ---
 ![[Pasted image 20230213164016.png]]
-#Gods 
+
 ## Created
 ---
 - Helped in the creation of:
@@ -9,4 +9,7 @@
 
 ## History
 ---
-1. 
+1. 1 
+
+#### Tags 
+- #Gods 

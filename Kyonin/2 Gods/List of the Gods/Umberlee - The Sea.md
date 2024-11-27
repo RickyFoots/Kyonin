@@ -1,7 +1,7 @@
 # Goddess of the Sea and Tritons
 ---
 ![[Pasted image 20230127152606.png]]
-#Gods 
+
 ## Created
 ---
 - Triton
@@ -12,4 +12,7 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 

@@ -36,21 +36,6 @@
             }
           },
           {
-            "id": "46a343b3926f6e7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ideas to Flesh Out"
-            }
-          },
-          {
             "id": "f242ad905fc34050",
             "type": "leaf",
             "state": {
@@ -125,8 +110,7 @@
               "title": "Theoan Ironpelt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,8 +141,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#City",
-                "matchingCase": true,
+                "query": "tag:#Races/Goblinoids",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -182,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5049753189087
+    "width": 508.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -197,11 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kyonin/7 Utilities/Campaign One Home.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Campaign One Home"
+              "title": "Outline"
             }
           },
           {
@@ -237,7 +219,8 @@
               "title": "Dice Tray"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -254,6 +237,21 @@
             }
           },
           {
+            "id": "41eb49d8b64651bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Player Randomizer"
+            }
+          },
+          {
             "id": "1c144983a23e2309",
             "type": "leaf",
             "state": {
@@ -264,26 +262,10 @@
             }
           },
           {
-            "id": "dc3ca8678995ea15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyonin/Utilities/Charts and Tables/Player Randomizer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Player Randomizer"
-            }
-          },
-          {
             "id": "be21a860181ddd21",
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
-              "state": {},
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
@@ -308,43 +290,44 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "f546629bcaf5cfd2",
+  "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
-    "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh.md",
+    "Kyonin/1 World/Races/Goblinoids.md",
+    "Kyonin/2 Gods/List of the Gods/Waukeen - Trade.md",
+    "Kyonin/2 Gods/List of the Gods/Umberlee - The Sea.md",
+    "Kyonin/2 Gods/List of the Gods/Tyr - Justice.md",
+    "Kyonin/2 Gods/List of the Gods/Tymora - Fortune.md",
+    "Kyonin/2 Gods/List of the Gods/Tiamat - Chromatic Dragons.md",
+    "Kyonin/2 Gods/List of the Gods/They Who Came Before - Death.md",
+    "Kyonin/2 Gods/List of the Gods/The Raven Queen - Death.md",
+    "Kyonin/2 Gods/List of the Gods/Tempus - War.md",
+    "Kyonin/2 Gods/List of the Gods/Talos - Storms.md",
+    "Kyonin/2 Gods/List of the Gods/Talona - Disease.md",
+    "Kyonin/2 Gods/List of the Gods/Sune - Love and Beauty.md",
+    "Kyonin/2 Gods/List of the Gods/Silvanus - Nature.md",
+    "Kyonin/2 Gods/List of the Gods/Shar - Loss.md",
+    "Kyonin/2 Gods/List of the Gods/Selûne - Moon and Dreams.md",
+    "Kyonin/7 Utilities/Key Words/Planes/Formless God.md",
+    "Kyonin/2 Gods/List of the Gods/Pelor - Sun.md",
+    "Kyonin/2 Gods/List of the Gods/Oghma - Knowledge.md",
+    "Kyonin/2 Gods/List of the Gods/Mystra - Magic.md",
+    "Kyonin/2 Gods/List of the Gods/Moradin - Crafting.md",
+    "Kyonin/2 Gods/List of the Gods/Milil - Song.md",
+    "Kyonin/2 Gods/List of the Gods/Mask - Thieves.md",
+    "Kyonin/2 Gods/List of the Gods/Malar - The Hunt.md",
+    "Kyonin/2 Gods/List of the Gods/Lathander - Life.md",
+    "Kyonin/2 Gods/List of the Gods/KeIm - Disfavored.md",
+    "Kyonin/1 World/Races",
+    "Kyonin/1 World/History/Otherworldly",
     "Kyonin/1 World/Continents/Uson/Countries",
-    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Katapesh.md",
-    "Kyonin/7 Utilities/Campaign One Home.md",
     "Kyonin/1 World/Continents/Uson",
     "Kyonin/1 World/Continents/Countries",
     "Kyonin/1 World/Continents",
-    "Kyonin/6 Plans and Ideas/Story Beats and Ideas.md",
-    "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Golarion.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Rylanor/Rylanor Torlek.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Ricochet/Ricochet Whitetail.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
-    "Kyonin/7 Utilities/Key Words/Badalium.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Notable Locations/The Mountain of Glass.md",
-    "Kyonin/2 Gods/List of the Gods/Selûne - Moon and Dreams.md",
-    "Kyonin/1 World/History/The War of Creation.md",
-    "Kyonin/7 Utilities/Key Words/Beasts/Hraun - Fire and Magma.md",
-    "Kyonin/7 Utilities/Key Words/Beasts/The Elemental Anchors.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn.md",
     "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Notable Locations",
     "Kyonin/Planet/Golarion/Notable Locations",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
-    "Kyonin/Planet/Katapesh/Groups/Tribes",
-    "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum",
     "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",

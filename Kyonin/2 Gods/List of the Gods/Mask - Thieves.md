@@ -1,7 +1,7 @@
 # God of Thieves and Halflings
 ---
 ![[Pasted image 20230127150808.png]]
-#Gods #Races/Halflings #Races/Ratfolk
+
 ## Created
 ---
 - Halflings  
@@ -10,4 +10,9 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags 
+- #Gods 
+- #Races/Halflings 
+- #Races/Ratfolk

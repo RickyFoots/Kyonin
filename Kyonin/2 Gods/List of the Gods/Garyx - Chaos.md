@@ -1,10 +1,10 @@
 # God of Chaos and Demons
 ---
 ![[Pasted image 20240719094055.png]]
-#Gods #Races/Goblinoids
+
 ## Created
 ---
-- [[Goblins of Noso]] 
+- Goblins 
 - Hobgoblins
 - Bugbears
 - The [[Abyss]]
@@ -14,4 +14,11 @@
 
 ## History
 ---
-1. 
+1. 1 
+
+#### Tags 
+- #Gods 
+- #Races/Goblinoids 
+- #Races/Goblinoids/Goblins 
+- #Races/Goblinoids/Hobgoblins 
+- #Races/Goblinoids/Bugbears

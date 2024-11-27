@@ -1,7 +1,7 @@
 # God of the Fey and Elves 
 ---
 ![[Pasted image 20230127144659.png]]
-#Gods #Races/Elves #Races/Harengon #Races/Satyrs #Races/Owlin #Races/Centaur #Races/Dryads
+
 ## Created
 ---
 - Most Elven variants
@@ -21,4 +21,13 @@
 
 ## History
 ---
-1. 
+1. 1 
+
+#### Tags
+- #Gods 
+- #Races/Elves 
+- #Races/Harengon 
+- #Races/Satyrs 
+- #Races/Owlin 
+- #Races/Centaur 
+- #Races/Dryads

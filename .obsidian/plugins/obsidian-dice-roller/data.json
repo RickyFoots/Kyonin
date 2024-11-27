@@ -13,11 +13,11 @@
   "formulas": {},
   "defaultRoll": 1,
   "defaultFace": 100,
-  "renderer": true,
+  "renderer": false,
   "renderAllDice": false,
   "addToView": false,
   "renderTime": 2000,
-  "colorfulDice": true,
+  "colorfulDice": false,
   "scaler": 1,
   "diceColor": "#202020",
   "textColor": "#ffffff",
@@ -76,14 +76,6 @@
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
   "version": "11.4.1",
-  "viewResults": [
-    {
-      "result": 19,
-      "original": "2d20",
-      "resultText": "[11, 8]",
-      "timestamp": 1719604768118,
-      "id": "yeJUU5geCzvx"
-    }
-  ],
+  "viewResults": [],
   "showDice": true
 }

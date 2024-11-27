@@ -1,10 +1,10 @@
 # Goddess of Magic
 ---
 ![[Pasted image 20230127144838.png]]
-#Gods 
+
 ## Also Known As
 ---
-- **Reader of [[The Weave]]** 
+- **Author of [[The Weave]]** 
 
 ## Created
 ---
@@ -12,4 +12,7 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 

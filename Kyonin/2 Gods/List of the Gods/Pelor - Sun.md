@@ -1,7 +1,7 @@
 # God of the Sun
 ---
 ![[Pasted image 20230210173206.png]]
-#Gods #Races/Elves 
+
 ## Created
 ---
 - Helped in the creation of: 
@@ -9,4 +9,8 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 
+- #Races/Elves 

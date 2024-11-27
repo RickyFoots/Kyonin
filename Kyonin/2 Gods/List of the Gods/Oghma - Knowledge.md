@@ -1,7 +1,7 @@
 # God of Knowledge
 ---
 ![[Pasted image 20230127151154.png]]
-#Gods #Races/Illithids #Races/Githyankis #Races/Githzerai
+
 ## Created
 ---
 - Vedalkan
@@ -12,4 +12,10 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 
+- #Races/Illithids 
+- #Races/Githyankis 
+- #Races/Githzerai

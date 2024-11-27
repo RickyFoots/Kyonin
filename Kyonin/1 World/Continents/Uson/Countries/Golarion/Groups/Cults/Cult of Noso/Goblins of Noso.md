@@ -5,4 +5,5 @@ creature: Goblin
 
 ##### Tags
 - #FightableNPC/Kodor 
-- #Races/Goblinoids 
+- #Races/Goblinoids/Goblins
+- 

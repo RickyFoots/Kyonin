@@ -1,7 +1,7 @@
 # God of Nature
 ---
 ![[Pasted image 20230127151612.png]]
-#Gods #Races/Firbolgs
+
 ## Created
 ---
 - Firbolgs
@@ -9,4 +9,8 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 
+- #Races/Firbolgs 

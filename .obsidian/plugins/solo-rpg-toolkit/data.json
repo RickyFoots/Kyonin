@@ -17,10 +17,10 @@
   "standardOracleBias": false,
   "standardOracleEvents": false,
   "oracleLanguage": "en",
-  "wordTab": "",
-  "oracleTab": "",
-  "deckTab": "Standard",
+  "wordTab": "Prompts",
+  "oracleTab": "default",
+  "deckTab": "Tarot",
   "mythicFactor": 5,
   "wordQuickValue": "",
-  "wordQuickHeight": 100
+  "wordQuickHeight": 0
 }

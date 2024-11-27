@@ -1,7 +1,7 @@
 # Goddess of the Moon and Dreams
 ---
 ![[Pasted image 20230127151410.png]]
-#Gods #Races/Elves 
+
 ## Created
 ---
 - Helped in the creation of:
@@ -12,3 +12,7 @@
 ---
 ### Devouring of the [[Formless God]] of Dreams
 - 
+
+#### Tags  
+- #Gods 
+- #Races/Elves 

@@ -1,7 +1,7 @@
 # God of Crafting & Dwarves
 ---
 ![[Pasted image 20230127151013.png]]
-#Gods #Races/Dwarves
+
 ## Created
 ---
 - Dwarves
@@ -10,4 +10,8 @@
 
 ## History
 ---
-1. 
+1. 1
+
+#### Tags  
+- #Gods 
+- #Races/Dwarves
