@@ -2,7 +2,7 @@
 2. [x] The Adventurers Guild 
 3. [ ] Review and flesh out Cities #Todo
 4. [ ] Flesh out the ruling class #Todo
-5. [ ] [[Kyonin/1 World/Continents/Countries/Uson/Golarion/Groups/Hunters and Adventurers/Children of the Tome]] #Todo
+5. [ ] [[Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Hunters and Adventurers/Children of the Tome]] #Todo
 6. [ ] [[The Hands of Bhaal]]  #Todo
 7. [x] Finish [[Elemental plane of Fire]] 
 8. [ ] Finish [[The Cataclysm]]. #Todo

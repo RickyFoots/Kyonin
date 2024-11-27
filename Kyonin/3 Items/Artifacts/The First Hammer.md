@@ -1,5 +1,5 @@
 - Also known as [[Luovasara]]
-- The hammer made by the god [[Moradin - Crafting]] for his first creation [[Kyonin/1 World/Continents/Countries/Uson/Golarion/History/Branmor - Wielder of the first Hammer]]. 
+- The hammer made by the god [[Moradin - Crafting]] for his first creation [[Kyonin/1 World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]]. 
 - Unfortunately, the hammer has been lost to time, only shards have been found so far...  
 
 ---

@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Varisia.md",
+                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -308,20 +308,21 @@
   "active": "7df9c7dcd2e5346d",
   "lastOpenFiles": [
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Katapesh/Katapesh.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
+    "Kyonin/1 World/Continents/Uson/Countries",
+    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Katapesh.md",
     "Kyonin/7 Utilities/Campaign One Home.md",
-    "Kyonin/1 World/Continents/Countries/Uson",
+    "Kyonin/1 World/Continents/Uson",
     "Kyonin/1 World/Continents/Countries",
     "Kyonin/1 World/Continents",
     "Kyonin/6 Plans and Ideas/Story Beats and Ideas.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
     "Kyonin/4 Parties and Players/Pinkertons/Claire Clover/Claire Clover.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Golarion.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/4 Parties and Players/Pinkertons/Rylanor/Rylanor Torlek.md",
     "Kyonin/4 Parties and Players/Pinkertons/Ricochet/Ricochet Whitetail.md",
     "Kyonin/4 Parties and Players/Pinkertons/Monk Kee/Monk Kee.md",
@@ -329,20 +330,18 @@
     "Kyonin/4 Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
     "Kyonin/4 Parties and Players/Pinkertons/Elsbeth Vordr/Elsbeth Vordr.md",
     "Kyonin/7 Utilities/Key Words/Badalium.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Katapesh/Notable Locations/The Mountain of Glass.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Notable Locations/The Mountain of Glass.md",
     "Kyonin/2 Gods/List of the Gods/Selûne - Moon and Dreams.md",
     "Kyonin/1 World/History/The War of Creation.md",
     "Kyonin/7 Utilities/Key Words/Beasts/Hraun - Fire and Magma.md",
     "Kyonin/7 Utilities/Key Words/Beasts/The Elemental Anchors.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Golarion/Cities/Kodor/People of Kodor/Dennis Bittlesby.md",
-    "Kyonin/1 World/Continents/Countries/Uson/Katapesh/Notable Locations",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/People of Aquos/Fight-Lootable/Failed Spawn.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Notable Locations",
     "Kyonin/Planet/Golarion/Notable Locations",
     "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
     "Kyonin/Planet/Katapesh/Groups/Tribes",
     "Kyonin/Planet/Katapesh/Groups/Organizations/The Turrim Infnitum",
-    "Kyonin/Planet/Katapesh/Groups/Organizations",
     "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",

@@ -1,3 +1,3 @@
 - "Hammer of creation". 
 - Legendary first hammer of the dwarves. 
-- Once wielded by [[Kyonin/1 World/Continents/Countries/Uson/Golarion/History/Branmor - Wielder of the first Hammer]]
+- Once wielded by [[Kyonin/1 World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]]
