@@ -1,0 +1,2 @@
+- The largest hunting [[Sky Ship]] to have ever been made. It currently acts as home base/port for [[Kyonin/1 World/Continents/Countries/Uson/Golarion/Groups/Hunters and Adventurers/The Salamander's End]] in [[Kodor]]. 
+	- She's piloted by one *Tabaxi* person named [[Artyom Seven Feather]] 
