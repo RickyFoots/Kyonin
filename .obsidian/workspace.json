@@ -125,7 +125,8 @@
               "title": "Theoan Ironpelt"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,9 +197,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Kyonin/7 Utilities/Campaign One Home.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Campaign One Home"
             }
           },
           {
@@ -305,14 +308,14 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7df9c7dcd2e5346d",
+  "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
+    "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
     "Kyonin/1 World/Continents/Uson/Countries",
     "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Katapesh.md",
     "Kyonin/7 Utilities/Campaign One Home.md",
