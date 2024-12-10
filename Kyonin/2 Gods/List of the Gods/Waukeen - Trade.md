@@ -12,4 +12,4 @@
 
 #### Tags  
 - #Gods 
-- #Races/Gnomes 
+- #Races/Materiel-Born/Gnomes 

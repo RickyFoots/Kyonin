@@ -25,6 +25,6 @@
 
 ##### Tags
 - #Groups/BountyHunters
-- #Races/Gnomes 
-- #Races/Dryads 
-- #Races/Harengon
+- #Races/Materiel-Born/Gnomes 
+- #Races/Fae-Born/Dryads 
+- #Races/Fae-Born/Harengons

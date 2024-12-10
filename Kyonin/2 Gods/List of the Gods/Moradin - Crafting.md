@@ -5,12 +5,10 @@
 ## Created
 ---
 - Dwarves
-- Helped in the creation of:
-	- Duergar - [[Selûne - Moon and Dreams]]
 
 ## History
 ---
-1. 1
+1. 
 
 #### Tags  
 - #Gods 

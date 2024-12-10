@@ -78,5 +78,5 @@ reactions:
 1. #loot/investigation 
 
 ##### Tags
-1. #Races/Leonin 
+1. #Races/Bloodcursed/Leonin
 2. #FightableNPC/Kodor

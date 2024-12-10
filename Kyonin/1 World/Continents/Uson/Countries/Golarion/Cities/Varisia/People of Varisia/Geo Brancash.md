@@ -36,5 +36,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Genasis
+- #Races/Genasi/Earth
 

@@ -14,7 +14,7 @@ E: 0
 
 # Stats
 ---
-- *Race* = #Races/Harengon 
+- *Race* = #Races/Fae-Born/Harengons 
 - *Class* = #Classes/Barbarian 
 
 # POI

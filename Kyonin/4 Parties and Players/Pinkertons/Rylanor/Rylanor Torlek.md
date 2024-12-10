@@ -14,7 +14,7 @@ E: 0
 
 # Stats
 ---
-- *Race* = #Races/Dwarf
+- *Race* = #Races/Dwarves
 - *Class* = #Classes/Artificer
 
 # POI

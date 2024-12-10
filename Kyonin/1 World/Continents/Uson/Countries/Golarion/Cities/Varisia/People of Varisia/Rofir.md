@@ -44,5 +44,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/SimicHybrid
+- #Races/Bloodcursed/SimicHybrid
 

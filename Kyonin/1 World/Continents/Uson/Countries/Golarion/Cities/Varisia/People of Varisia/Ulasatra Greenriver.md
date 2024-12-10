@@ -33,4 +33,4 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Firbolgs 
+- #Races/Giant-kin/Firbolgs 

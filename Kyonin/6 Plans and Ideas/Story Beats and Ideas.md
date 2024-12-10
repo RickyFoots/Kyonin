@@ -69,7 +69,7 @@
 	- It needs to tighten during <u>the next session</u>, "**Episode 8**"
 
 ## [[Monk Kee]]
-1. [ ] Allow [[Monk Kee]] communication with home somehow and give him the choice to stay on [[Kyonin]] or return home to [[The Planet of Apes - Hadozee]].  
+1. [ ] Allow [[Monk Kee]] communication with home somehow and give him the choice to stay on [[Kyonin]] or return home to [[Hadozee]].  
 
 2. [ ] Show case **Monk Kee**'s struggles with survivors guilt and elude to his past war exploits. 
 

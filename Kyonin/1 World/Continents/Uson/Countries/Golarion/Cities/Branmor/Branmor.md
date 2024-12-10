@@ -1,7 +1,7 @@
 # [[Branmor]] - "*Birthplace of the Dwarves*"
 ---
 - Named after the first dwarven king. 
-- If you were to look at this city from the plains surrounding the mountain that it's housed within, you'd see nothing more than two massive stone gates in the likeness of [[Kyonin/1 World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]] built into the side of a mountain. 
+- If you were to look at this city from the plains surrounding the mountain that it's housed within, you'd see nothing more than two massive stone gates in the likeness of [[Branmor - Wielder of the first Hammer]] built into the side of a mountain. 
 	- Once inside those gates, however, is the bustling metropolis of the dwarves.
 
 ## Map 

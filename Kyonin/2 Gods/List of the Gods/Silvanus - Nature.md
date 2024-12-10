@@ -4,8 +4,15 @@
 
 ## Created
 ---
-- Firbolgs
 - Giants
+- Gaint-kin
+	- Firbolgs
+	- Goliaths
+- Genasi 
+	- Air
+	- Earth 
+	- Fire 
+	- Water
 
 ## History
 ---
@@ -13,4 +20,9 @@
 
 #### Tags  
 - #Gods 
-- #Races/Firbolgs 
+- #Races/Giant-kin/Firbolgs 
+- #Races/Giant-kin/Goliaths
+- #Races/Genasi/Air 
+- #Races/Genasi/Earth 
+- #Races/Genasi/Fire 
+- #Races/Genasi/Water 

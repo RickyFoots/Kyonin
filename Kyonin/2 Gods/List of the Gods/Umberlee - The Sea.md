@@ -6,13 +6,12 @@
 ---
 - Triton
 - Helped in the creation of:
-	- Tortle - [[Bahamut - Metallic Dragons]]
-	- Sea Elves - [[Corellon - Fey]]
 	- Sharks - [[KeIm - Disfavored]]
 
 ## History
 ---
-1. 1
+1. 
 
 #### Tags  
 - #Gods 
+- #Races/ElementalTouched/Triton 

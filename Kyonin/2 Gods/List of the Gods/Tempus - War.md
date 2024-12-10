@@ -5,11 +5,14 @@
 ## Created
 ---
 - Orcs 
+- Gith
 
 ## History
 ---
-1. 1
+1. 
 
 #### Tags  
 - #Gods 
-- #Races/Orcs 
+- #Races/Bloodcursed/Orcs 
+- #Races/Gith/Yanki 
+- #Races/Gith/Zerai 

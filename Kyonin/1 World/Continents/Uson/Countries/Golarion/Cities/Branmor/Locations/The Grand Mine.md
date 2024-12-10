@@ -32,6 +32,6 @@
 
 ##### Tags
 - #Races/Dwarves 
-- #Races/Kobolds 
+- #Races/Scale-Born/Kobolds  
 - #Races/Goblinoids 
 - #GrandMine

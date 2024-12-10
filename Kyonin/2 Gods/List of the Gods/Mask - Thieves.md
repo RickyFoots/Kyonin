@@ -5,8 +5,6 @@
 ## Created
 ---
 - Halflings  
-- Helped in the creation of:
-	- Ratfolk - [[Malar - The Hunt]]
 
 ## History
 ---
@@ -14,5 +12,4 @@
 
 #### Tags 
 - #Gods 
-- #Races/Halflings 
-- #Races/Ratfolk
+- #Races/Materiel-Born/Halflings 

@@ -1,6 +1,6 @@
 # [[Goblinoids]] 
 ---
->[!multi-column]+ Info
+>[!multi-column] # Info
 >>[!faq]- Created By 
 >>![[Garyx - Chaos]]
 >

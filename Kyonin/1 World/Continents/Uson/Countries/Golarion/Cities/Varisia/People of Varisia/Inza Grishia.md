@@ -34,5 +34,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Tieflings
+- #Races/Bloodcursed/Tieflings
 

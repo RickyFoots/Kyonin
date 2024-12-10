@@ -6,7 +6,7 @@
 	- Plains of the north west.
 	- Mountainous regions throughout.
 - Hidden deep within the many *caves* and *sinkholes* throughout the nation is an interconnected highway of tunnels and mines creating [[The Grand Mine]] that spans all across *Golarian* connecting the major cities.
-	- Only certain *Dwarven*, *Goblinoid*, and *Kobold* families know of these tunnels existence and fewer still know where it's <u>many</u> entrances are hidden. #Races/Dwarves #Races/Goblinoids #Races/Kobolds
+	- Only certain *Dwarven*, *Goblinoid*, and *Kobold* families know of these tunnels existence and fewer still know where it's <u>many</u> entrances are hidden. #Races/Dwarves #Races/Goblinoids #Races/Scale-Born/Kobolds 
 - Connected with the "**Reptilian Nation**" of [[Katapesh]] to the south via the [[Burning Road]], just beyond the walls of [[Varisia]].
 - Home to:
 	- The *first* Artificer College in [[Kyonin]] - [[Aran Rhikal's College of Artificing]] in [[Kodor]]

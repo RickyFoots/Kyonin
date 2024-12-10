@@ -21,6 +21,6 @@
 1. Connects all The Towers [[Letters]], and anyone else with an [[Optical Disk of Synced Telepathy]], together with the rest of the facility.
 
 ##### Tags
-- #Races/Githyankis
+- #Races/Gith/Yanki
 - #NPC/TurrimInfnitum
-- #Races/Illithids 
+- #Races/Outer-Born/Illithids 

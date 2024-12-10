@@ -14,7 +14,7 @@ E: 0
 
 # Stats
 ---
-- *Race* = #Races/Changeling
+- *Race* = #Races/Fae-Born/Changelings
 - *Class* = #Classes/Bard 
 - *Age* = 28-29
 

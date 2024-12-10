@@ -60,5 +60,5 @@
 1. #loot/investigation 
 
 ##### Tags
-1. #Races/Ratfolk  
+1. #Races/Fae-Born/Ratfolk
 2. #FightableNPC/Kodor
