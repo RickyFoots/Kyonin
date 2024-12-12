@@ -34,11 +34,11 @@ tab: ### Episode count
 2. ("**Date Unknown**")
 3. ("**Date Unknown**")
 4. **07/21/23**
-5. **09/22/23
+5. **09/22/23**
 6. **10/06/23**
 7. **10/13/23**
 8. **11/17/23**
-9. 
+9.
 tab: ### Misc World Facts
 - Yards are equal to Teaspoons
 - 4 *Silver* for porn/smut
@@ -90,7 +90,7 @@ tab: ### **Does NOT** exist
 -
 ```
 
-# 3. Pinkertons, DA Fun Facts 
+# 3. Pinkertons, Fun Facts 
 ~~~~tabs
 
 tab: ## Claire Clover
