@@ -7,23 +7,26 @@ actions:
     command: app:reload
 ```
 
-# Quick access Tools
+# 1. Quick access Tools
 ```tabs
+tab: ### DM Notes
+- **No more Jeffery**
+
+tab: ### Map 
+![[Map of Golarian]]
 
 tab: ### Wild Encounters
 ![[-Wild Encounters-]]
+
 tab: ### Story Beats and Ideas
 ![[Story Beats and Ideas]]
+
+tab: ### Ideas to Flesh Out
+![[Ideas to Flesh Out]]
+
 ```
->[!faq]- Map 
->![[Map of Golarian]]
-- **No more Jeffery**
 
-# Ideas to Flesh Out
-> [!tldr]- Boneless Ideas 
-> ![[Ideas to Flesh Out]]
-
-# Random facts and Episode count
+# 2. Random facts and Episode count
 ```tabs
 
 tab: ### Episode count
@@ -87,7 +90,7 @@ tab: ### **Does NOT** exist
 -
 ```
 
-# Pinkertons, DA Fun Facts 
+# 3. Pinkertons, DA Fun Facts 
 ~~~~tabs
 
 tab: ## Claire Clover
