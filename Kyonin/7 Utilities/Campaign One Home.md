@@ -13,7 +13,7 @@ actions:
 tab: ### DM Notes
 **No more Jeffery**
 
-- 
+-
 tab: ### Map
 ![[Map of Golarian]]
 tab: ### Wild Encounters

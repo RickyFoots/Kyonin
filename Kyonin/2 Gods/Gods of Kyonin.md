@@ -1,5 +1,6 @@
+# [[Gods of Kyonin]]
 
-# List of Gods
+## List of Gods
 ---
 #Gods
 

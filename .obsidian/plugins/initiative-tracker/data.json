@@ -188,7 +188,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -208,7 +207,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -228,7 +226,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -248,7 +245,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -268,7 +264,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -288,7 +283,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       },
@@ -308,7 +302,6 @@
         "enabled": true,
         "level": 3,
         "player": true,
-        "active": false,
         "hidden": false,
         "friendly": false
       }
