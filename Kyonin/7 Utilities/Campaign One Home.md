@@ -7,86 +7,26 @@ actions:
     command: app:reload
 ```
 
+# Quick access Tools
+```tabs
+
+tab: ### Wild Encounters
+![[-Wild Encounters-]]
+tab: ### Story Beats and Ideas
+![[Story Beats and Ideas]]
+```
 >[!faq]- Map 
 >![[Map of Golarian]]
-
-> [!Example]- Wild Encounters
-> ![[-Wild Encounters-]]
-
-> [!Tip]- Story Beats and Ideas 
-> ![[Story Beats and Ideas]]
-
 - **No more Jeffery**
 
-# [[Ideas to Flesh Out]]
+# Ideas to Flesh Out
 > [!tldr]- Boneless Ideas 
 > ![[Ideas to Flesh Out]]
 
-# Assortment of Random facts
+# Random facts and Episode count
+```tabs
 
-### To Add
-- 
-
->[!multi-column] World Facts
->>[!example]- Exists In World
->>#### Exists In World
->>- **Animals**
->>	- Neigh Mysterio - Horse 
->>- **Disease**
->>	- The Clap
->>- **Drugs**
->>	- "Fantasy Weed" - Weed
->>- **Food**
->>	- *Cheeses*
->>	- *Fruits*
->>		- Peaches 
->>		- Lemons 
->>		- Apples
->>	- *Milk* - Measured in Yards 
->>	- *Misc*
->>		- Muffins
->>		- Gatorade
->>	- *Tea* 
->>		- Green 
->>		- Black 
->>		- Peach 
->>	- *Toast* 
->>		- Choast - Cheese on Toast
->>		- Boast - Banana on Toast
->>	- *Veg*
->>		- Carrots
->>		- Celery
->>- **MISC**
->>	- Base-jumping
->>	- Customs - Agency that protects cities and nations
->>	- Skiing
->>	- Calisthenics
->>	- Ballet
->>- **People**
->>	- Jarred Letto - Write Backstory 
->>	- O.J. Simpson 
->>	- Walkins
->>- **Plants**
->>	- *Trees*
->>		- Douglas Fir
->
->>[!question]-  Misc World Facts
->>#### Misc World Facts
->>- Yards are equal to Teaspoons
->>- 4 *Silver* for porn/smut
->>- **City Facts**
->>	- [[The Republic of Solaris]]
->>		- Has specialty healing potions flavors:
->>			- Cookies and cream
-
->[!fail]- Does not exists
->#### Does not exists
->- 
-
-
-# Adventures in [[Golarion]]
----
-## Episode count
+tab: ### Episode count
 1. ("**Date Unknown**")
 2. ("**Date Unknown**")
 3. ("**Date Unknown**")
@@ -96,17 +36,65 @@ actions:
 7. **10/13/23**
 8. **11/17/23**
 9. 
+tab: ### Misc World Facts
+- Yards are equal to Teaspoons
+- 4 *Silver* for porn/smut
+- **City Facts**
+	- [[The Republic of Solaris]]
+		- Has specialty healing potions flavors:
+			- Cookies and cream
+tab: ### Exists in World
+- **Animals**
+	- Neigh Mysterio - Horse 
+- **Disease**
+	- The Clap
+- **Drugs**
+	- "Fantasy Weed" - Weed
+- **Food**
+	- *Cheeses*
+	- *Fruits*
+		- Peaches 
+		- Lemons 
+		- Apples
+	- *Milk* - Measured in Yards 
+	- *Misc*
+		- Muffins
+		- Gatorade
+	- *Tea* 
+		- Green 
+		- Black 
+		- Peach 
+	- *Toast* 
+		- Choast - Cheese on Toast
+		- Boast - Banana on Toast
+	- *Veg*
+		- Carrots
+		- Celery
+- **MISC**
+	- Base-jumping
+	- Customs - Agency that protects cities and nations
+	- Skiing
+	- Calisthenics
+	- Ballet
+- **People**
+	- Jarred Letto - Write Backstory 
+	- O.J. Simpson 
+	- Walkins
+- **Plants**
+	- *Trees*
+		- Douglas Fir
+tab: ### **Does NOT** exist
+-
+```
 
-## Pinkertons, DA Fun Facts 
+# Pinkertons, DA Fun Facts 
+~~~~tabs
 
-### Claire Clover
-> [!col]
->>[!important]- Character History
->>![[Claire Clover]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Claire Clover]]
-1. Favorite color is pink. #Pinkertons/Claire
+tab: ## Claire Clover
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Claire
+1. Favorite color is pink. 
 2. Favorite food is a specific carrot stew that *only* her **maid** knew how to make. 
 3. Has a life goal to fight an [[Owlbear]].
 4. <span style="background:#ff4d4f">If she has a lot of caffeine she passes out</span>
@@ -116,14 +104,18 @@ actions:
 8. Does not know what to think about babies
 9. 
 
-### Elsbeth Vordr
-> [!col]
->>[!important]- Character History
->>![[Elsbeth Vordr]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Elsbeth Vordr]]
-1. Mom died in childbirth. #Pinkertons/Elsbeth
+tab: ### Character History
+![[Claire Clover]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Claire Clover]]
+
+```
+tab: ## Elsbeth Vordr
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Elsbeth
+1. Mom died in childbirth. 
 2. Can't keep a plant alive. 
 3. Was a champion chariot racer in the junior division.
 4. Is allergic to all mushrooms, gets a rash.
@@ -133,14 +125,18 @@ actions:
 8. <span style="background:#ff4d4f">Has never had sex</span>
 9. 
 
-### Hawthorne "The Hammer" Bittlesby
-> [!col]
->>[!important]- Character History
->>![[Hawthorne the Hammer]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Hawthorne the Hammer]]
-1. Doesn't know how to ride a horse. #Pinkertons/Hawthorne
+tab: ### Character History
+![[Elsbeth Vordr]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Elsbeth Vordr]]
+
+```
+tab: ## Hawthorne "The Hammer" Bittlesby
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Hawthorne
+1. Doesn't know how to ride a horse. 
 2. Has never won a hand of poker because of his luck. 
 3. Likes romance novels, fluffy and cute, <u>not smut</u>
 4. Favorite tree is the Douglas Fir
@@ -150,14 +146,18 @@ actions:
 8. Original stage name was <u>Hawthorne the Halberd</u>
 9. 
 
-### Jolene -Pix- Roxanne
-> [!col]
->>[!important]- Character History
->>![[Jolene-Pix]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Jolene-Pix]]
-1. Has a half sleeve tattoo of flowers on her left arm. #Pinkertons/Jolene
+tab: ### Character History
+![[Hawthorne the Hammer]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Hawthorne the Hammer]]
+
+```
+tab: ## Jolene -Pix- Roxanne
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Jolene
+1. Has a half sleeve tattoo of flowers on her left arm. 
 2. Is scared of <u>horses</u>. 
 3. Was a ballerina, trained from 10-18yrs, this is how she ended up [[Talavon]].
 4. Learned how to play violin from her Dad 
@@ -167,14 +167,18 @@ actions:
 8. Not a natural red head
 9. 
 
-### Monk Kee
-> [!col]
->>[!important]- Character History
->>![[Monk Kee]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Monk Kee]]
-1. Former general in the army. #Pinkertons/Ki
+tab: ### Character History
+![[Jolene-Pix]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Jolene-Pix]]
+
+```
+tab: ## Monk Kee
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Ki
+1. Former general in the army. 
 2. Favorite color is yellow. 
 3. Was in space for 2 years before meeting [[Rylanor Torlek]].
 4. Doesn't get the hype around Choast
@@ -184,14 +188,18 @@ actions:
 8. Short humans are the absolute worst
 9. 
 
-### Ricochet Whitetail
-> [!col]
->>[!important]- Character History
->>![[Ricochet Whitetail]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Ricochet Whitetail]]
-1. ==Loves== cheese #Pinkertons/Ricochet
+tab: ### Character History
+![[Monk Kee]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Monk Kee]]
+
+```
+tab: ## Ricochet Whitetail
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Ricochet
+1. ==Loves== cheese 
 2. Shot himself in the foot the first time he held a bow.
 3. Is a cat person.
 4. When Ricochet drinks Caffeine he bounces off the wall
@@ -201,14 +209,18 @@ actions:
 8. Does not care for carrots
 9. 
 
-### Rylanor Torlek 
-> [!col]
->>[!important]- Character History
->>![[Rylanor Torlek]]
->
->>[!question]- Story Beat Ideas
->> ![[Story Beats and Ideas#Rylanor Torlek]]
-1. Smokes "Fantasy Weed" #Pinkertons/Rylanor
+tab: ### Character History
+![[Ricochet Whitetail]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Ricochet Whitetail]]
+
+```
+tab: ## Rylanor Torlek
+```tabs
+tab: ### Fun Facts
+#Pinkertons/Rylanor
+1. Smokes "Fantasy Weed" 
 2. Blew up his dads lab trying to make gunpowder.
 3. Learned how to distill petroleum. He figured this out "accidentally"
 4. Was taught business tactics from Goblins and Dwarves
@@ -217,6 +229,15 @@ actions:
 7. Hates celery (With a passion)
 8. <span style="background:#ff4d4f">Deeply unnerved by open ocean</span>
 9. 
+
+tab: ### Character History
+![[Rylanor Torlek]]
+
+tab: ### Story Beat Ideas
+![[Story Beats and Ideas#Rylanor Torlek]]
+
+```
+~~~~
 
 ## Late night rolls
 ---
