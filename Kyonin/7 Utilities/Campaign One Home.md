@@ -9,21 +9,19 @@ actions:
 
 # 1. Quick access Tools
 ```tabs
+
 tab: ### DM Notes
-- **No more Jeffery**
+**No more Jeffery**
 
-tab: ### Map 
+- 
+tab: ### Map
 ![[Map of Golarian]]
-
 tab: ### Wild Encounters
 ![[-Wild Encounters-]]
-
 tab: ### Story Beats and Ideas
 ![[Story Beats and Ideas]]
-
 tab: ### Ideas to Flesh Out
 ![[Ideas to Flesh Out]]
-
 ```
 
 # 2. Random facts and Episode count

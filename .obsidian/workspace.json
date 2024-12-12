@@ -111,6 +111,7 @@
       {
         "id": "d560761a9e5dc2d3",
         "type": "tabs",
+        "dimension": 76.5142150803461,
         "children": [
           {
             "id": "c83b9058312bcfae",
@@ -149,6 +150,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e3ee1c8cc7beb3a",
+        "type": "tabs",
+        "dimension": 23.48578491965389,
+        "children": [
+          {
+            "id": "1bc68a68acc9952f",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
             }
           }
         ]
@@ -207,16 +225,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1bc68a68acc9952f",
-            "type": "leaf",
-            "state": {
-              "type": "vertical-tabs",
-              "state": {},
-              "icon": "gallery-vertical",
-              "title": "Vertical tabs"
-            }
-          },
-          {
             "id": "de60da8bfb6e2ab7",
             "type": "leaf",
             "state": {
@@ -255,7 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 424.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,17 +283,17 @@
   },
   "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
-    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
     "Kyonin/7 Utilities/Campaign One Home.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
-    "Kyonin/7 Utilities/Encounters/Wild Encounters/1-10/4/-Goblin Smiths-.md",
-    "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/1-10/4/-Goblin Smiths-.md",
+    "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
     "Kyonin/1 World/Races/Bloodcursed.md",
     "Kyonin/1 World/Races/Fae-Born/Fae-Born.md",
     "Kyonin/1 World/Races/Outer-Born.md",
