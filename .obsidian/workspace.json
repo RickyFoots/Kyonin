@@ -196,6 +196,16 @@
             }
           },
           {
+            "id": "ce0377ac6ce57a2b",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
             "id": "a4fb9fa95a9f686e",
             "type": "leaf",
             "state": {
@@ -206,16 +216,6 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
-            }
-          },
-          {
-            "id": "ce0377ac6ce57a2b",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
             }
           }
         ]
@@ -283,8 +283,11 @@
   },
   "active": "f546629bcaf5cfd2",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/7 Utilities/Campaign One Home.md",
     "Kyonin/6 Plans and Ideas/Ideas to Flesh Out.md",
     "Kyonin/2 Gods/Formless Gods of Kyonin.md",
@@ -292,9 +295,6 @@
     "Kyonin/2 Gods/Gods of Kyonin.md",
     "Kyonin/2 Gods/List of the Gods/Umberlee - The Sea.md",
     "Kyonin/7 Utilities/Key Words/Planes/Formless God.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene-Pix.md",
     "Kyonin/4 Parties and Players/Pinkertons/Hawthorne the Hammer/Hawthorne the Hammer.md",
