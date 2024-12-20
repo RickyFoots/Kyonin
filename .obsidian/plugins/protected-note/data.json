@@ -1,0 +1,12 @@
+{
+  "password": "417c95fc95f42d63cd5ab123ab816288a61176ddfbad9f0367473b1fc62483da",
+  "enablePass": true,
+  "animations": true,
+  "fileEncrypt": {
+    "encrypt": false,
+    "isAlreadyEncrypted": false
+  },
+  "autoLock": "0",
+  "folder": "Kyonin/6 Plans and Ideas/Campaign One",
+  "isLocked": false
+}
