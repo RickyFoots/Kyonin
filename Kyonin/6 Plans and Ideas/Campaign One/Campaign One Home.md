@@ -88,12 +88,12 @@ tab: ### **Does NOT** exist
 -
 ```
 
-# 3. Pinkertons, Fun Facts 
+# 3. Pinkerton's, Fun Facts 
 ~~~~tabs
 
-tab: ## Claire Clover
+tab: ### Claire Clover
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Claire
 1. Favorite color is pink. 
 2. Favorite food is a specific carrot stew that *only* her **maid** knew how to make. 
@@ -105,16 +105,16 @@ tab: ### Fun Facts
 8. Does not know what to think about babies
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Claire Clover]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Claire Clover]]
 
 ```
-tab: ## Elsbeth Vordr
+tab: ### Elsbeth Vordr
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Elsbeth
 1. Mom died in childbirth. 
 2. Can't keep a plant alive. 
@@ -126,16 +126,16 @@ tab: ### Fun Facts
 8. <span style="background:#ff4d4f">Has never had sex</span>
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Elsbeth Vordr]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Elsbeth Vordr]]
 
 ```
-tab: ## Hawthorne "The Hammer" Bittlesby
+tab: ### Hawthorne "The Hammer" Bittlesby
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Hawthorne
 1. Doesn't know how to ride a horse. 
 2. Has never won a hand of poker because of his luck. 
@@ -147,16 +147,16 @@ tab: ### Fun Facts
 8. Original stage name was <u>Hawthorne the Halberd</u>
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Hawthorne the Hammer]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Hawthorne the Hammer]]
 
 ```
-tab: ## Jolene -Pix- Roxanne
+tab: ### Jolene -Pix- Roxanne
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Jolene
 1. Has a half sleeve tattoo of flowers on her left arm. 
 2. Is scared of <u>horses</u>. 
@@ -168,16 +168,16 @@ tab: ### Fun Facts
 8. Not a natural red head
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Jolene-Pix]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Jolene-Pix]]
 
 ```
-tab: ## Monk Kee
+tab: ### Monk Kee
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Ki
 1. Former general in the army. 
 2. Favorite color is yellow. 
@@ -189,16 +189,16 @@ tab: ### Fun Facts
 8. Short humans are the absolute worst
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Monk Kee]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Monk Kee]]
 
 ```
-tab: ## Ricochet Whitetail
+tab: ### Ricochet Whitetail
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Ricochet
 1. ==Loves== cheese 
 2. Shot himself in the foot the first time he held a bow.
@@ -210,16 +210,16 @@ tab: ### Fun Facts
 8. Does not care for carrots
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Ricochet Whitetail]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Ricochet Whitetail]]
 
 ```
-tab: ## Rylanor Torlek
+tab: ### Rylanor Torlek
 ```tabs
-tab: ### Fun Facts
+tab: #### Fun Facts
 #Pinkertons/Rylanor
 1. Smokes "Fantasy Weed" 
 2. Blew up his dads lab trying to make gunpowder.
@@ -231,10 +231,10 @@ tab: ### Fun Facts
 8. <span style="background:#ff4d4f">Deeply unnerved by open ocean</span>
 9. 
 
-tab: ### Character History
+tab: #### Character History
 ![[Rylanor Torlek]]
 
-tab: ### Story Beat Ideas
+tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Rylanor Torlek]]
 
 ```

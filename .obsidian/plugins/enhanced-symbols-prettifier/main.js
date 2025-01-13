@@ -1008,85 +1008,89 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     const lastReplacementTemp = __spreadValues({}, this.lastReplacement);
     this.lastReplacement.active = false;
     const editor = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor;
-    if (editor) {
-      const cursor = editor.getCursor();
-      const line = editor.getLine(cursor.line);
-      let isSpacebar = false;
-      if (import_obsidian2.Platform.isMobileApp) {
-        isSpacebar = line.charAt(cursor.ch - 1) === " ";
-        cursor.ch = cursor.ch - 1;
-      }
-      if (this.isWordEnd(event, isSpacebar)) {
-        let from = -1;
-        let sequence = "";
-        for (let i = cursor.ch - 1; i >= 0; i--) {
-          if (this.isWordStart(line, i)) {
-            const excludeWordStartIndex = i + 1;
-            from = excludeWordStartIndex;
-            sequence = line.slice(excludeWordStartIndex, cursor.ch);
-            if (this.settings.replacements[sequence] && !this.settings.replacements[sequence].disabled || this.isSpaceCharacter(line, i)) {
-              break;
-            } else if (i === 0) {
-              from = i;
-              sequence = line.slice(i, cursor.ch);
-              break;
-            }
+    if (!editor)
+      return;
+    const cursor = editor.getCursor();
+    if (event.key === "Enter") {
+      cursor.line = cursor.line - 1;
+      cursor.ch = editor.getLine(cursor.line).length;
+    }
+    const line = editor.getLine(cursor.line);
+    let isSpacebar = false;
+    if (import_obsidian2.Platform.isMobileApp) {
+      isSpacebar = line.charAt(cursor.ch - 1) === " ";
+      cursor.ch = cursor.ch - 1;
+    }
+    if (this.isWordEnd(event, isSpacebar)) {
+      let from = -1;
+      let sequence = "";
+      for (let i = cursor.ch - 1; i >= 0; i--) {
+        if (this.isWordStart(line, i)) {
+          const excludeWordStartIndex = i + 1;
+          from = excludeWordStartIndex;
+          sequence = line.slice(excludeWordStartIndex, cursor.ch);
+          if (this.settings.replacements[sequence] && !this.settings.replacements[sequence].disabled || this.isSpaceCharacter(line, i)) {
+            break;
           } else if (i === 0) {
             from = i;
             sequence = line.slice(i, cursor.ch);
             break;
           }
+        } else if (i === 0) {
+          from = i;
+          sequence = line.slice(i, cursor.ch);
+          break;
         }
-        const replacement = this.settings.replacements[sequence];
-        if (!replacement) {
-          return;
-        }
-        if (replacement.disabled) {
-          return;
-        }
-        const replaceCharacter = replacement.value;
-        if (replaceCharacter && sequence.length > 0 && from !== -1 && !this.isCursorInUnwantedBlocks(editor)) {
-          this.applyReplacement(
-            editor,
-            cursor,
-            from,
-            replaceCharacter
-          );
-          this.lastReplacement = {
-            active: true,
-            sequence,
-            from,
-            line: cursor.line,
-            key: event.key
-          };
-          replacement.count = replacement.count ? replacement.count + 1 : 1;
-          this.saveSettings();
-        }
-      } else if (event.key === "Backspace" || event.key === "Delete" && import_obsidian2.Platform.isMacOS) {
-        if (!lastReplacementTemp.active)
-          return;
-        const replacement = this.settings.replacements[lastReplacementTemp.sequence];
-        if (!replacement || replacement.disabled)
-          return;
-        const isCursorValid = cursor.line === lastReplacementTemp.line && lastReplacementTemp.from === cursor.ch - replacement.value.length;
-        if (!isCursorValid)
-          return;
-        const lastCharacter = lastReplacementTemp.key;
-        let replaceCharacter = replacement.replaced;
-        if (lastCharacter == "Enter") {
-          replaceCharacter += "\n";
-        } else {
-          replaceCharacter += lastCharacter;
-        }
+      }
+      const replacement = this.settings.replacements[sequence];
+      if (!replacement) {
+        return;
+      }
+      if (replacement.disabled) {
+        return;
+      }
+      const replaceCharacter = replacement.value;
+      if (replaceCharacter && sequence.length > 0 && from !== -1 && !this.isCursorInUnwantedBlocks(editor)) {
         this.applyReplacement(
           editor,
           cursor,
-          lastReplacementTemp.from,
+          from,
           replaceCharacter
         );
-        this.lastReplacement.active = false;
+        this.lastReplacement = {
+          active: true,
+          sequence,
+          from,
+          line: cursor.line,
+          key: event.key
+        };
+        replacement.count = replacement.count ? replacement.count + 1 : 1;
         this.saveSettings();
       }
+    } else if (event.key === "Backspace" || event.key === "Delete" && import_obsidian2.Platform.isMacOS) {
+      if (!lastReplacementTemp.active)
+        return;
+      const replacement = this.settings.replacements[lastReplacementTemp.sequence];
+      if (!replacement || replacement.disabled)
+        return;
+      const isCursorValid = cursor.line === lastReplacementTemp.line && lastReplacementTemp.from === cursor.ch - replacement.value.length;
+      if (!isCursorValid)
+        return;
+      const lastCharacter = lastReplacementTemp.key;
+      let replaceCharacter = replacement.replaced;
+      if (lastCharacter == "Enter") {
+        replaceCharacter += "\n";
+      } else {
+        replaceCharacter += lastCharacter;
+      }
+      this.applyReplacement(
+        editor,
+        cursor,
+        lastReplacementTemp.from,
+        replaceCharacter
+      );
+      this.lastReplacement.active = false;
+      this.saveSettings();
     }
   }
   isWordStart(line, i) {
@@ -1131,3 +1135,5 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     }).length !== 0;
   }
 };
+
+/* nosourcemap */
