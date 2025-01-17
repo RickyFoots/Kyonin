@@ -15,10 +15,13 @@
 3. [[The Demon Seed]] 	
 	- `Notes`: The "Gene Seed", created by [[Garyx - Chaos]], that holds the genetic code for all **Demons** 
 4. Great houses of [[The Republic of Solaris]] 	
-	- `Notes`: **Traitors to the Houses**: *Discovered* traitors of the great houses are quietly killed and then have their spirits bound to a **talisman** held by either the head of the house or someone they deem worth to control the dead. 		
-	- [[They Who Walked Away]] retain their abilities but completely controlled by whoever holds their **talisman**.
-5. Make [[Asmodeus]] an old forgotten *Formless God*
+	- `Notes`: **Traitors to the Houses**: *Discovered* traitors of the great houses are quietly killed and then have their spirits bound to a **talisman** held by either the head of the house or someone they deem worthy to control the dead. 		
+		- [[They Who Walked Away]] retain their abilities but completely controlled by whoever holds their **talisman**.
+		- *They Who Walked Away* still have physical bodies and can speak but their bodies have [[Arcane Sigils]] all over them. 
+			- They cover the *sigils* with long sleeves, shirt collars, and floor length skirts/dresses and pants.
+1. Make [[Asmodeus]] an old forgotten *Formless God*
 	- `Notes`: This would mean that all *devilkind* has some form of divinity buried deep within their heritage.
+	- Maybe make it where *Asmodeus* is/was the reason that the *Formless Gods* fell in [[The War of Creation]]
 
 ## Results
 ---
