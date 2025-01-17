@@ -1,0 +1,11 @@
+.arcane-word {
+	display: inline-block;
+	white-space: pre;
+}
+
+.arcane-character {
+	width: 1ch;
+	display: inline-flex;
+	justify-content: center;
+	color: #9a75ad;
+}
