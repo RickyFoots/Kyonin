@@ -1,4 +1,4 @@
-# `~Just a Random Name~` First God of Death
+# `~REDACTED~` First God of Death
 ---
 
 
