@@ -25,7 +25,7 @@ tab: ### Ideas to Flesh Out
 ```
 
 # 2. Random facts and Episode count
-```tabs
+`````tabs
 
 tab: ### Episode count
 1. ("**Date Unknown**")
@@ -45,19 +45,27 @@ tab: ### Misc World Facts
 		- Has specialty healing potions flavors:
 			- Cookies and cream
 tab: ### Exists in World
+````col
+```col-md
 - **Animals**
-	- Neigh Mysterio - Horse 
+	- Neigh Mysterio - <u>Horse</u>
 - **Disease**
 	- The Clap
+	- `~Soul Death~`
 - **Drugs**
-	- "Fantasy Weed" - Weed
+	- "Fantasy Weed" - <u>Weed</u>
+
+```
+
+```col-md
+
 - **Food**
 	- *Cheeses*
 	- *Fruits*
 		- Peaches 
 		- Lemons 
 		- Apples
-	- *Milk* - Measured in Yards 
+	- *Milk* - <u>Measured in Yards</u> 
 	- *Misc*
 		- Muffins
 		- Gatorade
@@ -66,14 +74,19 @@ tab: ### Exists in World
 		- Black 
 		- Peach 
 	- *Toast* 
-		- Choast - Cheese on Toast
-		- Boast - Banana on Toast
+		- Choast - <u>Cheese on Toast</u>
+		- Boast - <u>Banana on Toast</u>
 	- *Veg*
 		- Carrots
 		- Celery
+
+```
+
+```col-md
+
 - **MISC**
 	- Base-jumping
-	- Customs - Agency that protects cities and nations
+	- Customs - <u>Agency that protects cities and nations</u>
 	- Skiing
 	- Calisthenics
 	- Ballet
@@ -84,9 +97,11 @@ tab: ### Exists in World
 - **Plants**
 	- *Trees*
 		- Douglas Fir
+```
+````
 tab: ### **Does NOT** exist
 -
-```
+`````
 
 # 3. Pinkerton's, Fun Facts 
 ~~~~tabs
@@ -243,4 +258,3 @@ tab: #### Story Beat Ideas
 ## Late night rolls
 ---
 - 
-  
