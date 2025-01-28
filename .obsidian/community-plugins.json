@@ -24,5 +24,8 @@
   "protected-note",
   "arcane-obfuscate",
   "dynamic-outline",
-  "homepage"
+  "homepage",
+  "note-annotations",
+  "recent-notes",
+  "tengwar"
 ]
