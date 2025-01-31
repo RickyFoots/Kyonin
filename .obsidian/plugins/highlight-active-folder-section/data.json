@@ -1,12 +1,14 @@
 {
-  "highlightedFolderColor": "rgba(99, 176, 118, 1)",
+  "autoScroll": true,
+  "useImportantTags": true,
+  "highlightedFolderColor": "rgba(176, 99, 99, 1)",
   "highlightFolderTitleColor": false,
   "highlightedFolderTitleColor": "#ffffff00",
   "highlightedFolderTextColor": "rgba(255, 255, 255, 1)",
   "highlightParentFolder": false,
   "highlightedParentFolderColor": "#dddddd",
   "highlightedParentFolderTextColor": "#000000",
-  "highlightedFolderBorderRadius": "25px",
+  "highlightedFolderBorderRadius": "24px",
   "highlightedParentFolderBorderRadius": "5px",
   "highlightedFolderFontWeight": "700",
   "highlightedParentFolderFontWeight": "bold"
