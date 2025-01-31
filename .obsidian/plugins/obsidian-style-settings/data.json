@@ -133,7 +133,7 @@
   "ITS@@nord": false,
   "ITS@@drwn": false,
   "ITS@@t-d": false,
-  "ITS@@s-d": false,
+  "ITS@@s-d": true,
   "ITS@@slrvb-g": false,
   "ITS@@ITS-Sizes": "sizing-large",
   "ITS@@i-at@@dark": "#D63B3B",
@@ -203,5 +203,8 @@
   "fancy-a-story@@fas-bg-textures": true,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-green",
-  "anuppuccin-theme-settings@@anp-toggle-preview": false
+  "anuppuccin-theme-settings@@anp-toggle-preview": false,
+  "ITS@@slrvb-b": false,
+  "ITS@@select": "dnd",
+  "ITS@@notion": false
 }

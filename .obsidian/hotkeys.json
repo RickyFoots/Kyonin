@@ -51,5 +51,14 @@
       ],
       "key": "R"
     }
+  ],
+  "webviewer:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "W"
+    }
   ]
 }

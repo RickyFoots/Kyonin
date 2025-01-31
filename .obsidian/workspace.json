@@ -152,23 +152,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce0377ac6ce57a2b",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
-            }
-          },
-          {
-            "id": "86565e72f5364429",
+            "id": "22d7db2c547e0828",
             "type": "leaf",
             "state": {
               "type": "vertical-tabs",
               "state": {},
               "icon": "gallery-vertical",
               "title": "Vertical tabs"
+            }
+          },
+          {
+            "id": "b0b1e4368b0059a8",
+            "type": "leaf",
+            "state": {
+              "type": "recent-notes-view",
+              "state": {},
+              "icon": "clock-10",
+              "title": "Recent notes"
             }
           },
           {
@@ -201,8 +201,7 @@
               "title": "Outline of Campaign One Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -216,6 +215,16 @@
               "state": {},
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "ce0377ac6ce57a2b",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
@@ -238,6 +247,7 @@
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
+              "state": {},
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
@@ -250,6 +260,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "recent-notes:Recent notes": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": true,
@@ -263,18 +274,17 @@
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "protected-note:Block Obsidian": false,
-      "homepage:Open homepage": false,
       "note-annotations:Enable highlighting mode": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "c83b9058312bcfae",
   "lastOpenFiles": [
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
     "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin/7 Utilities/Bestiary/Towns Guard.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Story Beats and Ideas.md",
