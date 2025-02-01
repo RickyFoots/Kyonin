@@ -41,7 +41,7 @@
 ````
 
 >[!alert]- Gem Table
->![[Gem Table]]
+>![[Gemstone Table]]
 
 #### Tags
 - #Shop 
