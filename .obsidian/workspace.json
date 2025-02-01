@@ -25,6 +25,21 @@
             }
           },
           {
+            "id": "2f3868ab1af15a9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/7 Utilities/Charts and Tables/Gemstone Table.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Gemstone Table"
+            }
+          },
+          {
             "id": "6cf71fef7dbb3b9b",
             "type": "leaf",
             "state": {
@@ -84,7 +99,8 @@
               "title": "The Snake Pit"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,9 +289,10 @@
   "active": "c83b9058312bcfae",
   "lastOpenFiles": [
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
     "Kyonin/7 Utilities/Charts and Tables/Gemstone Table.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
     "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/The Rabbit Hole/- The Rabbit Hole -.md",
     "Kyonin/7 Utilities/Templates/Shop_Template.md",
@@ -294,7 +311,6 @@
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Revitalizing Tonic.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Warpaint of Vigilance.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Spicy Tom's Secret Sauce.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/Sagebow.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/Bushwhacker’s Firespitter.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Dale -Booming- Burnhart.md",
