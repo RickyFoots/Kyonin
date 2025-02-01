@@ -2,11 +2,14 @@
 ```meta-bind-button
 style: destructive
 label: Reload Current Vault
+id: Reload
+hidden: true
 actions:
   - type: command
     command: app:reload
 ```
 
+``BUTTON[Reload]`` ``BUTTON[Web]`` 
 # 1. Quick access Tools
 ```tabs
 

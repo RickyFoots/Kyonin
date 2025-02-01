@@ -226,5 +226,7 @@
   "ITS@@embed-mini-headers": false,
   "ITS@@metadata-value-background": false,
   "ITS@@outline@@dark": "#828688",
-  "ITS@@folder@@dark": "#883737"
+  "ITS@@folder@@dark": "#883737",
+  "ITS@@background-image-url": "url(https://raw.githubusercontent.com/RickyFoots/Wallpapers/refs/heads/main/Collection/Real%20Life/Forest/nature_running_water.jpg)",
+  "ITS@@background-image-blur": 16
 }

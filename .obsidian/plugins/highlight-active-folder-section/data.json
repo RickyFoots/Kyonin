@@ -6,7 +6,7 @@
   "highlightedFolderTitleColor": "#ffffff00",
   "highlightedFolderTextColor": "rgba(255, 255, 255, 1)",
   "highlightParentFolder": true,
-  "highlightedParentFolderColor": "rgba(105, 23, 23, 0)",
+  "highlightedParentFolderColor": "rgba(255, 255, 255, 0)",
   "highlightedParentFolderTextColor": "rgba(255, 255, 255, 1)",
   "highlightedFolderBorderRadius": "24px",
   "highlightedParentFolderBorderRadius": "24px",
