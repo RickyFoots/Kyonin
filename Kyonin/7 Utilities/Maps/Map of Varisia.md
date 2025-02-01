@@ -1,11 +1,5 @@
 
-```meta-bind-button
-style: destructive
-label: Show to Players 
-actions:
-  - type: command
-    command: workspace:open-in-new-window
-```
+`BUTTON[Show]`
 
 # [[Map of Varisia]] - [[Varisia]]
 ---
