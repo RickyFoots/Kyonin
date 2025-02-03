@@ -33,5 +33,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Kobolds 
+- #Races/Scale-Born/Kobolds 
 

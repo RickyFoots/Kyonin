@@ -1,5 +1,5 @@
 - **Coastal Combat Entertainment**. 
-- The wrestling federation based out of [[Kodor]], which is run by #TBD, and includes, [[Hawthorne the Hammer]], and [[Kayden Fabrianno]] as some of it's more prominent wrestlers.
+- The wrestling federation based out of [[Kodor]], which is run by #Todo , and includes, [[Hawthorne the Hammer]], and [[Kayden Fabrianno]] as some of it's more prominent wrestlers.
 
 ---
 1. Typically, the C.C.E. travels the continent of [[Golarion]]. 

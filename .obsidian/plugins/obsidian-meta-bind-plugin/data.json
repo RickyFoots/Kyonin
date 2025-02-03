@@ -15,7 +15,44 @@
   "enableSyntaxHighlighting": true,
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
-  "buttonTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "This is a button",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "This is a button",
+      "hidden": false,
+      "actions": []
+    },
+    {
+      "style": "plain",
+      "label": "Show to Players",
+      "id": "Show",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "workspace:open-in-new-window"
+        }
+      ]
+    },
+    {
+      "style": "primary",
+      "label": "Open Web Viewer",
+      "id": "Web",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "command",
+          "command": "webviewer:open"
+        }
+      ]
+    }
+  ],
   "excludedFolders": [
     "templates"
   ]

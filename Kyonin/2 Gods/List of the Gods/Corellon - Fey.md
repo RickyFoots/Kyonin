@@ -4,20 +4,27 @@
 
 ## Created
 ---
-- Most Elven variants
-- Helped in the creation of: 
-	- **Astral Elves** - [[Pelor - Sun]] & [[Selûne - Moon and Dreams]]
-	- **Sea Elves** - [[Umberlee - The Sea]]
-	- **Drow** - [[Lolth]]
-	- **Shadar-Kai** - [[Selûne - Moon and Dreams]]
-	- **Gith** - [[Oghma - Knowledge]]
-- Fairies
-- Satyrs
-- Eladrin
-- Owlin
-- Harengon
-- Centaur
-- Dryads
+- *Elves*: 
+	- **Astral Elves** 
+	- **Sea Elves** 
+	- **Drow** 
+	- **Shadar-Kai** 
+	- **Wood Elves**
+	- **High Elves**
+- *Aarakocra* 
+- *Changlings*
+- *Centaurs*
+- *Dryads*
+- *Eladrins*
+- *Fairies*
+- *Giff*
+- *Harengons*
+- *Hexbloods*
+- *Loxodon*
+- *Owlins*
+- *Ratfolk*
+- *Satyrs*
+- *Tabaxi*
 
 ## History
 ---
@@ -26,8 +33,12 @@
 #### Tags
 - #Gods 
 - #Races/Elves 
-- #Races/Harengon 
-- #Races/Satyrs 
-- #Races/Owlin 
-- #Races/Centaur 
-- #Races/Dryads
+- #Races/Fae-Born/Harengons 
+- #Races/Fae-Born/Satyrs 
+- #Races/Fae-Born/Owlins 
+- #Races/Fae-Born/Centaurs 
+- #Races/Fae-Born/Dryads
+- #Races/Fae-Born/Fairies
+- #Races/Fae-Born/Satyrs
+- #Races/Fae-Born/Changlings
+- #Races/Fae-Born/Eladrins

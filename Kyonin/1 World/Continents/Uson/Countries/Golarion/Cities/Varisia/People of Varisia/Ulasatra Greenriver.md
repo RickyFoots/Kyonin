@@ -3,7 +3,7 @@
 ## Description - Facts
 ---
 - Very thin *Firbolg* woman 
-- Famously for being the <u>best</u> *silver smith* in all of [[Golarion]]. 
+- Famous for being the <u>best</u> *silver smith* in all of [[Golarion]]. 
 - Found in the city of [[Varisia]]
 - Runs [[- Greenriver's Sheen -]]
 
@@ -13,6 +13,7 @@
 ```col-md
 #### Allies
 - [[Netch the Drowned]] - Boss
+- [[Sartoris Oak]] - *Fiancee*
 
 ```
 ```col-md
@@ -33,4 +34,4 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Firbolgs 
+- #Races/Giant-kin/Firbolgs 

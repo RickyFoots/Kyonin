@@ -1,13 +1,6 @@
 
-```meta-bind-button
-style: destructive
-label: Show to Players 
-actions:
-  - type: command
-    command: workspace:open-in-new-window
-```
-
-# [[Size Chart]]
+`BUTTON[Show]`
+# [[Size Chart]] 
 ## Being Sizes
 ````col
 ```col-md

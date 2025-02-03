@@ -1,5 +1,5 @@
 Grotesque "failed *simic hybrids*" that were the byproduct of the failed union between elf and fish DNA during the [[Kyonin/1 World/Continents/Uson/Countries/Golarion/History/The Vast World Project]]. Somewhere between life and death, they often swarm together as a twisted homage to their fish ancestry.
-- Found deep in the seas surrounding the Elven empire of #TBD, but some have made their way off the coast of [[Kodor]] and rumor has it a swarm has made their home in [[Aquos]].
+- Found deep in the seas surrounding the Elven empire of #Todo, but some have made their way off the coast of [[Kodor]] and rumor has it a swarm has made their home in [[Aquos]].
 
 ## Stats
 ---

@@ -14,7 +14,7 @@ E: 0
 
 # Stats
 ---
-- *Race* = #Races/Half-Orc
+- *Race* = #Races/Bloodcursed/Half-Orcs
 - *Class* = #Classes/Bard
 
 # POI

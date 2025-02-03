@@ -33,5 +33,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Tortles
+- #Races/Scale-Born/Tortle
 

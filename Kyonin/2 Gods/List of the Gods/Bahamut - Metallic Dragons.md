@@ -6,9 +6,8 @@
 ---
 - Metallic Dragonborn
 - Viashino
-- Helped in the creation of:
-	- Tortle - [[Umberlee - The Sea]]
-	- Gem Dragonborn - [[Tymora - Fortune]]
+- Tortle 
+- Gem Dragonborn 
 
 ## History
 ---
@@ -16,3 +15,8 @@
 
 #### Tags
 - #Gods 
+- #Races/Scale-Born
+- #Races/Scale-Born/Dragonborn/Metallic
+- #Races/Scale-Born/Viashino
+- #Races/Scale-Born/Tortle 
+- #Races/Scale-Born/Dragonborn/Gem

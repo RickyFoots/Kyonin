@@ -45,5 +45,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Viashino 
+- #Races/Scale-Born/Viashino 
 

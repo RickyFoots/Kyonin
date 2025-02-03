@@ -15,7 +15,7 @@
 
 #### Tags  
 - #Gods 
-- #Races/Dragonborn 
-- #Races/Kobolds 
-- #Races/Lizardfolk 
-- #Races/Yuan-Ti
+- #Races/Scale-Born/Dragonborn/Chromatic
+- #Races/Scale-Born/Kobolds 
+- #Races/Scale-Born/Lizardfolk 
+- #Races/Scale-Born/Yuan-Ti

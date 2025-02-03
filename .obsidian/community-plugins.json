@@ -7,7 +7,6 @@
   "harper",
   "editing-toolbar",
   "enhanced-symbols-prettifier",
-  "beautitab",
   "calendarium",
   "obsidian-5e-statblocks",
   "obsidian-regex-replace",
@@ -18,7 +17,15 @@
   "alignment-tracker",
   "obsidian-icon-folder",
   "obsidian-tasks-plugin",
-  "booknav",
   "file-manager",
-  "simple-sketch"
+  "simple-sketch",
+  "timelines-revamped",
+  "tabs",
+  "protected-note",
+  "arcane-obfuscate",
+  "dynamic-outline",
+  "homepage",
+  "note-annotations",
+  "recent-notes",
+  "tengwar"
 ]

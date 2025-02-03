@@ -14,7 +14,7 @@ E: 0
 
 # Stats
 ---
-- *Race* = #Races/Hadozee
+- *Race* = #Races/Hadozee 
 - *Class* = #Classes/Monk
 - **Dick** = ★ 9' Soft 10' Hard ★ 
 
@@ -25,7 +25,7 @@ E: 0
 # History 
 ---
 - Can't swim. 
-- Is from [[The Planet of Apes - Hadozee]] 
+- Is from [[Hadozee]] 
 - Has a store of wavy banana's
 
 # Fun Facts

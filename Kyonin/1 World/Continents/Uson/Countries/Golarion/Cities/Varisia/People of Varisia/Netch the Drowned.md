@@ -46,5 +46,5 @@
 
 ##### Tags
 - #NPC/Varisia 
-- #Races/Ratfolk 
+- #Races/Fae-Born/Ratfolk
 

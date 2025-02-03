@@ -1,3 +1,6 @@
+
+# [[Theoan Ironpelt]]
+---
 - Grizzled old veteran Leonin who is the current grand champion at [[The Snake Pit]]
 	- Often visit [[A Gorgon's Thirst]] to blow off steam and have a few bears.
 	- Well over 7ft tall
@@ -78,5 +81,5 @@ reactions:
 1. #loot/investigation 
 
 ##### Tags
-1. #Races/Leonin 
+1. #Races/Bloodcursed/Leonin
 2. #FightableNPC/Kodor

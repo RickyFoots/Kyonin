@@ -1,6 +1,6 @@
 # [{The Name}] 
 ---
->[!multi-column]+ Info
+>[!multi-column] # Info
 >>[!faq]- Created By
 >>[{God Name}]
 >
@@ -11,12 +11,9 @@
 ---
 - {Description Goes First}
 
-
 ## History
 ---
 1. 
 
 ##### Tags
 - #Races/
-
-

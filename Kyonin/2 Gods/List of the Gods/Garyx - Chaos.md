@@ -9,8 +9,7 @@
 - Bugbears
 - The [[Abyss]]
 	- [[The Demon Seed]]
-- Helped in the Creation of:
-	- Mind Flayers - [[Oghma - Knowledge]]
+- Illithids
 
 ## History
 ---
@@ -22,3 +21,4 @@
 - #Races/Goblinoids/Goblins 
 - #Races/Goblinoids/Hobgoblins 
 - #Races/Goblinoids/Bugbears
+- #Races/Outer-Born/Illithids

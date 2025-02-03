@@ -1,4 +1,6 @@
 
+# [[-Wild Encounters-]]
+
 | **Roll** |         *The Encounter*          | Done? |
 | :------: | :------------------------------: | :---: |
 |    1     |          [[-Tornado-]]           |       |

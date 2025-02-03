@@ -36,5 +36,5 @@
 
 ##### Tags
 - #NPC/Varisia
-- #Races/Dragonborn 
+- #Races/Scale-Born/Dragonborn/Chromatic 
 
