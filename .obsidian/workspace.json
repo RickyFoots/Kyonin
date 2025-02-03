@@ -110,7 +110,8 @@
               "title": "Theoan Ironpelt"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Races/Goblinoids",
+                "query": "tag:#Races",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,9 +182,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Theoan Ironpelt"
             }
           },
           {
@@ -220,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -266,6 +269,7 @@
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
+              "state": {},
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
@@ -290,8 +294,10 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "7df9c7dcd2e5346d",
+  "active": "e216caf542846394",
   "lastOpenFiles": [
+    "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
+    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh.md",
     "Kyonin/1 World/Races/Goblinoids.md",
     "Kyonin/2 Gods/List of the Gods/Waukeen - Trade.md",
@@ -316,8 +322,6 @@
     "Kyonin/2 Gods/List of the Gods/Milil - Song.md",
     "Kyonin/2 Gods/List of the Gods/Mask - Thieves.md",
     "Kyonin/2 Gods/List of the Gods/Malar - The Hunt.md",
-    "Kyonin/2 Gods/List of the Gods/Lathander - Life.md",
-    "Kyonin/2 Gods/List of the Gods/KeIm - Disfavored.md",
     "Kyonin/1 World/Races",
     "Kyonin/1 World/History/Otherworldly",
     "Kyonin/1 World/Continents/Uson/Countries",
