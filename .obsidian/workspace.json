@@ -4,31 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f9f888e4334f4546",
+        "id": "8d60d8d1c217d486",
         "type": "tabs",
         "children": [
           {
-            "id": "7df9c7dcd2e5346d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "beautitab-react-view",
-              "state": {},
-              "pinned": true,
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "f546629bcaf5cfd2",
+            "id": "e422da958215530d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/7 Utilities/Campaign One Home.md",
+                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -36,82 +25,66 @@
             }
           },
           {
-            "id": "f242ad905fc34050",
+            "id": "6cf71fef7dbb3b9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Varisia"
             }
           },
           {
-            "id": "90ddf48f51eacfd2",
+            "id": "0e0b5d7b5e7b17bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "A Gorgon's Thirst"
             }
           },
           {
-            "id": "b14cecdebbb7c794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Snake Pit"
-            }
-          },
-          {
-            "id": "aa05acc0a89f0a54",
+            "id": "0213b21f2c240e02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Jeremiah Esku"
             }
           },
           {
-            "id": "e216caf542846394",
+            "id": "62d223eef97c1db3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Theoan Ironpelt"
+              "title": "The Snake Pit"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +103,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -142,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Races",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,25 +152,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7cea860654849c6",
+            "id": "ce0377ac6ce57a2b",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Theoan Ironpelt"
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
-            "id": "98011d6f843d6475",
+            "id": "b0b1e4368b0059a8",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "recent-notes-view",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "clock-10",
+              "title": "Recent notes"
             }
           },
           {
@@ -206,24 +178,32 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "ce0377ac6ce57a2b",
+            "id": "bf830ee5388531be",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "type": "outline",
+              "state": {
+                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "pinned": true,
+              "icon": "lucide-list",
+              "title": "Outline of Campaign One Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -247,21 +227,11 @@
               "state": {
                 "file": "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Player Randomizer"
-            }
-          },
-          {
-            "id": "1c144983a23e2309",
-            "type": "leaf",
-            "state": {
-              "type": "MAIN_VIEW",
-              "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
             }
           },
           {
@@ -278,10 +248,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 424.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "recent-notes:Recent notes": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
@@ -291,47 +263,51 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "solo-rpg-toolkit:Solo RPG Toolkit": false,
       "simple-sketch:Simple Sketch": false,
+      "timelines-revamped:Insert Timeline Event": false,
+      "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
+      "protected-note:Block Obsidian": false,
+      "note-annotations:Enable highlighting mode": false,
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "e216caf542846394",
+  "active": "e422da958215530d",
   "lastOpenFiles": [
-    "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
+    "Kyonin/7 Utilities/Charts and Tables/Gemstone Table.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -.md",
+    "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/The Rabbit Hole/- The Rabbit Hole -.md",
+    "Kyonin/7 Utilities/Templates/Shop_Template.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant Locations/Shops/Tim and Son's Bait and Tackle.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Cult of Noso/Rugu, Ascended From Flesh.md",
-    "Kyonin/1 World/Races/Goblinoids.md",
-    "Kyonin/2 Gods/List of the Gods/Waukeen - Trade.md",
-    "Kyonin/2 Gods/List of the Gods/Umberlee - The Sea.md",
-    "Kyonin/2 Gods/List of the Gods/Tyr - Justice.md",
-    "Kyonin/2 Gods/List of the Gods/Tymora - Fortune.md",
-    "Kyonin/2 Gods/List of the Gods/Tiamat - Chromatic Dragons.md",
-    "Kyonin/2 Gods/List of the Gods/They Who Came Before - Death.md",
-    "Kyonin/2 Gods/List of the Gods/The Raven Queen - Death.md",
-    "Kyonin/2 Gods/List of the Gods/Tempus - War.md",
-    "Kyonin/2 Gods/List of the Gods/Talos - Storms.md",
-    "Kyonin/2 Gods/List of the Gods/Talona - Disease.md",
-    "Kyonin/2 Gods/List of the Gods/Sune - Love and Beauty.md",
-    "Kyonin/2 Gods/List of the Gods/Silvanus - Nature.md",
-    "Kyonin/2 Gods/List of the Gods/Shar - Loss.md",
-    "Kyonin/2 Gods/List of the Gods/Selûne - Moon and Dreams.md",
-    "Kyonin/7 Utilities/Key Words/Planes/Formless God.md",
-    "Kyonin/2 Gods/List of the Gods/Pelor - Sun.md",
-    "Kyonin/2 Gods/List of the Gods/Oghma - Knowledge.md",
-    "Kyonin/2 Gods/List of the Gods/Mystra - Magic.md",
-    "Kyonin/2 Gods/List of the Gods/Moradin - Crafting.md",
-    "Kyonin/2 Gods/List of the Gods/Milil - Song.md",
-    "Kyonin/2 Gods/List of the Gods/Mask - Thieves.md",
-    "Kyonin/2 Gods/List of the Gods/Malar - The Hunt.md",
+    "Kyonin/7 Utilities/Maps/Map of Varisia.md",
+    "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Once Upon a Seam/- Once Upon a Seam -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/Arcanists Blade.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Black and Tanned/- Black and Tanned -.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Oil of Weightlessness.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Revitalizing Tonic.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Warpaint of Vigilance.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/Spicy Tom's Secret Sauce.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/Sagebow.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/Bushwhacker’s Firespitter.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Dale -Booming- Burnhart.md",
+    "Kyonin/6 Plans and Ideas/Campaign One",
+    "Kyonin/1 World/Races/Materiel-Born",
+    "Kyonin/1 World/Races/Fae-Born",
+    "Kyonin/1 World/Races/Elemental Touched",
     "Kyonin/1 World/Races",
     "Kyonin/1 World/History/Otherworldly",
     "Kyonin/1 World/Continents/Uson/Countries",
     "Kyonin/1 World/Continents/Uson",
     "Kyonin/1 World/Continents/Countries",
     "Kyonin/1 World/Continents",
-    "Kyonin/1 World/Continents/Uson/Countries/Katapesh/Notable Locations",
-    "Kyonin/Planet/Golarion/Notable Locations",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/False Serpent Tribe",
-    "Kyonin/Planet/Katapesh/Groups/Tribes/Scrap Scrap Tribe",
     "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
