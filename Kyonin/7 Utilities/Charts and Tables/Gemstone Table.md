@@ -3,9 +3,9 @@ exampleProperty:
   - Azurite
   - Banded agate
 Cost: 0
-Gem: 
-Damage: 
-Size: 
+Gem: 50
+Damage: -40
+Size: -40
 ---
 
 # [[Gemstone Table]]

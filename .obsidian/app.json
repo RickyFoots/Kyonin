@@ -2,7 +2,7 @@
   "alwaysUpdateLinks": true,
   "propertiesInDocument": "hidden",
   "showLineNumber": false,
-  "showIndentGuide": false,
+  "showIndentGuide": true,
   "focusNewTab": false,
   "showInlineTitle": true,
   "readableLineLength": true,

@@ -1,0 +1,42 @@
+/* Different widths */
+.input-w-auto > * {
+  width: auto;
+  text-align: right;
+}
+
+.input-w-full > * {
+  width: 100%;
+  text-align: right;
+}
+
+.input-w-half > * {
+  width: 50%;
+  text-align: right;
+}
+
+.input-w-most > * {
+  width: 75%;
+  text-align: right;
+}
+
+.input-w-some > * {
+  width: 25%;
+  text-align: right;
+}
+
+.input-w-portion > * {
+  width: 10%;
+  text-align: right;
+}
+
+.input-w-least > * {
+  width: 5%;
+  text-align: right;
+}
+
+/* Alignment */
+.input-a-right > * {
+  text-align: right;
+  float: center;
+  width: 16%;
+}
