@@ -97,7 +97,6 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
       }
       this.revealTimeout = setTimeout(async () => {
         try {
-          await explorer.revealInFolder(file);
           await new Promise((resolve) => setTimeout(resolve, 100));
           const fileElement = document.querySelector(`[data-path="${file.path}"]`);
           if (!fileElement || !this.settings.autoScroll)
@@ -277,6 +276,15 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
       this.plugin.settings.autoScroll = value;
       await this.plugin.saveSettings();
     }));
+    new import_obsidian.Setting(containerEl).setDesc('Attention: To automatically expand folders containing the active file, enable "auto-reveal current file" in the File Explorer (available in Obsidian 1.8+).').setClass("setting-item-info").then((setting) => {
+      setting.nameEl.createEl("span", {
+        text: "\u2139\uFE0F",
+        cls: "setting-info-icon"
+      });
+      setting.nameEl.style.display = "flex";
+      setting.nameEl.style.alignItems = "center";
+      setting.nameEl.style.gap = "5px";
+    });
     new import_obsidian.Setting(containerEl).setName("Active folder").setHeading();
     const createColorSetting = (name, desc, key) => {
       const savedColor = this.plugin.settings[key];

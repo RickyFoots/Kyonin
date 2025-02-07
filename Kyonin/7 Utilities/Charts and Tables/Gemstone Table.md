@@ -2,10 +2,10 @@
 exampleProperty:
   - Azurite
   - Banded agate
-Cost: 0
-Gem: 50
-Damage: -40
-Size: -40
+Cost: 
+Gem: 
+Damage: 
+Size: 
 ---
 
 # [[Gemstone Table]]
@@ -124,7 +124,7 @@ Size: -40
 |  Category  |                                                                                   Options                                                                                    |
 | :--------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Gem Rarity |    `INPUT[inlineSelect(option(null,' '),option(10,Common), option(50,Uncommon), option(100,Rare), option(500,Very Rare), option(1000,Epic), option(5000,Legendary)):Gem]`    |
-|  Gem Cost  |                                                `INPUT[inlineSelect(option(0,Norm), option(20,Low), option(-100,High)):Cost]`                                                 |
+|  Gem Cost  |                                                `INPUT[inlineSelect(option(null,' '), option(0,Norm), option(20,Low), option(-100,High)):Cost]`                                                 |
 |   Damage   | `INPUT[inlineSelect(option(-60,Perfect), option(-40,Scuffed), option(-20,Scratched), option(null,' '), option(20,Chipped), option(40,Broken), option(60,Shattered)):Damage]` |
 |    Size    |       `INPUT[inlineSelect(option(-60,Massive), option(-40,Huge), option(-20,Large), option(null,' '), option(20,Average), option(40,Medium), option(60,Small)):Size]`        |
 | *Results*  |                                                           `VIEW[{Gem} - {Cost}% - {Damage}% - {Size}% ][math]`*G*                                                            |
