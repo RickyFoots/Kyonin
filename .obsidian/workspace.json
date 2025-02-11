@@ -200,23 +200,6 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "bf830ee5388531be",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "pinned": true,
-              "icon": "lucide-list",
-              "title": "Outline of Campaign One Home"
-            }
           }
         ]
       },
