@@ -13217,8 +13217,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --outer-bar: var(--note);
   --dark-sidebar: var(--note);
   --side-bar: var(--note);
-  --note: #1a1e24;
-  --note-rgb: 26, 30, 36;
+  --note: #000000;
+  --note-rgb: 0, 0, 0;
   --accent-color: ;
   --accent: #546078;
   --lite-accent: #aab3ca;
