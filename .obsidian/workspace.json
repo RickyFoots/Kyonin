@@ -264,6 +264,7 @@
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "protected-note:Block Obsidian": false,
+      "widgets:Add widget": false,
       "calendarium:Open Calendarium": false
     }
   },

@@ -10,6 +10,43 @@ actions:
 ```
 
 ``BUTTON[Reload]`` ``BUTTON[Web]`` 
+```widgets
+type: clock
+format: 12hr
+```
+```dataviewjs
+// Calculate days since first note
+const files = dv.pages()
+const oldestFile = files.sort(f => f.file.ctime)[0]
+const daysSinceStart = Math.floor((Date.now() - oldestFile.file.ctime) / (1000 * 60 * 60 * 24))
+// Count total notes
+const totalNotes = files.length
+// Count unique tags
+const allTags = files.flatMap(p => p.file.tags).distinct()
+const totalTags = allTags.length
+// Create a visually appealing display that works in both light and dark modes
+dv.paragraph(`<div style="
+  background-color: transparent;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  font-family: var(--font-text);
+  color: var(--text-normal);
+">
+  <h2 style="color: var(--text-normal);">📊 Obsidian Stats</h2>
+  <p style="font-size: 16px; margin: 10px 0;">
+    🗓️ You've been using Obsidian for <strong>${daysSinceStart}</strong> days
+  </p>
+  <p style="font-size: 16px; margin: 10px 0;">
+    📝 You have <strong>${totalNotes}</strong> notes
+  </p>
+  <p style="font-size: 16px; margin: 10px 0;">
+    🏷️ You're using <strong>${totalTags}</strong> unique tags
+  </p>
+</div>`)
+```
+
 # 1. Quick access Tools
 ```tabs
 
