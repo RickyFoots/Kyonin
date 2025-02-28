@@ -3,10 +3,6 @@
   "theme": "obsidian",
   "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
-    "cssclasses-banner",
-    "cssclasses-family-tree",
-    "cssclasses-tree-view",
-    "callout-timeline",
     "MCL_Wide_Views"
   ],
   "baseFontSize": 22,

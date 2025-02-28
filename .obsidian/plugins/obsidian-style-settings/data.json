@@ -98,7 +98,7 @@
   "Components@@graph-node-focused@@dark": "#15531E",
   "Components@@graph-node-tag@@dark": "#FFFFFF",
   "modular-css-layout-wv@@is-adj-rll": true,
-  "modular-css-layout-wv@@wide-dataview-global": true,
+  "modular-css-layout-wv@@wide-dataview-global": false,
   "modular-css-layout-wv@@wide-table-global": false,
   "modular-css-layout-wv@@wide-callout-global": false,
   "modular-css-layout-wv@@wide-backlinks-global": true,
