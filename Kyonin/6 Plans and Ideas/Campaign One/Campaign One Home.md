@@ -27,9 +27,6 @@ const totalTags = allTags.length
 // Create a visually appealing display that works in both light and dark modes
 dv.paragraph(`<div style="
   background-color: transparent;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: 6px;
-  padding: 20px;
   text-align: center;
   font-family: var(--font-text);
   color: var(--text-normal);
