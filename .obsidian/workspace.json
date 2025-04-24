@@ -297,12 +297,12 @@
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "widgets:Add widget": false,
       "wordcraft:Open WordCraft": false,
+      "protected-note:Block Obsidian": false,
       "calendarium:Open Calendarium": false,
-      "obsidian-task-progress-bar:Open Task Genius view": false,
-      "protected-note:Block Obsidian": false
+      "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "c83b9058312bcfae",
+  "active": "ef2d822e62c8c4cb",
   "lastOpenFiles": [
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Story Beats and Ideas.md",
