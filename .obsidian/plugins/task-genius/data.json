@@ -1,0 +1,345 @@
+{
+  "progressBarDisplayMode": "both",
+  "supportHoverToShowProgressInfo": true,
+  "addProgressBarToNonTaskBullet": false,
+  "addTaskProgressBarToHeading": true,
+  "enableProgressbarInReadingMode": true,
+  "countSubLevel": true,
+  "displayMode": "bracketFraction",
+  "customFormat": "[{{COMPLETED}}/{{TOTAL}}]",
+  "showPercentage": false,
+  "customizeProgressRanges": false,
+  "progressRanges": [
+    {
+      "min": 0,
+      "max": 20,
+      "text": "Just started {{PROGRESS}}%"
+    },
+    {
+      "min": 20,
+      "max": 40,
+      "text": "Making progress {{PROGRESS}}%"
+    },
+    {
+      "min": 40,
+      "max": 60,
+      "text": "Half way {{PROGRESS}}%"
+    },
+    {
+      "min": 60,
+      "max": 80,
+      "text": "Good progress {{PROGRESS}}%"
+    },
+    {
+      "min": 80,
+      "max": 100,
+      "text": "Almost there {{PROGRESS}}%"
+    }
+  ],
+  "allowCustomProgressGoal": false,
+  "hideProgressBarBasedOnConditions": false,
+  "hideProgressBarTags": "no-progress,hide-progress",
+  "hideProgressBarFolders": "",
+  "hideProgressBarMetadata": "hide-progress-bar",
+  "autoCompleteParent": true,
+  "markParentInProgressWhenPartiallyComplete": true,
+  "taskStatuses": {
+    "completed": "x|X",
+    "inProgress": "/|d",
+    "abandoned": "-",
+    "planned": ">|?",
+    "notStarted": " |D|+|R|!|i|B|P|C|Q|N|b|I|p|L|E|A|r|c|T|@|t|O|~|W|f|F|H|&|s"
+  },
+  "countOtherStatusesAs": "notStarted",
+  "excludeTaskMarks": "",
+  "useOnlyCountMarks": false,
+  "onlyCountTaskMarks": "x|X|>|/",
+  "enableTaskStatusSwitcher": true,
+  "enableCustomTaskMarks": true,
+  "enableTextMarkInSourceMode": true,
+  "enableCycleCompleteStatus": true,
+  "taskStatusCycle": [
+    "⦿",
+    "In Progress",
+    "Finished",
+    "Dropped",
+    "Question",
+    "Add",
+    "Research",
+    "Important",
+    "Idea",
+    "Information",
+    "Location",
+    "Answer",
+    "Reward",
+    "Choice",
+    "Character",
+    "Conflict",
+    "World",
+    "Clue",
+    "Foreshadow",
+    "Favorite",
+    "Secret",
+    "To Do"
+  ],
+  "taskStatusMarks": {
+    "Dropped": "-",
+    "Question": "?",
+    "Add": "+",
+    "Research": "R",
+    "Important": "!",
+    "Idea": "i",
+    "Information": "I",
+    "Location": "L",
+    "Answer": "A",
+    "Reward": "r",
+    "Choice": "c",
+    "Character": "@",
+    "Conflict": "~",
+    "World": "W",
+    "Clue": "f",
+    "Foreshadow": "F",
+    "Favorite": "H",
+    "Secret": "s",
+    "Finished": "X",
+    "In Progress": "x",
+    "To Do": "&",
+    "STATUS_23": "t",
+    "⦿": " "
+  },
+  "excludeMarksFromCycle": [
+    "Checked",
+    "Forward",
+    "Date",
+    "Half Done",
+    "Brainstorm",
+    "Pro",
+    "Con",
+    "Quote",
+    "Note",
+    "Bookmark",
+    "Paraphrase",
+    "Example",
+    "Doing",
+    "Time",
+    "Talk",
+    "Outline"
+  ],
+  "enablePriorityPicker": true,
+  "enablePriorityKeyboardShortcuts": true,
+  "enableDatePicker": true,
+  "dateMark": "📅",
+  "taskFilter": {
+    "enableTaskFilter": true,
+    "presetTaskFilters": []
+  },
+  "completedTaskMover": {
+    "enableCompletedTaskMover": true,
+    "taskMarkerType": "date",
+    "versionMarker": "version 1.0",
+    "dateMarker": "archived on {{DATE:YYYY-MM-DD}}",
+    "customMarker": "moved {{DATE:YYYY-MM-DD HH:mm}}",
+    "treatAbandonedAsCompleted": false,
+    "completeAllMovedTasks": true,
+    "withCurrentFileLink": true
+  },
+  "quickCapture": {
+    "enableQuickCapture": true,
+    "targetFile": "QuickCapture.md",
+    "placeholder": "Capture your thoughts...",
+    "appendToFile": "append"
+  },
+  "workflow": {
+    "enableWorkflow": false,
+    "autoAddTimestamp": false,
+    "timestampFormat": "YYYY-MM-DD HH:mm:ss",
+    "removeTimestampOnTransition": false,
+    "calculateSpentTime": false,
+    "spentTimeFormat": "HH:mm:ss",
+    "calculateFullSpentTime": false,
+    "autoRemoveLastStageMarker": false,
+    "autoAddNextTask": false,
+    "definitions": [
+      {
+        "id": "project_workflow",
+        "name": "Project Workflow",
+        "description": "Standard project management workflow",
+        "stages": [
+          {
+            "id": "planning",
+            "name": "Planning",
+            "type": "linear",
+            "next": "in_progress"
+          },
+          {
+            "id": "in_progress",
+            "name": "In Progress",
+            "type": "cycle",
+            "subStages": [
+              {
+                "id": "development",
+                "name": "Development",
+                "next": "testing"
+              },
+              {
+                "id": "testing",
+                "name": "Testing",
+                "next": "development"
+              }
+            ],
+            "canProceedTo": [
+              "review",
+              "cancelled"
+            ]
+          },
+          {
+            "id": "review",
+            "name": "Review",
+            "type": "cycle",
+            "canProceedTo": [
+              "in_progress",
+              "completed"
+            ]
+          },
+          {
+            "id": "completed",
+            "name": "Completed",
+            "type": "terminal"
+          },
+          {
+            "id": "cancelled",
+            "name": "Cancelled",
+            "type": "terminal"
+          }
+        ],
+        "metadata": {
+          "version": "1.0",
+          "created": "2024-03-20",
+          "lastModified": "2024-03-20"
+        }
+      }
+    ]
+  },
+  "enableView": true,
+  "preferMetadataFormat": "tasks",
+  "viewConfiguration": [
+    {
+      "id": "inbox",
+      "name": "Inbox",
+      "icon": "inbox",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "forecast",
+      "name": "Forecast",
+      "icon": "calendar-days",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "icon": "folders",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "tags",
+      "name": "Tags",
+      "icon": "tag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "flagged",
+      "name": "Flagged",
+      "icon": "flag",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": true,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "review",
+      "name": "Review",
+      "icon": "eye",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false
+    },
+    {
+      "id": "calendar",
+      "name": "Events",
+      "icon": "calendar",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "calendar"
+      }
+    },
+    {
+      "id": "kanban",
+      "name": "Status",
+      "icon": "kanban",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "kanban",
+        "showCheckbox": true
+      }
+    },
+    {
+      "id": "gantt",
+      "name": "Plan",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    },
+    {
+      "id": "gantt",
+      "name": "Plan",
+      "icon": "chart-gantt",
+      "type": "default",
+      "visible": true,
+      "hideCompletedAndAbandonedTasks": false,
+      "filterRules": {},
+      "filterBlanks": false,
+      "specificConfig": {
+        "viewType": "gantt",
+        "showTaskLabels": true,
+        "useMarkdownRenderer": true
+      }
+    }
+  ],
+  "reviewSettings": {}
+}

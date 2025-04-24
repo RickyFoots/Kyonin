@@ -60,27 +60,11 @@
 	- Its spellcasting ability is *Wisdom* (*spell save DC 20*, +12 to hit with spell attacks).
 		- Cantrips (at will): [_druidcraft_](https://www.dandwiki.com/wiki/5e_SRD:Druidcraft "5e SRD:Druidcraft"), [_mending_](https://www.dandwiki.com/wiki/5e_SRD:Mending "5e SRD:Mending"), [_poison spray_](https://www.dandwiki.com/wiki/5e_SRD:Poison_Spray "5e SRD:Poison Spray"), [_produce flame_](https://www.dandwiki.com/wiki/5e_SRD:Produce_Flame "5e SRD:Produce Flame")  
 		- 1st level (4 slots): [_entangle_](https://www.dandwiki.com/wiki/5e_SRD:Entangle "5e SRD:Entangle"), [_longstrider_](https://www.dandwiki.com/wiki/5e_SRD:Longstrider "5e SRD:Longstrider"), [_speak with animals_](https://www.dandwiki.com/wiki/5e_SRD:Speak_with_Animals "5e SRD:Speak with Animals"), [_thunderwave_](https://www.dandwiki.com/wiki/5e_SRD:Thunderwave "5e SRD:Thunderwave") 
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
-			- [ ] 4
 		- 2nd level (3 slots): [_animal messenger_](https://www.dandwiki.com/wiki/5e_SRD:Animal_Messenger "5e SRD:Animal Messenger"), [_locate animals or plants_](https://www.dandwiki.com/wiki/5e_SRD:Locate_Animals_or_Plants "5e SRD:Locate Animals or Plants"), [_spike growth_](https://www.dandwiki.com/wiki/5e_SRD:Spike_Growth "5e SRD:Spike Growth")  
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 		- 3rd level (3 slots): [_call lightning_](https://www.dandwiki.com/wiki/5e_SRD:Call_Lightning "5e SRD:Call Lightning"), [_conjure animals_](https://www.dandwiki.com/wiki/5e_SRD:Conjure_Animals "5e SRD:Conjure Animals"), [_dispel magic_](https://www.dandwiki.com/wiki/5e_SRD:Dispel_Magic "5e SRD:Dispel Magic"), [_plant growth_](https://www.dandwiki.com/wiki/5e_SRD:Plant_Growth "5e SRD:Plant Growth")  
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 		- 4th level (3 slots): [_conjure woodland beings_](https://www.dandwiki.com/wiki/5e_SRD:Conjure_Woodland_Beings "5e SRD:Conjure Woodland Beings"), [_dominate beast_](https://www.dandwiki.com/wiki/5e_SRD:Dominate_Beast "5e SRD:Dominate Beast"), [_polymorph_](https://www.dandwiki.com/wiki/5e_SRD:Polymorph "5e SRD:Polymorph")  
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 		- 5th level (2 slots): [_awaken_](https://www.dandwiki.com/wiki/5e_SRD:Awaken "5e SRD:Awaken"), [_commune with nature_](https://www.dandwiki.com/wiki/5e_SRD:Commune_with_Nature "5e SRD:Commune with Nature"), [_geas_](https://www.dandwiki.com/wiki/5e_SRD:Geas "5e SRD:Geas")  
-			- [ ] 1
-			- [ ] 2
 		- 6th level (1 slot): [_conjure fey_](https://www.dandwiki.com/wiki/5e_SRD:Conjure_Fey "5e SRD:Conjure Fey"), [_heroes' feast_](https://www.dandwiki.com/wiki/5e_SRD:Heroes%27_Feast "5e SRD:Heroes' Feast")
-			- [ ] 1
 
 # Loot
 1. #loot/investigation 

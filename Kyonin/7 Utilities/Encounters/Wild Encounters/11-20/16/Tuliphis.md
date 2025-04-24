@@ -36,20 +36,11 @@ Youngest of the three dryad triplets hunting [[Ricochet Whitetail]].
 	- Cantrips (at will): [Thorn Whip](http://dnd5e.wikidot.com/spell:thorn-whip)
 	- 3/day each: Entangle, Goodberry
 		- [Entangle](https://roll20.net/compendium/dnd5e/Spells:Entangle/#h-Entangle) 
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 		- [Goodberry](https://roll20.net/compendium/dnd5e/Spells:Goodberry#content)
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 	- 1/day each: Barkskin, Pass without a trace, and Shillelagh
 		- [Barkskin](https://roll20.net/compendium/dnd5e/Spells:Barkskin#content)
-			- [ ] 1
 		- [Pass without a trace](https://roll20.net/compendium/dnd5e/Spells:Pass%20without%20Trace#content)
-			- [ ] 1
 		- [Shillelagh](https://roll20.net/compendium/dnd5e/Spells:Shillelagh#content)
-			- [ ] 1
 
 - ***Magic Resistance***: The dryad has advantage on saving throws against spells and other magical effects.
 

@@ -38,14 +38,7 @@
 
 - **Spellcasting** *The hunter is a 7th-level spellcaster*: Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following ranger spells prepared:
 	- 1st-level (4 slots): [_animal friendship_](https://www.dandwiki.com/wiki/5e_SRD:Animal_Friendship "5e SRD:Animal Friendship"), [_cure wounds_](https://www.dandwiki.com/wiki/5e_SRD:Cure_Wounds "5e SRD:Cure Wounds"), [_hunter's mark_](https://www.dandwiki.com/wiki/5e_SRD:Hunter%27s_Mark "5e SRD:Hunter's Mark")  
-		- [ ] 1
-		- [ ] 2
-		- [ ] 3
-		- [ ] 4
 	- 2nd-level (3 slots): _[pass without trace](https://www.dandwiki.com/wiki/5e_SRD:Pass_without_Trace "5e SRD:Pass without Trace")_, [_spike growth_](https://www.dandwiki.com/wiki/5e_SRD:Spike_Growth "5e SRD:Spike Growth")
-		- [ ] 1
-		- [ ] 2
-		- [ ] 3
 
 ### Reactions
 ---

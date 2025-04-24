@@ -45,16 +45,9 @@
 	- He can innately cast the following spells, requiring no material components:
 		- Cantrips (at will): detect magic
 		- 3/day each: dispel magic, fear, invisibility
-			- [ ]  
-			- [ ] 
-			- [ ] 
 		- I/day: teleport
-			- [ ] 
 
 - ***Legendary Resistance*** (3/Day): If Yeenoghu fails a saving throw, he can choose to succeed instead.
-	- [ ]  
-	- [ ] 
-	- [ ] 
 
 - ***Magic Resistance***: Yeenoghu has advantage on saving throws against spells and other magical effects.
 

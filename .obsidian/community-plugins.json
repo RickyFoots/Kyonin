@@ -15,7 +15,6 @@
   "highlight-active-folder-section",
   "alignment-tracker",
   "obsidian-icon-folder",
-  "obsidian-tasks-plugin",
   "file-manager",
   "simple-sketch",
   "timelines-revamped",
@@ -26,5 +25,7 @@
   "homepage",
   "recent-notes",
   "dataview",
-  "widgets"
+  "widgets",
+  "wordcraft",
+  "obsidian-task-progress-bar"
 ]

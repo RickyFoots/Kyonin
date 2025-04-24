@@ -59,14 +59,7 @@ bonus_actions:
 ---
 - **Spellcasting**: Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The priestess has the following cleric spells prepared:  
 	- 1st level (4 slots): [Hunters Mark](), [Disguise Self](), [Ensnaring Strike](), [Speak with Animals]() 
-		- [ ] 1
-		- [ ] 2
-		- [ ] 3
-		- [ ] 4
 	- 2nd level (2 slots): [Beast Sense](), [Healing Spirit](), [Pass Without Trace](), [Rope Trick](), [Spike Growth]()
-		- [ ] 1
-		- [ ] 2
-		- [ ] 3
 
 # Loot
 1. #loot/investigation 

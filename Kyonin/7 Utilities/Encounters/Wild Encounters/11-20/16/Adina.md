@@ -38,18 +38,10 @@ Eldest of the three dryad triplets hunting [[Ricochet Whitetail]]
 	- Cantrips (at will): [Thorn Whip](http://dnd5e.wikidot.com/spell:thorn-whip)
 	- 3/day each: Entangle, Fog Cloud
 		- [Entangle](https://roll20.net/compendium/dnd5e/Spells:Entangle/#h-Entangle) 
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 		- [Fog Cloud](https://roll20.net/compendium/dnd5e/Fog%20Cloud#h-Fog%20Cloud)
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 	- 1/day each: Barkskin, Spike Growth
 		- [Barkskin](https://roll20.net/compendium/dnd5e/Spells:Barkskin#content)
-			- [ ] 1
 		- [Spike Growth](https://roll20.net/compendium/dnd5e/Spells:Spike%20Growth#content)
-			- [ ] 1
 
 - ***Magic Resistance***: The dryad has advantage on saving throws against spells and other magical effects.
 

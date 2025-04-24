@@ -40,14 +40,7 @@
 	- The fanatic has the following cleric spell s prepared:
 		- Cantrips (at will) : [light](https://roll20.net/compendium/dnd5e/Light#content) , [sacred flame](https://roll20.net/compendium/dnd5e/Sacred%20Flame#content) , [thaumaturgy](https://roll20.net/compendium/dnd5e/Thaumaturgy#content)
 		- 1st level (4 slots): [command]() , [inflict wounds](https://roll20.net/compendium/dnd5e/Inflict%20Wounds#content) , [shield of faith](https://roll20.net/compendium/dnd5e/Shield%20of%20Faith#content)
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
-			- [ ] 4
 		- 2nd level (3 slots): [hold person](https://roll20.net/compendium/dnd5e/Hold%20Person#content) , [spiritual weapon](https://roll20.net/compendium/dnd5e/Spiritual%20Weapon#content)
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 ### Reactions
 ---
 - 

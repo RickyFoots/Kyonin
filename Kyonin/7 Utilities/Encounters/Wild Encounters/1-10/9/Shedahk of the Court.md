@@ -39,9 +39,6 @@ range 20/60 ft., one target. Hit: 4 (ld4 + 2) piercing damage.
 	- It knows the following warlock spells:
 		- *Cantrips* (at will): [dancing lights](https://roll20.net/compendium/dnd5e/Dancing%20Lights#content) , [eldritch blast](https://roll20.net/compendium/dnd5e/Eldritch%20Blast#content) , [friends]() , [mage hand](https://roll20.net/compendium/dnd5e/Mage%20Hand#content) , [minor illusion](https://roll20.net/compendium/dnd5e/Minor%20Illusion#content) , [prestidigitation](https://roll20.net/compendium/dnd5e/Prestidigitation#content) , [vicious mockery](https://roll20.net/compendium/dnd5e/Vicious%20Mockery#content)
 		- *1st-5th level* (*3 5th-level slots*): [blink](https://roll20.net/compendium/dnd5e/Blink#content), [charm person](https://roll20.net/compendium/dnd5e/Charm%20Person#content) , [dimension door](https://roll20.net/compendium/dnd5e/Dimension%20Door#content) , [dominate beast](https://roll20.net/compendium/dnd5e/Dominate%20Beast#content) , [faerie fire](https://roll20.net/compendium/dnd5e/Faerie%20Fire#content) , [fear](https://roll20.net/compendium/dnd5e/Fear#content) , [hold monster](https://roll20.net/compendium/dnd5e/Hold%20Monster#content) , [misty step](https://roll20.net/compendium/dnd5e/Misty%20Step#content) , [phantasmal killer](https://roll20.net/compendium/dnd5e/Phantasmal%20Killer#content) , [seeming](https://roll20.net/compendium/dnd5e/Seeming#content) , [sleep](https://roll20.net/compendium/dnd5e/Sleep#content)
-			- [ ] 
-			- [ ] 
-			- [ ] 
 
 ### Reactions
 ---

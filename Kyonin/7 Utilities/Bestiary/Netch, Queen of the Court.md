@@ -37,9 +37,6 @@
 	- Its spellcasting ability is *Charisma* (*spell save DC 16*, +8 to hit with spell attacks).
 		- Cantrips (at will): [Eldritch Blast] , [Green-Flame Blade] , [Mind Sliver] , [Thunderclap]
 		- 5th level (5 slots): [Evard's Black Tentacles] , [Danse Macabre] , [Psychic Lance] , [Mass Suggestion]
-			- [ ] 1
-			- [ ] 2
-			- [ ] 3
 
 ### Eldritch Invocations
 ---

@@ -1,0 +1,13 @@
+{
+	"id": "wordcraft",
+	"name": "WordCraft",
+	"version": "1.1.1",
+	"minAppVersion": "1.8.0",
+	"description": "Find rhymes, synonyms, and describing words. Designed for songwriting and poetry.",
+	"author": "Daniel Fernandes",
+	"authorUrl": "https://danferns.github.io",
+	"fundingUrl": {
+		"Buy my music": "https://twinklingkites.bandcamp.com/"
+	},
+	"isDesktopOnly": false
+}

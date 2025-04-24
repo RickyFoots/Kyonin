@@ -25,6 +25,18 @@
             }
           },
           {
+            "id": "24df3c549e5388e9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "task-genius-view",
+              "state": {},
+              "pinned": true,
+              "icon": "inbox",
+              "title": "Inbox"
+            }
+          },
+          {
             "id": "6cf71fef7dbb3b9b",
             "type": "leaf",
             "state": {
@@ -167,13 +179,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ce0377ac6ce57a2b",
+            "id": "369496f21dbb2714",
             "type": "leaf",
             "state": {
-              "type": "DICE_ROLLER_VIEW",
+              "type": "graph",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -184,6 +196,16 @@
               "state": {},
               "icon": "clock-10",
               "title": "Recent notes"
+            }
+          },
+          {
+            "id": "4f97621429ff2c3b",
+            "type": "leaf",
+            "state": {
+              "type": "wordcraft-view",
+              "state": {},
+              "icon": "book-open-text",
+              "title": "WordCraft"
             }
           },
           {
@@ -215,6 +237,16 @@
               "state": {},
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "82b032bb30dd539c",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           },
           {
@@ -263,39 +295,41 @@
       "simple-sketch:Simple Sketch": false,
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
-      "protected-note:Block Obsidian": false,
       "widgets:Add widget": false,
-      "calendarium:Open Calendarium": false
+      "wordcraft:Open WordCraft": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false,
+      "protected-note:Block Obsidian": false
     }
   },
-  "active": "ef2d822e62c8c4cb",
+  "active": "c83b9058312bcfae",
   "lastOpenFiles": [
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Story Beats and Ideas.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Small Towns/Markinnes/Residents/Vayu Pavana.md",
+    "Kyonin/7 Utilities/Bestiary/Bone Thief.md",
+    "Kyonin/7 Utilities/Bestiary/Netch, Queen of the Court.md",
+    "Kyonin/7 Utilities/Bestiary/Priest Guards.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/1-10/10/Mother Taream.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/11-20/16/Adina.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/11-20/16/Lavendea.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/11-20/16/Tuliphis.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/11-20/19/Monster Hunters.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Cult of Noso/Raid on Noso.md",
+    "Kyonin/5 Planes/Nine Hells/Notable Demon Lords and Minions/Yeenoghu.md",
+    "Kyonin/7 Utilities/Maps/Map of Golarian.md",
+    "Kyonin/7 Utilities/Bestiary/The Shattered Hand, Servant of the Unclean.md",
+    "Kyonin/7 Utilities/Encounters/Wild Encounters/1-10/9/Shedahk of the Court.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/The Worthless Stone.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/The Slippery Gull Bar and Tavern.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Hunters and Adventurers/The Salamander's End.md",
-    "Kyonin/7 Utilities/Bestiary/Owlbear.md",
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/7 Utilities/Charts and Tables/Size Chart.md",
-    "Kyonin/7 Utilities/Charts and Tables/Gemstone Table.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
-    "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/The Rabbit Hole/- The Rabbit Hole -.md",
-    "Kyonin/7 Utilities/Templates/Shop_Template.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant Locations/Shops/Tim and Son's Bait and Tackle.md",
-    "Kyonin/7 Utilities/Maps/Map of Varisia.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Once Upon a Seam/- Once Upon a Seam -.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Forge Ahead/- Forge Ahead -.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver.md",
     "Kyonin/6 Plans and Ideas/Campaign One",
     "Kyonin/1 World/Races/Materiel-Born",
     "Kyonin/1 World/Races/Fae-Born",

@@ -28,13 +28,7 @@ Divinely powered prison guards/ town guards
 - ***Spellcasting:*** The priestess is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priestess has the following cleric spells prepared:  
 	- Cantrips (at will): [guidance](https://roll20.net/compendium/dnd5e/Guidance#h-Guidance), [sacred flame](https://roll20.net/compendium/dnd5e/Sacred%20Flame#h-Sacred%20Flame)  
 	- 1st level (4 slots): [bless](https://roll20.net/compendium/dnd5e/Bless#h-Bless), [cure wounds](https://roll20.net/compendium/dnd5e/Spells:Cure%20Wounds/#h-Cure%20Wounds), [divine favor](https://roll20.net/compendium/dnd5e/Divine%20Favor#h-Divine%20Favor), [shield of faith](https://roll20.net/compendium/dnd5e/Shield%20of%20Faith#h-Shield%20of%20Faith)  
-		- [x] 1
-		- [ ] 2
-		- [ ] 3
-		- [ ] 4
 	- 2nd level (2 slots): [magic weapon](https://roll20.net/compendium/dnd5e/Magic%20Weapon#h-Magic%20Weapon), [spiritual weapon](https://roll20.net/compendium/dnd5e/Spiritual%20Weapon#h-Spiritual%20Weapon)  
-		- [ ] 1
-		- [ ] 2
 -  ***Guided Strike:*** (1/Short Rest). When the priestess makes an attack roll, it can gain a +10 bonus to the roll.
 
 # Loot
