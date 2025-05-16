@@ -27,5 +27,7 @@
   "dataview",
   "widgets",
   "wordcraft",
-  "obsidian-task-progress-bar"
+  "obsidian-task-progress-bar",
+  "inline-callouts",
+  "note-status"
 ]

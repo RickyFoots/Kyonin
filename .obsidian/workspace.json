@@ -32,8 +32,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "inbox",
-              "title": "Inbox"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 452.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -221,6 +221,16 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "9e9d0949a958db32",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
             }
           }
         ]
@@ -299,18 +309,19 @@
       "wordcraft:Open WordCraft": false,
       "protected-note:Block Obsidian": false,
       "calendarium:Open Calendarium": false,
+      "note-status:Open status pane": false,
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
   "active": "ef2d822e62c8c4cb",
   "lastOpenFiles": [
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Story Beats and Ideas.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
     "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Small Towns/Markinnes/Residents/Vayu Pavana.md",
     "Kyonin/7 Utilities/Bestiary/Bone Thief.md",

@@ -159,7 +159,7 @@
   "ITS@@background-image": false,
   "ITS@@hide-resize-handle": false,
   "ITS@@hide-scrollbar": true,
-  "ITS@@hide-sidebar-ribbon": true,
+  "ITS@@hide-sidebar-ribbon": false,
   "ITS@@hide-note-title-icons": false,
   "ITS@@hide-note-title": false,
   "ITS@@hide-tab-outline": false,
