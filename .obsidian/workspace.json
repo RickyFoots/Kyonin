@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef2d822e62c8c4cb",
+            "id": "51b49fb0421194d0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -32,8 +32,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "tag",
+              "title": "Tags"
             }
           },
           {
@@ -313,11 +313,11 @@
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
-  "active": "ef2d822e62c8c4cb",
+  "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Story Beats and Ideas.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
