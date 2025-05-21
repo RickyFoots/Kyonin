@@ -76,19 +76,31 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
       })
     );
     this.app.workspace.onLayoutReady(() => {
-      this.highlightFolders();
       setTimeout(() => {
+        console.log("Attempting to highlight active file...");
         const activeFile = this.app.workspace.getActiveFile();
-        if (activeFile) {
-          this.revealActiveFileInExplorer();
-          setTimeout(() => {
-            const activeView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-            if (activeView && activeView.editor) {
-              activeView.editor.focus();
-            }
-          }, 300);
+        if (!activeFile) {
+          console.log("No active file found");
+          return;
         }
-      }, 500);
+        console.log("Active file:", activeFile.path);
+        console.log("Triggering events programmatically...");
+        this.app.workspace.trigger("file-open", activeFile);
+        this.app.workspace.trigger(
+          "active-leaf-change",
+          this.app.workspace.activeLeaf
+        );
+        setTimeout(() => {
+          this.highlightFolders();
+          console.log(
+            "Manually triggered highlightFolders after events"
+          );
+          const activeView = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+          if (activeView && activeView.editor) {
+            activeView.editor.focus();
+          }
+        }, 200);
+      }, 1500);
     });
   }
   handleReveal() {
@@ -101,11 +113,6 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
       this.revealActiveFileInExplorer();
     }, 150);
   }
-  /*private handleHighlight() {
-  	const file = this.app.workspace.getActiveFile();
-  	if (!file) return;
-  	this.highlightFolders();
-  } */
   async revealActiveFileInExplorer() {
     try {
       const file = this.app.workspace.getActiveFile();
@@ -120,13 +127,17 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
       if (this.revealTimeout) {
         clearTimeout(this.revealTimeout);
       }
-      explorer.revealInFolder(file);
-      if (this.settings.autoScroll) {
-        this.revealTimeout = setTimeout(() => {
-          const fileElement = document.querySelector(`[data-path="${file.path}"]`);
-          if (!fileElement)
+      this.revealTimeout = setTimeout(async () => {
+        try {
+          await new Promise((resolve) => setTimeout(resolve, 100));
+          const fileElement = document.querySelector(
+            `[data-path="${file.path}"]`
+          );
+          if (!fileElement || !this.settings.autoScroll)
             return;
-          const container = fileElement.closest(".nav-files-container");
+          const container = fileElement.closest(
+            ".nav-files-container"
+          );
           if (!(container instanceof HTMLElement))
             return;
           const fileHTMLElement = fileElement;
@@ -134,10 +145,12 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
             top: fileHTMLElement.offsetTop - container.clientHeight / 2,
             behavior: "smooth"
           });
-        }, 200);
-      }
+        } catch (error) {
+          console.error("Error in reveal timeout:", error);
+        }
+      }, 200);
     } catch (error) {
-      console.error("Error revealing file:", error);
+      console.error("Error in revealActiveFileInExplorer:", error);
     }
   }
   async loadSettings() {
@@ -196,7 +209,10 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
   }
   clearHighlight() {
     document.querySelectorAll(".highlighted-folder").forEach((el) => {
-      el.classList.remove("highlighted-folder", "highlighted-parent-folder");
+      el.classList.remove(
+        "highlighted-folder",
+        "highlighted-parent-folder"
+      );
     });
   }
   getParentFolderElement(filePath) {
@@ -245,21 +261,65 @@ var FolderHighlighter = class extends import_obsidian.Plugin {
   updateStyles() {
     const rootEl = document.documentElement;
     const important = this.settings.useImportantTags ? " !important" : "";
-    rootEl.style.setProperty("--light-highlighted-folder-color", this.settings.lightHighlightedFolderColor);
-    rootEl.style.setProperty("--light-highlighted-folder-title-color", this.settings.lightHighlightedFolderTitleColor);
-    rootEl.style.setProperty("--light-highlighted-folder-text-color", this.settings.lightHighlightedFolderTextColor);
-    rootEl.style.setProperty("--light-highlighted-parent-folder-color", this.settings.lightHighlightedParentFolderColor);
-    rootEl.style.setProperty("--light-highlighted-parent-folder-text-color", this.settings.lightHighlightedParentFolderTextColor);
-    rootEl.style.setProperty("--dark-highlighted-folder-color", this.settings.darkHighlightedFolderColor);
-    rootEl.style.setProperty("--dark-highlighted-folder-title-color", this.settings.darkHighlightedFolderTitleColor);
-    rootEl.style.setProperty("--dark-highlighted-folder-text-color", this.settings.darkHighlightedFolderTextColor);
-    rootEl.style.setProperty("--dark-highlighted-parent-folder-color", this.settings.darkHighlightedParentFolderColor);
-    rootEl.style.setProperty("--dark-highlighted-parent-folder-text-color", this.settings.darkHighlightedParentFolderTextColor);
-    rootEl.style.setProperty("--highlighted-folder-border-radius", `${this.settings.highlightedFolderBorderRadius}${important}`);
-    rootEl.style.setProperty("--highlighted-parent-folder-border-radius", `${this.settings.highlightedParentFolderBorderRadius}`);
-    rootEl.style.setProperty("--highlighted-folder-font-weight", `${this.settings.highlightedFolderFontWeight}${important}`);
-    rootEl.style.setProperty("--highlighted-parent-folder-font-weight", `${this.settings.highlightedParentFolderFontWeight}${important}`);
-    const borderRadiusValue = parseInt(this.settings.highlightedParentFolderBorderRadius);
+    rootEl.style.setProperty(
+      "--light-highlighted-folder-color",
+      this.settings.lightHighlightedFolderColor
+    );
+    rootEl.style.setProperty(
+      "--light-highlighted-folder-title-color",
+      this.settings.lightHighlightedFolderTitleColor
+    );
+    rootEl.style.setProperty(
+      "--light-highlighted-folder-text-color",
+      this.settings.lightHighlightedFolderTextColor
+    );
+    rootEl.style.setProperty(
+      "--light-highlighted-parent-folder-color",
+      this.settings.lightHighlightedParentFolderColor
+    );
+    rootEl.style.setProperty(
+      "--light-highlighted-parent-folder-text-color",
+      this.settings.lightHighlightedParentFolderTextColor
+    );
+    rootEl.style.setProperty(
+      "--dark-highlighted-folder-color",
+      this.settings.darkHighlightedFolderColor
+    );
+    rootEl.style.setProperty(
+      "--dark-highlighted-folder-title-color",
+      this.settings.darkHighlightedFolderTitleColor
+    );
+    rootEl.style.setProperty(
+      "--dark-highlighted-folder-text-color",
+      this.settings.darkHighlightedFolderTextColor
+    );
+    rootEl.style.setProperty(
+      "--dark-highlighted-parent-folder-color",
+      this.settings.darkHighlightedParentFolderColor
+    );
+    rootEl.style.setProperty(
+      "--dark-highlighted-parent-folder-text-color",
+      this.settings.darkHighlightedParentFolderTextColor
+    );
+    rootEl.style.setProperty(
+      "--highlighted-folder-border-radius",
+      `${this.settings.highlightedFolderBorderRadius}${important}`
+    );
+    rootEl.style.setProperty(
+      "--highlighted-parent-folder-border-radius",
+      `${this.settings.highlightedParentFolderBorderRadius}`
+    );
+    rootEl.style.setProperty(
+      "--highlighted-folder-font-weight",
+      `${this.settings.highlightedFolderFontWeight}${important}`
+    );
+    rootEl.style.setProperty(
+      "--highlighted-parent-folder-font-weight",
+      `${this.settings.highlightedParentFolderFontWeight}${important}`
+    );
+    const borderRadiusValue = parseInt(
+      this.settings.highlightedParentFolderBorderRadius
+    );
     if (borderRadiusValue > 30) {
       rootEl.style.setProperty("--parent-folder-padding", "7px");
     } else {
@@ -309,12 +369,16 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     const { containerEl } = this;
     containerEl.empty();
     this.colorSettings = [];
-    const themeHeaderEl = containerEl.createEl("div", { cls: "theme-header" });
+    const themeHeaderEl = containerEl.createEl("div", {
+      cls: "theme-header"
+    });
     themeHeaderEl.createEl("h2", {
       text: this.plugin.settings.editingDarkTheme ? "Dark Theme" : "Light Theme",
       cls: "theme-title"
     });
-    this.themeToggleButton = themeHeaderEl.createEl("div", { cls: "theme-toggle-button" });
+    this.themeToggleButton = themeHeaderEl.createEl("div", {
+      cls: "theme-toggle-button"
+    });
     this.updateThemeToggleIcon();
     this.themeToggleButton.addEventListener("click", async () => {
       this.containerEl.addClass("theme-transition");
@@ -332,43 +396,56 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     this.createRootFolderSettings(containerEl);
   }
   createGeneralSettings(containerEl) {
-    new import_obsidian.Setting(containerEl).setName("Override theme styles").setDesc("Use !important for style definitions").addToggle((toggle) => toggle.setValue(this.plugin.settings.useImportantTags).onChange(async (value) => {
-      this.plugin.settings.useImportantTags = value;
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-    }));
-    new import_obsidian.Setting(containerEl).setName("Auto scroll").setDesc("Automatically scroll to active file").addToggle((toggle) => toggle.setValue(this.plugin.settings.autoScroll).onChange(async (value) => {
-      this.plugin.settings.autoScroll = value;
-      await this.plugin.saveSettings();
-    }));
+    new import_obsidian.Setting(containerEl).setName("Override theme styles").setDesc("Use !important for style definitions").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.useImportantTags).onChange(async (value) => {
+        this.plugin.settings.useImportantTags = value;
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Auto scroll").setDesc("Automatically scroll to active file").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.autoScroll).onChange(async (value) => {
+        this.plugin.settings.autoScroll = value;
+        await this.plugin.saveSettings();
+      })
+    );
   }
   createActiveFolderSettings(containerEl) {
     new import_obsidian.Setting(containerEl).setName("Active Folder").setHeading();
-    const settingContainer = containerEl.createEl("div", { cls: "setting-indent" });
-    new import_obsidian.Setting(settingContainer).setName("Enable title background").setDesc("Show background color for folder titles").addToggle((toggle) => toggle.setValue(this.getCurrentThemeSetting("HighlightFolderTitleColor")).onChange(async (value) => {
-      this.setThemeSetting("HighlightFolderTitleColor", value);
-      if (!value) {
-        this.plugin.settings.previousLightHighlightedFolderTitleColor = this.plugin.settings.lightHighlightedFolderTitleColor;
-        this.plugin.settings.previousDarkHighlightedFolderTitleColor = this.plugin.settings.darkHighlightedFolderTitleColor;
-        this.plugin.settings.lightHighlightedFolderTitleColor = "rgba(0, 0, 0, 0)";
-        this.plugin.settings.darkHighlightedFolderTitleColor = "rgba(0, 0, 0, 0)";
-      } else {
-        if (this.plugin.settings.previousLightHighlightedFolderTitleColor && this.plugin.settings.previousLightHighlightedFolderTitleColor !== "rgba(0, 0, 0, 0)") {
-          this.plugin.settings.lightHighlightedFolderTitleColor = this.plugin.settings.previousLightHighlightedFolderTitleColor;
+    const settingContainer = containerEl.createEl("div", {
+      cls: "setting-indent"
+    });
+    new import_obsidian.Setting(settingContainer).setName("Enable title background").setDesc("Show background color for folder titles").addToggle(
+      (toggle) => toggle.setValue(
+        this.getCurrentThemeSetting("HighlightFolderTitleColor")
+      ).onChange(async (value) => {
+        this.setThemeSetting(
+          "HighlightFolderTitleColor",
+          value
+        );
+        if (!value) {
+          this.plugin.settings.previousLightHighlightedFolderTitleColor = this.plugin.settings.lightHighlightedFolderTitleColor;
+          this.plugin.settings.previousDarkHighlightedFolderTitleColor = this.plugin.settings.darkHighlightedFolderTitleColor;
+          this.plugin.settings.lightHighlightedFolderTitleColor = "rgba(0, 0, 0, 0)";
+          this.plugin.settings.darkHighlightedFolderTitleColor = "rgba(0, 0, 0, 0)";
         } else {
-          this.plugin.settings.lightHighlightedFolderTitleColor = DEFAULT_SETTINGS.lightHighlightedFolderTitleColor;
+          if (this.plugin.settings.previousLightHighlightedFolderTitleColor && this.plugin.settings.previousLightHighlightedFolderTitleColor !== "rgba(0, 0, 0, 0)") {
+            this.plugin.settings.lightHighlightedFolderTitleColor = this.plugin.settings.previousLightHighlightedFolderTitleColor;
+          } else {
+            this.plugin.settings.lightHighlightedFolderTitleColor = DEFAULT_SETTINGS.lightHighlightedFolderTitleColor;
+          }
+          if (this.plugin.settings.previousDarkHighlightedFolderTitleColor && this.plugin.settings.previousDarkHighlightedFolderTitleColor !== "rgba(0, 0, 0, 0)") {
+            this.plugin.settings.darkHighlightedFolderTitleColor = this.plugin.settings.previousDarkHighlightedFolderTitleColor;
+          } else {
+            this.plugin.settings.darkHighlightedFolderTitleColor = DEFAULT_SETTINGS.darkHighlightedFolderTitleColor;
+          }
         }
-        if (this.plugin.settings.previousDarkHighlightedFolderTitleColor && this.plugin.settings.previousDarkHighlightedFolderTitleColor !== "rgba(0, 0, 0, 0)") {
-          this.plugin.settings.darkHighlightedFolderTitleColor = this.plugin.settings.previousDarkHighlightedFolderTitleColor;
-        } else {
-          this.plugin.settings.darkHighlightedFolderTitleColor = DEFAULT_SETTINGS.darkHighlightedFolderTitleColor;
-        }
-      }
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-      this.plugin.highlightFolders();
-      this.display();
-    }));
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+        this.plugin.highlightFolders();
+        this.display();
+      })
+    );
     if (this.getCurrentThemeSetting("HighlightFolderTitleColor")) {
       this.createColorSetting(
         settingContainer,
@@ -389,27 +466,43 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
       "Color for folder items",
       "HighlightedFolderTextColor"
     );
-    new import_obsidian.Setting(settingContainer).setName("Font weight").setDesc("Font weight for folder titles").addDropdown((dropdown) => dropdown.addOptions({ "200": "Thin", "400": "Normal", "700": "Bold" }).setValue(this.plugin.settings.highlightedFolderFontWeight).onChange(async (value) => {
-      this.plugin.settings.highlightedFolderFontWeight = value;
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-    }));
-    new import_obsidian.Setting(settingContainer).setName("Border radius").setDesc("Corner rounding for folders").addSlider((slider) => slider.setLimits(0, 50, 1).setValue(parseInt(this.plugin.settings.highlightedFolderBorderRadius)).onChange(async (value) => {
-      this.plugin.settings.highlightedFolderBorderRadius = `${value}px`;
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-    }).setDynamicTooltip());
+    new import_obsidian.Setting(settingContainer).setName("Font weight").setDesc("Font weight for folder titles").addDropdown(
+      (dropdown) => dropdown.addOptions({
+        "200": "Thin",
+        "400": "Normal",
+        "700": "Bold"
+      }).setValue(this.plugin.settings.highlightedFolderFontWeight).onChange(async (value) => {
+        this.plugin.settings.highlightedFolderFontWeight = value;
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+      })
+    );
+    new import_obsidian.Setting(settingContainer).setName("Border radius").setDesc("Corner rounding for folders").addSlider(
+      (slider) => slider.setLimits(0, 50, 1).setValue(
+        parseInt(
+          this.plugin.settings.highlightedFolderBorderRadius
+        )
+      ).onChange(async (value) => {
+        this.plugin.settings.highlightedFolderBorderRadius = `${value}px`;
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+      }).setDynamicTooltip()
+    );
   }
   createRootFolderSettings(containerEl) {
     new import_obsidian.Setting(containerEl).setName("Root Folder").setHeading();
-    new import_obsidian.Setting(containerEl).setName("Highlight root folders").setDesc("Enable special styling for root folders").addToggle((toggle) => toggle.setValue(this.plugin.settings.highlightParentFolder).onChange(async (value) => {
-      this.plugin.settings.highlightParentFolder = value;
-      await this.plugin.saveSettings();
-      this.plugin.highlightFolders();
-      this.display();
-    }));
+    new import_obsidian.Setting(containerEl).setName("Highlight root folders").setDesc("Enable special styling for root folders").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.highlightParentFolder).onChange(async (value) => {
+        this.plugin.settings.highlightParentFolder = value;
+        await this.plugin.saveSettings();
+        this.plugin.highlightFolders();
+        this.display();
+      })
+    );
     if (this.plugin.settings.highlightParentFolder) {
-      const settingContainer = containerEl.createEl("div", { cls: "setting-indent" });
+      const settingContainer = containerEl.createEl("div", {
+        cls: "setting-indent"
+      });
       this.createColorSetting(
         settingContainer,
         "Root background",
@@ -422,16 +515,30 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
         "Text color for root folders",
         "HighlightedParentFolderTextColor"
       );
-      new import_obsidian.Setting(settingContainer).setName("Root font weight").setDesc("Font weight for root folders").addDropdown((dropdown) => dropdown.addOptions({ "200": "Thin", "400": "Normal", "700": "Bold" }).setValue(this.plugin.settings.highlightedParentFolderFontWeight).onChange(async (value) => {
-        this.plugin.settings.highlightedParentFolderFontWeight = value;
-        await this.plugin.saveSettings();
-        this.plugin.updateStyles();
-      }));
-      new import_obsidian.Setting(settingContainer).setName("Root border radius").setDesc("Corner rounding for root folders").addSlider((slider) => slider.setLimits(0, 50, 1).setValue(parseInt(this.plugin.settings.highlightedParentFolderBorderRadius)).onChange(async (value) => {
-        this.plugin.settings.highlightedParentFolderBorderRadius = `${value}px`;
-        await this.plugin.saveSettings();
-        this.plugin.updateStyles();
-      }).setDynamicTooltip());
+      new import_obsidian.Setting(settingContainer).setName("Root font weight").setDesc("Font weight for root folders").addDropdown(
+        (dropdown) => dropdown.addOptions({
+          "200": "Thin",
+          "400": "Normal",
+          "700": "Bold"
+        }).setValue(
+          this.plugin.settings.highlightedParentFolderFontWeight
+        ).onChange(async (value) => {
+          this.plugin.settings.highlightedParentFolderFontWeight = value;
+          await this.plugin.saveSettings();
+          this.plugin.updateStyles();
+        })
+      );
+      new import_obsidian.Setting(settingContainer).setName("Root border radius").setDesc("Corner rounding for root folders").addSlider(
+        (slider) => slider.setLimits(0, 50, 1).setValue(
+          parseInt(
+            this.plugin.settings.highlightedParentFolderBorderRadius
+          )
+        ).onChange(async (value) => {
+          this.plugin.settings.highlightedParentFolderBorderRadius = `${value}px`;
+          await this.plugin.saveSettings();
+          this.plugin.updateStyles();
+        }).setDynamicTooltip()
+      );
     }
   }
   createColorSetting(containerEl, name, desc, baseKey) {
@@ -442,18 +549,22 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     const defaultValue = DEFAULT_SETTINGS[defaultKey];
     const rgba = this.extractRgbaComponents(value);
     const alpha = rgba.a;
-    const settingEl = new import_obsidian.Setting(containerEl).setName(name).setDesc(desc).addColorPicker((color) => color.setValue(this.rgbToHex(rgba)).onChange(async (newColor) => {
-      const newRgb = this.hexToRgb(newColor);
-      const newRgba = `rgba(${newRgb.r}, ${newRgb.g}, ${newRgb.b}, ${alpha})`;
-      this.plugin.settings[key] = newRgba;
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-    })).addExtraButton((button) => button.setIcon("reset").setTooltip("Reset to default value").onClick(async () => {
-      this.plugin.settings[key] = defaultValue;
-      await this.plugin.saveSettings();
-      this.plugin.updateStyles();
-      this.display();
-    }));
+    const settingEl = new import_obsidian.Setting(containerEl).setName(name).setDesc(desc).addColorPicker(
+      (color) => color.setValue(this.rgbToHex(rgba)).onChange(async (newColor) => {
+        const newRgb = this.hexToRgb(newColor);
+        const newRgba = `rgba(${newRgb.r}, ${newRgb.g}, ${newRgb.b}, ${alpha})`;
+        this.plugin.settings[key] = newRgba;
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+      })
+    ).addExtraButton(
+      (button) => button.setIcon("reset").setTooltip("Reset to default value").onClick(async () => {
+        this.plugin.settings[key] = defaultValue;
+        await this.plugin.saveSettings();
+        this.plugin.updateStyles();
+        this.display();
+      })
+    );
     this.colorSettings.push(settingEl.settingEl);
     const transparencyContainer = containerEl.createEl("div", {
       cls: "transparency-slider-container"
@@ -480,7 +591,9 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
       const transparencyValue = parseInt(target.value);
       const newAlpha = 1 - transparencyValue / 100;
       valueDisplay.textContent = `${transparencyValue}%`;
-      const currentRgba = this.extractRgbaComponents(this.plugin.settings[key]);
+      const currentRgba = this.extractRgbaComponents(
+        this.plugin.settings[key]
+      );
       const newRgba = `rgba(${currentRgba.r}, ${currentRgba.g}, ${currentRgba.b}, ${newAlpha})`;
       this.plugin.settings[key] = newRgba;
       await this.plugin.saveSettings();
@@ -490,7 +603,9 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
   }
   // Helper-Methoden für die Farbverarbeitung
   extractRgbaComponents(rgba) {
-    const match = rgba.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/);
+    const match = rgba.match(
+      /rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/
+    );
     if (match) {
       return {
         r: parseInt(match[1]),
@@ -535,9 +650,15 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
   }
   // Fügt eine Farbvergleichsanzeige hinzu
   addColorComparison(containerEl, currentColor, otherColor) {
-    const comparisonEl = containerEl.createEl("div", { cls: "color-comparison" });
-    comparisonEl.createSpan({ text: `Im ${this.plugin.settings.editingDarkTheme ? "hellen" : "dunklen"} Theme: ` });
-    const colorPreview = comparisonEl.createEl("div", { cls: "color-preview" });
+    const comparisonEl = containerEl.createEl("div", {
+      cls: "color-comparison"
+    });
+    comparisonEl.createSpan({
+      text: `Im ${this.plugin.settings.editingDarkTheme ? "hellen" : "dunklen"} Theme: `
+    });
+    const colorPreview = comparisonEl.createEl("div", {
+      cls: "color-preview"
+    });
     colorPreview.style.backgroundColor = otherColor;
     comparisonEl.createSpan({ text: otherColor });
   }
@@ -550,6 +671,5 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     this.addColorComparison(containerEl, currentColor, otherColor);
   }
 };
-
 
 /* nosourcemap */

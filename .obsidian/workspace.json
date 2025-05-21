@@ -308,8 +308,8 @@
       "widgets:Add widget": false,
       "wordcraft:Open WordCraft": false,
       "protected-note:Block Obsidian": false,
-      "calendarium:Open Calendarium": false,
       "note-status:Open status pane": false,
+      "calendarium:Open Calendarium": false,
       "obsidian-task-progress-bar:Open Task Genius view": false
     }
   },
