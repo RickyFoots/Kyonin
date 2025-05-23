@@ -1,3 +1,7 @@
+---
+obsidian-note-status:
+  - editing
+---
 # [[Story Beats and Ideas]]
 ---
 

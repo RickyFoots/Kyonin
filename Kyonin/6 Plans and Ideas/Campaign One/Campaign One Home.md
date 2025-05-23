@@ -1,3 +1,7 @@
+---
+obsidian-note-status:
+  - inProgress
+---
 
 ```meta-bind-button
 style: destructive
