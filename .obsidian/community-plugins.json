@@ -29,5 +29,8 @@
   "wordcraft",
   "obsidian-task-progress-bar",
   "inline-callouts",
-  "note-status"
+  "note-status",
+  "simple-banner",
+  "multi-properties",
+  "global-search-and-replace"
 ]

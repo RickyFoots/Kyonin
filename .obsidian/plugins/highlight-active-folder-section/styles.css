@@ -59,7 +59,6 @@
     background-color: var(--highlighted-folder-title-color);
     color: var(--highlighted-folder-text-color);
     border-radius: var(--highlighted-folder-border-radius);
-    font-weight: var(--highlighted-folder-font-weight);
 }
 
 .highlighted-parent-folder {
@@ -74,7 +73,6 @@
 .highlighted-parent-folder > .nav-folder-title {
     color: var(--highlighted-parent-folder-text-color);
     border-radius: var(--highlighted-parent-folder-border-radius);
-    font-weight: var(--highlighted-parent-folder-font-weight);
     margin-bottom: 5px;
 }
 
