@@ -1,3 +1,4 @@
+
 # [[Varisia]] - "*Pinnacle of Greed*"
 ---
 - Varisia is the heart and soul of trade in Golarion, not a single copper piece enters Golarion without first passing through the [[Jasper Port]]. 

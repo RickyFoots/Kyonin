@@ -1,6 +1,7 @@
 ---
 
 ---
+
 # Owner/Operator: [[Jeremiah Esku]]
 ---
 - Directly below [[A Gorgon's Thirst]] as a way for *Jeremiah* to earn a few extra coins and to get rid of troublesome patrons and anyone poking there nose too deep into their business.
