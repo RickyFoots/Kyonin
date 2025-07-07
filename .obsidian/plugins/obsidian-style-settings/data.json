@@ -121,7 +121,7 @@
   "fancy-a-story@@fas-bookmark-tabs": "volume",
   "fancy-a-story@@fas-sidebar-texture-custom": false,
   "fancy-a-story@@fas-sans-serif": true,
-  "fancy-a-story@@fas-bigger-font": false,
+  "fancy-a-story@@fas-bigger-font": true,
   "fancy-a-story@@fas-accessibility": false,
   "fancy-a-story@@fas-bg-textures": false,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
