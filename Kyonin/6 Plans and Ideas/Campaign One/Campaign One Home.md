@@ -50,7 +50,7 @@ dv.paragraph(`<div style="
 
 # 1. Quick access Tools
 ```tabs
-
+left
 tab: ### DM Notes
 **No more Jeffery**
 
@@ -67,7 +67,7 @@ tab: ### Ideas to Flesh Out
 
 # 2. Random facts and Episode count
 `````tabs
-
+left
 tab: ### Episode count
 1. ("**Date Unknown**")
 2. ("**Date Unknown**")
@@ -146,7 +146,7 @@ tab: ### **Does NOT** exist
 
 # 3. Pinkerton's, Fun Facts 
 ~~~~tabs
-
+left
 tab: ### Claire Clover
 ```tabs
 tab: #### Fun Facts
