@@ -48,27 +48,24 @@ dv.paragraph(`<div style="
 </div>`)
 ```
 
-# 1. Quick access Tools
-```tabs
+``````tabs
 left
-tab: ### DM Notes
+tab: ### Notes and Tools
 **No more Jeffery**
 
--
-tab: ### Map
-![[Map of Golarian]]
-tab: ### Wild Encounters
-![[-Wild Encounters-]]
-tab: ### Story Beats and Ideas
-![[Story Beats and Ideas]]
-tab: ### Ideas to Flesh Out
-![[Ideas to Flesh Out]]
-```
-
-# 2. Random facts and Episode count
 `````tabs
-left
-tab: ### Episode count
+tab: #### Map
+![[Map of Golarian]]
+tab: #### Wild Encounters
+![[-Wild Encounters-]]
+tab: #### Story Beats and Ideas
+![[Story Beats and Ideas]]
+tab: #### Ideas to Flesh Out
+![[Ideas to Flesh Out]]
+`````
+
+tab: ### Facts and Episode count
+# Episode count
 1. ("**Date Unknown**")
 2. ("**Date Unknown**")
 3. ("**Date Unknown**")
@@ -78,13 +75,7 @@ tab: ### Episode count
 7. **10/13/23**
 8. **11/17/23**
 9.
-tab: ### Misc World Facts
-- Yards are equal to Teaspoons
-- 4 *Silver* for porn/smut
-- **City Facts**
-	- [[The Republic of Solaris]]
-		- Has specialty healing potions flavors:
-			- Cookies and cream
+`````tabs
 tab: ### Exists in World
 ````col
 ```col-md
@@ -140,12 +131,19 @@ tab: ### Exists in World
 		- Douglas Fir
 ```
 ````
+tab: ### Misc World Facts
+- Yards are equal to Teaspoons
+- 4 *Silver* for porn/smut
+- **City Facts**
+	- [[The Republic of Solaris]]
+		- Has specialty healing potions flavors:
+			- Cookies and cream
+
 tab: ### **Does NOT** exist
 -
 `````
-
-# 3. Pinkerton's, Fun Facts 
-~~~~tabs
+tab: ### Pinkertons 
+`````tabs
 left
 tab: ### Claire Clover
 ```tabs
@@ -294,7 +292,8 @@ tab: #### Story Beat Ideas
 ![[Story Beats and Ideas#Rylanor Torlek]]
 
 ```
-~~~~
+`````
+``````
 
 ## Late night rolls
 ---

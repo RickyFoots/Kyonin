@@ -1,19 +1,8 @@
 # [[Elsbeth Vordr]]
-## Alignment
-```alignmenttracker
-L: 0
-C: 0
-G: 0
-E: 0
-```
 
-- **L**: 0
-- **C**: 0
-- **G**: 0
-- **E**: 0
-
-6ft. Tall, Golden Skin.
-Fan of [[Hawthorne the Hammer]] 
+## Description
+- 6ft. Tall, Golden Skin.
+- Fan of [[Hawthorne the Hammer]] 
 # Stats
 ---
 - *Race* = #Races/Outer-Born/Aasimar
@@ -26,7 +15,6 @@ Fan of [[Hawthorne the Hammer]]
 - [[Princess Ilfselhmina]]
 # History 
 ---
-
 - Elsbeth was born in the Kingdom of Solaris to mother [[Adalia Vordr]] and father [[Vassar Vordr]]
 
 - Her father, who was born in poverty, was an intelligent man that showed promise as a leader, but due to education in the kingdom being an opportunity afforded only to the wealthy, the nobility, and those of the [[Holy Order]], he did not get a formal education and training until he married Adalia. Before he met her, he took up odd jobs here and there, before finally settling in as a janitor at the local college, learning what he could through self-study, listening in on classes he had no business being in, and reading the leftover notes written on the chalkboards of the classrooms he had to clean.

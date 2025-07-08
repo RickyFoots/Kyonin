@@ -1,0 +1,4 @@
+    body {
+      --graph-line: rgb(146, 146, 146); /* Change the default line color */
+      --graph-node: rgb(230, 230, 230); /* Change the default node color */
+    }

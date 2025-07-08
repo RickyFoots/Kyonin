@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "MCL_Wide_Views",
     "MCL_Multi_Column",
-    "Heading_Colors"
+    "Heading_Colors",
+    "graph_colors"
   ],
   "baseFontSize": 18,
   "nativeMenus": true
