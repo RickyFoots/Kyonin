@@ -3,7 +3,9 @@
   "theme": "obsidian",
   "cssTheme": "Fancy-a-Story",
   "enabledCssSnippets": [
-    "MCL_Wide_Views"
+    "MCL_Wide_Views",
+    "MCL_Multi_Column",
+    "Heading_Colors"
   ],
   "baseFontSize": 18,
   "nativeMenus": true

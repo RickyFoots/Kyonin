@@ -4,7 +4,6 @@
 - The largest and well known bar of [[Varisia]] 
 - Run by, one of the many "feelers" [[Netch the Drowned]] keeps in her back pocket to spy on newcomers to [[Varisia]].
 - Has an underground fighting ring under it called [[The Snake Pit]]. 
-- 
 
 ### Facts
 ---
