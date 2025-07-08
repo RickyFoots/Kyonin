@@ -32,8 +32,8 @@
               "type": "task-genius-view",
               "state": {},
               "pinned": true,
-              "icon": "tag",
-              "title": "Tags"
+              "icon": "inbox",
+              "title": "Inbox"
             }
           },
           {
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 362.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -278,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
