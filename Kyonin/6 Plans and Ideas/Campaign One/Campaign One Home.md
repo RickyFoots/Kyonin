@@ -50,21 +50,26 @@ dv.paragraph(`<div style="
 
 ``````tabs
 left
-tab: ### Notes and Tools
+tab: ### Tools
 **No more Jeffery**
 
 `````tabs
 tab: #### Map
 ![[Map of Golarian]]
-tab: #### Wild Encounters
-![[-Wild Encounters-]]
+
+tab: #### Encounters
+![[Encounters]]
+`````
+tab: ### Notes
+
+`````tabs
 tab: #### Story Beats
 ![[Story Beats]]
+
 tab: #### Ideas
 ![[Ideas]]
 `````
-
-tab: ### Facts and Episode count
+tab: ### Information
 # Episode count
 1. ("**Date Unknown**")
 2. ("**Date Unknown**")
@@ -142,7 +147,7 @@ tab: ### Misc World Facts
 tab: ### **Does NOT** exist
 -
 `````
-tab: ### Pinkertons 
+tab: ### Pinkertons
 `````tabs
 left
 tab: ### Claire Clover
@@ -162,8 +167,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Claire Clover]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Claire Clover]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Elsbeth Vordr
@@ -183,8 +188,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Elsbeth Vordr]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Elsbeth Vordr]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Hawthorne "The Hammer" Bittlesby
@@ -204,8 +209,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Hawthorne the Hammer]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Hawthorne the Hammer]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Jolene -Pix- Roxanne
@@ -225,8 +230,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Jolene-Pix]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Jolene-Pix]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Monk Kee
@@ -246,8 +251,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Monk Kee]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Monk Kee]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Ricochet Whitetail
@@ -267,8 +272,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Ricochet Whitetail]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Ricochet Whitetail]]
+tab: #### Notes
+- 
 
 ```
 tab: ### Rylanor Torlek
@@ -288,8 +293,8 @@ tab: #### Fun Facts
 tab: #### Character History
 ![[Rylanor Torlek]]
 
-tab: #### Story Beat Ideas
-![[Story Beats and Ideas#Rylanor Torlek]]
+tab: #### Notes
+- 
 
 ```
 `````
