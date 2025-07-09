@@ -58,10 +58,10 @@ tab: #### Map
 ![[Map of Golarian]]
 tab: #### Wild Encounters
 ![[-Wild Encounters-]]
-tab: #### Story Beats and Ideas
-![[Story Beats and Ideas]]
-tab: #### Ideas to Flesh Out
-![[Ideas to Flesh Out]]
+tab: #### Story Beats
+![[Story Beats]]
+tab: #### Ideas
+![[Ideas]]
 `````
 
 tab: ### Facts and Episode count

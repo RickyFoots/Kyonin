@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "To Do List",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -70,10 +70,10 @@
   "nodeSizeMultiplier": 2.49895833333333,
   "lineSizeMultiplier": 0.508333333333333,
   "collapse-forces": true,
-  "centerStrength": 0.25,
+  "centerStrength": 0.104166666666667,
   "repelStrength": 20,
-  "linkStrength": 0,
+  "linkStrength": 0.703125,
   "linkDistance": 500,
-  "scale": 0.030182895067324182,
+  "scale": 0.0078125,
   "close": true
 }

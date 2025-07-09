@@ -1,6 +1,7 @@
 
-[[Ideas to Flesh Out]]
-# Ideas 
+````col
+```col-md
+# [[Ideas]]
 1. "**The Necropolis**".
 	- `Notes`: I've been thinking that *if* this is going to be a part of **Golarion**, it should be buried deep beneath the "**Cursed Sea Islands**"
 		- I think that maybe the *Formless God* that was cast into this part of the world had nothing to do with Death or Necrosis. But because they are cursed (<u>or driven mad</u>) their tainted godly magic seeps into the stones of the sunken city causing the dead to rise and seek out {What ever the *Formless Gods* power is} 
@@ -22,28 +23,9 @@
 1. Make [[Asmodeus]] an old forgotten *Formless God*
 	- `Notes`: This would mean that all *devilkind* has some form of divinity buried deep within their heritage.
 	- Maybe make it where *Asmodeus* is/was the reason that the *Formless Gods* fell in [[The War of Creation]]
-
-## Results
----
-````col
-```col-md
-### Completed
-1.
-2.
-3.
-4.
-5.
-
 ```
-
 ```col-md
-
-### Recycle Bin
-- 
-- 
-- 
-- 
-- 
-
+# [[To do]]
+![[To do]]
 ```
 ````

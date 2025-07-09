@@ -1,3 +1,5 @@
+
+
 1. [x] Makers Guild 
 2. [x] The Adventurers Guild 
 3. [ ] Review and flesh out Cities #Todo

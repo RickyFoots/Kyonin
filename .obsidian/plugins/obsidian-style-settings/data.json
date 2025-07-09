@@ -278,5 +278,6 @@
   "fancy-a-story@@file-explorer-decoration-blend-custom": "lighten",
   "fancy-a-story@@show-note-header-on-hover": "disable",
   "fancy-a-story@@crop-root-corners": "enable",
-  "fancy-a-story@@status-bar-position": "fas-status-bar-ribbon"
+  "fancy-a-story@@status-bar-position": "fas-status-bar-ribbon",
+  "fancy-a-story@@fas-checkbox-style": "normal"
 }
