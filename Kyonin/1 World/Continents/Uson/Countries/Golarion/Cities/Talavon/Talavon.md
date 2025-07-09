@@ -4,7 +4,7 @@
 - Cobbled main road with run down buildings and shops. 
 - Outside the main town are several plantations owned by [[Travis Buchannan]] and his wife [[Dolly Buchannan]]. 
 - The main import and export of [[Talavon]] is flowers, hemlock, lily of the valley, and other beautiful poisonous flowers are grown here, mainly going to flower stores across [[Golarion]] but they're biggest buyer is [[The Hands of Bhaal]]. 
-- Also the town [[Jolene-Pix]] was run out of.
+- Also the town [[Jolene]] was run out of.
 
 ## Map 
 ---

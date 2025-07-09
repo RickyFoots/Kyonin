@@ -214,7 +214,7 @@ tab: #### Notes
 - 
 
 ```
-tab: ### Jolene -Pix- Roxanne
+tab: ### Jolene
 ```tabs
 tab: #### Fun Facts
 #Pinkertons/Jolene
@@ -229,7 +229,7 @@ tab: #### Fun Facts
 9. 
 
 tab: #### Character History
-![[Jolene-Pix]]
+![[Jolene]]
 
 tab: #### Notes
 - 

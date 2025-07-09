@@ -4,7 +4,7 @@
 - [[Claire Clover]]
 - [[Elsbeth Vordr]]
 - [[Hawthorne the Hammer]]
-- [[Jolene-Pix]]
+- [[Jolene]]
 - [[Monk Kee]]
 - [[Ricochet Whitetail]]
 - [[Rylanor Torlek]]

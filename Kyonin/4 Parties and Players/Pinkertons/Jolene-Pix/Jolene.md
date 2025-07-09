@@ -1,4 +1,4 @@
-# [[Jolene-Pix]]
+# [[Jolene]]
 
 # Stats
 ---
@@ -15,20 +15,20 @@
 
 # Alias
 ---
-- <mark style="background: #BBFABBA6;">Pix</mark>: a 6’1” thin, lanky woman with elegant features. 
+- [#] <mark style="background: #BBFABBA6;">Pix</mark>: a 6’1” thin, lanky woman with elegant features. 
 	- Her skin looks like unpolished silver that sparkles just a bit in the feywild sun. 
 	- Her hair is a very light opalescent pink that she keeps in a long braid that falls to her lower back. 
 	- Her eyes are completely black with no whites.
-- <mark style="background: #FFF3A3A6;">Jolene</mark>: a 5’8” half-elven woman. 
+- [#] <mark style="background: #FFF3A3A6;">Jolene</mark>: a 5’8” half-elven woman. 
 	- Wavy auburn hair that she keeps tied back in a loose messy bun with bangs that frame her face. 
 	- Ivory skin with faded freckles on her shoulders and barely pointed ears. 
 	- Mischievous emerald green eyes. 
 	- Very curvy, except she is in *B-Cups*.
-- <mark style="background: #FF5582A6;">Roxanne</mark>: a 5’6” stocky human woman. 
+- [#] <mark style="background: #FF5582A6;">Roxanne</mark>: a 5’6” stocky human woman. 
 	- She wears a platinum blond pixie cut and light ice blue eyes. 
 	- Strong ass arms with hips like *Shakira*. 
 	- Wears bright red lipstick.
-- <mark style="background: #ADCCFFA6;">Iris</mark>: A dark purple tiefling, with shoulder-length black curls and very pale, light purple eyes. 
+- [#] <mark style="background: #ADCCFFA6;">Iris</mark>: A dark purple tiefling, with shoulder-length black curls and very pale, light purple eyes. 
 	- Light ashen gray horns corkscrew as they curve back behind her ears.
 
 # History
