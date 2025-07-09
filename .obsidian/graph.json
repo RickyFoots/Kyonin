@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -11,49 +11,42 @@
       "query": "#Gods",
       "color": {
         "a": 1,
-        "rgb": 16774912
+        "rgb": 7169079
       }
     },
     {
       "query": "#Pinkertons/Claire",
       "color": {
         "a": 1,
-        "rgb": 13668496
+        "rgb": 8808809
       }
     },
     {
       "query": "#Pinkertons/Elsbeth",
       "color": {
         "a": 1,
-        "rgb": 11571944
+        "rgb": 9272491
       }
     },
     {
       "query": "#Pinkertons/Hawthorne",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 8803926
       }
     },
     {
       "query": "#Pinkertons/Jolene",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 7118221
       }
     },
     {
       "query": "#Pinkertons/Ki",
       "color": {
         "a": 1,
-        "rgb": 14715730
-      }
-    },
-    {
-      "query": "#Pinkertons/Ricochet",
-      "color": {
-        "a": 1,
-        "rgb": 1089094
+        "rgb": 14065530
       }
     },
     {
@@ -62,6 +55,13 @@
         "a": 1,
         "rgb": 6902496
       }
+    },
+    {
+      "query": "#Pinkertons/Ricochet",
+      "color": {
+        "a": 1,
+        "rgb": 5408992
+      }
     }
   ],
   "collapse-display": true,
@@ -69,11 +69,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 2.49895833333333,
   "lineSizeMultiplier": 0.508333333333333,
-  "collapse-forces": true,
+  "collapse-forces": false,
   "centerStrength": 0.104166666666667,
   "repelStrength": 20,
-  "linkStrength": 0.703125,
+  "linkStrength": 0.302083333333333,
   "linkDistance": 500,
-  "scale": 0.030182895067324182,
+  "scale": 0.0078125,
   "close": true
 }

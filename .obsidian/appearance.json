@@ -6,7 +6,8 @@
     "MCL_Wide_Views",
     "MCL_Multi_Column",
     "Heading_Colors",
-    "graph_colors"
+    "graph_colors",
+    "MCL_Gallery_Cards"
   ],
   "baseFontSize": 18,
   "nativeMenus": true

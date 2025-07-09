@@ -1,0 +1,3 @@
+Use the following to blur texts:
+`- [#] Secret text goes here...`
+- [#] Secret text goes here...

@@ -1,4 +1,41 @@
-    body {
-      --graph-line: rgb(146, 146, 146); /* Change the default line color */
-      --graph-node: rgb(230, 230, 230); /* Change the default node color */
-    }
+.graph-view.color-fill {
+  color: rgba(230, 230, 230, 0.8);
+}
+.graph-view.color-circle {
+  color: #ffffff;
+}
+.graph-view.color-line {
+  color:rgba(146, 146, 146, 0.5);
+}
+.graph-view.color-text {
+  color: #ffffff;
+}
+.graph-view.color-fill-highlight {
+  color: #11083f;
+}
+.graph-view.color-line-highlight {
+  color: rgba(255, 255, 255, 0.8);
+}
+.graph-view.color-fill-focused {
+  color: rgb(0, 255, 42);
+}
+
+canvas {
+    background-color: #00000000;
+}
+
+[data-task="#"] {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+[data-task="#"]:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+/*
+body {
+  --graph-line: rgb(146, 146, 146); 
+  --graph-node: rgb(230, 230, 230); 
+}

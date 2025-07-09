@@ -12,7 +12,7 @@
     ],
     "bannerPadding": 8,
     "bannerFade": true,
-    "iconEnabled": false,
+    "iconEnabled": true,
     "iconSize": 96,
     "iconRadius": 8,
     "iconBackground": true,
