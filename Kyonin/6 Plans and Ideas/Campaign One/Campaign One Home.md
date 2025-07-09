@@ -50,25 +50,6 @@ dv.paragraph(`<div style="
 
 ``````tabs
 left
-tab: ### Tools
-**No more Jeffery**
-
-`````tabs
-tab: #### Map
-![[Map of Golarian]]
-
-tab: #### Encounters
-![[Encounters]]
-`````
-tab: ### Notes
-
-`````tabs
-tab: #### Story Beats
-![[Story Beats]]
-
-tab: #### Ideas
-![[Ideas]]
-`````
 tab: ### Information
 # Episode count
 1. ("**Date Unknown**")
@@ -147,7 +128,28 @@ tab: ### Misc World Facts
 tab: ### **Does NOT** exist
 -
 `````
-tab: ### Pinkertons
+
+tab: ### Tools
+**No more Jeffery**
+
+`````tabs
+tab: #### Map
+![[Map of Golarian]]
+
+tab: #### Encounters
+![[Encounters]]
+`````
+tab: ### Notes
+
+`````tabs
+tab: #### Story Beats
+![[Story Beats]]
+
+tab: #### Ideas
+![[Ideas]]
+`````
+tab: ### Party
+![[Party Finances]]
 `````tabs
 left
 tab: ### Claire Clover
@@ -303,3 +305,4 @@ tab: #### Notes
 ## Late night rolls
 ---
 - 
+[[Party Finances]]
