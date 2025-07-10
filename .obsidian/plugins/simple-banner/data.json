@@ -121,7 +121,7 @@
   },
   "properties": {
     "autohide": true,
-    "image": "banner",
+    "image": "banners",
     "icon": "icon",
     "datetime": "datetime"
   }

@@ -61,10 +61,50 @@
 
 ### Store Lists 
 ---
->[!abstract]- Magic Shop 
->## SolarQuill Magic Emporium
->![[SolarQuill Magic Emporium]]
+````tabs
+left
 
+tab: #### Jewelers/Silversmith
+```tabs
+tab: ##### 
+```
+
+tab: #### Gunsmiths
+```tabs
+tab: ##### 
+```
+
+tab: #### Magic Shops
+```tabs
+tab: ##### SolarQuill Magic Emporium
+![[SolarQuill Magic Emporium]]
+```
+
+tab: #### Holy Items
+```tabs
+tab: ##### 
+```
+
+tab: #### Armorsmith
+```tabs
+tab: ##### 
+```
+
+tab: #### Weaponsmith
+```tabs
+tab: ##### 
+```
+
+tab: #### Herbalist
+```tabs
+tab: ##### 
+```
+
+tab: #### Tailor
+```tabs
+tab: ##### 
+```
+````
 ##### Tags 
 - #City/TheRepublicofSolaris
 - #Pinkertons/Elsbeth 

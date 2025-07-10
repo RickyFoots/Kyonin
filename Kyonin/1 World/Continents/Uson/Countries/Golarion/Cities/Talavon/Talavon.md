@@ -47,41 +47,49 @@
 
 ### Store Lists 
 ---
->[!multi-column]
->>[!abstract]- Jewelers/Silversmith 
->>## {Location Name}
->>!{Location Name}
->
->>[!abstract]- Gunsmiths
->>## {Location Name}
->>!{Location Name}
->
->>[!abstract]- Magic Shop 
->>## {Location Name}
->>!{Location Name}
+````tabs
+left
 
->[!multi-column]
->>[!abstract]- Armor 
->>## {Location Name}
->>!{Location Name}
->
->>[!abstract]- Weapons 
->>## {Location Name}
->>!{Location Name}
->
->>[!abstract]- Holy Items 
->>## {Location Name}
->>!{Location Name}
+tab: #### Jewelers/Silversmith
+```tabs
+tab: ##### 
+```
 
->[!multi-column]
->>[!abstract]- Tailor
->>## {Location Name}
->>!{Location Name}
->
->>[!abstract]- Herbalist 
->>## {Location Name}
->>!{Location Name}
+tab: #### Gunsmiths
+```tabs
+tab: ##### 
+```
 
+tab: #### Magic Shops
+```tabs
+tab: ##### 
+```
+
+tab: #### Holy Items
+```tabs
+tab: ##### 
+```
+
+tab: #### Armorsmith
+```tabs
+tab: ##### 
+```
+
+tab: #### Weaponsmith
+```tabs
+tab: ##### 
+```
+
+tab: #### Herbalist
+```tabs
+tab: ##### 
+```
+
+tab: #### Tailor
+```tabs
+tab: ##### 
+```
+````
 ##### Tags 
 - #City/Talavon
 - #Pinkertons/Jolene 

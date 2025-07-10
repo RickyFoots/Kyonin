@@ -41,19 +41,27 @@
 
 ### Store Lists 
 ---
->[!multi-column]
->>[!abstract]- Magic Shop 
->>## The Authors of Iron
->>![[The Authors of Iron]]
->
->>[!abstract]- Weapons 
->>## Fancy A Hammer
->>![[Fancy A Hammer]]
->
->>[!abstract]- General Store 
->>## Heatwaker Forge
->>![[Heatwaker Forge]]
+````tabs
+left
 
+tab: #### General Store
+```tabs
+tab: ##### Heatwaker Forge
+![[Heatwaker Forge]]
+```
+
+tab: #### Magic Shops
+```tabs
+tab: ##### The Authors of Iron
+![[The Authors of Iron]]
+```
+
+tab: #### Weaponsmith
+```tabs
+tab: ##### Fancy A Hammer
+![[Fancy A Hammer]]
+```
+````
 ##### Tags 
 - #City/Branmor
 - #Races/Dwarves 

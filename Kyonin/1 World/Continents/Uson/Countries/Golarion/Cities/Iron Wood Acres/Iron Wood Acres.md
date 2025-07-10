@@ -35,10 +35,15 @@
 
 ### Store Lists 
 ---
->[!abstract]- General Store 
->## Iron Wood General Store
->![[Iron Wood General Store]]
+````tabs
+left
 
+tab: #### General Store
+```tabs
+tab: ##### Iron Wood General Store
+![[Iron Wood General Store]]
+```
+````
 ##### Tags 
 - #City/IronWoodAcres 
 - #Pinkertons/Ricochet 

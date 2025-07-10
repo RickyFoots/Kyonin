@@ -22,10 +22,10 @@
   "widgets",
   "wordcraft",
   "inline-callouts",
-  "simple-banner",
   "multi-properties",
   "global-search-and-replace",
   "dynamic-outline",
   "highlight-active-folder-section",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "simple-banner"
 ]

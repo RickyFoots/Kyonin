@@ -37,9 +37,15 @@
 
 ### Store Lists 
 ---
->[!abstract]- General Store 
->## Tim and Son's Bait and Tackle
->![[Tim and Son's Bait and Tackle]]
+````tabs
+left
+
+tab: #### General Store
+```tabs
+tab: ##### Tim and Son's Bait and Tackle
+![[Tim and Son's Bait and Tackle]]
+```
+````
 
 ##### Tags 
 - #City/Avalant

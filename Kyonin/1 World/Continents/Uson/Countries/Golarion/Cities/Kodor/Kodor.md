@@ -46,10 +46,15 @@
 
 ### Store Lists 
 ---
->[!abstract]- Gunsmiths
->## Mah's Firearms
->![[Mah's Firearms]]
+````tabs
+left
 
+tab: #### Gunsmiths
+```tabs
+tab: ##### Mah's Firearms
+![[Mah's Firearms]]
+```
+````
 ##### Tags 
 - #City/Kodor
 - #Pinkertons/Rylanor 

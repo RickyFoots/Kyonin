@@ -1,5 +1,5 @@
 ---
-banner: https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+banners: "https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
 # [[Varisia]] - "*Pinnacle of Greed*"
@@ -54,42 +54,56 @@ banner: https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=1740
 
 ### Store Lists 
 ---
->[!multi-column]+ Specialty Wares
->>[!abstract]- Jewelers/Silversmith 
->>## [[- Greenriver's Sheen -]]
->>![[- Greenriver's Sheen -]]
->
->>[!abstract]- Gunsmiths
->>## [[- Booming Dales -]]
->>![[- Booming Dales -]]
->
->>[!abstract]- Magic Shop 
->>## [[- Ocean's and Potions -]]
->>![[- Ocean's and Potions -]]
->
->>[!abstract]- Holy Items 
->>## [[- Gifts from Gods -]]
->>![[- Gifts from Gods -]]
+````tabs
+left
 
->[!multi-column]+ Standard Wares
->>[!abstract]- Armor 
->>## [[- Black and Tanned -]]
->>![[- Black and Tanned -]]
->
->>[!abstract]- Weapons 
->>## [[- Forge Ahead -]]
->>![[- Forge Ahead -]]
->
->
->>[!abstract]- Herbalist 
->>## [[- The Rabbit Hole -]]
->>![[- The Rabbit Hole -]]
->
->>[!abstract]- Tailor
->>## [[- Once Upon a Seam -]]
->>![[- Once Upon a Seam -]]
+tab: #### Jewelers/Silversmith
+```tabs
+tab: ##### Greenriver's Sheen
+![[- Greenriver's Sheen -]]
+```
 
+tab: #### Gunsmiths
+```tabs
+tab: ##### Booming Dales
+![[- Booming Dales -]]
+```
 
+tab: #### Magic Shops
+```tabs
+tab: ##### Ocean's and Potions
+![[- Ocean's and Potions -]]
+```
+
+tab: #### Holy Items
+```tabs
+tab: ##### Gifts from Gods
+![[- Gifts from Gods -]]
+```
+
+tab: #### Armorsmith
+```tabs
+tab: ##### Black and Tanned
+![[- Black and Tanned -]]
+```
+
+tab: #### Weaponsmith
+```tabs
+tab: ##### Forge Ahead
+![[- Forge Ahead -]]
+```
+
+tab: #### Herbalist
+```tabs
+tab: ##### The Rabbit Hole
+![[- The Rabbit Hole -]]
+```
+
+tab: #### Tailor
+```tabs
+tab: ##### Once Upon a Seam
+![[- Once Upon a Seam -]]
+```
+````
 ##### Tags 
 - #City/Varisia
-
