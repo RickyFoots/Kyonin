@@ -1,11 +1,11 @@
 {
-  "tasksFolder": "TaskNotes/Tasks",
+  "tasksFolder": "Kyonin/6 Plans and Ideas/Tasks/",
   "taskTag": "task",
   "excludedFolders": "",
   "defaultTaskPriority": "normal",
   "defaultTaskStatus": "open",
   "taskOrgFiltersCollapsed": false,
-  "taskFilenameFormat": "zettel",
+  "taskFilenameFormat": "title",
   "storeTitleInFilename": false,
   "customFilenameTemplate": "{title}",
   "taskCreationDefaults": {
@@ -15,8 +15,8 @@
     "defaultRecurrence": "none",
     "defaultDueDate": "none",
     "defaultScheduledDate": "today",
-    "bodyTemplate": "",
-    "useBodyTemplate": false
+    "bodyTemplate": "Kyonin/7 Utilities/Templates/Task_Template",
+    "useBodyTemplate": true
   },
   "calendarViewSettings": {
     "defaultView": "dayGridMonth",
@@ -50,12 +50,12 @@
   "pomodoroSoundEnabled": true,
   "pomodoroSoundVolume": 50,
   "pomodoroStorageLocation": "plugin",
-  "enableTaskLinkOverlay": true,
-  "enableInstantTaskConvert": true,
-  "useDefaultsOnInstantConvert": true,
+  "enableTaskLinkOverlay": false,
+  "enableInstantTaskConvert": false,
+  "useDefaultsOnInstantConvert": false,
   "enableNaturalLanguageInput": true,
   "nlpDefaultToScheduled": true,
-  "inlineTaskConvertFolder": "{{currentNotePath}}",
+  "inlineTaskConvertFolder": "Kyonin/6 Plans and Ideas/Tasks",
   "disableNoteIndexing": false,
   "fieldMapping": {
     "title": "title",
@@ -140,6 +140,6 @@
     }
   ],
   "recurrenceMigrated": true,
-  "showTrackedTasksInStatusBar": false,
+  "showTrackedTasksInStatusBar": true,
   "showProjectSubtasks": true
 }

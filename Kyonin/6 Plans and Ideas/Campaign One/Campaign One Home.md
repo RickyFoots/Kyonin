@@ -13,10 +13,7 @@ actions:
 ```
 
 ``BUTTON[Reload]`` ``BUTTON[Web]`` 
-```widgets
-type: clock
-format: 12hr
-```
+
 ```dataviewjs
 // Calculate days since first note
 const files = dv.pages()
@@ -129,7 +126,6 @@ tab: ### **Does NOT** exist
 `````
 
 tab: ### Tools
-**No more Jeffery**
 
 `````tabs
 tab: #### Map
@@ -139,6 +135,7 @@ tab: #### Encounters
 ![[Encounters]]
 `````
 tab: ### Notes
+**No more Jeffery**
 
 `````tabs
 tab: #### Story Beats
