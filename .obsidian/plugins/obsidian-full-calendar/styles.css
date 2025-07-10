@@ -21,7 +21,7 @@
   --fc-now-indicator-color: var(--text-error-hover);
   --fc-more-link-bg-color: var(--background-primary-alt);
   --fc-more-link-text-color: var(--text-accent);
-  --fc-today-bg-color: var(--background-modifier-cover);
+  --fc-today-bg-color: color-mix(in srgb, var(--text-accent) 30%, transparent);
   --fc-neutral-text-color: var(--text-muted);
   --fc-neutral-bg-color: var(--interactive-normal);
   --fc-highlight-color: var(--text-highlight-bg);

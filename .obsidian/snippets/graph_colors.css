@@ -11,7 +11,7 @@
   color: #ffffff;
 }
 .graph-view.color-fill-highlight {
-  color: #11083f;
+  color: #000000;
 }
 .graph-view.color-line-highlight {
   color: rgba(255, 255, 255, 0.8);
@@ -21,7 +21,7 @@
 }
 
 canvas {
-    background-color: #00000000;
+  background: #00000000;
 }
 
 [data-task="#"] {
@@ -32,6 +32,15 @@ canvas {
 [data-task="#"]:hover {
   filter: none;
   -webkit-filter: none;
+}
+
+ol > li::marker,
+ol > li.is-collapsed::marker,
+.cm-s-obsidian .cm-formatting-list,
+.cm-s-obsidian .is-collapsed ~ .cm-formatting-list {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 /*

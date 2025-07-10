@@ -124,9 +124,7 @@ tab: ### Misc World Facts
 tab: ### **Does NOT** exist
 -
 `````
-
 tab: ### Tools
-
 `````tabs
 tab: #### Map
 ![[Map of Golarian]]
