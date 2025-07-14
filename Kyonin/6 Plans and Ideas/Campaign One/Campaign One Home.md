@@ -298,5 +298,4 @@ tab: #### Notes
 
 ## Late night rolls
 - [#] This is honestly only here to freak my players out:
-- [ ] 
 
