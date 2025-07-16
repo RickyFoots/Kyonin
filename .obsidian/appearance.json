@@ -7,7 +7,8 @@
     "MCL_Multi_Column",
     "Heading_Colors",
     "graph_colors",
-    "MCL_Gallery_Cards"
+    "MCL_Gallery_Cards",
+    "graph_and_checkbox"
   ],
   "baseFontSize": 18,
   "nativeMenus": true
