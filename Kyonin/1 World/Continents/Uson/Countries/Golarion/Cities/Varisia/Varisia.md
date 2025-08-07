@@ -11,20 +11,19 @@ banners: "https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=17
 ---
 >[!example]- Map 
 >![[Map of Varisia]]
-
-````col
-```col-md
-# Notable Locations
+```columns
+id: Npq0yRPAN5S-cpXToVD-R
+===
+## Notable Locations
 1. The base of operations for [[The Rat Queens Court]]
-3. [[The Snake Pit]] - Fighting Pit
-4. [[Varisia Dynamics]] - Engineering 
-5. [[The Adventurers Guild]] branch - Bounty board location
-6. [[The Crown of the Rough]] - The bank of banks for all of Golarion
-7. [[Sky Port]] and branch of [[The Salamander's End]]
+2. [[The Snake Pit]] - Fighting Pit
+3. [[Varisia Dynamics]] - Engineering 
+4. [[The Adventurers Guild]] branch - Bounty board location
+5. [[The Crown of the Rough]] - The bank of banks for all of Golarion
+6. [[Sky Port]] and branch of [[The Salamander's End]]
 
-```
-```col-md
-# Bars and Taverns
+===
+## Bars and Taverns
 
 | Name                                                  | Bar | Tavern |
 | ----------------------------------------------------- | :-: | :----: |
@@ -34,9 +33,8 @@ banners: "https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=17
 | [[The Worthless Stone]]|  O  |   O    |
 
 
-```
-```col-md
-# Stores - The Grand Bazaar
+===
+## Stores - The Grand Bazaar
 
 |      Store Type      |            Store            |
 | :------------------: | :-------------------------: |
@@ -49,8 +47,8 @@ banners: "https://images.unsplash.com/photo-1674222708504-a3033323d2fa?q=80&w=17
 |        Tailor        |  [[- Once Upon a Seam -]]   |
 |      Herbalist       |   [[- The Rabbit Hole -]]   |
 
+
 ```
-````
 
 ### Store Lists 
 ---
@@ -107,3 +105,4 @@ tab: ##### Once Upon a Seam
 ````
 ##### Tags 
 - #City/Varisia
+

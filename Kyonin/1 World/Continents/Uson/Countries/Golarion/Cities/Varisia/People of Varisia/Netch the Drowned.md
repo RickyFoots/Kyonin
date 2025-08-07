@@ -30,7 +30,7 @@
 
 ### Motivations - Secrets
 ---
-1. <u>Rumors</u>: 
+1. <u>Rumors</u>: Jeremiah Esku
 	- She eats everyone of the corpses of those that betrayed her.
 	- The power she gained after being drowned comes from a [[Formless God]].
 

@@ -8,20 +8,17 @@
 
 ### Enemies and Allies
 ---
-````col
-```col-md
+```columns
+id: M-KpgebhuxsRqq04hwLGb
+===
 #### Allies
 - [[Jeremiah Esku]]
 
-```
-
-```col-md
-
+===
 #### Enemies
-- 
+- He has no enemies, doesn't believe in them.
 
 ```
-````
 >[!Example]- Size Chart
 > ![[Size Chart]]
 
@@ -83,3 +80,5 @@ reactions:
 ##### Tags
 1. #Races/Bloodcursed/Leonin
 2. #FightableNPC/Kodor
+
+

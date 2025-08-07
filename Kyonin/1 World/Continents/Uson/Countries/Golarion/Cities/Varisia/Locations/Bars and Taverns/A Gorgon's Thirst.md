@@ -22,8 +22,9 @@ banners: "https://images.unsplash.com/photo-1631114611403-d986a927718d?q=80&w=15
 		- 30ml [Blackberry Liqueur](https://makemeacocktail.com/ingredient/684/blackberry-liqueur/)
 
 ## Menu
-````col
-```col-md
+```columns
+id: rXHF1AgRDGr56u5c26TkV
+===
 ### Drinks
 ---
 
@@ -35,10 +36,7 @@ banners: "https://images.unsplash.com/photo-1631114611403-d986a927718d?q=80&w=15
 | *Very Strong Drinks*                  | `dice:d4+6`g     |                 |
 | *Dangerously Strong/Signature Drinks* | `dice:d100+10`g  |                 |
 
-```
-
-```col-md
-
+===
 ### Meals
 ---
 
@@ -50,13 +48,13 @@ banners: "https://images.unsplash.com/photo-1631114611403-d986a927718d?q=80&w=15
 | Griffin Egg Omelette | 12 g     | A fluffy omelette made from the rare eggs of a griffin.         |
 
 ```
-````
+
 
 >[!warning]- Intoxication Table
 >![[Intoxication Table]]
-
-````col
-```col-md
+```columns
+id: 3pHs30Onsg5GkzS3uQmAj
+===
 ### Patrons
 ---
 - {Name}: {Location & Description}
@@ -65,10 +63,7 @@ banners: "https://images.unsplash.com/photo-1631114611403-d986a927718d?q=80&w=15
 - {Name}: {Location & Description}
 - {Name}: {Location & Description}
 
-```
-
-```col-md
-
+===
 ### Rumors
 ---
 
@@ -79,8 +74,9 @@ banners: "https://images.unsplash.com/photo-1631114611403-d986a927718d?q=80&w=15
 | {Check}{DC} | {Reward}  |
 | {Check}{DC} | {Reward}  |
 
+
 ```
-````
 
 ##### Tags
 - #City/Varisia 
+

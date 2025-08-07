@@ -1,3 +1,8 @@
+---
+name: Jeremiah Esku
+status: Alive
+affiliation: The Rat Queens Court
+---
 
 # [[Jeremiah Esku]] 
 ---
@@ -12,23 +17,21 @@
 
 ### Enemies and Allies
 ---
-````col
-```col-md
+```columns
+id: PUe8dCFP71si5q_Ni_LJ0
+===
 #### Allies
 - [[Rofir]] -  Closest friend
 - [[Ashtiajar Therfaeth]] - Dragonborne bodyguard
 - [[Clay Fisher]] - Viashino security guard and [[Wraith]]
 - [[Theoan Ironpelt]] - Leonin Fighter, currently the champion of *The Pit* 
 
-```
-
-```col-md
-
+===
 #### Enemies
 - [[Netch the Drowned]] - Boss  
 
 ```
-````
+
 
 ### Motivations - Secrets
 ---
@@ -42,3 +45,4 @@
 ##### Tags
 - #NPC/Varisia
 - #Races/Scale-Born/Yuan-Ti 
+

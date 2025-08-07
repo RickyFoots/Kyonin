@@ -111,6 +111,7 @@
       {
         "id": "d560761a9e5dc2d3",
         "type": "tabs",
+        "dimension": 78.14930015552099,
         "children": [
           {
             "id": "c83b9058312bcfae",
@@ -150,6 +151,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8f161ca6ec123ae8",
+        "type": "tabs",
+        "dimension": 21.850699844479003,
+        "children": [
+          {
+            "id": "376df01939ee6794",
+            "type": "leaf",
+            "state": {
+              "type": "pet-view",
+              "state": {},
+              "icon": "cat",
+              "title": "Pet view"
             }
           }
         ]
@@ -267,7 +285,6 @@
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
-              "state": {},
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
@@ -296,7 +313,10 @@
       "wordcraft:Open WordCraft": false,
       "protected-note:Block Obsidian": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "pixel-pets:Toggle pet view": false,
+      "storyteller-suite:Open storyteller dashboard": false,
+      "sidebar-highlights:Open highlights": false
     }
   },
   "active": "51b49fb0421194d0",
@@ -307,37 +327,37 @@
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Pinkertons.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
+    "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
+    "StorytellerSuite/Stories/Act I/Characters/Jeremiah Esku.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
+    "StorytellerSuite/Stories/Act I/Items",
+    "StorytellerSuite/Stories/Act I/Events",
+    "StorytellerSuite/Stories/Act I/Locations",
+    "StorytellerSuite/Stories/Act I/Characters",
+    "StorytellerSuite/Stories/Act I",
+    "StorytellerSuite/Stories",
+    "StorytellerSuite",
     "Kyonin/7 Utilities/Obsidian Addons/Css Examples/Secrets.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Story Beats.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
     "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase/Footnotes.md",
     "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
     "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/The Republic of Solaris/The Republic of Solaris.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Talavon/Talavon.md",
     "Kyonin/7 Utilities/Templates/City_Template.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Aquos.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Booming Dales/- Booming Dales -.md",
-    "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
-    "Kyonin/7 Utilities/Maps/Map of Golarian.md",
-    "Kyonin/6 Plans and Ideas/Tasks/To do.md",
-    "Kyonin/6 Plans and Ideas/Ideas.md",
     "Kyonin/6 Plans and Ideas/Tasks",
     "Kyonin/6 Plans and Ideas/Notes/Tasks",
-    "Kyonin/6 Plans and Ideas/Notes",
-    "Kyonin/7 Utilities/Obsidian Addons/Css Examples",
-    "Kyonin/7 Utilities/Obsidian Addons",
     "Kyonin/7 Utilities/Images/Stars.png",
-    "Kyonin/6 Plans and Ideas/Campaign One",
-    "Kyonin/1 World/Races/Materiel-Born",
-    "Kyonin/1 World/Races/Fae-Born",
-    "Kyonin/1 World/Races/Elemental Touched",
     "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",

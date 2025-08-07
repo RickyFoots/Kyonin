@@ -13,7 +13,7 @@
 - [[Vrokan]] - **Bhaal's right hand**
 - [[Jolene Belle]] - Ex Girlfriend
 
-# Alias
+## Characters
 ---
 - [#] <mark style="background: #BBFABBA6;">Pix</mark>: a 6’1” thin, lanky woman with elegant features. 
 	- Her skin looks like unpolished silver that sparkles just a bit in the feywild sun. 

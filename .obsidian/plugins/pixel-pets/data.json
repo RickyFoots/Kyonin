@@ -1,0 +1,19 @@
+{
+  "selectedBackground": "backgrounds/summerbg-2.png",
+  "pets": [
+    {
+      "id": "pets/demon-cat-1",
+      "type": "pets/demon-cat",
+      "name": "Jeffery"
+    },
+    {
+      "id": "pets/egypt-cat-1",
+      "type": "pets/egypt-cat",
+      "name": "Sando"
+    }
+  ],
+  "nextPetIdCounters": {
+    "pets/demon-cat": 2,
+    "pets/egypt-cat": 2
+  }
+}
