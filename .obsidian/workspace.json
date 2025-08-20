@@ -238,6 +238,16 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "b90a164d0d668563",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
           }
         ]
       },
@@ -285,6 +295,7 @@
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM",
+              "state": {},
               "icon": "CALENDARIUM",
               "title": "Calendarium"
             }
@@ -297,6 +308,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "recent-notes:Recent notes": false,
       "templates:Insert template": false,
@@ -313,10 +325,8 @@
       "wordcraft:Open WordCraft": false,
       "protected-note:Block Obsidian": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "calendarium:Open Calendarium": false,
       "pixel-pets:Toggle pet view": false,
-      "storyteller-suite:Open storyteller dashboard": false,
-      "sidebar-highlights:Open highlights": false
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "51b49fb0421194d0",

@@ -2883,7 +2883,7 @@ function addProperties(app, file, props, overwrite) {
   let propCache = app.metadataCache.getAllPropertyInfos();
   app.fileManager.processFrontMatter(file, (frontmatter) => {
     for (const [key, value] of props) {
-      if (key === "tags" && !Array.isArray(value.data)) {
+      if (key === "tags" && !frontmatter.hasOwnProperty("tags") && !Array.isArray(value.data)) {
         frontmatter[key] = [value.data];
         continue;
       }
