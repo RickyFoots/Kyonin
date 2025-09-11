@@ -111,7 +111,7 @@
       {
         "id": "d560761a9e5dc2d3",
         "type": "tabs",
-        "dimension": 78.14930015552099,
+        "dimension": 74.96111975116641,
         "children": [
           {
             "id": "c83b9058312bcfae",
@@ -156,12 +156,12 @@
         ]
       },
       {
-        "id": "8f161ca6ec123ae8",
+        "id": "114c3730f435a574",
         "type": "tabs",
-        "dimension": 21.850699844479003,
+        "dimension": 25.038880248833596,
         "children": [
           {
-            "id": "376df01939ee6794",
+            "id": "2d94d98f3a148d39",
             "type": "leaf",
             "state": {
               "type": "pet-view",
