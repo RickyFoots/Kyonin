@@ -244,7 +244,7 @@
   "fancy-a-story@@fas-callout-cite-alt": false,
   "fancy-a-story@@fas-callout-infobox": false,
   "fancy-a-story@@header-color": "none",
-  "fancy-a-story@@header-style-h1": "fas-h1-display",
+  "fancy-a-story@@header-style-h1": "fas-h1-stroke",
   "fancy-a-story@@h1-variant": "normal",
   "fancy-a-story@@header-style-h2": "none",
   "fancy-a-story@@h2-variant": "small-caps",
