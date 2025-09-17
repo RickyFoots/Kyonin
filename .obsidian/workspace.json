@@ -111,7 +111,7 @@
       {
         "id": "d560761a9e5dc2d3",
         "type": "tabs",
-        "dimension": 74.96111975116641,
+        "dimension": 77.76049766718506,
         "children": [
           {
             "id": "c83b9058312bcfae",
@@ -156,12 +156,12 @@
         ]
       },
       {
-        "id": "114c3730f435a574",
+        "id": "3a82a38db8891355",
         "type": "tabs",
-        "dimension": 25.038880248833596,
+        "dimension": 22.23950233281493,
         "children": [
           {
-            "id": "2d94d98f3a148d39",
+            "id": "c3022217008603de",
             "type": "leaf",
             "state": {
               "type": "pet-view",
@@ -298,6 +298,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "recent-notes:Recent notes": false,
       "templates:Insert template": false,
