@@ -28,7 +28,7 @@
     "datetimeEnabled": true,
     "datetimeOnPropOnly": false,
     "datetimeAlignment": [
-      "flex-end",
+      "flex-start",
       "flex-start"
     ],
     "datetimeOffset": [

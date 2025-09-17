@@ -111,7 +111,6 @@
       {
         "id": "d560761a9e5dc2d3",
         "type": "tabs",
-        "dimension": 77.76049766718506,
         "children": [
           {
             "id": "c83b9058312bcfae",
@@ -151,23 +150,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3a82a38db8891355",
-        "type": "tabs",
-        "dimension": 22.23950233281493,
-        "children": [
-          {
-            "id": "c3022217008603de",
-            "type": "leaf",
-            "state": {
-              "type": "pet-view",
-              "state": {},
-              "icon": "cat",
-              "title": "Pet view"
             }
           }
         ]
@@ -321,12 +303,13 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/2 Gods/Formless Gods of Kyonin.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
     "Kyonin/4 Parties and Players/Pinkertons/Pinkertons.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
@@ -354,7 +337,6 @@
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Aquos.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
     "Kyonin/6 Plans and Ideas/Tasks",
     "Kyonin/6 Plans and Ideas/Notes/Tasks",
     "Kyonin/7 Utilities/Images/Stars.png",
