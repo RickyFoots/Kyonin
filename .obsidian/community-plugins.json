@@ -17,17 +17,15 @@
   "protected-note",
   "arcane-obfuscate",
   "homepage",
-  "recent-notes",
   "dataview",
-  "widgets",
   "wordcraft",
   "inline-callouts",
   "multi-properties",
   "global-search-and-replace",
   "dynamic-outline",
   "highlight-active-folder-section",
-  "obsidian-full-calendar",
   "simple-banner",
   "simple-columns",
-  "minimap"
+  "minimap",
+  "notebook-navigator"
 ]

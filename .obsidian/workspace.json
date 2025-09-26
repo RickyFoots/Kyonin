@@ -98,6 +98,23 @@
               "icon": "lucide-file",
               "title": "Theoan Ironpelt"
             }
+          },
+          {
+            "id": "ef9118a53f87f28e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Campaign One Home"
+            }
           }
         ]
       }
@@ -123,6 +140,16 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "520608c41e59b1b8",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook",
+              "title": "Notebook Navigator"
             }
           },
           {
@@ -174,26 +201,6 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "a0eeac3c3c32c293",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "b0b1e4368b0059a8",
-            "type": "leaf",
-            "state": {
-              "type": "recent-notes-view",
-              "state": {},
-              "icon": "clock-10",
-              "title": "Recent notes"
             }
           },
           {
@@ -282,7 +289,6 @@
     "hiddenItems": {
       "bases:Create new base": false,
       "homepage:Open homepage": false,
-      "recent-notes:Recent notes": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
@@ -293,24 +299,23 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false,
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
-      "widgets:Add widget": false,
       "wordcraft:Open WordCraft": false,
       "protected-note:Block Obsidian": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "pixel-pets:Toggle pet view": false,
+      "notebook-navigator:Notebook Navigator": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/2 Gods/Formless Gods of Kyonin.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
+    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/2 Gods/Formless Gods of Kyonin.md",
     "Kyonin/4 Parties and Players/Pinkertons/Pinkertons.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
     "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
@@ -333,7 +338,6 @@
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/The Republic of Solaris/The Republic of Solaris.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Talavon/Talavon.md",
     "Kyonin/7 Utilities/Templates/City_Template.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Aquos.md",
