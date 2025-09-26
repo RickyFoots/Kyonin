@@ -98,23 +98,6 @@
               "icon": "lucide-file",
               "title": "Theoan Ironpelt"
             }
-          },
-          {
-            "id": "ef9118a53f87f28e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Campaign One Home"
-            }
           }
         ]
       }
@@ -307,11 +290,12 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/3 Items/Weapons/Daggersword.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
+    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
@@ -340,7 +324,6 @@
     "Kyonin/7 Utilities/Templates/City_Template.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Aquos.md",
     "Kyonin/6 Plans and Ideas/Tasks",
     "Kyonin/6 Plans and Ideas/Notes/Tasks",
     "Kyonin/7 Utilities/Images/Stars.png",
