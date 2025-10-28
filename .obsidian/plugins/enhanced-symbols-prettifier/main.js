@@ -400,7 +400,7 @@ var DataMapper = class {
     const a = document.createElement("a");
     a.href = url;
     const groupFilename = group.replace(/[^a-z0-9]/gi, "-").toLowerCase();
-    const date = new Date().toISOString().split("T")[0];
+    const date = (/* @__PURE__ */ new Date()).toISOString().split("T")[0];
     a.download = `enhanced-symbols-prettifier-${groupFilename}-export-${date}.json`;
     document.body.appendChild(a);
     a.click();
@@ -523,6 +523,15 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
       `${replacement.count ? "Triggered " + replacement.count + " time" + (replacement.count > 1 ? "s" : "") : ""}`
     ).addText(
       (text) => text.setPlaceholder("To replace").setValue(key).onChange((index) => __async(this, null, function* () {
+        if (key === index) {
+          return;
+        }
+        if (this.plugin.settings.replacements[index] && index !== key) {
+          new import_obsidian.Notice(
+            `Shortcut "${index}" already exists. Please choose a different name.`
+          );
+          return;
+        }
         this.plugin.settings.replacements[key].replaced = index;
         this.plugin.settings.replacements[index] = this.plugin.settings.replacements[key];
         delete this.plugin.settings.replacements[key];
@@ -737,7 +746,9 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
     ).addToggle(
       (toggle) => {
         var _a;
-        return toggle.setValue((_a = this.plugin.settings.flexibleWordsStart) != null ? _a : DEFAULT_SETTINGS.flexibleWordsStart).onChange((value) => __async(this, null, function* () {
+        return toggle.setValue(
+          (_a = this.plugin.settings.flexibleWordsStart) != null ? _a : DEFAULT_SETTINGS.flexibleWordsStart
+        ).onChange((value) => __async(this, null, function* () {
           this.plugin.settings.flexibleWordsStart = value;
           yield this.plugin.saveSettings();
         }));
@@ -748,7 +759,9 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
     ).addToggle(
       (toggle) => {
         var _a;
-        return toggle.setValue((_a = this.plugin.settings.flexibleWordsEnd) != null ? _a : DEFAULT_SETTINGS.flexibleWordsEnd).onChange((value) => __async(this, null, function* () {
+        return toggle.setValue(
+          (_a = this.plugin.settings.flexibleWordsEnd) != null ? _a : DEFAULT_SETTINGS.flexibleWordsEnd
+        ).onChange((value) => __async(this, null, function* () {
           this.plugin.settings.flexibleWordsEnd = value;
           yield this.plugin.saveSettings();
         }));
@@ -1008,8 +1021,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     const lastReplacementTemp = __spreadValues({}, this.lastReplacement);
     this.lastReplacement.active = false;
     const editor = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor;
-    if (!editor)
-      return;
+    if (!editor) return;
     const cursor = editor.getCursor();
     if (event.key === "Enter") {
       cursor.line = cursor.line - 1;
@@ -1068,14 +1080,11 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
         this.saveSettings();
       }
     } else if (event.key === "Backspace" || event.key === "Delete" && import_obsidian2.Platform.isMacOS) {
-      if (!lastReplacementTemp.active)
-        return;
+      if (!lastReplacementTemp.active) return;
       const replacement = this.settings.replacements[lastReplacementTemp.sequence];
-      if (!replacement || replacement.disabled)
-        return;
+      if (!replacement || replacement.disabled) return;
       const isCursorValid = cursor.line === lastReplacementTemp.line && lastReplacementTemp.from === cursor.ch - replacement.value.length;
-      if (!isCursorValid)
-        return;
+      if (!isCursorValid) return;
       const lastCharacter = lastReplacementTemp.key;
       let replaceCharacter = replacement.replaced;
       if (lastCharacter == "Enter") {
@@ -1118,7 +1127,10 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     const unwantedBlocks = [
       /(^|[^`])(`[^`\n]+`)([^`]|$)/,
       /```\w*\s*[\s\S]*?```/,
-      /\$(?:[^$\\]|\\.)+\$/
+      /\$\$[\s\S]*?\$\$/,
+      // display math blocks $$...$$
+      new RegExp("(?<!\\$)\\$(?!\\$)(?:[^$\\n\\\\]|\\\\.)+?\\$(?!\\$)")
+      // inline math blocks $...$
     ];
     return unwantedBlocks.filter((unwantedBlock) => {
       const searchCursor = new SearchCursor(

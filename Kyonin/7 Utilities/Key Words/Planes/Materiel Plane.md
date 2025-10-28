@@ -1,1 +1,0 @@
-The main universe at the center of creation that our story takes place in.

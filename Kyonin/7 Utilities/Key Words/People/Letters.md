@@ -1,1 +1,0 @@
-- The spies/ observers of [[Turrim Infnitum]] that go out and either slightly alter the path of history or record it.

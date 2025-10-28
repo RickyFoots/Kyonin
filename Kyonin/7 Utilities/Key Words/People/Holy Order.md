@@ -1,1 +1,0 @@
-- Any group of priest and clerics that serve a god, often times living in a church or temple. 

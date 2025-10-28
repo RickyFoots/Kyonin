@@ -1,2 +1,0 @@
-- The plane in which the ghosts and spirits of those who can't, or won't, pass on occupy. 
-- This is the only plane that's parallel with all other planes of existence. 

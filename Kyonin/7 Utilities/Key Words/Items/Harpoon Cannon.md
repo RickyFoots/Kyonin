@@ -1,2 +1,0 @@
-- A massive 15 foot cannon, often front mounted, on hunting [[Sky Ship]] used to fire large harpoons into the flesh of dragons, as a means of keeping pace with the ships quarry. 
-- Consisting of the main cannon, a side mounted "reel", and a large 12 foot harpoon.

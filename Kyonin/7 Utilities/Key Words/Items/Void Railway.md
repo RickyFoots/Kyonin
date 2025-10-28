@@ -1,1 +1,0 @@
-The railway made inside [[The Void]] that links the different [[Void Portal]]s together. Connected via [[Floatstone Rails]].

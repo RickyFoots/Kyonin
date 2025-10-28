@@ -1,54 +1,76 @@
 {
-  "autoRevealActiveFile": true,
-  "autoRevealIgnoreRightSidebar": true,
-  "showTooltips": true,
-  "homepage": null,
   "fileVisibility": "documents",
   "excludedFolders": [],
   "excludedFiles": [],
+  "autoRevealActiveFile": true,
+  "autoRevealIgnoreRightSidebar": true,
+  "startView": "navigation",
+  "homepage": null,
+  "mobileHomepage": null,
+  "useMobileHomepage": false,
+  "showTooltips": true,
+  "showTooltipPath": true,
+  "desktopBackground": "separate",
+  "desktopScale": 1,
+  "mobileBackground": "primary",
+  "mobileScale": 1,
+  "dateFormat": "MMM d, yyyy",
+  "timeFormat": "h:mm a",
+  "skipAutoScroll": false,
   "autoSelectFirstFileOnFocusChange": false,
+  "navigationBanner": null,
+  "showShortcuts": true,
+  "showRecentNotes": true,
+  "recentNotesCount": 5,
   "autoExpandFoldersTags": true,
   "collapseBehavior": "all",
   "smartCollapse": true,
   "showIcons": true,
+  "colorIconOnly": false,
   "showNoteCount": true,
+  "separateNoteCounts": true,
   "navIndent": 16,
   "navItemHeight": 28,
   "navItemHeightScaleText": true,
-  "externalIconProviders": {},
   "showRootFolder": true,
   "inheritFolderColors": true,
   "enableFolderNotes": false,
   "folderNoteType": "markdown",
   "folderNoteName": "",
-  "folderNoteProperties": [],
+  "folderNoteProperties": "",
   "hideFolderNoteInList": true,
+  "pinCreatedFolderNote": false,
   "showTags": true,
-  "showTagsAboveFolders": false,
-  "showFavoriteTagsFolder": true,
   "showAllTagsFolder": true,
   "showUntagged": false,
-  "showUntaggedInFavorites": false,
-  "favoriteTags": [],
+  "tagSortOrder": "alpha-asc",
   "hiddenTags": [],
+  "keepEmptyTagsProperty": false,
   "defaultFolderSort": "modified-desc",
+  "listPaneTitle": "header",
   "multiSelectModifier": "cmdCtrl",
-  "groupByDate": true,
+  "noteGrouping": "date",
+  "filterPinnedByFolder": false,
   "optimizeNoteHeight": true,
   "showQuickActions": true,
   "quickActionRevealInFolder": true,
   "quickActionPinNote": true,
   "quickActionOpenInNewTab": true,
-  "dateFormat": "MMM d, yyyy",
-  "timeFormat": "h:mm a",
   "useFrontmatterMetadata": false,
+  "frontmatterIconField": "icon",
+  "frontmatterColorField": "color",
   "frontmatterNameField": "",
   "frontmatterCreatedField": "",
   "frontmatterModifiedField": "",
   "frontmatterDateFormat": "",
+  "saveMetadataToFrontmatter": false,
+  "iconizeFormat": false,
   "fileNameRows": 1,
   "showFileDate": true,
+  "alphabeticalDateMode": "modified",
   "showFileTags": true,
+  "showFileTagAncestors": true,
+  "colorFileTags": true,
   "showFileTagsInSlimMode": false,
   "showParentFolderNames": true,
   "showFilePreview": true,
@@ -62,14 +84,169 @@
     "featureResized",
     "feature"
   ],
+  "forceSquareFeatureImage": true,
   "useEmbeddedImageFallback": true,
-  "confirmBeforeDelete": true,
-  "searchActive": false,
+  "externalIconProviders": {},
   "searchProvider": "internal",
-  "showHiddenItems": false,
-  "includeDescendantNotes": true,
+  "keyboardShortcuts": {
+    "pane:move-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": []
+      }
+    ],
+    "pane:move-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": []
+      }
+    ],
+    "pane:page-up": [
+      {
+        "key": "PageUp",
+        "modifiers": []
+      }
+    ],
+    "pane:page-down": [
+      {
+        "key": "PageDown",
+        "modifiers": []
+      }
+    ],
+    "pane:home": [
+      {
+        "key": "Home",
+        "modifiers": []
+      }
+    ],
+    "pane:end": [
+      {
+        "key": "End",
+        "modifiers": []
+      }
+    ],
+    "navigation:collapse-or-parent": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      }
+    ],
+    "navigation:expand-or-focus-list": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      }
+    ],
+    "navigation:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "pane:delete-selected": [
+      {
+        "key": "Delete",
+        "modifiers": []
+      },
+      {
+        "key": "Backspace",
+        "modifiers": []
+      }
+    ],
+    "list:focus-navigation": [
+      {
+        "key": "ArrowLeft",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:focus-editor": [
+      {
+        "key": "ArrowRight",
+        "modifiers": []
+      },
+      {
+        "key": "Tab",
+        "modifiers": []
+      }
+    ],
+    "list:select-all": [
+      {
+        "key": "A",
+        "modifiers": [
+          "Mod"
+        ]
+      }
+    ],
+    "list:extend-selection-up": [
+      {
+        "key": "ArrowUp",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:extend-selection-down": [
+      {
+        "key": "ArrowDown",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-start": [
+      {
+        "key": "Home",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "list:range-to-end": [
+      {
+        "key": "End",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:focus-list": [
+      {
+        "key": "Tab",
+        "modifiers": []
+      },
+      {
+        "key": "Enter",
+        "modifiers": []
+      }
+    ],
+    "search:focus-navigation": [
+      {
+        "key": "Tab",
+        "modifiers": [
+          "Shift"
+        ]
+      }
+    ],
+    "search:close": [
+      {
+        "key": "Escape",
+        "modifiers": []
+      }
+    ]
+  },
+  "shortcuts": [],
+  "checkForUpdatesOnStart": true,
+  "confirmBeforeDelete": true,
   "customVaultName": "",
   "pinnedNotes": {},
+  "fileIcons": {},
+  "fileColors": {},
   "folderIcons": {},
   "folderColors": {},
   "folderBackgroundColors": {},
@@ -87,8 +264,16 @@
   "tagBackgroundColors": {},
   "tagSortOverrides": {},
   "tagAppearances": {},
-  "recentIcons": {},
   "recentColors": [],
   "lastShownVersion": "",
+  "latestKnownRelease": "1.7.2",
+  "lastAnnouncedRelease": "",
+  "lastReleaseCheckAt": 1761668605989,
+  "rootFolderOrder": [],
+  "rootTagOrder": [],
+  "showTagsAboveFolders": false,
+  "showFavoriteTagsFolder": true,
+  "showUntaggedInFavorites": false,
+  "favoriteTags": [],
   "settingsVersion": 1
 }

@@ -1,2 +1,0 @@
-- The largest common class of hunting [[Sky Ship]] used only to hunt ancient dragons. 
-- Not very many are actually in use.

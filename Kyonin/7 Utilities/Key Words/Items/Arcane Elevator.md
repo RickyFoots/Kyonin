@@ -1,2 +1,0 @@
-- A magical elevator, whose technology has been lost to time. 
-- Designed specifically to need nothing more than the mana in the air to function, only a hand full remain across all of [[Kyonin]].

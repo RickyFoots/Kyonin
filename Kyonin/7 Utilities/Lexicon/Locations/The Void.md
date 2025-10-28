@@ -1,0 +1,1 @@
+- The great darkness beyond what can be seen from the surface of [[Kyonin]] with the naked eye. ie space

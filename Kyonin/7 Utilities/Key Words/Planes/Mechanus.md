@@ -1,2 +1,0 @@
-- The plane of *True Law* lead by [[Primus]] 
-- Home of the *Modrons*

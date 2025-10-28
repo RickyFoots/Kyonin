@@ -1,1 +1,0 @@
-- A massive 20 foot long, 6 foot radius, solid dwarven steel, tungsten tipped spear head, piston designed to finish off and carry dragons. 

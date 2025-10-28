@@ -1,1 +1,0 @@
-- Ancient, and extremely rare, translucent material that is strengthened and hardened the more pressure it's under, which makes it the perfect material for those wanting to build under the waves.

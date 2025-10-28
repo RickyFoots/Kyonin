@@ -1,0 +1,2 @@
+- An ancient and long since forgotten dwarven group that invented the "*Golems of Earth*" and mastered the art of breathing life into stone and earth.
+- There is only one remaining *Golem-Smith*, [[Berdren Flintshaper - Lord of Stone]], who's wizard tower is often seen as a safe haven for those with missing body parts, or those seeking a loyal defender.

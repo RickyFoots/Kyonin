@@ -1,2 +1,0 @@
-- The elemental plane directly linked to the element of Water and the true of home of [[Zaplavit - Water and Ice]], one of the [[The Elemental Anchors]].
-- [[Map of the Planes]]

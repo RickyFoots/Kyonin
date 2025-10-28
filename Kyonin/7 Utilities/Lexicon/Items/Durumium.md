@@ -1,0 +1,2 @@
+- Infinitely rare material, found only in the deepest parts of the [[Elemental plane of Stone]]. 
+- Said to be stronger and denser than any known mineral, as well as lighter than tin. 

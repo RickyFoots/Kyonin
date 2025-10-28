@@ -300,5 +300,6 @@
   "fancy-a-story@@banner-slope-angle": 0,
   "fancy-a-story@@link-decoration": "none",
   "fancy-a-story@@properties-columns": 0,
-  "fancy-a-story@@metadata-label-width": 0
+  "fancy-a-story@@metadata-label-width": 0,
+  "fancy-a-story@@fas-adaptive-accent": false
 }

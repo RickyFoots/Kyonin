@@ -1,1 +1,0 @@
-A magical mark wizards and scientist will use to mark test subjects.

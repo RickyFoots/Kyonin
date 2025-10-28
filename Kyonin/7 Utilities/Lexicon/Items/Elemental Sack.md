@@ -1,0 +1,1 @@
+- The organ inside a dragon used to breathe their corresponding breathe weapon.

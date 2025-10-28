@@ -1,0 +1,2 @@
+- The nickname that the [[Simic Virus]] earned after infecting half a continent's worth of people. 
+- The name comes from the sea creature like appearance that those who were infected with the virus would be stuck with.

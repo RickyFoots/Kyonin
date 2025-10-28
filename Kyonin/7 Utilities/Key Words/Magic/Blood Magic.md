@@ -1,1 +1,0 @@
-- Magic that uses blood as the main component.

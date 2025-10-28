@@ -1,2 +1,0 @@
-- *Apprentice Stones* are stones and rocks with low level spells carved into them for Mages Apprentices to get a feel for a spell without wasting their spell slots.
-	- Once the spell stored within the stone is used it crumbles and can't be used again.

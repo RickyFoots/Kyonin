@@ -1,2 +1,0 @@
-A locomotive designed for traversing specialized tracks through the void. The only current Train is located in [[Kodor]] at [[The Void-Train workyard]]. 
-	1. Travel via trains never caught on due to the prevalent use of [[Sky Ship]]s that could travel more freely and openly.

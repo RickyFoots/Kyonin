@@ -162,11 +162,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 433.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -175,15 +176,33 @@
       {
         "id": "79df8434f054fccb",
         "type": "tabs",
+        "dimension": 39.626865671641795,
         "children": [
           {
-            "id": "369496f21dbb2714",
+            "id": "be21a860181ddd21",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_6b6b59cad8fa",
+                "ephemeral": {
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 18,
+                    "month": 7,
+                    "year": 1491
+                  },
+                  "displayDayNumber": true,
+                  "displaySeasonColors": true,
+                  "interpolateColors": true,
+                  "displayMoons": true,
+                  "displayWeather": true,
+                  "location": "ID_5aeae9bb4a2a"
+                },
+                "id": "ID_ab7b496a7aab"
+              },
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
             }
           },
           {
@@ -216,6 +235,7 @@
       {
         "id": "7a1b098c3d18aa62",
         "type": "tabs",
+        "dimension": 60.37313432835821,
         "children": [
           {
             "id": "de60da8bfb6e2ab7",
@@ -251,16 +271,6 @@
               "icon": "lucide-file",
               "title": "Player Randomizer"
             }
-          },
-          {
-            "id": "be21a860181ddd21",
-            "type": "leaf",
-            "state": {
-              "type": "CALENDARIUM",
-              "state": {},
-              "icon": "CALENDARIUM",
-              "title": "Calendarium"
-            }
           }
         ]
       }
@@ -283,23 +293,28 @@
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "wordcraft:Open WordCraft": false,
-      "protected-note:Block Obsidian": false,
       "notebook-navigator:Notebook Navigator": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "1 Test Scene.md",
+    "Kyonin/2 Gods/List of the Formless Gods/Legba.md",
+    "Kyonin/2 Gods/List of the Formless Gods/Kutkh.md",
+    "Kyonin/2 Gods/List of the Formless Gods/Formless Gods of Kyonin.md",
+    "Kyonin/7 Utilities/Events",
+    "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
+    "Kyonin/7 Utilities/Charts and Tables/Timeline.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/3 Items/Weapons/Daggersword.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
     "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/2 Gods/Formless Gods of Kyonin.md",
     "Kyonin/4 Parties and Players/Pinkertons/Pinkertons.md",
     "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
     "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
@@ -319,13 +334,7 @@
     "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase/Footnotes.md",
     "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase",
     "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/The Republic of Solaris/The Republic of Solaris.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Talavon/Talavon.md",
-    "Kyonin/7 Utilities/Templates/City_Template.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Iron Wood Acres/Iron Wood Acres.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Avalant-Aquos/Avalant.md",
     "Kyonin/6 Plans and Ideas/Tasks",
-    "Kyonin/6 Plans and Ideas/Notes/Tasks",
     "Kyonin/7 Utilities/Images/Stars.png",
     "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
     "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
