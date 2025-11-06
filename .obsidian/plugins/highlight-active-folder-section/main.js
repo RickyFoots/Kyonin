@@ -36,6 +36,7 @@ var DEFAULT_SETTINGS = {
   autoScroll: true,
   useImportantTags: false,
   autoCollapseOtherFolders: false,
+  minimalMode: false,
   lightHighlightedFolderColor: "rgba(238, 238, 238, 1)",
   lightHighlightFolderTitleColor: false,
   lightHighlightedFolderTitleColor: "rgba(255, 255, 255, 0)",
@@ -95,34 +96,45 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     const { containerEl } = this;
     containerEl.empty();
     this.colorSettings = [];
-    const themeHeaderEl = containerEl.createEl("div", {
-      cls: "theme-header"
-    });
-    themeHeaderEl.createEl("h2", {
-      text: this.plugin.settings.editingDarkTheme ? "Dark Theme" : "Light Theme",
-      cls: "theme-title"
-    });
-    this.themeToggleButton = themeHeaderEl.createEl("div", {
-      cls: "theme-toggle-button"
-    });
-    this.updateThemeToggleIcon();
-    this.themeToggleButton.addEventListener("click", async () => {
-      this.containerEl.addClass("theme-transition");
-      this.plugin.settings.editingDarkTheme = !this.plugin.settings.editingDarkTheme;
-      await this.plugin.saveSettings();
-      setTimeout(() => {
-        this.display();
-        setTimeout(
-          () => this.containerEl.removeClass("theme-transition"),
-          850
-        );
-      }, 150);
-    });
+    if (!this.plugin.settings.minimalMode) {
+      const themeHeaderEl = containerEl.createEl("div", {
+        cls: "theme-header"
+      });
+      themeHeaderEl.createEl("h2", {
+        text: this.plugin.settings.editingDarkTheme ? "Dark Theme" : "Light Theme",
+        cls: "theme-title"
+      });
+      this.themeToggleButton = themeHeaderEl.createEl("div", {
+        cls: "theme-toggle-button"
+      });
+      this.updateThemeToggleIcon();
+      this.themeToggleButton.addEventListener("click", async () => {
+        this.containerEl.addClass("theme-transition");
+        this.plugin.settings.editingDarkTheme = !this.plugin.settings.editingDarkTheme;
+        await this.plugin.saveSettings();
+        setTimeout(() => {
+          this.display();
+          setTimeout(
+            () => this.containerEl.removeClass("theme-transition"),
+            850
+          );
+        }, 150);
+      });
+    }
     this.createGeneralSettings(containerEl);
-    this.createActiveFolderSettings(containerEl);
-    this.createRootFolderSettings(containerEl);
+    if (!this.plugin.settings.minimalMode) {
+      this.createActiveFolderSettings(containerEl);
+      this.createRootFolderSettings(containerEl);
+    }
   }
   createGeneralSettings(containerEl) {
+    new import_obsidian.Setting(containerEl).setName("Minimal mode").setDesc("Disable visual styling (shadows, animations, border radius, font weight, etc.) while keeping basic highlighting colors and core functionality like auto-collapse and center active file.").addToggle(
+      (t) => t.setValue(this.plugin.settings.minimalMode).onChange(async (v) => {
+        this.plugin.settings.minimalMode = v;
+        await this.plugin.saveSettings();
+        this.display();
+      })
+    );
     new import_obsidian.Setting(containerEl).setName("Override theme styles").setDesc("Use !important for style definitions").addToggle(
       (t) => t.setValue(this.plugin.settings.useImportantTags).onChange(async (v) => {
         this.plugin.settings.useImportantTags = v;
@@ -297,6 +309,8 @@ var FolderHighlighterSettingTab = class extends import_obsidian.PluginSettingTab
     });
   }
   updateThemeToggleIcon() {
+    if (!this.themeToggleButton)
+      return;
     this.themeToggleButton.empty();
     this.themeToggleButton.innerHTML = this.plugin.settings.editingDarkTheme ? `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>` : `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
   }
@@ -310,6 +324,8 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
     this.operationQueue = [];
     this.lastExplorerClickTime = 0;
     this.USER_INTERACTION_DEBOUNCE = 300;
+    this.NEW_FILE_FOCUS_GRACE = 4e3;
+    this.recentlyCreatedFiles = /* @__PURE__ */ new Map();
     this.getParentPath = (filePath) => {
       const parts = filePath.split("/");
       parts.pop();
@@ -371,6 +387,13 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
         () => this.addFileExplorerClickListener()
       )
     );
+    this.registerEvent(
+      this.app.vault.on("create", (file) => {
+        if (file instanceof import_obsidian2.TFile) {
+          this.recentlyCreatedFiles.set(file.path, Date.now());
+        }
+      })
+    );
   }
   addFileExplorerClickListener() {
     const explorerLeaf = this.app.workspace.getLeavesOfType("file-explorer")[0];
@@ -417,23 +440,47 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
       const newFile = this.app.workspace.getActiveFile();
       if (!newFile)
         return;
+      this.purgeExpiredCreatedEntries();
       const now = Date.now();
       const isRecentUserInteraction = now - this.lastExplorerClickTime < this.USER_INTERACTION_DEBOUNCE;
       if (this.settings.autoCollapseOtherFolders && !isRecentUserInteraction) {
         await this.collapseFolders(newFile.path);
-        await new Promise((resolve) => setTimeout(resolve, 50));
+        await new Promise((resolve) => setTimeout(resolve, 100));
       }
       if (this.settings.autoScroll && !isRecentUserInteraction) {
         await this.scrollToActiveFile();
         await new Promise((resolve) => setTimeout(resolve, 50));
       }
       this.highlightFolders();
-      const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
-      if (activeView == null ? void 0 : activeView.editor)
-        activeView.editor.focus();
+      const activeElement = document.activeElement;
+      const isInputFocused = (activeElement == null ? void 0 : activeElement.tagName) === "INPUT" || (activeElement == null ? void 0 : activeElement.tagName) === "TEXTAREA";
+      const shouldKeepTitleFocus = this.shouldKeepTitleFocus(
+        newFile.path
+      );
+      if (!shouldKeepTitleFocus && !isInputFocused) {
+        const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
+        if (activeView == null ? void 0 : activeView.editor)
+          activeView.editor.focus();
+      }
     } catch (error) {
       console.error("Error in executeSequentially:", error);
     }
+  }
+  purgeExpiredCreatedEntries() {
+    const cutoff = Date.now() - this.NEW_FILE_FOCUS_GRACE;
+    for (const [path, createdAt] of this.recentlyCreatedFiles.entries()) {
+      if (createdAt < cutoff)
+        this.recentlyCreatedFiles.delete(path);
+    }
+  }
+  shouldKeepTitleFocus(filePath) {
+    const createdAt = this.recentlyCreatedFiles.get(filePath);
+    if (createdAt === void 0)
+      return false;
+    const withinGrace = Date.now() - createdAt <= this.NEW_FILE_FOCUS_GRACE;
+    if (!withinGrace)
+      this.recentlyCreatedFiles.delete(filePath);
+    return withinGrace;
   }
   async collapseFolders(activeFilePath) {
     var _a;
@@ -443,14 +490,20 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
     if (!fileExplorerView || !fileExplorerView.containerEl)
       return;
     const pathsToKeepOpen = /* @__PURE__ */ new Set();
-    let currentPath = "";
-    for (const segment of this.getParentPath(activeFilePath).split("/")) {
-      if (!segment && currentPath !== "")
-        continue;
-      currentPath = currentPath ? `${currentPath}/${segment}` : segment;
-      pathsToKeepOpen.add(currentPath);
+    const parentPath = this.getParentPath(activeFilePath);
+    if (parentPath) {
+      let currentPath = "";
+      const segments = parentPath.split("/");
+      for (const segment of segments) {
+        if (!segment)
+          continue;
+        currentPath = currentPath ? `${currentPath}/${segment}` : segment;
+        pathsToKeepOpen.add(currentPath);
+      }
     }
     const allFolders = fileExplorerView.containerEl.querySelectorAll(".nav-folder");
+    const foldersToCollapse = [];
+    const foldersToExpand = [];
     allFolders.forEach((folderEl) => {
       const folderTitleEl = folderEl.querySelector(
         ".nav-folder-title"
@@ -458,15 +511,27 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
       if (!folderTitleEl)
         return;
       const folderPath = folderTitleEl.getAttribute("data-path");
+      if (!folderPath)
+        return;
       const isCollapsed = folderEl.classList.contains("is-collapsed");
-      if (folderPath && pathsToKeepOpen.has(folderPath)) {
-        if (isCollapsed)
-          folderTitleEl.click();
+      if (pathsToKeepOpen.has(folderPath)) {
+        if (isCollapsed) {
+          foldersToExpand.push(folderTitleEl);
+        }
       } else {
-        if (!isCollapsed)
-          folderTitleEl.click();
+        if (!isCollapsed) {
+          foldersToCollapse.push(folderTitleEl);
+        }
       }
     });
+    for (const folderEl of foldersToExpand) {
+      folderEl.click();
+      await new Promise((resolve) => setTimeout(resolve, 10));
+    }
+    for (const folderEl of foldersToCollapse) {
+      folderEl.click();
+      await new Promise((resolve) => setTimeout(resolve, 10));
+    }
   }
   async scrollToActiveFile() {
     return new Promise((resolve) => {
@@ -491,6 +556,7 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
       clearTimeout(this.debounceTimer);
     this.operationQueue = [];
     this.isProcessing = false;
+    document.body.classList.remove("fh-minimal-mode");
   }
   highlightFolders() {
     document.querySelectorAll(
@@ -537,6 +603,11 @@ var FolderHighlighter = class extends import_obsidian2.Plugin {
     Object.entries(properties).forEach(
       ([key, value]) => rootEl.style.setProperty(key, value)
     );
+    if (this.settings.minimalMode) {
+      document.body.classList.add("fh-minimal-mode");
+    } else {
+      document.body.classList.remove("fh-minimal-mode");
+    }
   }
   async loadSettings() {
     this.settings = Object.assign(

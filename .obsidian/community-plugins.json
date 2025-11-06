@@ -25,5 +25,7 @@
   "simple-banner",
   "notebook-navigator",
   "simple-columns",
-  "pretty-properties"
+  "pretty-properties",
+  "obsidian-tasks-plugin",
+  "tasks-map"
 ]
