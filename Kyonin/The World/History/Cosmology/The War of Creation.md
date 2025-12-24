@@ -12,18 +12,23 @@
 >Know that not all with title of "**Betrayer God**" were betraying mortals some were betrayed themselves
 ## The Beginning 
 ---
-Creation began with [[Shar - Loss]] in a sea of emptiness beyond all things known as the "[[Lacuna]]". She was not yet the Goddess of Loss, not yet at least, but of *Creation*, and create she did beginning with the foundations, the **Elemental Planes**. First was the [[Elemental plane of Stone]] for it would be the foundation of all, second came the [[Elemental plane of Wind]] to hold the skies, third was the [[Elemental plane of Water]] to hold the deepest depths, and finally came the [[Elemental plane of Fire]] to be the core of all creation. Each of these were joined to the next in a sea of <u>elemental chaos</u>.
+Creation began with [[Shar - Loss]] in a sea of emptiness beyond all things known as the "[[Lacuna]]". She was not the Goddess of Loss, not yet at least, she was a true god, one of *Creation*. With the goal of creating a plane that could hold all things,  she started with the foundations, the **Elemental Planes**. First was the [[Elemental plane of Stone]] for it would be the foundation of all, second came the [[Elemental plane of Wind]] to hold the skies, third was the [[Elemental plane of Water]] to hold the deepest depths, and finally came the [[Elemental plane of Fire]] to be the core of all creation. Each of these were joined to the next in a sea of <u>elemental chaos</u>.
 
-With her foundation settled, she began creating four planes, inside the ring of elemental chaos, as well as 7 gods to over see all she had created so far, which would later be called the "*Inner Planes*". After this she began work on her greatest creation, the center of all creation, the [[Materiel Plane]].
-- **The First Gods**
+She bound the four realms together, one to another, then used the elements of each plane to fill the others so that there was mountains that spewed lava in the plane of fire and an endless sky above the plane of water.
+
+With her foundation settled, she created realms for life, [[The Feywilds]], and shadow, [[The Shadowfell]]. One that represented the cycle of all life she hoped to create and it's twin that represented the ending of all things.
+
+  With everything set in place she created 6 beings to watch over all she had created so far, which would later be called the "*Inner Planes*". 
+- **They who came First**
 	1. [[Chauntea - Agriculture]] - *Stone*
 	2. [[Talos - Storms]] - *Wind*
 	3. [[Umberlee - The Sea]] - *Water*
 	4. [[Pelor - Sun]] - *Fire*
 	5. [[Corellon - Fey]] - *Feywild*
-	6. [[Selûne - Moon and Dreams]] - *Shadowfell*
-	7. [[They Who Came Before - Death]] - *Ethereal*
-These "*First Gods*" came into being assigned to their respective planes, and almost immediately began to create beasts and beings to fill those planes each more unique than the last. These creations knew their gods and began worshiping them. Building great monuments to their creators, creating elaborate rituals and even going so far as to sacrifice one another to garner their gods favor. 
+	6. [[They Who Came Before - Death]] - *Shadowfell*
+After this she began work on her greatest creation, the center of all creation, the [[Materiel Plane]].
+
+"*They who came First*" came into being assigned to their respective planes, and almost immediately began to mimic *Shar* in the act of creation. They began small with beasts and beings with no real thought or soul, simply beings that embodied their gods.
 
 ## Birth of the Formless 
 ---

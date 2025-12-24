@@ -4,7 +4,7 @@
 ---
 - Located in the heart of [[Golarion]] in an unassuming shack on the outside of town.
 - A group of librarians, *wizards*, and *monks* whose sole goal is to document and record **all** things. 
-	- #Classes/Wizards #Classes/Monks
+	- #Classes/Wizard #Classes/Monk 
 - **Kyonin's** largest repository of knowledge. 
 - Responsible for giving <u>spellcasters</u> information when they cast the spell **Identify**.
 

@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "tag:#Classes/Wizards",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -230,7 +230,8 @@
               "title": "Tags"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -276,7 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 368.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,7 +292,6 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false,
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
-      "homepage:Open homepage": false,
       "wordcraft:Open WordCraft": false,
       "notebook-navigator:Notebook Navigator": false,
       "tasks-map:Open tasks map view": false,
@@ -300,10 +300,17 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
-    "Tasks and Ideas/To do.md",
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/The World/Fundamentals/The connection between the Gods and Magic.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Kyonin/The World/History/Cosmology/The War of Creation.md",
+    "Campaigns/Utilities/Lexicon/Magic/The Weave.md",
+    "Campaigns/Utilities/Lexicon/Planes/Elemental plane of Fire.md",
+    "Campaigns/Utilities/Lexicon/Planes/Lacuna.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/The World/Fundamentals",
+    "Tasks and Ideas/To do.md",
     "Tasks and Ideas/Ideas.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
@@ -325,17 +332,10 @@
     "Campaigns/Campaign 1/Party/Pinkertons/Jolene-Pix/Jolene.md",
     "Campaigns/Campaign 1/Party/Pinkertons/Pinkertons.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
-    "Kyonin/Items/Artifacts/Glove of the War-torn.md",
-    "StorytellerSuite/Stories/Act I/Characters/Jeremiah Esku.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
     "StorytellerSuite/Stories/Act I/Locations",
     "StorytellerSuite/Stories/Act I/Characters",
-    "StorytellerSuite/Stories/Act I",
-    "Campaigns/Utilities/Obsidian Addons/Css Examples/Secrets.md",
-    "Campaigns/Campaign 1/Plans and Home/Story Beats.md",
     "Campaigns/Utilities/Images/Stars.png",
     "Campaigns/Utilities/Images/Veresia Labeled.jpg",
     "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
