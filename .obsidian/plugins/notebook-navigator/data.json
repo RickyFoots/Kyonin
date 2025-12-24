@@ -30,11 +30,11 @@
   "collapseBehavior": "all",
   "smartCollapse": true,
   "showSectionIcons": true,
-  "showShortcuts": true,
+  "showShortcuts": false,
   "skipAutoScroll": false,
-  "showRecentNotes": true,
+  "showRecentNotes": false,
   "recentNotesCount": 5,
-  "colorIconOnly": false,
+  "colorIconOnly": true,
   "toolbarVisibility": {
     "navigation": {
       "shortcuts": true,
@@ -72,7 +72,7 @@
   "folderNoteProperties": "",
   "hideFolderNoteInList": true,
   "pinCreatedFolderNote": false,
-  "showTags": true,
+  "showTags": false,
   "showTagIcons": true,
   "showAllTagsFolder": true,
   "showUntagged": false,
@@ -83,7 +83,7 @@
   "listPaneTitle": "header",
   "noteGrouping": "date",
   "filterPinnedByFolder": false,
-  "showPinnedGroupHeader": true,
+  "showPinnedGroupHeader": false,
   "showPinnedIcon": true,
   "optimizeNoteHeight": true,
   "compactItemHeight": 28,
@@ -127,7 +127,7 @@
   "prioritizeColoredFileTags": true,
   "showFileTagAncestors": true,
   "showFileTagsInCompactMode": false,
-  "showFileDate": true,
+  "showFileDate": false,
   "alphabeticalDateMode": "modified",
   "showParentFolder": true,
   "parentFolderClickRevealsFile": false,
@@ -285,7 +285,7 @@
       }
     ]
   },
-  "checkForUpdatesOnStart": true,
+  "checkForUpdatesOnStart": false,
   "confirmBeforeDelete": true,
   "customVaultName": "",
   "pinnedNotes": {},
@@ -306,6 +306,10 @@
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia": {
       "titleRows": 2,
       "previewRows": 3
+    },
+    "Kyonin": {
+      "previewRows": 3,
+      "groupBy": "folder"
     }
   },
   "tagIcons": {},

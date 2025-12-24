@@ -162,11 +162,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 302.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -299,10 +300,11 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Tasks and Ideas/To do.md",
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Tasks and Ideas/Ideas.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
@@ -334,7 +336,6 @@
     "StorytellerSuite/Stories/Act I",
     "Campaigns/Utilities/Obsidian Addons/Css Examples/Secrets.md",
     "Campaigns/Campaign 1/Plans and Home/Story Beats.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
     "Campaigns/Utilities/Images/Stars.png",
     "Campaigns/Utilities/Images/Veresia Labeled.jpg",
     "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",

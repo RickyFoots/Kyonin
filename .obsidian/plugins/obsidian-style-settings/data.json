@@ -295,5 +295,14 @@
   "fancy-a-story@@sci-fi-style-fonts": "disable",
   "fancy-a-story@@fas-skin-select": "none",
   "fancy-a-story@@rainbow-brightness": 0.9,
-  "fancy-a-story@@rainbow-saturation": 8
+  "fancy-a-story@@rainbow-saturation": 8,
+  "minimal-style@@sp1@@dark": "#FFFFFF",
+  "minimal-style@@tx1@@dark": "#DDDDDD",
+  "minimal-style@@bold-color@@dark": "#C05151",
+  "minimal-style@@italic-color@@dark": "#BFB772",
+  "minimal-style@@hl2@@dark": "#58A54A6B",
+  "minimal-style@@tag-border-width": "2px",
+  "minimal-style@@tag-color@@dark": "#C9C9C9",
+  "minimal-style@@tag-background@@dark": "#71A1BD",
+  "minimal-style@@tag-background-hover@@dark": "#3B5DD4"
 }
