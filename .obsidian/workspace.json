@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
+                "file": "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+                "file": "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+                "file": "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+                "file": "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+                "file": "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -90,7 +90,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
+                "file": "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -162,12 +162,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 345.5
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -176,7 +175,7 @@
       {
         "id": "79df8434f054fccb",
         "type": "tabs",
-        "dimension": 39.626865671641795,
+        "dimension": 50,
         "children": [
           {
             "id": "be21a860181ddd21",
@@ -235,7 +234,7 @@
       {
         "id": "7a1b098c3d18aa62",
         "type": "tabs",
-        "dimension": 60.37313432835821,
+        "dimension": 50,
         "children": [
           {
             "id": "de60da8bfb6e2ab7",
@@ -263,7 +262,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
+                "file": "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -281,7 +280,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "homepage:Open homepage": false,
       "templates:Insert template": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
@@ -292,59 +290,61 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false,
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
+      "homepage:Open homepage": false,
       "wordcraft:Open WordCraft": false,
       "notebook-navigator:Notebook Navigator": false,
+      "tasks-map:Open tasks map view": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/7 Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Campaign One Home.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Tasks and Ideas/Ideas.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Campaigns/Campaign 1",
+    "Campaigns",
+    "Kyonin/The World",
+    "Kyonin/Untitled.md",
+    "Untitled",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "1 Test Scene.md",
-    "Kyonin/2 Gods/List of the Formless Gods/Legba.md",
-    "Kyonin/2 Gods/List of the Formless Gods/Kutkh.md",
-    "Kyonin/2 Gods/List of the Formless Gods/Formless Gods of Kyonin.md",
+    "Kyonin/The World/Gods/List of the Formless Gods/Legba.md",
+    "Kyonin/The World/Gods/List of the Formless Gods/Kutkh.md",
+    "Kyonin/The World/Gods/List of the Formless Gods/Formless Gods of Kyonin.md",
     "Kyonin/7 Utilities/Events",
-    "Kyonin/7 Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin/7 Utilities/Charts and Tables/Timeline.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/3 Items/Weapons/Daggersword.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Jolene-Pix/Jolene.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/4 Parties and Players/Pinkertons/Pinkertons.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
-    "Kyonin/3 Items/Artifacts/Glove of the War-torn.md",
+    "Kyonin/Items/Weapons/Daggersword.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
+    "Campaigns/Campaign 1/Party/Pinkertons/Jolene-Pix/Jolene.md",
+    "Campaigns/Campaign 1/Party/Pinkertons/Pinkertons.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
+    "Kyonin/Items/Artifacts/Glove of the War-torn.md",
     "StorytellerSuite/Stories/Act I/Characters/Jeremiah Esku.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Netch the Drowned.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Rat Queens Court.md",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
     "StorytellerSuite/Stories/Act I/Locations",
     "StorytellerSuite/Stories/Act I/Characters",
     "StorytellerSuite/Stories/Act I",
-    "StorytellerSuite/Stories",
-    "StorytellerSuite",
-    "Kyonin/7 Utilities/Obsidian Addons/Css Examples/Secrets.md",
-    "Kyonin/6 Plans and Ideas/Campaign One/Story Beats.md",
-    "Kyonin/1 World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
-    "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase/Footnotes.md",
-    "Kyonin/7 Utilities/Obsidian Addons/Obsidian Showcase",
-    "Kyonin/7 Utilities/Charts and Tables/Herbs Table.md",
-    "Kyonin/6 Plans and Ideas/Tasks",
-    "Kyonin/7 Utilities/Images/Stars.png",
-    "Kyonin/7 Utilities/Images/Veresia Labeled.jpg",
-    "Kyonin/7 Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
-    "Kyonin/7 Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
-    "Kyonin/7 Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
-    "Kyonin/7 Utilities/Images/dungeon-strugglers-coldhand-plug.jpg",
-    "Kyonin/7 Utilities/Images/adam-mathieu-skull.jpg",
-    "Kyonin/7 Utilities/Images/Talona_symbol.jpg",
-    "Kyonin/7 Utilities/Images/Rac_LOGO_Border.png",
-    "Kyonin/7 Utilities/Images/Rac_LOGO_Border 1.png",
+    "Campaigns/Utilities/Obsidian Addons/Css Examples/Secrets.md",
+    "Campaigns/Campaign 1/Plans and Home/Story Beats.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
+    "Campaigns/Utilities/Images/Stars.png",
+    "Campaigns/Utilities/Images/Veresia Labeled.jpg",
+    "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
+    "Campaigns/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
+    "Campaigns/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
+    "Campaigns/Utilities/Images/dungeon-strugglers-coldhand-plug.jpg",
+    "Campaigns/Utilities/Images/adam-mathieu-skull.jpg",
+    "Campaigns/Utilities/Images/Talona_symbol.jpg",
+    "Campaigns/Utilities/Images/Rac_LOGO_Border.png",
+    "Campaigns/Utilities/Images/Rac_LOGO_Border 1.png",
     "Untitled.canvas"
   ]
 }
