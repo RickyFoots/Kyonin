@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Classes/Wizards",
+                "query": "dragonborn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,8 +162,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -230,8 +229,7 @@
               "title": "Tags"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7a1b098c3d18aa62",
@@ -301,20 +299,20 @@
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Tasks and Ideas/To do.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Tasks and Ideas/Ideas.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/The World/Fundamentals/The connection between the Gods and Magic.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
     "Kyonin/The World/History/Cosmology/The War of Creation.md",
     "Campaigns/Utilities/Lexicon/Magic/The Weave.md",
     "Campaigns/Utilities/Lexicon/Planes/Elemental plane of Fire.md",
     "Campaigns/Utilities/Lexicon/Planes/Lacuna.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/The World/Fundamentals",
-    "Tasks and Ideas/To do.md",
-    "Tasks and Ideas/Ideas.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Campaigns/Campaign 1",
     "Campaigns",
     "Kyonin/The World",
