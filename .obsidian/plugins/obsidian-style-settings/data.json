@@ -247,7 +247,7 @@
   "ITS@@alt-chkbx-off": false,
   "ITS@@check-color": true,
   "ITS@@checkbox-strike-regular": false,
-  "ITS@@check-strike": true,
+  "ITS@@check-strike": false,
   "ITS@@callout-style": "callout-bordered",
   "ITS@@default-callout-quote": false,
   "ITS@@tag-text": false,
