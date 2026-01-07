@@ -5,11 +5,11 @@
   "enabledCssSnippets": [
     "Heading_Colors",
     "graph_colors",
-    "graph_and_checkbox",
-    "MCL_Gallery_Cards",
-    "MCL_Multi_Column"
+    "graph_and_checkbox"
   ],
   "baseFontSize": 18,
   "nativeMenus": true,
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "showViewHeader": true,
+  "showRibbon": true
 }

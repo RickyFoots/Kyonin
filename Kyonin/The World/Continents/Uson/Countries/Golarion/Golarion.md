@@ -18,13 +18,27 @@
 
 # History
 ---
-## [[Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]]
-![[Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]] 
-## [[The Grand Mine]] - *Needs Work* - 
-![[The Grand Mine]]
+```columns
+id: RlY_JhjbkxQ77Ihp28mvU
+===
+>[!history]- Branmor 
+>![[Branmor - Wielder of the first Hammer]] 
 
+===
+>[!warning]- [[The Grand Mine]] - *Needs Work* -  
+>![[The Grand Mine]]
+
+```
 
 # Parties Living within
 ---
 ## [[Pinkertons]]  
+```columns
+id: wvi3jG1iaGV3e2otUvdc3
+===
 ![[Pinkertons]]
+
+===
+
+
+```

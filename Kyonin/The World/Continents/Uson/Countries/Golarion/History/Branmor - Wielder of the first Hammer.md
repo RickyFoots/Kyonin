@@ -1,4 +1,4 @@
-# [[Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer]]
+# [[Branmor - Wielder of the first Hammer]]
 Branmor was the first of the dwarves and subsequently their first king. It is said that the god [[Moradin - Crafting]] looked upon the face of [[Kyonin]] and felt great disappointment, as there was nothing being made withing the world except by he and his kin. That disappointment grew to depression and then finally... action. 
 
 Moradin plunged his hand within the world and grabbed a chunk of raw iron, after looking it over, and knowing its faults he breathed life into the iron. His newly awoken "son" awoke with a blood-curdling scream which startled Moradin, so he dropped this new being back into the mountain from which he was plucked. As a result, the mountain was sundered, carving a deep pit within it. Awakening to his new dark and stone-y home, Branmor decided this new home suited him and began to build.
