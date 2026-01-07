@@ -131,7 +131,7 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook",
+              "icon": "notebook-navigator",
               "title": "Notebook Navigator"
             }
           },
@@ -298,14 +298,15 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Tasks and Ideas/To do.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
-    "Tasks and Ideas/Ideas.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/Items/Wondrous Items/Invoker's Band.md",
+    "Tasks and Ideas/To do.md",
+    "Tasks and Ideas/Ideas.md",
     "Kyonin/The World/Fundamentals/The connection between the Gods and Magic.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
     "Kyonin/The World/History/Cosmology/The War of Creation.md",
@@ -329,7 +330,6 @@
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
     "Campaigns/Campaign 1/Party/Pinkertons/Jolene-Pix/Jolene.md",
     "Campaigns/Campaign 1/Party/Pinkertons/Pinkertons.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Branmor/Branmor.md",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
     "StorytellerSuite/Stories/Act I/Locations",

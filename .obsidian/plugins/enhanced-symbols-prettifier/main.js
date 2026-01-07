@@ -61,7 +61,7 @@ __export(main_exports, {
   default: () => EnhancedSymbolsPrettifier
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian2 = require("obsidian");
+var import_obsidian12 = require("obsidian");
 
 // src/search.ts
 var SearchCursor = class {
@@ -104,6 +104,228 @@ var SearchCursor = class {
     return this._from;
   }
 };
+
+// src/settings/SettingsTab.ts
+var import_obsidian11 = require("obsidian");
+
+// src/settings/types.ts
+var import_obsidian = require("obsidian");
+function createSectionHeading(containerEl, name, iconName, description) {
+  const heading = new import_obsidian.Setting(containerEl).setHeading();
+  if (description) {
+    heading.setDesc(description);
+  }
+  (0, import_obsidian.setIcon)(heading.nameEl, iconName);
+  heading.nameEl.appendText(name);
+  return heading;
+}
+var SECTION_ICONS = {
+  behavior: "sliders-horizontal",
+  finder: "search",
+  export: "share-2",
+  import: "download",
+  quickAdd: "zap",
+  shortcuts: "keyboard",
+  reset: "rotate-ccw",
+  group: "folder",
+  add: "plus",
+  remove: "x",
+  restore: "archive-restore",
+  trash: "trash-2",
+  expand: "chevron-down",
+  collapse: "chevron-up",
+  warning: "alert-triangle"
+};
+var SECTION_IDS = {
+  behavior: "behavior",
+  finder: "finder",
+  export: "export",
+  quickAdd: "quickAdd",
+  shortcuts: "shortcuts",
+  reset: "reset"
+};
+var DEFAULT_SHORTCUTS_GROUP = "Words";
+var DEFAULT_SHORTCUTS_DISPLAYED = 10;
+var DEFAULT_SHORTCUTS_INCREMENT = 5;
+
+// src/settings/RenderEngine.ts
+var import_obsidian2 = require("obsidian");
+var RenderEngine = class {
+  constructor() {
+    this.containerEl = null;
+    this.sectionContainers = /* @__PURE__ */ new Map();
+    this.sectionRenderers = /* @__PURE__ */ new Map();
+    this.isUpdating = false;
+    this.pendingSections = /* @__PURE__ */ new Set();
+    this.refreshAllPending = false;
+    // Debounced refresh to batch rapid changes
+    this.debouncedRefresh = (0, import_obsidian2.debounce)(
+      () => this.executeRefresh(),
+      16,
+      // ~1 frame at 60fps
+      true
+    );
+  }
+  /**
+   * Initialize the render engine with a container
+   */
+  setContainer(containerEl) {
+    this.containerEl = containerEl;
+    this.sectionContainers.clear();
+    this.addGlobalStyles();
+  }
+  /**
+   * Register a section with its renderer function
+   */
+  registerSection(sectionId, renderer) {
+    if (!this.containerEl) {
+      throw new Error("Container not set");
+    }
+    let sectionEl = this.sectionContainers.get(sectionId);
+    if (!sectionEl) {
+      sectionEl = this.containerEl.createDiv({
+        cls: "esp-section",
+        attr: { "data-section": sectionId }
+      });
+      this.sectionContainers.set(sectionId, sectionEl);
+    }
+    this.sectionRenderers.set(sectionId, renderer);
+    return sectionEl;
+  }
+  /**
+   * Create a divider between sections
+   */
+  createDivider(withBar = true) {
+    if (!this.containerEl) return;
+    if (withBar) {
+      this.containerEl.createEl("hr", { cls: "esp-divider" });
+    } else {
+      this.containerEl.createDiv({ cls: "esp-divider-no-bar" });
+    }
+  }
+  /**
+   * Refresh a specific section or all sections
+   * Multiple calls are batched together
+   */
+  refresh(sectionId) {
+    if (sectionId) {
+      this.pendingSections.add(sectionId);
+    } else {
+      this.refreshAllPending = true;
+    }
+    this.debouncedRefresh();
+  }
+  /**
+   * Execute the actual refresh with scroll preservation
+   * Processes all pending section refreshes in one batch
+   */
+  executeRefresh() {
+    var _a;
+    if (this.isUpdating) return;
+    this.isUpdating = true;
+    try {
+      const scrollParent = this.findScrollParent();
+      const scrollTop = (_a = scrollParent == null ? void 0 : scrollParent.scrollTop) != null ? _a : 0;
+      if (this.refreshAllPending) {
+        for (const [id] of this.sectionRenderers) {
+          this.refreshSection(id);
+        }
+      } else {
+        for (const sectionId of this.pendingSections) {
+          this.refreshSection(sectionId);
+        }
+      }
+      this.pendingSections.clear();
+      this.refreshAllPending = false;
+      if (scrollParent) {
+        requestAnimationFrame(() => {
+          scrollParent.scrollTop = scrollTop;
+        });
+      }
+    } finally {
+      this.isUpdating = false;
+    }
+  }
+  /**
+   * Refresh a single section
+   */
+  refreshSection(sectionId) {
+    const sectionEl = this.sectionContainers.get(sectionId);
+    const renderer = this.sectionRenderers.get(sectionId);
+    if (sectionEl && renderer) {
+      sectionEl.addClass("esp-updating");
+      sectionEl.empty();
+      renderer();
+      requestAnimationFrame(() => {
+        sectionEl.removeClass("esp-updating");
+      });
+    }
+  }
+  /**
+   * Find the scrollable parent container
+   */
+  findScrollParent() {
+    let el = this.containerEl;
+    while (el) {
+      if (el.scrollHeight > el.clientHeight) {
+        return el;
+      }
+      el = el.parentElement;
+    }
+    return null;
+  }
+  /**
+   * Add global styles for smooth transitions
+   */
+  addGlobalStyles() {
+    if (!this.containerEl) return;
+    const existingStyle = this.containerEl.querySelector(".esp-render-styles");
+    if (existingStyle) return;
+    const style = this.containerEl.createEl("style", {
+      cls: "esp-render-styles"
+    });
+    style.textContent = `
+			.esp-section {
+				transition: opacity 0.1s ease-out;
+			}
+			.esp-updating {
+				opacity: 0.7;
+			}
+			.esp-divider {
+				margin: 1em 0;
+			}
+			.esp-divider-no-bar {
+				margin: 1.5em 0;
+			}
+			.esp-item-enter {
+				animation: esp-fade-in 0.15s ease-out;
+			}
+			@keyframes esp-fade-in {
+				from { opacity: 0; transform: translateY(-4px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+		`;
+  }
+  /**
+   * Clear all sections and reset
+   */
+  clear() {
+    this.sectionContainers.clear();
+    this.sectionRenderers.clear();
+    if (this.containerEl) {
+      this.containerEl.empty();
+    }
+  }
+  /**
+   * Get a section container
+   */
+  getSection(sectionId) {
+    return this.sectionContainers.get(sectionId);
+  }
+};
+
+// src/settings/sections/BehaviorSection.ts
+var import_obsidian3 = require("obsidian");
 
 // src/settings/defaultSettings.ts
 var FLEXIBLE_WORDS_START = ["(", "\xAB", "'", '"', "*"];
@@ -375,39 +597,49 @@ var DEFAULT_SETTINGS = {
   flexibleWordsEnd: true
 };
 
-// src/settings/settings.ts
-var import_obsidian = require("obsidian");
-
-// src/settings/DataExport.ts
-var DataMapper = class {
-  constructor(settings) {
-    this.settings = settings;
+// src/settings/sections/BehaviorSection.ts
+var BehaviorSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.behavior;
   }
-  exportGroup(group) {
-    const exportData = {};
-    Object.keys(this.settings.replacements).forEach((key) => {
-      const replacement = this.settings.replacements[key];
-      if (group === "all" || replacement.group === group) {
-        exportData[key] = __spreadValues({}, replacement);
-        delete exportData[key].count;
-        delete exportData[key].disabled;
+  display(containerEl) {
+    createSectionHeading(
+      containerEl,
+      "Behavior settings",
+      SECTION_ICONS.behavior
+    );
+    new import_obsidian3.Setting(containerEl).setName("Flexible start word boundaries").setDesc(
+      "Loosen the word boundary detection by allowing symbols or punctuation (like quotes, commas, or parentheses) before a word."
+    ).addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(
+          (_a = this.context.plugin.settings.flexibleWordsStart) != null ? _a : DEFAULT_SETTINGS.flexibleWordsStart
+        ).onChange((value) => __async(this, null, function* () {
+          this.context.plugin.settings.flexibleWordsStart = value;
+          yield this.context.saveSettings();
+        }));
       }
-    });
-    const blob = new Blob([JSON.stringify(exportData)], {
-      type: "application/json"
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    const groupFilename = group.replace(/[^a-z0-9]/gi, "-").toLowerCase();
-    const date = (/* @__PURE__ */ new Date()).toISOString().split("T")[0];
-    a.download = `enhanced-symbols-prettifier-${groupFilename}-export-${date}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    );
+    new import_obsidian3.Setting(containerEl).setName("Flexible end word boundaries").setDesc(
+      "Allow punctuation or symbols immediately after a word to be part of the word boundary, enabling substitutions even when the word isn't followed by a space."
+    ).addToggle(
+      (toggle) => {
+        var _a;
+        return toggle.setValue(
+          (_a = this.context.plugin.settings.flexibleWordsEnd) != null ? _a : DEFAULT_SETTINGS.flexibleWordsEnd
+        ).onChange((value) => __async(this, null, function* () {
+          this.context.plugin.settings.flexibleWordsEnd = value;
+          yield this.context.saveSettings();
+        }));
+      }
+    );
   }
 };
+
+// src/settings/sections/FinderSection.ts
+var import_obsidian4 = require("obsidian");
 
 // src/finder/ShortcutsFinder.ts
 var ShortcutsFinder = class {
@@ -495,9 +727,13 @@ var ShortcutsFinder = class {
       });
       return acc;
     }, {});
-    const sortedThreeLetterWords = Object.keys(threeLetterWords).sort((a, b) => threeLetterWords[b] - threeLetterWords[a]);
+    const sortedThreeLetterWords = Object.keys(threeLetterWords).sort(
+      (a, b) => threeLetterWords[b] - threeLetterWords[a]
+    );
     this.excluded_shortcuts.push(...sortedThreeLetterWords.slice(0, 15));
-    const sortedFilteredWords = Object.keys(wordCount).sort((a, b) => wordCount[b] - wordCount[a]);
+    const sortedFilteredWords = Object.keys(wordCount).sort(
+      (a, b) => wordCount[b] - wordCount[a]
+    );
     this.top_words = sortedFilteredWords.slice(0, 100).reduce((acc, word) => {
       acc[word] = wordCount[word];
       return acc;
@@ -505,96 +741,228 @@ var ShortcutsFinder = class {
   }
 };
 
-// src/settings/settings.ts
-var DEFAULT_SHORTCUTS_DISPLAYED = 10;
-var DEFAULT_SHORTCUTS_INCREMENT = 5;
-var DEFAULT_SHORTCUTS_GROUP = "Words";
-var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
+// src/settings/sections/FinderSection.ts
+var FinderSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.finder;
     this.shortcutsToDisplay = {};
     this.shortcutsDisplayed = DEFAULT_SHORTCUTS_DISPLAYED;
-    this.plugin = plugin;
+    this.suggestionsContainer = null;
   }
-  displayReplacement(replacement, i, containerEl) {
-    const value = replacement.value;
-    let key = replacement.replaced;
-    new import_obsidian.Setting(containerEl).setName(`${i}.`).setDesc(
-      `${replacement.count ? "Triggered " + replacement.count + " time" + (replacement.count > 1 ? "s" : "") : ""}`
-    ).addText(
-      (text) => text.setPlaceholder("To replace").setValue(key).onChange((index) => __async(this, null, function* () {
-        if (key === index) {
-          return;
-        }
-        if (this.plugin.settings.replacements[index] && index !== key) {
-          new import_obsidian.Notice(
-            `Shortcut "${index}" already exists. Please choose a different name.`
-          );
-          return;
-        }
-        this.plugin.settings.replacements[key].replaced = index;
-        this.plugin.settings.replacements[index] = this.plugin.settings.replacements[key];
-        delete this.plugin.settings.replacements[key];
-        key = index;
-        yield this.plugin.saveSettings();
-      }))
-    ).addText(
-      (text) => text.setPlaceholder("Replace with").setValue(value).onChange((val) => __async(this, null, function* () {
-        this.plugin.settings.replacements[key].value = val;
-        yield this.plugin.saveSettings();
-      }))
-    ).addToggle(
-      (toggle) => toggle.setValue(!replacement.disabled).onChange((value2) => __async(this, null, function* () {
-        this.plugin.settings.replacements[key].disabled = !value2;
-        yield this.plugin.saveSettings();
-      }))
+  display(containerEl) {
+    createSectionHeading(
+      containerEl,
+      "Shortcuts Finder",
+      SECTION_ICONS.finder
+    );
+    this.displayFinderButton(containerEl);
+    this.displaySuggestedShortcuts(containerEl);
+  }
+  displayFinderButton(containerEl) {
+    const excluded_shortcuts = [
+      ...this.context.plugin.settings.exclusions || []
+    ];
+    for (const key in this.context.plugin.settings.replacements) {
+      const replacement = this.context.plugin.settings.replacements[key];
+      excluded_shortcuts.push(replacement.replaced);
+    }
+    const excluded_words = Object.keys(
+      this.context.plugin.settings.replacements
+    ).map((key) => this.context.plugin.settings.replacements[key].value);
+    const shortcutsFinder = new ShortcutsFinder(
+      this.context.plugin,
+      excluded_shortcuts,
+      excluded_words
+    );
+    new import_obsidian4.Setting(containerEl).setName("Find most used words").setDesc(
+      "Find the most used words in your notes to create shortcuts for them. This operation may take a while depending on the number of notes in your vault."
     ).addButton(
-      (button) => button.setIcon("x").onClick(() => __async(this, null, function* () {
-        delete this.plugin.settings.replacements[key];
-        yield this.plugin.saveSettings();
-        this.display();
+      (button) => button.setIcon("file-search").setCta().onClick(() => __async(this, null, function* () {
+        this.shortcutsDisplayed = DEFAULT_SHORTCUTS_DISPLAYED;
+        button.setDisabled(true);
+        button.setButtonText("Searching...");
+        const shortcuts = yield shortcutsFinder.findShortcuts();
+        this.shortcutsToDisplay = shortcuts;
+        button.setDisabled(false);
+        button.setButtonText("");
+        button.setIcon("file-search");
+        this.context.refreshSection(SECTION_IDS.finder);
+        new import_obsidian4.Notice("End of search");
       }))
     );
   }
-  displayGroup(group, containerEl) {
-    new import_obsidian.Setting(containerEl).setName(group).setHeading();
-    new import_obsidian.Setting(containerEl).setName("Disable group").addToggle(
-      (toggle) => toggle.setValue(
-        Object.values(this.plugin.settings.replacements).filter((replacement) => replacement.group === group).filter((replacement) => !replacement.disabled).length === 0
-      ).onChange((value) => __async(this, null, function* () {
-        for (const key in this.plugin.settings.replacements) {
-          const replacement = this.plugin.settings.replacements[key];
-          if (replacement.group === group) {
-            this.plugin.settings.replacements[key].disabled = value;
-          }
-        }
-        yield this.plugin.saveSettings();
-        this.display();
-      }))
-    );
-    let i = 0;
-    for (const key in this.plugin.settings.replacements) {
-      const replacement = this.plugin.settings.replacements[key];
-      if (replacement.group === group) {
-        i++;
-        this.displayReplacement(replacement, i, containerEl);
+  displaySuggestedShortcuts(containerEl) {
+    if (Object.keys(this.shortcutsToDisplay).length === 0) {
+      return;
+    }
+    new import_obsidian4.Setting(containerEl).setName("Suggested shortcuts").setDesc(
+      "Here are the most used words in your notes. You can add them as shortcuts with the suggested one or customize them."
+    ).setHeading();
+    this.suggestionsContainer = containerEl.createDiv({
+      cls: "esp-suggestions"
+    });
+    this.renderSuggestions();
+  }
+  /**
+   * Render the suggestions list (can be called incrementally)
+   */
+  renderSuggestions() {
+    if (!this.suggestionsContainer) return;
+    this.suggestionsContainer.empty();
+    let counter = 0;
+    const shortcuts = Object.keys(this.shortcutsToDisplay);
+    for (const shortcut of shortcuts) {
+      if (this.context.plugin.settings.exclusions && this.context.plugin.settings.exclusions.includes(shortcut)) {
+        continue;
+      }
+      const shortcutItem = this.shortcutsToDisplay[shortcut];
+      const replacement = Object.keys(shortcutItem)[0];
+      const count = shortcutItem[replacement];
+      this.displaySuggestedShortcut(
+        this.suggestionsContainer,
+        shortcut,
+        replacement,
+        count
+      );
+      counter++;
+      if (counter === this.shortcutsDisplayed) {
+        break;
       }
     }
-    new import_obsidian.Setting(containerEl).setName("Add new symbol").addButton(
-      (button) => button.setIcon("plus").setCta().onClick(() => __async(this, null, function* () {
-        this.plugin.settings.replacements[""] = {
-          replaced: "",
-          value: "",
+    const remainingCount = shortcuts.filter(
+      (s) => {
+        var _a;
+        return !((_a = this.context.plugin.settings.exclusions) == null ? void 0 : _a.includes(s));
+      }
+    ).length - this.shortcutsDisplayed;
+    if (remainingCount > 0) {
+      const showMoreContainer = this.suggestionsContainer.parentElement;
+      if (showMoreContainer) {
+        new import_obsidian4.Setting(showMoreContainer).setName(
+          `Show ${Math.min(
+            remainingCount,
+            DEFAULT_SHORTCUTS_INCREMENT
+          )} more shortcuts`
+        ).setDesc(`${remainingCount} more available`).addButton(
+          (button) => button.setButtonText("Show more").onClick(() => {
+            this.shortcutsDisplayed += DEFAULT_SHORTCUTS_INCREMENT;
+            this.context.refreshSection(SECTION_IDS.finder);
+          })
+        );
+      }
+    }
+  }
+  displaySuggestedShortcut(containerEl, shortcut, value, count) {
+    let editedShortcut = shortcut;
+    const itemWrapper = containerEl.createDiv({
+      cls: "esp-suggestion-item",
+      attr: { "data-shortcut": shortcut }
+    });
+    new import_obsidian4.Setting(itemWrapper).setName(`Replace '${shortcut}' with '${value}'`).setDesc(`Found ${count} time${count > 1 ? "s" : ""}`).addText(
+      (text) => text.setPlaceholder("To replace").setValue(shortcut).onChange((newShortcut) => __async(this, null, function* () {
+        editedShortcut = newShortcut;
+      }))
+    ).addButton(
+      (button) => button.setButtonText("Ignore").onClick(() => __async(this, null, function* () {
+        if (!this.context.plugin.settings.exclusions) {
+          this.context.plugin.settings.exclusions = [];
+        }
+        this.context.plugin.settings.exclusions.push(
+          editedShortcut
+        );
+        yield this.context.saveSettings();
+        this.animateItemRemoval(itemWrapper, () => {
+          this.renderSuggestions();
+        });
+      }))
+    ).addButton(
+      (button) => button.setButtonText("Add").setCta().onClick(() => __async(this, null, function* () {
+        this.context.plugin.settings.replacements[editedShortcut] = {
+          replaced: editedShortcut,
+          value,
           disabled: false,
-          group
+          group: DEFAULT_SHORTCUTS_GROUP
         };
-        yield this.plugin.saveSettings();
-        this.display();
+        yield this.context.saveSettings();
+        this.animateItemRemoval(itemWrapper, () => {
+          this.context.refreshSection(SECTION_IDS.shortcuts);
+          this.renderSuggestions();
+        });
+        new import_obsidian4.Notice("Shortcut added");
       }))
     );
   }
-  displayExport(containerEl, groups) {
-    const dataMapper = new DataMapper(this.plugin.settings);
+  /**
+   * Animate item removal with smooth transition
+   */
+  animateItemRemoval(element, onComplete) {
+    element.style.transition = "opacity 0.15s, max-height 0.2s, margin 0.2s, padding 0.2s";
+    element.style.overflow = "hidden";
+    element.style.maxHeight = element.offsetHeight + "px";
+    element.offsetHeight;
+    element.style.opacity = "0";
+    element.style.maxHeight = "0";
+    element.style.marginTop = "0";
+    element.style.marginBottom = "0";
+    element.style.paddingTop = "0";
+    element.style.paddingBottom = "0";
+    setTimeout(() => {
+      element.remove();
+      delete this.shortcutsToDisplay[element.getAttribute("data-shortcut") || ""];
+      if (onComplete) onComplete();
+    }, 200);
+  }
+};
+
+// src/settings/sections/ExportSection.ts
+var import_obsidian5 = require("obsidian");
+
+// src/settings/DataExport.ts
+var DataMapper = class {
+  constructor(settings) {
+    this.settings = settings;
+  }
+  exportGroup(group) {
+    const exportData = {};
+    Object.keys(this.settings.replacements).forEach((key) => {
+      const replacement = this.settings.replacements[key];
+      if (group === "all" || replacement.group === group) {
+        exportData[key] = __spreadValues({}, replacement);
+        delete exportData[key].count;
+        delete exportData[key].disabled;
+      }
+    });
+    const blob = new Blob([JSON.stringify(exportData)], {
+      type: "application/json"
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    const groupFilename = group.replace(/[^a-z0-9]/gi, "-").toLowerCase();
+    const date = (/* @__PURE__ */ new Date()).toISOString().split("T")[0];
+    a.download = `enhanced-symbols-prettifier-${groupFilename}-export-${date}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+};
+
+// src/settings/sections/ExportSection.ts
+var ExportSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.export;
+  }
+  display(containerEl) {
+    const groups = this.context.getGroups();
+    const dataMapper = new DataMapper(this.context.plugin.settings);
+    this.displayHeading(containerEl);
+    this.displayImport(containerEl);
+    this.displayExport(containerEl, groups, dataMapper);
+  }
+  displayHeading(containerEl) {
     const descr = document.createDocumentFragment();
     descr.append(
       "Share your shortcuts with the community. You can find and share shortcuts files on the ",
@@ -604,11 +972,18 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
       }),
       "."
     );
-    new import_obsidian.Setting(containerEl).setName("Share your shortcuts").setDesc(descr).setHeading();
-    new import_obsidian.Setting(containerEl).setName("Import shortcuts from file").setDesc(
+    createSectionHeading(
+      containerEl,
+      "Share your shortcuts",
+      SECTION_ICONS.export,
+      descr
+    );
+  }
+  displayImport(containerEl) {
+    new import_obsidian5.Setting(containerEl).setName("Import shortcuts from file").setDesc(
       "Import additional shortcuts from a JSON export file. Any conflicting existing shortcuts will be overridden."
     ).addButton(
-      (button) => button.setButtonText("Import").setCta().onClick(() => __async(this, null, function* () {
+      (button) => button.setIcon(SECTION_ICONS.import).setButtonText("Import").setCta().onClick(() => __async(this, null, function* () {
         const input = document.createElement("input");
         input.type = "file";
         input.accept = ".json";
@@ -622,24 +997,28 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
                 const text = reader.result;
                 data = JSON.parse(text);
               } catch (error) {
-                new import_obsidian.Notice("Invalid JSON file");
+                new import_obsidian5.Notice("Invalid JSON file");
                 return;
               }
-              this.plugin.settings.replacements = __spreadValues(__spreadValues({}, this.plugin.settings.replacements), data);
-              yield this.plugin.saveSettings();
-              this.display();
-              new import_obsidian.Notice("Shortcuts imported");
+              this.context.plugin.settings.replacements = __spreadValues(__spreadValues({}, this.context.plugin.settings.replacements), data);
+              yield this.context.saveSettings();
+              this.context.refreshSection(
+                SECTION_IDS.shortcuts
+              );
+              new import_obsidian5.Notice("Shortcuts imported");
             });
             reader.readAsText(file);
           } else {
-            new import_obsidian.Notice("No file selected");
+            new import_obsidian5.Notice("No file selected");
           }
         });
         input.click();
       }))
     );
+  }
+  displayExport(containerEl, groups, dataMapper) {
     let dropdownItem = {};
-    new import_obsidian.Setting(containerEl).setName("Export shortcuts").setDesc("Export your shortcuts to a JSON file").addDropdown((dropdown) => {
+    new import_obsidian5.Setting(containerEl).setName("Export shortcuts").setDesc("Export your shortcuts to a JSON file").addDropdown((dropdown) => {
       dropdown.addOption("all", "All shortcuts");
       for (const group of groups) {
         dropdown.addOption(group, group);
@@ -652,198 +1031,731 @@ var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian.PluginS
       }))
     );
   }
-  displaySuggestedShorcut(containerEl, shortcut, value, count) {
-    new import_obsidian.Setting(containerEl).setName(`Replace '${shortcut}' with '${value}'`).setDesc(`Found ${count} time${count > 1 ? "s" : ""}`).addText(
-      (text) => text.setPlaceholder("To replace").setValue(shortcut).onChange((editedShortcut) => __async(this, null, function* () {
-        shortcut = editedShortcut;
-      }))
-    ).addButton(
-      (button) => button.setButtonText("Ignore").onClick(() => __async(this, null, function* () {
-        if (!this.plugin.settings.exclusions) {
-          this.plugin.settings.exclusions = [];
+};
+
+// src/settings/components/EntryForm.ts
+var import_obsidian6 = require("obsidian");
+var EntryForm = class {
+  constructor(context, defaultGroup, options = {}) {
+    this.context = context;
+    this.defaultGroup = defaultGroup;
+    this.options = options;
+    this.toReplace = "";
+    this.replaceWith = "";
+    this.toReplaceInput = null;
+    this.replaceWithInput = null;
+    this.selectedGroup = defaultGroup;
+  }
+  addEntry() {
+    return __async(this, null, function* () {
+      if (!this.toReplace.trim()) {
+        new import_obsidian6.Notice("Please enter text to replace");
+        return false;
+      }
+      if (!this.replaceWith.trim()) {
+        new import_obsidian6.Notice("Please enter replacement text");
+        return false;
+      }
+      if (this.context.plugin.settings.replacements[this.toReplace]) {
+        new import_obsidian6.Notice(
+          `Shortcut "${this.toReplace}" already exists. Please choose a different name.`
+        );
+        return false;
+      }
+      this.context.plugin.settings.replacements[this.toReplace] = {
+        replaced: this.toReplace,
+        value: this.replaceWith,
+        disabled: false,
+        group: this.selectedGroup
+      };
+      yield this.context.saveSettings();
+      new import_obsidian6.Notice(
+        `Added "${this.toReplace}" \u2192 "${this.replaceWith}" to ${this.selectedGroup}`
+      );
+      if (this.toReplaceInput) {
+        this.toReplaceInput.value = "";
+      }
+      if (this.replaceWithInput) {
+        this.replaceWithInput.value = "";
+      }
+      this.toReplace = "";
+      this.replaceWith = "";
+      if (this.toReplaceInput) {
+        this.toReplaceInput.focus();
+      }
+      if (this.options.onEntryAdded) {
+        this.options.onEntryAdded();
+      }
+      return true;
+    });
+  }
+  display(containerEl) {
+    const setting = new import_obsidian6.Setting(containerEl).setName("Add new");
+    if (this.options.showGroupSelector && this.options.groups) {
+      const groupOptions = this.options.groups;
+      setting.addDropdown((dropdown) => {
+        for (const g of groupOptions) {
+          dropdown.addOption(g, g);
         }
-        this.plugin.settings.exclusions.push(shortcut);
-        yield this.plugin.saveSettings();
-        this.display();
+        dropdown.setValue(this.selectedGroup);
+        dropdown.onChange((value) => {
+          this.selectedGroup = value;
+          if (this.options.onGroupChange) {
+            this.options.onGroupChange(value);
+          }
+        });
+      });
+    }
+    setting.addText((text) => {
+      this.toReplaceInput = text.inputEl;
+      text.setPlaceholder("To replace").onChange((value) => {
+        this.toReplace = value;
+      });
+      text.inputEl.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          this.addEntry();
+        }
+      });
+      if (this.options.focusInput) {
+        setTimeout(() => text.inputEl.focus(), 0);
+      }
+    }).addText((text) => {
+      this.replaceWithInput = text.inputEl;
+      text.setPlaceholder("Replace with").onChange((value) => {
+        this.replaceWith = value;
+      });
+      text.inputEl.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          this.addEntry();
+        }
+      });
+    }).addButton(
+      (button) => button.setIcon(SECTION_ICONS.add).setCta().onClick(() => this.addEntry())
+    );
+  }
+};
+
+// src/settings/sections/QuickAddSection.ts
+var QuickAddSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.quickAdd;
+    this.lastSelectedGroup = null;
+    this.focusQuickAddInput = false;
+  }
+  display(containerEl) {
+    const groups = this.context.getGroups();
+    createSectionHeading(
+      containerEl,
+      "Quick Add Entry",
+      SECTION_ICONS.quickAdd,
+      "Quickly add new entries to any group. Select a group and fill in the fields below."
+    );
+    if (groups.size === 0) {
+      groups.add(DEFAULT_SHORTCUTS_GROUP);
+    }
+    let selectedGroup;
+    if (this.lastSelectedGroup && groups.has(this.lastSelectedGroup)) {
+      selectedGroup = this.lastSelectedGroup;
+    } else {
+      selectedGroup = groups.values().next().value || DEFAULT_SHORTCUTS_GROUP;
+      this.lastSelectedGroup = selectedGroup;
+    }
+    const shouldFocus = this.focusQuickAddInput;
+    this.focusQuickAddInput = false;
+    const entryForm = new EntryForm(this.context, selectedGroup, {
+      showGroupSelector: true,
+      groups,
+      focusInput: shouldFocus,
+      onGroupChange: (group) => {
+        this.lastSelectedGroup = group;
+      },
+      onEntryAdded: () => {
+        this.focusQuickAddInput = true;
+        this.context.refreshSection(SECTION_IDS.shortcuts);
+        this.context.refreshSection(SECTION_IDS.quickAdd);
+      }
+    });
+    entryForm.display(containerEl);
+  }
+};
+
+// src/settings/sections/ShortcutsSection.ts
+var import_obsidian9 = require("obsidian");
+
+// src/settings/components/GroupDisplay.ts
+var import_obsidian8 = require("obsidian");
+
+// src/settings/components/ReplacementItem.ts
+var import_obsidian7 = require("obsidian");
+var ReplacementItem = class {
+  constructor(context, replacement, index, onRemove) {
+    this.context = context;
+    this.replacement = replacement;
+    this.index = index;
+    this.onRemove = onRemove;
+    this.containerEl = null;
+    this.key = replacement.replaced;
+  }
+  /**
+   * Create the item's DOM element
+   */
+  display(parentEl) {
+    this.containerEl = parentEl.createDiv({ cls: "esp-replacement-item" });
+    this.render();
+    return this.containerEl;
+  }
+  /**
+   * Render the item content
+   */
+  render() {
+    if (!this.containerEl) return;
+    this.containerEl.empty();
+    const value = this.replacement.value;
+    const plural = this.replacement.count && this.replacement.count > 1 ? "s" : "";
+    const desc = this.replacement.count ? `Triggered ${this.replacement.count} time${plural}` : "";
+    new import_obsidian7.Setting(this.containerEl).setName(`${this.index}.`).setDesc(desc).addText(
+      (text) => text.setPlaceholder("To replace").setValue(this.key).onChange((newKey) => __async(this, null, function* () {
+        if (this.key === newKey) {
+          return;
+        }
+        if (this.context.plugin.settings.replacements[newKey] && newKey !== this.key) {
+          new import_obsidian7.Notice(
+            `Shortcut "${newKey}" already exists. Please choose a different name.`
+          );
+          return;
+        }
+        this.context.plugin.settings.replacements[this.key].replaced = newKey;
+        this.context.plugin.settings.replacements[newKey] = this.context.plugin.settings.replacements[this.key];
+        delete this.context.plugin.settings.replacements[this.key];
+        this.key = newKey;
+        yield this.context.saveSettings();
+      }))
+    ).addText(
+      (text) => text.setPlaceholder("Replace with").setValue(value).onChange((val) => __async(this, null, function* () {
+        this.context.plugin.settings.replacements[this.key].value = val;
+        yield this.context.saveSettings();
+      }))
+    ).addToggle(
+      (toggle) => toggle.setValue(!this.replacement.disabled).onChange((enabled) => __async(this, null, function* () {
+        this.context.plugin.settings.replacements[this.key].disabled = !enabled;
+        yield this.context.saveSettings();
       }))
     ).addButton(
-      (button) => button.setButtonText("Add").setCta().onClick(() => __async(this, null, function* () {
-        this.plugin.settings.replacements[shortcut] = {
-          replaced: shortcut,
-          value,
+      (button) => button.setIcon(SECTION_ICONS.remove).onClick(() => __async(this, null, function* () {
+        delete this.context.plugin.settings.replacements[this.key];
+        yield this.context.saveSettings();
+        if (this.containerEl) {
+          this.containerEl.style.transition = "opacity 0.15s, max-height 0.2s, margin 0.2s";
+          this.containerEl.style.opacity = "0";
+          this.containerEl.style.maxHeight = this.containerEl.offsetHeight + "px";
+          requestAnimationFrame(() => {
+            if (this.containerEl) {
+              this.containerEl.style.maxHeight = "0";
+              this.containerEl.style.marginTop = "0";
+              this.containerEl.style.marginBottom = "0";
+            }
+          });
+          setTimeout(() => {
+            if (this.containerEl) {
+              this.containerEl.remove();
+            }
+            if (this.onRemove) {
+              this.onRemove(this.key);
+            }
+          }, 200);
+        }
+      }))
+    );
+  }
+  /**
+   * Get the key for this item
+   */
+  getKey() {
+    return this.key;
+  }
+};
+
+// src/settings/components/GroupDisplay.ts
+var GroupDisplay = class {
+  constructor(context, group, collapsedGroups) {
+    this.context = context;
+    this.group = group;
+    this.collapsedGroups = collapsedGroups;
+    this.contentEl = null;
+    this.headerEl = null;
+    this.itemsMap = /* @__PURE__ */ new Map();
+    this.isCollapsed = collapsedGroups.has(group);
+  }
+  display(containerEl) {
+    const groupReplacements = this.getGroupReplacements();
+    const groupCount = groupReplacements.length;
+    const groupContainer = containerEl.createDiv({
+      cls: "esp-group-container",
+      attr: { "data-group": this.group }
+    });
+    this.headerEl = groupContainer.createDiv({ cls: "esp-group-header" });
+    this.renderHeader(groupCount);
+    this.contentEl = groupContainer.createDiv({
+      cls: `esp-group-content ${this.isCollapsed ? "collapsed" : ""}`
+    });
+    if (!this.isCollapsed) {
+      this.renderContent(groupReplacements);
+    }
+  }
+  /**
+   * Render the group header
+   */
+  renderHeader(groupCount) {
+    if (!this.headerEl) return;
+    this.headerEl.empty();
+    const groupHeading = new import_obsidian8.Setting(this.headerEl).setName(`${this.group} (${groupCount} entries)`).setHeading();
+    groupHeading.addButton(
+      (button) => button.setIcon(
+        this.isCollapsed ? SECTION_ICONS.expand : SECTION_ICONS.collapse
+      ).setTooltip(this.isCollapsed ? "Expand" : "Collapse").onClick(() => this.toggleCollapse())
+    );
+  }
+  /**
+   * Toggle collapse state with smooth animation
+   */
+  toggleCollapse() {
+    this.isCollapsed = !this.isCollapsed;
+    if (this.isCollapsed) {
+      this.collapsedGroups.add(this.group);
+    } else {
+      this.collapsedGroups.delete(this.group);
+    }
+    if (!this.contentEl) return;
+    if (this.isCollapsed) {
+      const height = this.contentEl.scrollHeight;
+      this.contentEl.style.maxHeight = height + "px";
+      this.contentEl.style.opacity = "1";
+      this.contentEl.offsetHeight;
+      this.contentEl.style.transition = "max-height 0.2s ease-out, opacity 0.15s ease-out";
+      this.contentEl.style.maxHeight = "0";
+      this.contentEl.style.opacity = "0";
+      this.contentEl.style.overflow = "hidden";
+      setTimeout(() => {
+        if (this.contentEl) {
+          this.contentEl.addClass("collapsed");
+          this.contentEl.empty();
+          this.itemsMap.clear();
+        }
+      }, 200);
+    } else {
+      this.contentEl.removeClass("collapsed");
+      this.contentEl.style.maxHeight = "0";
+      this.contentEl.style.opacity = "0";
+      this.contentEl.style.overflow = "hidden";
+      const groupReplacements = this.getGroupReplacements();
+      this.renderContent(groupReplacements);
+      const targetHeight = this.contentEl.scrollHeight;
+      this.contentEl.offsetHeight;
+      this.contentEl.style.transition = "max-height 0.25s ease-out, opacity 0.2s ease-out";
+      this.contentEl.style.maxHeight = targetHeight + "px";
+      this.contentEl.style.opacity = "1";
+      setTimeout(() => {
+        if (this.contentEl) {
+          this.contentEl.style.maxHeight = "";
+          this.contentEl.style.overflow = "";
+          this.contentEl.style.transition = "";
+        }
+      }, 250);
+    }
+    const groupCount = this.getGroupReplacements().length;
+    this.renderHeader(groupCount);
+  }
+  /**
+   * Get replacements for this group
+   */
+  getGroupReplacements() {
+    const replacements = [];
+    for (const key in this.context.plugin.settings.replacements) {
+      const replacement = this.context.plugin.settings.replacements[key];
+      if (replacement.group === this.group) {
+        replacements.push({ key, replacement });
+      }
+    }
+    return replacements;
+  }
+  /**
+   * Render the content area
+   */
+  renderContent(groupReplacements) {
+    if (!this.contentEl) return;
+    const allDisabled = groupReplacements.filter((r) => !r.replacement.disabled).length === 0;
+    new import_obsidian8.Setting(this.contentEl).setName("Disable group").addToggle(
+      (toggle) => toggle.setValue(allDisabled).onChange((value) => __async(this, null, function* () {
+        for (const key in this.context.plugin.settings.replacements) {
+          const replacement = this.context.plugin.settings.replacements[key];
+          if (replacement.group === this.group) {
+            this.context.plugin.settings.replacements[key].disabled = value;
+          }
+        }
+        yield this.context.saveSettings();
+        this.context.refreshSection(SECTION_IDS.shortcuts);
+      }))
+    );
+    const listContainer = this.contentEl.createDiv();
+    let i = 0;
+    for (const { key, replacement } of groupReplacements) {
+      i++;
+      const item = new ReplacementItem(
+        this.context,
+        replacement,
+        i,
+        (removedKey) => this.handleItemRemoved(removedKey)
+      );
+      item.display(listContainer);
+      this.itemsMap.set(key, item);
+    }
+    const entryForm = new EntryForm(this.context, this.group, {
+      onEntryAdded: () => {
+        this.context.refreshSection(SECTION_IDS.shortcuts);
+      }
+    });
+    entryForm.display(this.contentEl);
+  }
+  /**
+   * Handle item removal - update header count
+   */
+  handleItemRemoved(key) {
+    this.itemsMap.delete(key);
+    const groupCount = this.getGroupReplacements().length;
+    this.renderHeader(groupCount);
+  }
+};
+
+// src/settings/sections/ShortcutsSection.ts
+var ShortcutsSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.shortcuts;
+    this.collapsedGroups = /* @__PURE__ */ new Set();
+  }
+  display(containerEl) {
+    const groups = this.context.getGroups();
+    createSectionHeading(
+      containerEl,
+      "Shortcuts",
+      SECTION_ICONS.shortcuts,
+      "Define your shortcuts here: add or remove symbols to prettify in your notes. You can also temporarily disable a symbol by toggling the switch."
+    );
+    for (const group of groups) {
+      const groupDisplay = new GroupDisplay(
+        this.context,
+        group,
+        this.collapsedGroups
+      );
+      groupDisplay.display(containerEl);
+    }
+    containerEl.createEl("hr");
+    this.displayNewGroupForm(containerEl);
+  }
+  displayNewGroupForm(containerEl) {
+    let textNewGroup = "";
+    let inputEl = null;
+    new import_obsidian9.Setting(containerEl).setName("Add new group").addText((text) => {
+      inputEl = text.inputEl;
+      text.setPlaceholder("Group name").onChange((value) => __async(this, null, function* () {
+        textNewGroup = value;
+      }));
+      text.inputEl.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+          this.addGroup(textNewGroup, inputEl);
+        }
+      });
+    }).addButton(
+      (button) => button.setIcon(SECTION_ICONS.group).setButtonText("Add").setCta().onClick(() => __async(this, null, function* () {
+        yield this.addGroup(textNewGroup, inputEl);
+      }))
+    );
+  }
+  /**
+   * Add a new group
+   */
+  addGroup(groupName, inputEl) {
+    return __async(this, null, function* () {
+      if (groupName) {
+        this.context.plugin.settings.replacements[""] = {
+          replaced: "",
+          value: "",
           disabled: false,
-          group: DEFAULT_SHORTCUTS_GROUP
+          group: groupName
         };
-        yield this.plugin.saveSettings();
-        this.display();
-        new import_obsidian.Notice("Shortcut added");
+        yield this.context.saveSettings();
+        if (inputEl) {
+          inputEl.value = "";
+        }
+        this.context.refreshSection(SECTION_IDS.shortcuts);
+      }
+    });
+  }
+};
+
+// src/settings/sections/ResetSection.ts
+var import_obsidian10 = require("obsidian");
+var ResetSection = class {
+  constructor(context) {
+    this.context = context;
+    this.sectionId = SECTION_IDS.reset;
+  }
+  display(containerEl) {
+    createSectionHeading(
+      containerEl,
+      "Reset or restore settings",
+      SECTION_ICONS.reset
+    );
+    new import_obsidian10.Setting(containerEl).setName("Reset statistics").setDesc("Clear all usage count statistics from your shortcuts.").addButton(
+      (button) => button.setIcon(SECTION_ICONS.trash).setWarning().onClick(() => __async(this, null, function* () {
+        for (const key in this.context.plugin.settings.replacements) {
+          delete this.context.plugin.settings.replacements[key].count;
+        }
+        yield this.context.saveSettings();
+        this.context.refreshSection(SECTION_IDS.shortcuts);
       }))
     );
-  }
-  displayFinder(containerEl) {
-    const excluded_shortcuts = [...this.plugin.settings.exclusions || []];
-    for (const key in this.plugin.settings.replacements) {
-      const replacement = this.plugin.settings.replacements[key];
-      excluded_shortcuts.push(replacement.replaced);
-    }
-    const excluded_words = Object.keys(
-      this.plugin.settings.replacements
-    ).map((key) => this.plugin.settings.replacements[key].value);
-    const shortcutsFinder = new ShortcutsFinder(
-      this.plugin,
-      excluded_shortcuts,
-      excluded_words
-    );
-    new import_obsidian.Setting(containerEl).setName("Find most used words").setDesc(
-      "Find the most used words in your notes to create shorcuts for them. This operation may take a while depending on the number of notes in your vault."
+    new import_obsidian10.Setting(containerEl).setName("Restore settings to default").setDesc(
+      "Reset all settings and shortcuts to their original values."
     ).addButton(
-      (button) => button.setIcon("file-search").setCta().onClick(() => __async(this, null, function* () {
-        this.shortcutsDisplayed = DEFAULT_SHORTCUTS_DISPLAYED;
-        button.setDisabled(true);
-        const shortcuts = yield shortcutsFinder.findShortcuts();
-        this.shortcutsToDisplay = shortcuts;
-        this.display();
-        new import_obsidian.Notice("End of search");
+      (button) => button.setIcon(SECTION_ICONS.restore).setWarning().onClick(() => __async(this, null, function* () {
+        yield this.context.plugin.restoreDefaultSettings();
+        this.context.refreshSection();
       }))
     );
-    if (Object.keys(this.shortcutsToDisplay).length > 0) {
-      new import_obsidian.Setting(containerEl).setName("Suggested shortcuts").setDesc(
-        "Here are the most used words in your notes. You can add them as shortcuts with the suggested one or customize them."
-      ).setHeading();
-      let counter = 0;
-      for (const shortcut in this.shortcutsToDisplay) {
-        if (this.plugin.settings.exclusions && this.plugin.settings.exclusions.includes(shortcut)) {
-          continue;
-        }
-        const shortcutItem = this.shortcutsToDisplay[shortcut];
-        const replacement = Object.keys(shortcutItem)[0];
-        const count = shortcutItem[replacement];
-        this.displaySuggestedShorcut(
-          containerEl,
-          shortcut,
-          replacement,
-          count
-        );
-        counter++;
-        if (counter === this.shortcutsDisplayed) {
-          break;
-        }
-      }
-      if (Object.keys(this.shortcutsToDisplay).length > this.shortcutsDisplayed) {
-        new import_obsidian.Setting(containerEl).setName("Show more shortcuts").addButton(
-          (button) => button.setButtonText("Show more").onClick(() => {
-            this.shortcutsDisplayed += DEFAULT_SHORTCUTS_INCREMENT;
-            this.display();
-          })
-        );
-      }
-    }
-  }
-  displayBehaviorSection(containerEl) {
-    new import_obsidian.Setting(containerEl).setName("Behavior settings").setHeading();
-    new import_obsidian.Setting(containerEl).setName("Flexible start word boundaries").setDesc(
-      "Loosen the word boundary detection by allowing symbols or punctuation (like quotes, commas, or parentheses) before a word."
-    ).addToggle(
-      (toggle) => {
-        var _a;
-        return toggle.setValue(
-          (_a = this.plugin.settings.flexibleWordsStart) != null ? _a : DEFAULT_SETTINGS.flexibleWordsStart
-        ).onChange((value) => __async(this, null, function* () {
-          this.plugin.settings.flexibleWordsStart = value;
-          yield this.plugin.saveSettings();
-        }));
-      }
-    );
-    new import_obsidian.Setting(containerEl).setName("Flexible end word boundaries").setDesc(
-      "Allow punctuation or symbols immediately after a word to be part of the word boundary, enabling substitutions even when the word isn't followed by a space."
-    ).addToggle(
-      (toggle) => {
-        var _a;
-        return toggle.setValue(
-          (_a = this.plugin.settings.flexibleWordsEnd) != null ? _a : DEFAULT_SETTINGS.flexibleWordsEnd
-        ).onChange((value) => __async(this, null, function* () {
-          this.plugin.settings.flexibleWordsEnd = value;
-          yield this.plugin.saveSettings();
-        }));
-      }
-    );
-  }
-  displayReset(containerEl) {
-    new import_obsidian.Setting(containerEl).setName("Reset or restore settings").setHeading();
-    new import_obsidian.Setting(containerEl).setName("Reset statistics").addButton(
-      (button) => button.setIcon("trash").setWarning().onClick(() => __async(this, null, function* () {
-        for (const key in this.plugin.settings.replacements) {
-          delete this.plugin.settings.replacements[key].count;
-        }
-        yield this.plugin.saveSettings();
-        this.display();
-      }))
-    );
-    new import_obsidian.Setting(containerEl).setName("Restore settings to default").addButton(
-      (button) => button.setIcon("archive-restore").setWarning().onClick(() => __async(this, null, function* () {
-        yield this.plugin.restoreDefaultSettings();
-        this.display();
-      }))
-    );
-    new import_obsidian.Setting(containerEl).setName("Empty ignored shortcuts").setDesc(
-      "Remove all ignored shortcuts from the find most used shortcuts feature."
+    new import_obsidian10.Setting(containerEl).setName("Empty ignored shortcuts").setDesc(
+      "Forget all ignored shortcuts from the find most used shortcuts feature."
     ).addButton(
-      (button) => button.setIcon("trash").setWarning().onClick(() => __async(this, null, function* () {
-        this.plugin.settings.exclusions = [];
-        yield this.plugin.saveSettings();
-        this.display();
+      (button) => button.setIcon(SECTION_ICONS.trash).setWarning().onClick(() => __async(this, null, function* () {
+        this.context.plugin.settings.exclusions = [];
+        yield this.context.saveSettings();
+        this.context.refreshSection(SECTION_IDS.finder);
       }))
     );
   }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    this.displayBehaviorSection(containerEl);
-    this.displayFinder(containerEl);
+};
+
+// src/settings/SettingsTab.ts
+var EnhancedSymbolsPrettifierSettingsTab = class extends import_obsidian11.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.isInitialized = false;
+    // Debounced save to batch rapid changes
+    this.debouncedSave = (0, import_obsidian11.debounce)(
+      () => __async(this, null, function* () {
+        yield this.plugin.saveSettings();
+      }),
+      100,
+      true
+    );
+    this.plugin = plugin;
+    this.renderEngine = new RenderEngine();
+    this.context = {
+      app: this.app,
+      plugin: this.plugin,
+      renderEngine: this.renderEngine,
+      refreshSection: (sectionId) => {
+        if (this.isInitialized) {
+          this.renderEngine.refresh(sectionId);
+        }
+      },
+      saveSettings: () => __async(this, null, function* () {
+        this.debouncedSave();
+      }),
+      getGroups: () => this.getGroups()
+    };
+    this.behaviorSection = new BehaviorSection(this.context);
+    this.finderSection = new FinderSection(this.context);
+    this.exportSection = new ExportSection(this.context);
+    this.quickAddSection = new QuickAddSection(this.context);
+    this.shortcutsSection = new ShortcutsSection(this.context);
+    this.resetSection = new ResetSection(this.context);
+  }
+  /**
+   * Collect all unique groups from replacements
+   */
+  getGroups() {
     const groups = /* @__PURE__ */ new Set();
     for (const key in this.plugin.settings.replacements) {
       const replacement = this.plugin.settings.replacements[key];
       groups.add(replacement.group);
     }
-    this.displayExport(containerEl, groups);
-    containerEl.createEl("hr");
-    new import_obsidian.Setting(containerEl).setName("Shortcuts").setDesc(
-      "Define your shortcuts here : add or remove symbols to prettify in your notes. You can also temporarily disable a symbol by toggling the switch."
-    ).setHeading();
-    for (const group of groups) {
-      this.displayGroup(group, containerEl);
-    }
-    containerEl.createEl("hr");
-    let textNewGroup = "";
-    new import_obsidian.Setting(containerEl).setName("Add new group").addText(
-      (text) => text.setPlaceholder("Group name").onChange((value) => __async(this, null, function* () {
-        textNewGroup = value;
-      }))
-    ).addButton(
-      (button) => button.setButtonText("Add").setCta().onClick(() => __async(this, null, function* () {
-        const groupName = textNewGroup;
-        if (groupName) {
-          this.plugin.settings.replacements[""] = {
-            replaced: "",
-            value: "",
-            disabled: false,
-            group: groupName
-          };
-          yield this.plugin.saveSettings();
-          this.display();
-        }
-      }))
+    return groups;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    this.isInitialized = false;
+    this.renderEngine.setContainer(containerEl);
+    this.addStyles(containerEl);
+    this.registerSections();
+    this.renderAllSections();
+    this.addFooter(containerEl);
+    this.isInitialized = true;
+  }
+  /**
+   * Register all sections with the render engine
+   */
+  registerSections() {
+    this.renderEngine.registerSection(SECTION_IDS.behavior, () => {
+      const container = this.renderEngine.getSection(
+        SECTION_IDS.behavior
+      );
+      if (container) this.behaviorSection.display(container);
+    });
+    this.renderEngine.createDivider(false);
+    this.renderEngine.registerSection(SECTION_IDS.quickAdd, () => {
+      const container = this.renderEngine.getSection(
+        SECTION_IDS.quickAdd
+      );
+      if (container) this.quickAddSection.display(container);
+    });
+    this.renderEngine.createDivider(false);
+    this.renderEngine.registerSection(SECTION_IDS.finder, () => {
+      const container = this.renderEngine.getSection(SECTION_IDS.finder);
+      if (container) this.finderSection.display(container);
+    });
+    this.renderEngine.createDivider(false);
+    this.renderEngine.registerSection(SECTION_IDS.export, () => {
+      const container = this.renderEngine.getSection(SECTION_IDS.export);
+      if (container) this.exportSection.display(container);
+    });
+    this.renderEngine.createDivider();
+    this.renderEngine.registerSection(SECTION_IDS.shortcuts, () => {
+      const container = this.renderEngine.getSection(
+        SECTION_IDS.shortcuts
+      );
+      if (container) this.shortcutsSection.display(container);
+    });
+    this.renderEngine.createDivider();
+    this.renderEngine.registerSection(SECTION_IDS.reset, () => {
+      const container = this.renderEngine.getSection(SECTION_IDS.reset);
+      if (container) this.resetSection.display(container);
+    });
+  }
+  /**
+   * Render all sections initially
+   */
+  renderAllSections() {
+    const behaviorContainer = this.renderEngine.getSection(
+      SECTION_IDS.behavior
     );
-    containerEl.createEl("hr");
-    this.displayReset(containerEl);
+    if (behaviorContainer) this.behaviorSection.display(behaviorContainer);
+    const finderContainer = this.renderEngine.getSection(
+      SECTION_IDS.finder
+    );
+    if (finderContainer) this.finderSection.display(finderContainer);
+    const exportContainer = this.renderEngine.getSection(
+      SECTION_IDS.export
+    );
+    if (exportContainer) this.exportSection.display(exportContainer);
+    const quickAddContainer = this.renderEngine.getSection(
+      SECTION_IDS.quickAdd
+    );
+    if (quickAddContainer) this.quickAddSection.display(quickAddContainer);
+    const shortcutsContainer = this.renderEngine.getSection(
+      SECTION_IDS.shortcuts
+    );
+    if (shortcutsContainer)
+      this.shortcutsSection.display(shortcutsContainer);
+    const resetContainer = this.renderEngine.getSection(SECTION_IDS.reset);
+    if (resetContainer) this.resetSection.display(resetContainer);
+  }
+  addStyles(containerEl) {
+    const style = containerEl.createEl("style");
+    style.textContent = `
+			.setting-item-heading .setting-item-name {
+				display: flex;
+				align-items: center;
+				gap: 0.5em;
+			}
+			.setting-item-heading .setting-item-name > svg {
+				flex-shrink: 0;
+			}
+			.setting-footer {
+				opacity: 0.7;
+				font-size: 0.85em;
+				margin-top: 2em;
+				text-align: center;
+			}
+			/* Smooth item transitions */
+			.setting-item {
+				transition: background-color 0.15s ease-out;
+			}
+			/* Group collapse animation */
+			.esp-group-content {
+				overflow: hidden;
+				transition: max-height 0.2s ease-out, opacity 0.15s ease-out;
+			}
+			.esp-group-content.collapsed {
+				max-height: 0;
+				opacity: 0;
+			}
+			
+			/* Mobile responsive styles */
+			@media (max-width: 768px) {
+				/* Make setting items stack vertically on mobile */
+				.esp-section .setting-item {
+					flex-direction: column;
+					align-items: flex-start;
+					gap: 0.5em;
+				}
+				.esp-section .setting-item-info {
+					width: 100%;
+					padding-right: 0;
+				}
+				.esp-section .setting-item-control {
+					width: 100%;
+					flex-wrap: wrap;
+					gap: 0.5em;
+					justify-content: flex-start;
+				}
+				/* Make text inputs take more space */
+				.esp-section .setting-item-control input[type="text"] {
+					flex: 1 1 100%;
+					min-width: 0;
+				}
+				/* Make dropdowns full width */
+				.esp-section .setting-item-control select,
+				.esp-section .setting-item-control .dropdown {
+					flex: 1 1 100%;
+				}
+				/* Keep buttons and toggles on their own row */
+				.esp-section .setting-item-control button {
+					flex-shrink: 0;
+				}
+				.esp-section .setting-item-control .checkbox-container {
+					flex-shrink: 0;
+				}
+				/* Replacement item specific adjustments */
+				.esp-replacement-item .setting-item-control {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					gap: 0.5em;
+					width: 100%;
+				}
+				.esp-replacement-item .setting-item-control input[type="text"] {
+					flex: unset;
+					width: 100%;
+				}
+				.esp-replacement-item .setting-item-control button,
+				.esp-replacement-item .setting-item-control .checkbox-container {
+					justify-self: start;
+				}
+			}
+		`;
+  }
+  addFooter(containerEl) {
     containerEl.createEl("p", {
-      text: "Made by Noam Schmitt based on the Symbols Prettifier plugin by Florian Woelki."
+      text: "Made by Noam Schmitt based on the Symbols Prettifier plugin by Florian Woelki.",
+      cls: "setting-footer"
     });
   }
 };
 
 // src/main.ts
-var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
+var EnhancedSymbolsPrettifier = class extends import_obsidian12.Plugin {
   constructor() {
     super(...arguments);
     this.lastReplacement = {
@@ -871,7 +1783,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
         editorCallback: (editor) => this.prettifyInDocument(editor, true)
       });
       let eventName = "keydown";
-      if (import_obsidian2.Platform.isMobileApp) {
+      if (import_obsidian12.Platform.isMobileApp) {
         eventName = "keyup";
       }
       this.registerDomEvent(window, eventName, (event) => {
@@ -985,11 +1897,11 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     editor.setValue(value);
     this.saveSettings();
     if (replacementsCount === 0) {
-      new import_obsidian2.Notice("No symbols found to replace");
+      new import_obsidian12.Notice("No symbols found to replace");
     } else if (replacementsCount === 1) {
-      new import_obsidian2.Notice("Replaced 1 symbol");
+      new import_obsidian12.Notice("Replaced 1 symbol");
     } else {
-      new import_obsidian2.Notice(`Replaced ${replacementsCount} symbols`);
+      new import_obsidian12.Notice(`Replaced ${replacementsCount} symbols`);
     }
   }
   applyReplacement(editor, cursor, from, replaceCharacter) {
@@ -997,7 +1909,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     if (tableCell) {
       const editorView = tableCell.cm;
       if (editorView) {
-        const cursorPosition = editorView.state.selection.main.head - (import_obsidian2.Platform.isMobileApp ? 1 : 0);
+        const cursorPosition = editorView.state.selection.main.head - (import_obsidian12.Platform.isMobileApp ? 1 : 0);
         const fromPosition = cursorPosition - (cursor.ch - from);
         const toPosition = cursorPosition;
         editorView.dispatch({
@@ -1029,7 +1941,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
     }
     const line = editor.getLine(cursor.line);
     let isSpacebar = false;
-    if (import_obsidian2.Platform.isMobileApp) {
+    if (import_obsidian12.Platform.isMobileApp) {
       isSpacebar = line.charAt(cursor.ch - 1) === " ";
       cursor.ch = cursor.ch - 1;
     }
@@ -1063,12 +1975,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
       }
       const replaceCharacter = replacement.value;
       if (replaceCharacter && sequence.length > 0 && from !== -1 && !this.isCursorInUnwantedBlocks(editor)) {
-        this.applyReplacement(
-          editor,
-          cursor,
-          from,
-          replaceCharacter
-        );
+        this.applyReplacement(editor, cursor, from, replaceCharacter);
         this.lastReplacement = {
           active: true,
           sequence,
@@ -1079,7 +1986,7 @@ var EnhancedSymbolsPrettifier = class extends import_obsidian2.Plugin {
         replacement.count = replacement.count ? replacement.count + 1 : 1;
         this.saveSettings();
       }
-    } else if (event.key === "Backspace" || event.key === "Delete" && import_obsidian2.Platform.isMacOS) {
+    } else if (event.key === "Backspace" || event.key === "Delete" && import_obsidian12.Platform.isMacOS) {
       if (!lastReplacementTemp.active) return;
       const replacement = this.settings.replacements[lastReplacementTemp.sequence];
       if (!replacement || replacement.disabled) return;

@@ -1,15 +1,15 @@
 {
-  "accentColor": "#5d6ea2",
+  "accentColor": "#338242",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
-    "MCL_Wide_Views",
-    "MCL_Multi_Column",
     "Heading_Colors",
     "graph_colors",
+    "graph_and_checkbox",
     "MCL_Gallery_Cards",
-    "graph_and_checkbox"
+    "MCL_Multi_Column"
   ],
   "baseFontSize": 18,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "textFontFamily": ""
 }
