@@ -1,6 +1,92 @@
-The CityName]] location of the [[Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/The Adventurers Guild]].
-	1. Run by a Kalashtar named [[Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Hunters and Adventurers/The Adventurers Guild/Isaac Niao]] 
 
+## [{Guild Name}]: [{Guild Head Name}]
 ---
-# City Bounties and Quests
-1. 
+-  
+
+`````columns
+id: zPypOjjrGGSRXFMmMCIxM
+===
+## Facts
+---
+1.
+
+===
+## In Stock
+---
+````col
+```col-md
+### Unique
+---
+
+| **Item**        | **Cost** | **Description**                                                 |
+| -------------------- | -------- | --------------------------------------------------------------- |
+|                  | 10G |                 |
+|                  | 6G |                 |
+|                  | 8G |                 |
+|                  | 12G |                 |
+
+```
+
+```col-md
+
+### Standard
+---
+
+| **Item**        | **Cost** | **Description**                                                 |
+| -------------------- | -------- | --------------------------------------------------------------- |
+|                  | 10G |                 |
+|                  | 6G |                 |
+|                  | 8G |                 |
+|                  | 12G |                 |
+
+```
+````
+`````
+---
+# Bounty Board
+ ```columns
+id: UyOozIeOH3n9CcRvgkpHe
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+```
+```columns
+id: 7ij1Wm40AejhHtNcFA-CH
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+===
+## [{Bounty Name}]
+---
+![{Bounty Name}]
+
+```

@@ -1,5 +1,5 @@
 {
-  "folder": "Kyonin/7 Utilities/Templates",
+  "folder": "Campaigns/Utilities/Templates",
   "dateFormat": "DD-MM-YY",
-  "timeFormat": "HH:mm"
+  "timeFormat": "hh:mm a"
 }

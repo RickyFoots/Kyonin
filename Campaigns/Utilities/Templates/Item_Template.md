@@ -1,5 +1,22 @@
-- Image or description.
- 
+
+ ```columns
+id: Ro2dznamRZEJX00FsyStn
+===
+# Image
+---
+![{Image Link}]
+
+===
+# Description
+---
+- 
+
+```
+---
+```columns
+id: 5NR_nhdcAiPCnvD1MTaH9
+===
+## Information
 ---
 - **Location**:
 - **Item Type**: 
@@ -9,6 +26,9 @@
 	- [[Rarity table]]
 - **Requires Attunement**: 
 
-# Abilities
+===
+## Abilities
 ---
 1. 
+
+```
