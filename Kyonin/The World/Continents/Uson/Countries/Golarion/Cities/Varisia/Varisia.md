@@ -54,49 +54,41 @@ id: Npq0yRPAN5S-cpXToVD-R
 ---
 ````tabs
 left
-
 tab: #### Jewelers/Silversmith
 ```tabs
 tab: ##### Greenriver's Sheen
 ![[- Greenriver's Sheen -]]
 ```
-
 tab: #### Gunsmiths
 ```tabs
 tab: ##### Booming Dales
 ![[- Booming Dales -]]
 ```
-
 tab: #### Magic Shops
 ```tabs
 tab: ##### Ocean's and Potions
 ![[- Ocean's and Potions -]]
 ```
-
 tab: #### Holy Items
 ```tabs
 tab: ##### Gifts from Gods
 ![[- Gifts from Gods -]]
 ```
-
 tab: #### Armorsmith
 ```tabs
 tab: ##### Black and Tanned
 ![[- Black and Tanned -]]
 ```
-
 tab: #### Weaponsmith
 ```tabs
 tab: ##### Forge Ahead
 ![[- Forge Ahead -]]
 ```
-
 tab: #### Herbalist
 ```tabs
 tab: ##### The Rabbit Hole
 ![[- The Rabbit Hole -]]
 ```
-
 tab: #### Tailor
 ```tabs
 tab: ##### Once Upon a Seam
