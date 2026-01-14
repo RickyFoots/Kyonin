@@ -126,16 +126,6 @@
             }
           },
           {
-            "id": "520608c41e59b1b8",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
-            }
-          },
-          {
             "id": "60fb81c2ad3669c4",
             "type": "leaf",
             "state": {
@@ -291,7 +281,6 @@
       "timelines-revamped:Insert Timeline Event": false,
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "wordcraft:Open WordCraft": false,
-      "notebook-navigator:Notebook Navigator": false,
       "tasks-map:Open tasks map view": false,
       "calendarium:Open Calendarium": false
     }
@@ -299,15 +288,15 @@
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/Items/Weapons/Daggersword.md",
     "Kyonin/Items/Weapons/Boomerang Greatsword.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
     "Kyonin/Items/Armor/Shifty Poncho.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Campaigns/Utilities/Charts and Tables/Gemstone Table.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",

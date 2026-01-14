@@ -282,5 +282,10 @@
   "ITS@@mini": true,
   "ITS@@notion": false,
   "ITS@@bold-weight": 700,
-  "ITS@@header-border-line-height": 5
+  "ITS@@header-border-line-height": 5,
+  "obsidian-velocity@@color-highlight-rgb": "var(--highlight-green-rgb)",
+  "obsidian-velocity@@theme-paint-dark": "black",
+  "obsidian-velocity@@enable-special-text": true,
+  "obsidian-velocity@@enable-special-code": true,
+  "obsidian-velocity-config@@active-line-highlight": true
 }
