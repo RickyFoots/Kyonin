@@ -126,6 +126,16 @@
             }
           },
           {
+            "id": "520608c41e59b1b8",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
+            }
+          },
+          {
             "id": "60fb81c2ad3669c4",
             "type": "leaf",
             "state": {
@@ -287,17 +297,13 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
-    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Utilities/Templates/Character_Template.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
-    "Kyonin/Items/Weapons/Daggersword.md",
-    "Kyonin/Items/Weapons/Boomerang Greatsword.md",
-    "Kyonin/Items/Armor/Shifty Poncho.md",
-    "Campaigns/Utilities/Charts and Tables/Gemstone Table.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
@@ -316,9 +322,13 @@
     "Kyonin/The World",
     "Kyonin/Untitled.md",
     "Untitled",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "1 Test Scene.md",
     "Kyonin/The World/Gods/List of the Formless Gods/Legba.md",
+    "Kyonin/The World/Gods/List of the Formless Gods/Kutkh.md",
+    "Kyonin/The World/Gods/List of the Formless Gods/Formless Gods of Kyonin.md",
     "Kyonin/7 Utilities/Events",
+    "Kyonin/7 Utilities/Charts and Tables/Timeline.md",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
     "StorytellerSuite/Stories/Act I/Locations",
