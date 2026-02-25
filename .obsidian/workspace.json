@@ -210,8 +210,8 @@
             "state": {
               "type": "wordcraft-view",
               "state": {},
-              "icon": "book-open-text",
-              "title": "WordCraft"
+              "icon": "lucide-ghost",
+              "title": "wordcraft-view"
             }
           },
           {
@@ -227,6 +227,26 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "d3bb4a447b837faf",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "63efdad7a0939ba3",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
         ]
@@ -252,8 +272,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
             }
           },
           {
@@ -297,13 +317,23 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
-    "Campaigns/Utilities/Templates/Character_Template.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Campaigns/Utilities/Images/Planes-5e.png",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Campaigns/Utilities/Images/Bar.jpg",
+    "Campaigns/Utilities/Images/Desert.jpg",
+    "Campaigns/Utilities/Images/map.jpg",
+    "Campaigns/Utilities/Images/Planes-5e 1.png",
+    "Campaigns/Utilities/Images/Rac_LOGO_Border 1.png",
+    "Campaigns/Utilities/Images/Rac_LOGO_Border.png",
+    "Campaigns/Utilities/Images/Stars.png",
+    "Campaigns/Utilities/Images/Talona_symbol.jpg",
+    "Campaigns/Utilities/Images/Veresia Labeled.jpg",
+    "Campaigns/Utilities/Templates/Character_Template.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
@@ -328,21 +358,10 @@
     "Kyonin/The World/Gods/List of the Formless Gods/Kutkh.md",
     "Kyonin/The World/Gods/List of the Formless Gods/Formless Gods of Kyonin.md",
     "Kyonin/7 Utilities/Events",
-    "Kyonin/7 Utilities/Charts and Tables/Timeline.md",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
     "StorytellerSuite/Stories/Act I/Locations",
     "StorytellerSuite/Stories/Act I/Characters",
-    "Campaigns/Utilities/Images/Stars.png",
-    "Campaigns/Utilities/Images/Veresia Labeled.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-coldhand-plug.jpg",
-    "Campaigns/Utilities/Images/adam-mathieu-skull.jpg",
-    "Campaigns/Utilities/Images/Talona_symbol.jpg",
-    "Campaigns/Utilities/Images/Rac_LOGO_Border.png",
-    "Campaigns/Utilities/Images/Rac_LOGO_Border 1.png",
     "Untitled.canvas"
   ]
 }
