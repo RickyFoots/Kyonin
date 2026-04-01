@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "4591759b55f24549",
+            "id": "5c75ac1ebe91b0ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,17 +156,37 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.50240325927734
+    "width": 259.5031929016113
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
     "type": "split",
     "children": [
       {
-        "id": "79df8434f054fccb",
+        "id": "7a1b098c3d18aa62",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 52.45253164556962,
         "children": [
+          {
+            "id": "de60da8bfb6e2ab7",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "82b032bb30dd539c",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
           {
             "id": "be21a860181ddd21",
             "type": "leaf",
@@ -195,16 +215,6 @@
             }
           },
           {
-            "id": "4f97621429ff2c3b",
-            "type": "leaf",
-            "state": {
-              "type": "wordcraft-view",
-              "state": {},
-              "icon": "book-open-text",
-              "title": "WordCraft"
-            }
-          },
-          {
             "id": "a4fb9fa95a9f686e",
             "type": "leaf",
             "state": {
@@ -222,28 +232,18 @@
         ]
       },
       {
-        "id": "7a1b098c3d18aa62",
+        "id": "150241d6b9f72b45",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 47.54746835443038,
         "children": [
           {
-            "id": "de60da8bfb6e2ab7",
+            "id": "4f97621429ff2c3b",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-view",
+              "type": "wordcraft-view",
               "state": {},
-              "icon": "initiative-tracker",
-              "title": "Initiative Tracker"
-            }
-          },
-          {
-            "id": "82b032bb30dd539c",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "book-open-text",
+              "title": "WordCraft"
             }
           },
           {
@@ -265,7 +265,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,12 +287,13 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "Campaigns/Utilities/Images/map.jpg",
     "Campaigns/Utilities/Images/Desert.jpg",
     "Campaigns/Utilities/Images/Bar.jpg",
-    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Campaigns/Utilities/Templates/Character_Template.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
@@ -315,7 +316,6 @@
     "Kyonin/The World",
     "Kyonin/Untitled.md",
     "Untitled",
-    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "1 Test Scene.md",
     "Kyonin/The World/Gods/List of the Formless Gods/Legba.md",
     "Kyonin/The World/Gods/List of the Formless Gods/Kutkh.md",

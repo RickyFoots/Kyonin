@@ -1,8 +1,4 @@
 
-# [[Player Randomizer]]
----
-`dice:d8`
-
 | **Roll** |    **Player**    |
 | :------: | :--------------: |
 |    1     | *Dealers Choice* |
@@ -13,3 +9,4 @@
 |    6     |        Ki        |
 |    7     |     Ricochet     |
 |    8     |     Rylanor      |
+`dice:d8`
