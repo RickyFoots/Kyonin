@@ -228,8 +228,19 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "7751e460633e4465",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "150241d6b9f72b45",
@@ -287,9 +298,9 @@
   },
   "active": "51b49fb0421194d0",
   "lastOpenFiles": [
-    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "Campaigns/Utilities/Images/map.jpg",
     "Campaigns/Utilities/Images/Desert.jpg",
