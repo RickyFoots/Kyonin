@@ -1,1 +1,0 @@
-- The .ancient alphabet used to create runes and magical circles

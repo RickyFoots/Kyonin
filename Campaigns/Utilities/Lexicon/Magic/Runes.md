@@ -1,0 +1,1 @@
+- The ancient alphabet used to create Sigils, aka. magical circles.
