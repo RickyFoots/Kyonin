@@ -305,9 +305,8 @@
   "ulu-theme-settings@@ulu-status-pills-blur": false,
   "ulu-theme-settings@@ulu-callouts": "ulu-we1-callouts",
   "ulu-theme-settings@@ulu-status-pills": false,
-  "ulu-theme-settings@@ulu-prop-card": false,
+  "ulu-theme-settings@@ulu-prop-card": true,
   "ulu-theme-settings@@ulu-neon-tags": false,
-  "ulu-theme-settings@@ulu-radius": "0",
   "ulu-theme-settings@@ulu-glass-chev": false,
   "ulu-theme-settings@@ulu-active-line-pop": false,
   "ulu-theme-settings@@ulu-inline-title-font": "lexend",
@@ -327,5 +326,8 @@
   "ulu-theme-settings@@ulu-colorfo-headings": false,
   "ulu-theme-settings@@ulu-no-balance-headings": false,
   "ulu-theme-settings@@ulu-fold-hover": true,
-  "ulu-theme-settings@@ulu-header-size": "ulu-headings-dec"
+  "ulu-theme-settings@@ulu-header-size": "ulu-headings-dec",
+  "ulu-theme-settings@@ulu-custom-measure": false,
+  "ulu-theme-settings@@ulu-custom-body-weight": false,
+  "ulu-theme-settings@@ulu-radius": "var(--radius-m)"
 }
