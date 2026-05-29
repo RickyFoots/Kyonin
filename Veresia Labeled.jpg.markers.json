@@ -1,0 +1,106 @@
+{
+  "size": {
+    "w": 3072,
+    "h": 2304
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "markers": [],
+  "bases": [
+    "Veresia Labeled.jpg"
+  ],
+  "overlays": [],
+  "activeBase": "Veresia Labeled.jpg",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false,
+    "displayUnit": "km"
+  },
+  "pinSizeOverrides": {
+    "pinRed": 36
+  },
+  "grids": [],
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "secondScreen": {
+    "showGrids": true
+  },
+  "textLayers": [],
+  "deleted": [
+    {
+      "id": "undo_1cjeuf",
+      "label": "Delete pin",
+      "createdAt": "2026-05-29T16:11:44.819Z",
+      "payload": {
+        "kind": "marker",
+        "marker": {
+          "type": "pin",
+          "id": "marker_n64lrt",
+          "x": 0.4796217107739305,
+          "y": 0.6903104614899139,
+          "layer": "default",
+          "link": "- Ocean's and Potions -",
+          "iconKey": "pinRed",
+          "tooltip": "Oceans and Potions",
+          "iconColor": "#66b76c",
+          "tooltipAlwaysOn": true,
+          "scaleLikeSticker": true
+        },
+        "index": 0
+      }
+    },
+    {
+      "id": "undo_aucvyc",
+      "label": "Delete marker",
+      "createdAt": "2026-05-29T16:08:55.834Z",
+      "payload": {
+        "kind": "marker",
+        "marker": {
+          "id": "marker_oa1sku",
+          "x": 0.28030828253263185,
+          "y": 0.6839853018152087,
+          "layer": "default",
+          "link": "",
+          "iconKey": "pinRed",
+          "tooltip": "",
+          "anchorSpace": "viewport",
+          "hudX": 332.0089416503906,
+          "hudY": 655.5964050292969,
+          "hudModeX": "left",
+          "hudModeY": "bottom",
+          "hudLastWidth": 1184.442138671875,
+          "hudLastHeight": 958.494873046875
+        },
+        "index": 0
+      }
+    },
+    {
+      "id": "undo_1i8y9b",
+      "label": "Delete pin",
+      "createdAt": "2026-05-29T16:08:38.956Z",
+      "payload": {
+        "kind": "marker",
+        "marker": {
+          "type": "pin",
+          "id": "marker_g3gwy7",
+          "x": 0.47869079906313944,
+          "y": 0.697648564429335,
+          "layer": "default",
+          "link": "- Ocean's and Potions -",
+          "iconKey": "pinRed",
+          "tooltip": ""
+        },
+        "index": 0
+      }
+    }
+  ]
+}

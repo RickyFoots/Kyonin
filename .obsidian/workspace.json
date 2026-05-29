@@ -295,9 +295,55 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "81ec51a79951c698",
+  "floating": {
+    "id": "eb53e8d1110bbf8c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4e8aa2bdc0e8a02d",
+        "type": "window",
+        "children": [
+          {
+            "id": "31c5218ff4cf4df5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ab251f5a31da27c8",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/jareika/zoom-map",
+                    "title": "GitHub - Jareika/zoom-map: A lightweight Obsidian plugin to place interactive markers on a zoomable, pannable image. Supports multiple base images and toggleable PNG/Webp overlays, marker layers, hover previews, a ruler (measure distances), and an optional Canvas render mode for smoother performance on mobile. · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - Jareika/zoom-map: A lightweight Obsidian plugin to place interactive markers on a zoomable, pannable image. Supports multiple base images and toggleable PNG/Webp overlays, marker layers, hover previews, a ruler (measure distances), and an optional Canvas render mode for smoother performance on mobile. · GitHub"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 777,
+        "height": 997,
+        "maximize": false,
+        "zoom": -1.5
+      }
+    ]
+  },
+  "active": "51b49fb0421194d0",
   "lastOpenFiles": [
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
+    "Campaigns/Utilities/Maps/Map of Varisia.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -.md",
+    "Veresia Labeled.jpg.markers.json",
     "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Campaigns/Utilities/Charts and Tables/Herbs Table.md",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth.md",
@@ -308,15 +354,11 @@
     "Campaigns/Utilities/Images/Cave_Encounter_lv1-41-10.png",
     "Campaigns/Utilities/Images/Cave_Encounter_lv1-4#1-10.png",
     "Campaigns/Utilities/Images/Bar.jpg",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
-    "Campaigns/Utilities/Maps/Map of Varisia.md",
-    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver.md",
     "Campaigns/Utilities/Charts and Tables/Gemstone Table.md",
     "Kyonin/The World/Fundamentals/Magic - And how it works/Cross Section of a Spell.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Campaigns/Utilities/Lexicon/Magic/Runes.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Locations/Shops/Mah's Firearms.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
@@ -329,8 +371,6 @@
     "Campaigns/Utilities/Lexicon/Magic/Blood Magic.md",
     "Campaigns/Utilities/Templates/Character_Template.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
     "Kyonin/The World/Fundamentals",
     "Campaigns/Campaign 1",
     "Campaigns",
@@ -339,7 +379,6 @@
     "Kyonin/7 Utilities/Events",
     "StorytellerSuite/Stories/Act I/Items",
     "StorytellerSuite/Stories/Act I/Events",
-    "StorytellerSuite/Stories/Act I/Locations",
     "Campaigns/Utilities/Images/Stars.png",
     "Campaigns/Utilities/Images/Veresia Labeled.jpg",
     "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
