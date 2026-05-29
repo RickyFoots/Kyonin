@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "5c75ac1ebe91b0ad",
+            "id": "9d31d77bc9345e1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,7 +165,7 @@
       {
         "id": "7a1b098c3d18aa62",
         "type": "tabs",
-        "dimension": 52.45253164556962,
+        "dimension": 35.54959785522789,
         "children": [
           {
             "id": "be21a860181ddd21",
@@ -234,8 +234,18 @@
       {
         "id": "150241d6b9f72b45",
         "type": "tabs",
-        "dimension": 47.54746835443038,
+        "dimension": 64.45040214477211,
         "children": [
+          {
+            "id": "81ec51a79951c698",
+            "type": "leaf",
+            "state": {
+              "type": "ttrpg-tools-screen-controller",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Player screen controller"
+            }
+          },
           {
             "id": "7751e460633e4465",
             "type": "leaf",
@@ -285,15 +295,28 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "51b49fb0421194d0",
+  "active": "81ec51a79951c698",
   "lastOpenFiles": [
-    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
-    "Kyonin/The World/Fundamentals/Magic - And how it works/Cross Section of a Spell.md",
     "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth.md",
+    "Campaigns/Utilities/Images/map.jpg",
+    "Campaigns/Utilities/Images/Kodor.jpg",
+    "Campaigns/Utilities/Images/Golarian.jpg",
+    "Campaigns/Utilities/Images/Desert.jpg",
+    "Campaigns/Utilities/Images/Cave_Encounter_lv1-41-10.png",
+    "Campaigns/Utilities/Images/Cave_Encounter_lv1-4#1-10.png",
+    "Campaigns/Utilities/Images/Bar.jpg",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
+    "Campaigns/Utilities/Maps/Map of Varisia.md",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Greenriver's Sheen/- Greenriver's Sheen -.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ulasatra Greenriver.md",
+    "Campaigns/Utilities/Charts and Tables/Gemstone Table.md",
+    "Kyonin/The World/Fundamentals/Magic - And how it works/Cross Section of a Spell.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Snake Pit.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Campaigns/Utilities/Lexicon/Magic/Runes.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Locations/Shops/Mah's Firearms.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Kodor.md",
@@ -304,19 +327,10 @@
     "Campaigns/Utilities/Lexicon/Magic/The Weave.md",
     "Campaigns/Utilities/Lexicon/Magic/Mana Tag.md",
     "Campaigns/Utilities/Lexicon/Magic/Blood Magic.md",
-    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
-    "Campaigns/Utilities/Images/map.jpg",
-    "Campaigns/Utilities/Images/Desert.jpg",
-    "Campaigns/Utilities/Images/Bar.jpg",
     "Campaigns/Utilities/Templates/Character_Template.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/History/Branmor - Wielder of the first Hammer.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Cults/Pillars of Peace/-The Pillars of Peace-.md",
-    "Kyonin/Items/Wondrous Items/Invoker's Band.md",
-    "Tasks and Ideas/To do.md",
-    "Tasks and Ideas/Ideas.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Groups/Organizations/The Turrim Infnitum/Turrim Infnitum.md",
-    "Kyonin/The World/History/Cosmology/The War of Creation.md",
     "Kyonin/The World/Fundamentals",
     "Campaigns/Campaign 1",
     "Campaigns",
@@ -329,10 +343,6 @@
     "Campaigns/Utilities/Images/Stars.png",
     "Campaigns/Utilities/Images/Veresia Labeled.jpg",
     "Campaigns/Utilities/Images/dungeon-strugglers-tsuba-of-the-lotus-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-squall-collar-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-finger-ring-plug.jpg",
-    "Campaigns/Utilities/Images/dungeon-strugglers-coldhand-plug.jpg",
-    "Campaigns/Utilities/Images/adam-mathieu-skull.jpg",
     "Untitled.canvas"
   ]
 }
