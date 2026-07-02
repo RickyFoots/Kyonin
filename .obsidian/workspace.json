@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5031929016113
+    "width": 303.5031929016113,
+    "collapsed": true
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -271,7 +272,8 @@
               "title": "Player Randomizer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -292,49 +294,11 @@
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "wordcraft:Open WordCraft": false,
       "tasks-map:Open tasks map view": false,
-      "calendarium:Open Calendarium": false
+      "calendarium:Open Calendarium": false,
+      "sticky-notes:Open sticky note": false
     }
   },
-  "floating": {
-    "id": "eb53e8d1110bbf8c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "4e8aa2bdc0e8a02d",
-        "type": "window",
-        "children": [
-          {
-            "id": "31c5218ff4cf4df5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ab251f5a31da27c8",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://github.com/jareika/zoom-map",
-                    "title": "GitHub - Jareika/zoom-map: A lightweight Obsidian plugin to place interactive markers on a zoomable, pannable image. Supports multiple base images and toggleable PNG/Webp overlays, marker layers, hover previews, a ruler (measure distances), and an optional Canvas render mode for smoother performance on mobile. · GitHub",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "GitHub - Jareika/zoom-map: A lightweight Obsidian plugin to place interactive markers on a zoomable, pannable image. Supports multiple base images and toggleable PNG/Webp overlays, marker layers, hover previews, a ruler (measure distances), and an optional Canvas render mode for smoother performance on mobile. · GitHub"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 777,
-        "height": 997,
-        "maximize": false,
-        "zoom": -1.5
-      }
-    ]
-  },
-  "active": "51b49fb0421194d0",
+  "active": "7751e460633e4465",
   "lastOpenFiles": [
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
