@@ -294,8 +294,8 @@
       "timelines-revamped:Insert Timeline Event (Frontmatter)": false,
       "wordcraft:Open WordCraft": false,
       "tasks-map:Open tasks map view": false,
-      "calendarium:Open Calendarium": false,
-      "sticky-notes:Open sticky note": false
+      "sticky-notes:Open sticky note": false,
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "7751e460633e4465",
