@@ -1,5 +1,5 @@
 {
-  "lastVersion": "4.0.10",
+  "lastVersion": "4.1.1",
   "aestheticStyle": "default",
   "positionStyle": "fixed",
   "menuCommands": [
@@ -405,6 +405,7 @@
   "useCurrentLineForRegex": false,
   "ai": {
     "enabled": true,
+    "showAIContextMenu": true,
     "consentAccepted": true,
     "onboardingShown": true,
     "providerMode": "pkmer-first",

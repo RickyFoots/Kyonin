@@ -10,8 +10,7 @@ actions:
   - type: command
     command: app:reload
 ```
-
-``BUTTON[Reload]`` ``BUTTON[Web]`` 
+``BUTTON[Reload]``  
 
 ```dataviewjs
 // Calculate days since first note

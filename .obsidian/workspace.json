@@ -119,10 +119,22 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "f1f1dad3e55601aa",
+            "type": "leaf",
+            "state": {
+              "type": "gitsync-portal-dashboard",
+              "state": {},
+              "icon": "library",
+              "title": "GitSync Portal"
             }
           },
           {
@@ -156,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5031929016113,
-    "collapsed": true
+    "width": 303.5031929016113
   },
   "right": {
     "id": "739f10f0f8cc4c7f",
@@ -238,16 +249,6 @@
         "dimension": 64.45040214477211,
         "children": [
           {
-            "id": "81ec51a79951c698",
-            "type": "leaf",
-            "state": {
-              "type": "ttrpg-tools-screen-controller",
-              "state": {},
-              "icon": "layout-dashboard",
-              "title": "Player screen controller"
-            }
-          },
-          {
             "id": "7751e460633e4465",
             "type": "leaf",
             "state": {
@@ -258,26 +259,30 @@
             }
           },
           {
-            "id": "41eb49d8b64651bf",
+            "id": "81ec51a79951c698",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "ttrpg-tools-screen-controller",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Player screen controller"
+            }
+          },
+          {
+            "id": "bc49b14583053d02",
+            "type": "leaf",
+            "state": {
+              "type": "decision-wheel-view",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Player Randomizer"
+              "title": "Decision Wheel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 388.9876708984375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,19 +300,26 @@
       "wordcraft:Open WordCraft": false,
       "tasks-map:Open tasks map view": false,
       "sticky-notes:Open sticky note": false,
+      "gitsync-portal:Open GitSync Portal": false,
+      "decision-wheel:Open Decision Wheel": false,
       "calendarium:Open Calendarium": false
     }
   },
   "active": "7751e460633e4465",
   "lastOpenFiles": [
+    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
+    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.conflict-linux-20260820T202518Z.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.conflict-linux-20260820T202244Z.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.conflict-linux-20260820T202211Z.md",
+    "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.conflict-linux-20260820T202125Z.md",
+    "Campaigns/Campaign 1/Party/Pinkertons/Pinkertons.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Varisia.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/Bars and Taverns/A Gorgon's Thirst.md",
     "Campaigns/Utilities/Maps/Map of Varisia.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/Locations/The Grand Bazaar/Oceans's and Potions/- Ocean's and Potions -.md",
     "Veresia Labeled.jpg.markers.json",
-    "Campaigns/Campaign 1/Plans and Home/Campaign One Home.md",
     "Campaigns/Utilities/Charts and Tables/Herbs Table.md",
-    "Campaigns/Utilities/Charts and Tables/Player Randomizer.md",
     "Campaigns/Utilities/Bestiary/Theoan Ironpelt.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Jeremiah Esku.md",
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Varisia/People of Varisia/Ashtiajar Therfaeth.md",
@@ -330,11 +342,6 @@
     "Kyonin/The World/Continents/Uson/Countries/Golarion/Cities/Kodor/Locations/Shops/Arms of Iron.md",
     "Kyonin/The World/Fundamentals/Magic - And how it works/The connection between the Gods and Magic.md",
     "Kyonin/The World/Fundamentals/Magic - And how it works",
-    "Campaigns/Utilities/Lexicon/Magic/The Weave.md",
-    "Campaigns/Utilities/Lexicon/Magic/Mana Tag.md",
-    "Campaigns/Utilities/Lexicon/Magic/Blood Magic.md",
-    "Campaigns/Utilities/Templates/Character_Template.md",
-    "Kyonin/The World/Continents/Uson/Countries/Golarion/Golarion.md",
     "Kyonin/The World/Fundamentals",
     "Campaigns/Campaign 1",
     "Campaigns",

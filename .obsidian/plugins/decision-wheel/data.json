@@ -1,0 +1,32 @@
+{
+  "customThemes": [],
+  "savedWheels": [
+    {
+      "id": "1788536824059",
+      "name": "Party: Pinkertons",
+      "slices": [
+        "Dealers Choice",
+        "Rylanor",
+        "Jolene",
+        "Elsbeth",
+        "Hawthorne",
+        "Kee",
+        "Claire",
+        "Ricochet"
+      ],
+      "group": "General"
+    }
+  ],
+  "themeGroups": [
+    "General",
+    "Ocean",
+    "Neon",
+    "Pastel"
+  ],
+  "wheelGroups": [
+    "General",
+    "Work",
+    "Life",
+    "Food"
+  ]
+}
